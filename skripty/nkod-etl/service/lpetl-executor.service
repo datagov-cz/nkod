@@ -1,0 +1,13 @@
+[Unit]
+Description=LinkedPipes ETL executor service
+After=network.target
+
+[Service]
+Type=simple
+User=lpetl
+WorkingDirectory=/opt/lp/etl/deploy
+ExecStart=/usr/bin/java -DconfigFileLocation=configuration.properties -Xmx12G -jar ./executor/executor.jar
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
