@@ -7,8 +7,8 @@ Národní katalog otevřených dat se skládá z 5 propojených hlavních část
 5. Databáze pro dotazování nad metadaty a poskytování metadat Evropskému datovému portálu ([OpenLink Virtuoso Open-Source](https://github.com/openlink/virtuoso-opensource))
 
 ## Přehled kopmponent a jejich komunikace
-Komunikace jednotlivých částí je ilustrována v diagramu komunikace a popsána v této sekci (nakresleno v [draw.io](https://draw.io) - [zdroj](https://github.com/opendata-mvcr/nkod/raw/master/diagramy/communication.xml)).
-![Diagram komponent a jejich komunikace](https://github.com/opendata-mvcr/nkod/raw/master/diagramy/communication.png)
+Komunikace jednotlivých částí je ilustrována v diagramu komunikace a popsána v této sekci (nakresleno v [draw.io](https://draw.io) - [zdroj](diagramy/communication.xml)).
+![Diagram komponent a jejich komunikace](diagramy/communication.png)
 1. Přístup přes protokoly HTTP a HTTPS. Využívají ho jak lidští uživatelé, tak aplikace přistupující na SPARQL endpointy nebo stahující dumpy.
 2. Stahování dumpů s obsahem NKOD.
 3. Přístup ke SPARQL endpointům, například pro [EDP](https://europeandataportal.eu).
@@ -31,10 +31,10 @@ Komunikace jednotlivých částí je ilustrována v diagramu komunikace a popsá
 20. NKOD-ISDS vyzvedává datové zprávy a jejich metadata z ISDS.
 21. nginx zpřístupňuje vyzvednuté datové zprávy a jejich metadata pro prohlížení.
 22. LP-ETL stahuje externí číselníky a datové sady do cache.
-23. LP-ETL spouští nahrávací proces do databáze OpenLink Virtuoso nad soubory (26) skrz SQL, maže stávající obsah skrz HTTP
-24. LP-ETL nahrává skrz SSH/SCP soubory k nahrání do databáze OpenLink Virtuoso (komunikace s SSH)
-25. LP-ETL nahrává skrz SSH/SCP soubory k nahrání do databáze OpenLink Virtuoso (uložení do filesystému)
-26. OpenLink Virtuoso si vyzvedává soubory k nahrání z filesystému a nahrává je (na základě 23)
+23. LP-ETL spouští nahrávací proces do databáze OpenLink Virtuoso nad soubory (26) skrz SQL, maže stávající obsah skrz HTTP.
+24. LP-ETL nahrává skrz SSH/SCP soubory k nahrání do databáze OpenLink Virtuoso (komunikace s SSH).
+25. LP-ETL nahrává skrz SSH/SCP soubory k nahrání do databáze OpenLink Virtuoso (uložení do filesystému).
+26. OpenLink Virtuoso si vyzvedává soubory k nahrání z filesystému a nahrává je (na základě 23).
 27. LP-ETL nahrává přes SSH/SCP dumpy ke stažení (uložení do filesystému), navazuje na 15 - komunikace s SSH.
 
 # Nasazení
@@ -49,7 +49,7 @@ V případě potřeby lze řešení nasadit i jiným způsobem.
 Pro zpřístupnění metadat NKOD pro dotazování je použita databáze [OpenLink Virtuoso Open-Source](https://github.com/openlink/virtuoso-opensource).
 Pro prohlížení RDF dat v HTML podobě je v databázi nainstalován balíček `fct`.
 Po nasazení na NKOD-DB běží její HTTP endpoint na portu `8890`, její SQL endpoint na portu `1111` a má přístup do lokálního souborového systému (`/data/upload`).
-HTTP SPARQL endpoint pro dotazování (`https://data.gov.cz/sparql`) a SPARQL HTTP Graph Store Protocol endpoint pro dotazování (`https://data.gov.cz/sparql-graph-crud`) jsou veřejně přístupné přes reverse-proxy na NKOD-FRONTEND ([nginx](http://nginx.org/)).
+HTTP SPARQL endpoint pro dotazování (`https://data.gov.cz/sparql`) a [SPARQL 1.1 Graph Store HTTP Protocol](https://www.w3.org/TR/sparql11-http-rdf-update/) endpoint pro dotazování (`https://data.gov.cz/sparql-graph-crud`) jsou veřejně přístupné přes reverse-proxy na NKOD-FRONTEND ([nginx](http://nginx.org/)).
 Na NKOD-DB také běží SSH server, přes který jsou předávány RDF dumpy k nahrání do databáze.
 SQL endpoint (`1111`) i celý HTTP endpoint (`8890`) včetně SPARQL endpointů pro zápis (`/sparql-auth` a `/sparql-graph-crud-auth`) jsou přístupné minimálně pro server NKOD-ETL.
 
@@ -67,9 +67,9 @@ V této sekci je popsán doporučený postup instalace databáze na stroji **NKO
 7. `sudo make install`
 
 ### Další kroky
-1. v `/etc/init.d/virtuoso-opensource` je [init script](https://github.com/openlink/virtuoso-opensource/blob/develop/7/debian/virtuoso-opensource-7.init)
+1. v `/etc/init.d/virtuoso-opensource` je [init script](skripty/nkod-db/virtuoso-opensource)
 2. Databáze je nakonfigurována tak, že její data jsou v `/data/virtuoso/db01`
-3. Konfigurace je pak v `/data/virtuoso/db01/virtuoso.ini`
+3. [Konfigurace](skripty/nkod-db/virtuoso.ini) je pak v `/data/virtuoso/db01/virtuoso.ini`
 4. Data pro upload budou v `/data/virtuoso/upload`
 5. Automatické spouštění po startu systému je zajištěno symlinkem na init script z `/etc/rc4.d`
 6. Je potřeba vytvořit uživatele `uploader`, který bude moci do `/data/virtuoso/upload` nahrávat data přes SSH/SCP
@@ -80,7 +80,7 @@ V této sekci je popsán doporučený postup instalace stroje **NKOD-ETL** s OS 
 ### Prerekvizity
 - [OpenJDK](http://jdk.java.net/11/) 11.0.1
 - [Apache Maven](https://maven.apache.org/)
-- Git
+- [Git](https://git-scm.com/)
 - [node.js](https://nodejs.org) 11.3.0
 - [nginx](http://nginx.org/)
 - [LinkedPipes ETL](https://etl.linkedpipes.com/)
@@ -99,12 +99,12 @@ V této sekci je popsán doporučený postup instalace stroje **NKOD-ETL** s OS 
    3. logy budou v `/data/lp/etl/logs`
    4. frontend běží na `localhost:8080`
 3. LinkedPipes ETL jako služby
-   1. `/etc/systemd/system/lpetl-executor.service`
-   2. `/etc/systemd/system/lpetl-executor-monitor.service`
-   3. `/etc/systemd/system/lpetl-storage.service`
-   4. `/etc/systemd/system/lpetl-frontend.service`
-4. Nahrání 8x LP-ETL pipeline a nastavení přístupových údajů v šablonách
-5. nginx zpřístupňuje `/data/cache` pro přístup z `localhost`
+   1. `/etc/systemd/system/lpetl-executor.service` [ke stažení](skripty/nkod-etl/service/lpetl-executor.service)
+   2. `/etc/systemd/system/lpetl-executor-monitor.service` [ke stažení](skripty/nkod-etl/service/lpetl-executor-monitor.service)
+   3. `/etc/systemd/system/lpetl-storage.service` [ke stažení](skripty/nkod-etl/service/lpetl-storage.service)
+   4. `/etc/systemd/system/lpetl-frontend.service` [ke stažení](skripty/nkod-etl/service/lpetl-frontend.service)
+4. Nahrání [8x LP-ETL pipeline](pipeliny) a nastavení přístupových údajů v šablonách
+5. nginx [zpřístupňuje](skripty/nkod-etl/nginx/localhost.conf) `/data/cache` pro přístup z `localhost`
 6. Instalace NKOD-ISDS
    1. v `/opt`: `git clone https://github.com/opendata-mvcr/nkod-isds.git`
    2. v `/opt/nkod-isds`: `mvn install`
@@ -115,7 +115,7 @@ V této sekci je popsán doporučený postup instalace stroje **NKOD-FRONTEND** 
 
 ### Prerekvizity
 - [OpenJDK](http://jdk.java.net/11/) 11.0.1
-- Git
+- [Git](https://git-scm.com/)
 - [node.js](https://nodejs.org) 11.3.0
 - [nginx](http://nginx.org/) 1.15.7
 - certbot (letsencrypt.org) - pokud nebude jiný certifikát
@@ -131,14 +131,14 @@ V této sekci je popsán doporučený postup instalace stroje **NKOD-FRONTEND** 
    1. zřídit uživatele `lpdaf`
    2. v `/opt/lp`: `git clone https://github.com/linkedpipes/dcat-ap-forms-vue.git`
    3. dále dle [návodu](https://github.com/linkedpipes/dcat-ap-forms-vue)
-   4. Instalováno jako služba v `/etc/systemd/system/dcat-ap-forms.service`
+   4. Instalováno [jako služba](skripty/nkod-frontend/service/dcat-ap-forms.service) v `/etc/systemd/system/dcat-ap-forms.service`
 4. Instalace LinkedPipes DCAT-AP Viewer
    1. zřídit uživatele lpdav
    2. v `/opt/lp`: `git clone https://github.com/linkedpipes/dcat-ap-viewer.git -b nkod`
    3. Dále dle [návodu](https://github.com/linkedpipes/dcat-ap-viewer)
-   4. Instalováno jako služba v `/etc/systemd/system/dcat-ap-viewer.service`
+   4. Instalováno [jako služba](skripty/nkod-frontend/service/dcat-ap-viewer.service) v `/etc/systemd/system/dcat-ap-viewer.service`
 5. Je potřeba vytvořit uživatele `uploader`, který bude moci do `/data/soubor` nahrávat data přes SSH/SCP
-6. nginx reverse proxy na jednolivé části NKOD
+6. nginx [reverse proxy na jednolivé části NKOD](skripty/nkod-frontend/nginx)
    1. Konfigurace v `/etc/nginx`
    2. Reverse-proxy na SPARQL endpoint NKOD-DB
    3. Reverse-proxy na LinkedPipes DCAT-AP Forms
@@ -148,14 +148,14 @@ V této sekci je popsán doporučený postup instalace stroje **NKOD-FRONTEND** 
 
 # Příprava
 Před naplánováním stahování z ISDS a spouštění pipeline v LP-ETL je třeba systém inicializovat zejména externími číselníky a datovými sadami. Je tedy třeba (nakonfigurovat a) spustit pipeliny v pořadí daném čísly v jejich značkách. Tedy:
-1. `External Resources Cache` - stáhne evropské číselníky a použité pomocné dokumenty z Google Drive
-2. `Seznam OVM` - stáhne aktuální datovou sadu Seznam OVM pro kontrolu datových schránek OVM
-3. `EU MDR + EuroVoc Codelist load from cache to Virtuoso` - Nahraje evropské číselníky do databáze
-4. `Codelists to CouchDB for LP-DAV` - Nahraje evropské číselníky do Apache CouchDB pro LP-DAV
-5. `Codelists to Solr for LP DCAT-AP Forms` - Nahraje evropské číselníky do Apache Solr pro LP-DAF
-6. `PVS to DCAT-AP conversion` - Provede úvodní transformaci původních dat ze starého NKOD do aktuálního formátu
+1. [External Resources Cache](nkod/master/pipeliny/External%20Resources%20Cache.jsonld) - stáhne evropské číselníky a použité pomocné dokumenty z Google Drive
+2. [Seznam OVM](nkod/master/pipeliny/Seznam%20OVM.jsonld) - stáhne aktuální datovou sadu Seznam OVM pro kontrolu datových schránek OVM
+3. `EU MDR + EuroVoc Codelist load from cache to Virtuoso`(nkod/master/pipeliny/EU%20MDR%20%2B%20EuroVoc%20Codelist%20load%20from%20cache%20to%20Virtuoso.jsonld) - Nahraje evropské číselníky do databáze
+4. `Codelists to CouchDB for LP-DAV`(nkod/master/pipeliny/Codelists%20to%20CouchDB%20for%20LP-DAV.jsonld) - Nahraje evropské číselníky do Apache CouchDB pro LP-DAV
+5. `Codelists to Solr for LP DCAT-AP Forms`(nkod/master/pipeliny/Codelists%20to%20Solr%20for%20LP%20DCAT-AP%20Forms.jsonld) - Nahraje evropské číselníky do Apache Solr pro LP-DAF
+6. `PVS to DCAT-AP conversion`(nkod/master/pipeliny/PVS%20to%20DCAT-AP%20conversion.jsonld) - Provede úvodní transformaci původních dat ze starého NKOD do aktuálního formátu
  
-Pak lze v cronu na **NKOD-ETL** v `/etc/cron.d/nkod` naplánovat spouštění NKOD-ISDS a pipeline `Forms and LKODs to NKOD` v LP-ETL
+Pak lze v cronu na **NKOD-ETL** v `/etc/cron.d/nkod` naplánovat [spouštění NKOD-ISDS](skripty/nkod-etl/download.sh) a [pipeline](skripty/nkod-etl/harvest.sh) `Forms and LKODs to NKOD` v LP-ETL.
 
 # Monitoring
 Je třeba zejména na **NKOD-ETL** monitorovat místo na disku, které může dojít kvůli velikosti logů, pokud bude v produkčním prostředí poddimenzována velikost disku.
