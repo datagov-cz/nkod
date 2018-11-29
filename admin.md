@@ -149,7 +149,7 @@ V této sekci je popsán doporučený postup instalace stroje **NKOD-FRONTEND** 
 # Příprava
 Před naplánováním stahování z ISDS a spouštění pipeline v LP-ETL je třeba systém inicializovat zejména externími číselníky a datovými sadami. Je tedy třeba (nakonfigurovat a) spustit pipeliny v pořadí daném čísly v jejich značkách. Tedy:
 1. [External Resources Cache](pipeliny/External%20Resources%20Cache.jsonld) - stáhne evropské číselníky a použité pomocné dokumenty z Google Drive
-2. [Seznam OVM]pipeliny/Seznam%20OVM.jsonld) - stáhne aktuální datovou sadu Seznam OVM pro kontrolu datových schránek OVM
+2. [Seznam OVM](pipeliny/Seznam%20OVM.jsonld) - stáhne aktuální datovou sadu Seznam OVM pro kontrolu datových schránek OVM
 3. [EU MDR + EuroVoc Codelist load from cache to Virtuoso](pipeliny/EU%20MDR%20%2B%20EuroVoc%20Codelist%20load%20from%20cache%20to%20Virtuoso.jsonld) - Nahraje evropské číselníky do databáze
 4. [Codelists to CouchDB for LP-DAV](pipeliny/Codelists%20to%20CouchDB%20for%20LP-DAV.jsonld) - Nahraje evropské číselníky do Apache CouchDB pro LP-DAV
 5. [Codelists to Solr for LP DCAT-AP Forms](pipeliny/Codelists%20to%20Solr%20for%20LP%20DCAT-AP%20Forms.jsonld) - Nahraje evropské číselníky do Apache Solr pro LP-DAF
