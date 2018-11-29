@@ -6,8 +6,38 @@ Národní katalog otevřených dat se skládá z 5 propojených hlavních část
 4. Vyzvedávač datových zpráv z ISDS ([NKOD-ISDS](https://github.com/opendata-mvcr/nkod-isds))
 5. Databáze pro dotazování nad metadaty a poskytování metadat Evropskému datovému portálu ([OpenLink Virtuoso Open-Source](https://github.com/openlink/virtuoso-opensource))
 
-Komunikace jednotlivých částí je ilustrována v diagramu komunikace.
+## Přehled kopmponent a jejich komunikace
+Komunikace jednotlivých částí je ilustrována v diagramu komunikace a popsána v této sekci (nakresleno v [draw.io](https://draw.io) - [zdroj](https://github.com/opendata-mvcr/nkod/raw/master/diagramy/communication.xml)).
+![Diagram komponent a jejich komunikace](https://github.com/opendata-mvcr/nkod/raw/master/diagramy/communication.png)
+1. Přístup přes protokoly HTTP a HTTPS. Využívají ho jak lidští uživatelé, tak aplikace přistupující na SPARQL endpointy nebo stahující dumpy.
+2. Stahování dumpů s obsahem NKOD.
+3. Přístup ke SPARQL endpointům, například pro [EDP](https://europeandataportal.eu).
+4. Přístup k prohlížeči datových sad (LinkedPipes DCAT-AP Viewer - LP-DAV).
+5. Přístup k zadávacím formulářům (LinkedPipes DCAT-AP Forms - LP-DAF).
+6. Přístup k prohlížení datových zpráv vyzvednutých z datové schránky NKOD a jejich metadat (přístup na nginx).
+7. Přístup k prohlížení datových zpráv vyzvednutých z datové schránky NKOD a jejich metadat (přístup na filesystem).
+8. Zabezpečené přihlášení k frontendu LinkedPipes ETL (LP-ETL) pro monitorování běhu pipeline (přístup na nginx).
+9. Zabezpečené přihlášení k frontendu LinkedPipes ETL (LP-ETL) pro monitorování běhu pipeline (komunikace s LP-ETL).
+10. LinkedPipes DCAT-AP Forms používá Apache Solr pro autocomplete číselníků.
+11. LinkedPipes ETL nahrávají do CouchDB číselníky pro LP-DAV a LP-DAF a záznamy pro jednotlivé datové sady pro LP-DAV.
+12. LP-DAV načítá záznamy o detailech datových sad z Apache CouchDB.
+13. LP-DAV využívá Apache Solr pro vyhledvání datových sad.
+14. LP-ETL nahrává index a číselníky do Apache Solr.
+15. LP-ETL nahrává přes SSH/SCP dumpy ke stažení (komunikace s SSH), navazuje 27 - uložení do filesystému.
+16. LP-ETL si přes nginx vyzvedává externí číselníky a datové sady z cache.
+17. NKOD-ISDS ukládá vyzvednuté datové zprávy do filesystému.
+18. LP-ETL nahrává vyzvednuté datové zprávy a jejich metadata z filesystému. Naopak ukládá do cache externí datové sady a číselníky.
+19. LP-ETL harvestuje jednotlivé lokální katalogy otevřených dat (LKODy).
+20. NKOD-ISDS vyzvedává datové zprávy a jejich metadata z ISDS.
+21. nginx zpřístupňuje vyzvednuté datové zprávy a jejich metadata pro prohlížení.
+22. LP-ETL stahuje externí číselníky a datové sady do cache.
+23. LP-ETL spouští nahrávací proces do databáze OpenLink Virtuoso nad soubory (26) skrz SQL, maže stávající obsah skrz HTTP
+24. LP-ETL nahrává skrz SSH/SCP soubory k nahrání do databáze OpenLink Virtuoso (komunikace s SSH)
+25. LP-ETL nahrává skrz SSH/SCP soubory k nahrání do databáze OpenLink Virtuoso (uložení do filesystému)
+26. OpenLink Virtuoso si vyzvedává soubory k nahrání z filesystému a nahrává je (na základě 23)
+27. LP-ETL nahrává přes SSH/SCP dumpy ke stažení (uložení do filesystému), navazuje na 15 - komunikace s SSH.
 
+# Nasazení
 Doporučený způsob nasazení vzhledem k minimalizaci vzájemného ovlivňování výkonu je na 3 oddělené stroje, pokud nepočítáme load-balancing a high-availability, což u NKOD zatím není potřeba:
 1. **NKOD-DB**: Zde poběží samotná databáze
 2. **NKOD-ETL**: Zde poběží harvestace lokálních katalogů a transformace dat, vyzvedávání zpráv z ISDS a cache externích číselníků a datových sad (seznam OVM)
@@ -116,7 +146,7 @@ V této sekci je popsán doporučený postup instalace stroje **NKOD-FRONTEND** 
    5. Reverse-proxy na LinkedPipes ETL na NKOD-ETL (zabezpečeno alespoň heslem)
    6. Reverse-proxy na NKOD-ISDS adresář se staženými datovými zprávami a jejich přílohami
 
-## Příprava
+# Příprava
 Před naplánováním stahování z ISDS a spouštění pipeline v LP-ETL je třeba systém inicializovat zejména externími číselníky a datovými sadami. Je tedy třeba (nakonfigurovat a) spustit pipeliny v pořadí daném čísly v jejich značkách. Tedy:
 1. `External Resources Cache` - stáhne evropské číselníky a použité pomocné dokumenty z Google Drive
 2. `Seznam OVM` - stáhne aktuální datovou sadu Seznam OVM pro kontrolu datových schránek OVM
@@ -127,5 +157,5 @@ Před naplánováním stahování z ISDS a spouštění pipeline v LP-ETL je tř
  
 Pak lze v cronu na **NKOD-ETL** v `/etc/cron.d/nkod` naplánovat spouštění NKOD-ISDS a pipeline `Forms and LKODs to NKOD` v LP-ETL
 
-## Monitoring
+# Monitoring
 Je třeba zejména na **NKOD-ETL** monitorovat místo na disku, které může dojít kvůli velikosti logů, pokud bude v produkčním prostředí poddimenzována velikost disku.
