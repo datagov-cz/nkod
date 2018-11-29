@@ -6,6 +6,9 @@ Národní katalog otevřených dat se skládá z 5 propojených hlavních část
 4. Vyzvedávač datových zpráv z ISDS ([NKOD-ISDS](https://github.com/opendata-mvcr/nkod-isds))
 5. Databáze pro dotazování nad metadaty a poskytování metadat Evropskému datovému portálu ([OpenLink Virtuoso Open-Source](https://github.com/openlink/virtuoso-opensource))
 
+NKOD očekává, že jednotlivé harvestované lokální katalogy otevřených dat (LKODy) dodržují Otevřenou formální normu [Rozhraní katalogů otevřených dat](https://data.gov.cz/otevřené-formální-normy/rozhraní-katalogů-otevřených-dat/).
+Na [Portálu otevřených dat](https://data.gov.cz) je dále popsána [Správa záznamů lokálních katalogů](https://opendata.gov.cz/cinnost:registrace-vlastniho-katalogu-v-nkod) a [Správa záznamů jednotlivých datových sad](https://opendata.gov.cz/cinnost:sprava-katalogizacniho-zaznamu-v-nkod).
+
 ## Přehled kopmponent a jejich komunikace
 Komunikace jednotlivých částí je ilustrována v diagramu komunikace a popsána v této sekci (nakresleno v [draw.io](https://draw.io) - [zdroj](diagramy/communication.xml)).
 ![Diagram komponent a jejich komunikace](diagramy/communication.png)
