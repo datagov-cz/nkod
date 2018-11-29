@@ -103,7 +103,7 @@ V této sekci je popsán doporučený postup instalace stroje **NKOD-ETL** s OS 
    2. `/etc/systemd/system/lpetl-executor-monitor.service` [ke stažení](skripty/nkod-etl/service/lpetl-executor-monitor.service)
    3. `/etc/systemd/system/lpetl-storage.service` [ke stažení](skripty/nkod-etl/service/lpetl-storage.service)
    4. `/etc/systemd/system/lpetl-frontend.service` [ke stažení](skripty/nkod-etl/service/lpetl-frontend.service)
-4. Nahrání [8x LP-ETL pipeline](pipeliny) a nastavení přístupových údajů v šablonách
+4. Nahrání [8x LP-ETL pipeline](pipeliny/README.md) a nastavení přístupových údajů v příslušných šablonách
 5. nginx [zpřístupňuje](skripty/nkod-etl/nginx/localhost.conf) `/data/cache` pro přístup z `localhost`
 6. Instalace NKOD-ISDS
    1. v `/opt`: `git clone https://github.com/opendata-mvcr/nkod-isds.git`

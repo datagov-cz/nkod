@@ -1,5 +1,9 @@
-# Požadavky na Národní katalog otevřených dat (NKOD)
-Tento repozitář slouží ke sběru požadavků na NKOD a diskuzi o nich.
+# Národní katalog otevřených dat (NKOD) - Czech National Open Data Catalog (NODC)
+Tento repozitář obsahuje [dokumentaci Národního katalogu otevřených dat](admin.md) včetně konfigurace použitého open-source software.
+
+Zároveň slouží na sběr požadavků na jeho následný vývoj a diskuzi o nich.
+
+## Požadavky na Národní katalog otevřených dat (NKOD)
 
 Aktuální verzi NKOD naleznete na https://data.gov.cz.
 
@@ -7,7 +11,7 @@ Požadavky na NKOD jsou sbírány jako [GitHub Issues](https://github.com/openda
 Pokud naleznete požadavek shodný s vaším, vyjádřete to pomocí upvote k dané issue.
 Pokud máte nový požadavek k diskuzi, [založte novou issue](https://github.com/opendata-mvcr/nkod/issues/new).
 
-# Czech National Open Data Catalog (NODC) requirements
+## Czech National Open Data Catalog (NODC) requirements
 This repository serves as a collection and discussion point for requirements on NODC.
 
 Current version of NODC is at https://data.gov.cz.
@@ -16,7 +20,7 @@ Requirements on NODC are collected as [GitHub Issues](https://github.com/opendat
 If you find a requirement equal to yours, please upvote it,
 If you have a new requirement to discuss, [create new issue](https://github.com/opendata-mvcr/nkod/issues/new).
 
-# Proces zpracování požadavku na NKOD
+## Proces zpracování požadavku na NKOD
 1. Proces je řízen pomocí [GitHub projektu](https://github.com/opendata-mvcr/nkod/projects/1)
 2. Pro nový požadavek je [založena issue](https://github.com/opendata-mvcr/nkod/issues/new) a je zařazena jako "Požadavek ke zpracování".
 3. Člen týmu OD II v diskuzi k issue vyjasní s autorem požadavku co je požadováno a jaké změny požadavek představuje pro NKOD, LKODy a proces harvestace.
