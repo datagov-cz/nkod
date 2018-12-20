@@ -1279,10 +1279,10 @@
   "@id" : "https://etl.nakit.opendata.cz/resources/pipelines/1537443737862/64"
 }, {
   "@graph" : [ {
-    "@id" : "https://etl.nakit.opendata.cz/resources/pipelines/1537443737862/66",
+    "@id" : "https://etl.nakit.opendata.cz/resources/pipelines/1537443737862/10/configuration",
     "@type" : [ "http://plugins.linkedpipes.com/ontology/t-sparqlConstruct#Configuration" ],
     "http://plugins.linkedpipes.com/ontology/t-sparqlConstruct#query" : [ {
-      "@value" : "CONSTRUCT { \n  <http://localhost/root> a <http://localhost/Root> ;\n    <http://localhost/item> ?s .\n  \n  ?s <http://localhost/cs> ?cs ;\n     <http://www.w3.org/2004/02/skos/core#notation> ?notation .\n} WHERE { \n  ?s a <http://www.w3.org/2004/02/skos/core#Concept> ;\n    <http://www.w3.org/2004/02/skos/core#notation> ?notation ;\n    <http://www.w3.org/2004/02/skos/core#prefLabel> ?cs .\n  \n  FILTER(LANG(?cs) = \"cs\")\n}"
+      "@value" : "CONSTRUCT { \n  <http://localhost/root> a <http://localhost/Root> ;\n    <http://localhost/item> ?s .\n  \n  ?s <http://localhost/cs> ?cs ;\n     <http://localhost/en> ?en ;\n     <http://www.w3.org/2004/02/skos/core#notation> ?notation .\n} WHERE { \n  ?s a <http://www.w3.org/2004/02/skos/core#Concept> ;\n    <http://www.w3.org/2004/02/skos/core#notation> ?notation ;\n    <http://www.w3.org/2004/02/skos/core#prefLabel> ?cs ;\n    <http://www.w3.org/2004/02/skos/core#prefLabel> ?en .\n  \n  FILTER(LANG(?cs) = \"cs\")\n  FILTER(LANG(?en) = \"en\")\n}"
     } ],
     "http://plugins.linkedpipes.com/ontology/t-sparqlConstruct#queryControl" : [ {
       "@id" : "http://plugins.linkedpipes.com/resource/configuration/None"
@@ -1357,7 +1357,7 @@
       "@id" : "http://plugins.linkedpipes.com/resource/configuration/None"
     } ],
     "http://plugins.linkedpipes.com/ontology/t-mustache#template" : [ {
-      "@value" : "{{!\n  PREFIX mustache: <http://plugins.linkedpipes.com/ontology/t-mustache#>\n}}\n\n[\n{{#http://localhost/item}}\n{{^mustache:first}},{{/mustache:first}}\n{\n    \"id\": \"{{@id}}\",\n    \"code\": \"{{@id}}\",\n    \"cs\" : \"{{http://localhost/cs}}\",\n    \"en\" : \"{{http://localhost/cs}}\",\n    \"notation\" : \"{{http://www.w3.org/2004/02/skos/core#notation}}\"\n}\n{{/http://localhost/item}}\n]"
+      "@value" : "{{!\n  PREFIX mustache: <http://plugins.linkedpipes.com/ontology/t-mustache#>\n}}\n\n[\n{{#http://localhost/item}}\n{{^mustache:first}},{{/mustache:first}}\n{\n    \"id\": \"{{@id}}\",\n    \"code\": \"{{@id}}\",\n    \"cs\" : \"{{http://localhost/cs}}\",\n    \"en\" : \"{{http://localhost/en}}\",\n    \"notation\" : \"{{http://www.w3.org/2004/02/skos/core#notation}}\"\n}\n{{/http://localhost/item}}\n]"
     } ],
     "http://plugins.linkedpipes.com/ontology/t-mustache#templateControl" : [ {
       "@id" : "http://plugins.linkedpipes.com/resource/configuration/None"
