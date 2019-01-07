@@ -1758,14 +1758,14 @@
       "@id" : "http://plugins.linkedpipes.com/resource/configuration/None"
     } ],
     "http://plugins.linkedpipes.com/ontology/e-httpGetFile#fileUri" : [ {
-      "@value" : "http://publications.europa.eu/resource/cellar/082d074a-2b56-11e7-9412-01aa75ed71a1.0001.09/DOC_1"
+      "@value" : "http://publications.europa.eu/resource/distribution/file-type/rdf/skos_ap_act/filetypes-skos-ap-act.rdf"
     } ],
     "http://plugins.linkedpipes.com/ontology/e-httpGetFile#fileUriControl" : [ {
       "@id" : "http://plugins.linkedpipes.com/resource/configuration/None"
     } ],
     "http://plugins.linkedpipes.com/ontology/e-httpGetFile#hardRedirect" : [ {
       "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
-      "@value" : "false"
+      "@value" : "true"
     } ],
     "http://plugins.linkedpipes.com/ontology/e-httpGetFile#hardRedirectControl" : [ {
       "@id" : "http://plugins.linkedpipes.com/resource/configuration/None"
@@ -1834,14 +1834,14 @@
       "@id" : "http://plugins.linkedpipes.com/resource/configuration/None"
     } ],
     "http://plugins.linkedpipes.com/ontology/e-httpGetFile#fileUri" : [ {
-      "@value" : "http://publications.europa.eu/resource/cellar/e4265faf-261c-11e8-ac73-01aa75ed71a1.0001.02/DOC_1"
+      "@value" : "http://publications.europa.eu/resource/distribution/continent/rdf/skos_core/continents-skos.rdf"
     } ],
     "http://plugins.linkedpipes.com/ontology/e-httpGetFile#fileUriControl" : [ {
       "@id" : "http://plugins.linkedpipes.com/resource/configuration/None"
     } ],
     "http://plugins.linkedpipes.com/ontology/e-httpGetFile#hardRedirect" : [ {
       "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
-      "@value" : "false"
+      "@value" : "true"
     } ],
     "http://plugins.linkedpipes.com/ontology/e-httpGetFile#hardRedirectControl" : [ {
       "@id" : "http://plugins.linkedpipes.com/resource/configuration/None"
@@ -1907,7 +1907,7 @@
       "@id" : "http://plugins.linkedpipes.com/resource/configuration/None"
     } ],
     "http://plugins.linkedpipes.com/ontology/e-httpGetFile#fileUri" : [ {
-      "@value" : "https://opendata.gov.cz/_media/rdz-data-2017-12-29.zip"
+      "@value" : "https://github.com/opendata-mvcr/nkod/raw/master/data/rdz-data-2017-12-29.zip"
     } ],
     "http://plugins.linkedpipes.com/ontology/e-httpGetFile#fileUriControl" : [ {
       "@id" : "http://plugins.linkedpipes.com/resource/configuration/None"
@@ -2106,7 +2106,7 @@
       "@id" : "http://plugins.linkedpipes.com/resource/configuration/None"
     } ],
     "http://plugins.linkedpipes.com/ontology/e-httpGetFile#fileUri" : [ {
-      "@value" : "https://opendata.gov.cz/_media/rdz-monthindex-2017-12-29.zip"
+      "@value" : "https://github.com/opendata-mvcr/nkod/raw/master/data/rdz-monthindex-2017-12-29.zip"
     } ],
     "http://plugins.linkedpipes.com/ontology/e-httpGetFile#fileUriControl" : [ {
       "@id" : "http://plugins.linkedpipes.com/resource/configuration/None"
@@ -2206,14 +2206,14 @@
       "@id" : "http://plugins.linkedpipes.com/resource/configuration/None"
     } ],
     "http://plugins.linkedpipes.com/ontology/e-httpGetFile#fileUri" : [ {
-      "@value" : "http://publications.europa.eu/resource/cellar/16cdd72e-2b56-11e7-9412-01aa75ed71a1.0001.10/DOC_1"
+      "@value" : "http://publications.europa.eu/resource/distribution/language/rdf/skos_core/languages-skos.rdf"
     } ],
     "http://plugins.linkedpipes.com/ontology/e-httpGetFile#fileUriControl" : [ {
       "@id" : "http://plugins.linkedpipes.com/resource/configuration/None"
     } ],
     "http://plugins.linkedpipes.com/ontology/e-httpGetFile#hardRedirect" : [ {
       "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
-      "@value" : "false"
+      "@value" : "true"
     } ],
     "http://plugins.linkedpipes.com/ontology/e-httpGetFile#hardRedirectControl" : [ {
       "@id" : "http://plugins.linkedpipes.com/resource/configuration/None"
@@ -2241,14 +2241,14 @@
       "@id" : "http://plugins.linkedpipes.com/resource/configuration/None"
     } ],
     "http://plugins.linkedpipes.com/ontology/e-httpGetFile#fileUri" : [ {
-      "@value" : "http://publications.europa.eu/resource/cellar/9f69d404-e3e8-11e7-9749-01aa75ed71a1.0001.06/DOC_1"
+      "@value" : "http://publications.europa.eu/resource/distribution/dataset-type/rdf/skos_core/dataset-types-skos.rdf"
     } ],
     "http://plugins.linkedpipes.com/ontology/e-httpGetFile#fileUriControl" : [ {
       "@id" : "http://plugins.linkedpipes.com/resource/configuration/None"
     } ],
     "http://plugins.linkedpipes.com/ontology/e-httpGetFile#hardRedirect" : [ {
       "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
-      "@value" : "false"
+      "@value" : "true"
     } ],
     "http://plugins.linkedpipes.com/ontology/e-httpGetFile#hardRedirectControl" : [ {
       "@id" : "http://plugins.linkedpipes.com/resource/configuration/None"
@@ -2276,14 +2276,14 @@
       "@id" : "http://plugins.linkedpipes.com/resource/configuration/None"
     } ],
     "http://plugins.linkedpipes.com/ontology/e-httpGetFile#fileUri" : [ {
-      "@value" : "http://publications.europa.eu/resource/cellar/172ff460-2b56-11e7-9412-01aa75ed71a1.0001.09/DOC_1"
+      "@value" : "http://publications.europa.eu/resource/distribution/place/rdf/skos_core/places-skos.rdf"
     } ],
     "http://plugins.linkedpipes.com/ontology/e-httpGetFile#fileUriControl" : [ {
       "@id" : "http://plugins.linkedpipes.com/resource/configuration/None"
     } ],
     "http://plugins.linkedpipes.com/ontology/e-httpGetFile#hardRedirect" : [ {
       "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
-      "@value" : "false"
+      "@value" : "true"
     } ],
     "http://plugins.linkedpipes.com/ontology/e-httpGetFile#hardRedirectControl" : [ {
       "@id" : "http://plugins.linkedpipes.com/resource/configuration/None"
@@ -2311,14 +2311,14 @@
       "@id" : "http://plugins.linkedpipes.com/resource/configuration/None"
     } ],
     "http://plugins.linkedpipes.com/ontology/e-httpGetFile#fileUri" : [ {
-      "@value" : "http://publications.europa.eu/resource/cellar/07ed8d46-2b56-11e7-9412-01aa75ed71a1.0001.10/DOC_1"
+      "@value" : "http://publications.europa.eu/resource/distribution/country/rdf/skos_core/countries-skos.rdf"
     } ],
     "http://plugins.linkedpipes.com/ontology/e-httpGetFile#fileUriControl" : [ {
       "@id" : "http://plugins.linkedpipes.com/resource/configuration/None"
     } ],
     "http://plugins.linkedpipes.com/ontology/e-httpGetFile#hardRedirect" : [ {
       "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
-      "@value" : "false"
+      "@value" : "true"
     } ],
     "http://plugins.linkedpipes.com/ontology/e-httpGetFile#hardRedirectControl" : [ {
       "@id" : "http://plugins.linkedpipes.com/resource/configuration/None"
@@ -2391,14 +2391,14 @@
       "@id" : "http://plugins.linkedpipes.com/resource/configuration/None"
     } ],
     "http://plugins.linkedpipes.com/ontology/e-httpGetFile#fileUri" : [ {
-      "@value" : "http://publications.europa.eu/resource/cellar/dca1f05f-261c-11e8-ac73-01aa75ed71a1.0001.02/DOC_1"
+      "@value" : "http://publications.europa.eu/resource/distribution/data-theme/rdf/skos_core/data-theme-skos.rdf"
     } ],
     "http://plugins.linkedpipes.com/ontology/e-httpGetFile#fileUriControl" : [ {
       "@id" : "http://plugins.linkedpipes.com/resource/configuration/None"
     } ],
     "http://plugins.linkedpipes.com/ontology/e-httpGetFile#hardRedirect" : [ {
       "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
-      "@value" : "false"
+      "@value" : "true"
     } ],
     "http://plugins.linkedpipes.com/ontology/e-httpGetFile#hardRedirectControl" : [ {
       "@id" : "http://plugins.linkedpipes.com/resource/configuration/None"
@@ -2426,14 +2426,14 @@
       "@id" : "http://plugins.linkedpipes.com/resource/configuration/None"
     } ],
     "http://plugins.linkedpipes.com/ontology/e-httpGetFile#fileUri" : [ {
-      "@value" : "http://publications.europa.eu/resource/cellar/87532442-261d-11e8-ac73-01aa75ed71a1.0001.02/DOC_1"
+      "@value" : "http://publications.europa.eu/resource/distribution/frequency/rdf/skos_core/frequencies-skos.rdf"
     } ],
     "http://plugins.linkedpipes.com/ontology/e-httpGetFile#fileUriControl" : [ {
       "@id" : "http://plugins.linkedpipes.com/resource/configuration/None"
     } ],
     "http://plugins.linkedpipes.com/ontology/e-httpGetFile#hardRedirect" : [ {
       "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
-      "@value" : "false"
+      "@value" : "true"
     } ],
     "http://plugins.linkedpipes.com/ontology/e-httpGetFile#hardRedirectControl" : [ {
       "@id" : "http://plugins.linkedpipes.com/resource/configuration/None"
@@ -2461,14 +2461,14 @@
       "@id" : "http://plugins.linkedpipes.com/resource/configuration/None"
     } ],
     "http://plugins.linkedpipes.com/ontology/e-httpGetFile#fileUri" : [ {
-      "@value" : "http://publications.europa.eu/resource/cellar/082d074a-2b56-11e7-9412-01aa75ed71a1.0001.10/DOC_1"
+      "@value" : "http://publications.europa.eu/resource/distribution/file-type/rdf/skos_core/filetypes-skos.rdf"
     } ],
     "http://plugins.linkedpipes.com/ontology/e-httpGetFile#fileUriControl" : [ {
       "@id" : "http://plugins.linkedpipes.com/resource/configuration/None"
     } ],
     "http://plugins.linkedpipes.com/ontology/e-httpGetFile#hardRedirect" : [ {
       "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
-      "@value" : "false"
+      "@value" : "true"
     } ],
     "http://plugins.linkedpipes.com/ontology/e-httpGetFile#hardRedirectControl" : [ {
       "@id" : "http://plugins.linkedpipes.com/resource/configuration/None"
@@ -2547,14 +2547,14 @@
       "@id" : "http://plugins.linkedpipes.com/resource/configuration/None"
     } ],
     "http://plugins.linkedpipes.com/ontology/e-httpGetFile#fileUri" : [ {
-      "@value" : "http://publications.europa.eu/resource/cellar/7b7dd061-261d-11e8-ac73-01aa75ed71a1.0001.02/DOC_1"
+      "@value" : "http://publications.europa.eu/resource/distribution/distribution-type/rdf/skos_core/distribution-types-skos.rdf"
     } ],
     "http://plugins.linkedpipes.com/ontology/e-httpGetFile#fileUriControl" : [ {
       "@id" : "http://plugins.linkedpipes.com/resource/configuration/None"
     } ],
     "http://plugins.linkedpipes.com/ontology/e-httpGetFile#hardRedirect" : [ {
       "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
-      "@value" : "false"
+      "@value" : "true"
     } ],
     "http://plugins.linkedpipes.com/ontology/e-httpGetFile#hardRedirectControl" : [ {
       "@id" : "http://plugins.linkedpipes.com/resource/configuration/None"
@@ -2582,14 +2582,14 @@
       "@id" : "http://plugins.linkedpipes.com/resource/configuration/None"
     } ],
     "http://plugins.linkedpipes.com/ontology/e-httpGetFile#fileUri" : [ {
-      "@value" : "http://publications.europa.eu/resource/cellar/f69a57b9-261c-11e8-ac73-01aa75ed71a1.0001.02/DOC_1"
+      "@value" : "http://publications.europa.eu/resource/distribution/documentation-type/rdf/skos_core/documentation-types-skos.rdf"
     } ],
     "http://plugins.linkedpipes.com/ontology/e-httpGetFile#fileUriControl" : [ {
       "@id" : "http://plugins.linkedpipes.com/resource/configuration/None"
     } ],
     "http://plugins.linkedpipes.com/ontology/e-httpGetFile#hardRedirect" : [ {
       "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
-      "@value" : "false"
+      "@value" : "true"
     } ],
     "http://plugins.linkedpipes.com/ontology/e-httpGetFile#hardRedirectControl" : [ {
       "@id" : "http://plugins.linkedpipes.com/resource/configuration/None"
