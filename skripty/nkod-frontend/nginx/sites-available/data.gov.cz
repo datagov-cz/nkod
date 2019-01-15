@@ -79,7 +79,7 @@ server {
                 proxy_set_header   X-Forwarded-For  $proxy_add_x_forwarded_for;
         }
 
-        location ~ ^/((dataset|datová-sada|datasets|datové-sady|poskytovatelé|publishers|api|assets|public|klíčová-slova|keywords).*) {
+        location ~ ^/((dataset|datová-sada|datasets|datové-sady|poskytovatelé|publishers|api|assets|public|klíčová-slova|keywords|katalogy|catalogs).*) {
 		include hsts-cors.conf;	
                 proxy_pass http://127.0.0.1:3000;
                 proxy_pass_request_headers      on;
