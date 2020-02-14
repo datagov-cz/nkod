@@ -30,3 +30,7 @@ If you have a new requirement to discuss, [create new issue](https://github.com/
    2. Požadavek je schválen a přesunut do kategorie "Připraveno k zadání". To znamená že bude zahrnut do příští aktualizace NKOD.
    3. Požadavek je odložen do kategorie "Čeká na externí vstupy". To znamená, že požadavek je jasný, ale nebude se implementovat, dokud nevznikne nějaký externí výstup, například revize specifikace DCAT.
 6. Po vzniku externích výstupů se požadavky, které na ně čekaly, přesunou do kategorie "K probrání na týmu OD II".
+
+
+Tento repozitář je udržován v rámci projektu OPZ č. CZ.03.4.74/0.0/0.0/15_025/0004172.
+![Evropská unie - Evropský sociální fond - Operační program Zaměstnanost](https://data.gov.cz/images/ozp_logo_cz.jpg)
