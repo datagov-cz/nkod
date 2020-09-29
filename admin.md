@@ -9,7 +9,7 @@ Národní katalog otevřených dat se skládá z 5 propojených hlavních část
 NKOD očekává, že jednotlivé harvestované lokální katalogy otevřených dat (LKODy) dodržují Otevřenou formální normu [Rozhraní katalogů otevřených dat](https://data.gov.cz/otevřené-formální-normy/rozhraní-katalogů-otevřených-dat/).
 Na [Portálu otevřených dat](https://data.gov.cz) je dále popsána [Správa záznamů lokálních katalogů](https://opendata.gov.cz/cinnost:registrace-vlastniho-katalogu-v-nkod) a [Správa záznamů jednotlivých datových sad](https://opendata.gov.cz/cinnost:sprava-katalogizacniho-zaznamu-v-nkod).
 
-## Přehled kopmponent a jejich komunikace
+## Přehled komponent a jejich komunikace
 Komunikace jednotlivých částí je ilustrována v diagramu komunikace a popsána v této sekci (nakresleno v [draw.io](https://draw.io) - [zdroj](diagramy/communication.xml)).
 ![Diagram komponent a jejich komunikace](diagramy/communication.png)
 1. Přístup přes protokoly HTTP a HTTPS. Využívají ho jak lidští uživatelé, tak aplikace přistupující na SPARQL endpointy nebo stahující dumpy.
