@@ -32,5 +32,5 @@ If you have a new requirement to discuss, [create new issue](https://github.com/
 6. Po vzniku externích výstupů se požadavky, které na ně čekaly, přesunou do kategorie "K probrání na týmu OD II".
 
 
-Tento repozitář je udržován v rámci projektu OPZ č. CZ.03.4.74/0.0/0.0/15_025/0004172.
+Tento repozitář je udržován v rámci projektu OPZ č. CZ.03.4.74/0.0/0.0/15_025/0013983.
 ![Evropská unie - Evropský sociální fond - Operační program Zaměstnanost](https://data.gov.cz/images/ozp_logo_cz.jpg)
