@@ -1,0 +1,15 @@
+[Unit]
+Description=NKOD GraphQL Service
+After=network.target
+
+[Service]
+Type=simple
+User=graphql
+WorkingDirectory=/opt/nkod-graphql
+ExecStart=/usr/bin/npm run start
+Restart=always
+Environment=NKOD_GRAPHQL_FILE=/data/upload/nkod.json
+Environment=NKOD_GRAPHQL_TOKEN=<INSERT-TOKEN>
+
+[Install]
+WantedBy=multi-user.target

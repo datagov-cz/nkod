@@ -1,0 +1,14 @@
+[Unit]
+Description=Linked Data Fragments Server
+After=network.target
+
+[Service]
+Type=simple
+User=ldf
+WorkingDirectory=/opt/ldf-server
+ExecStart=/usr/bin/ldf-server config.json 5000 8
+ExecReload=/bin/kill -HUP $MAINPID
+Restart=always
+
+[Install]
+WantedBy=multi-user.target

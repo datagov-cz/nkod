@@ -1,12 +1,12 @@
 [Unit]
 Description=DCAT-AP Forms service
 After=network.target
- 
+
 [Service]
 Type=simple
 User=lpdaf
-WorkingDirectory=/opt/lp/dcat-ap-forms-vue
-ExecStart=/usr/bin/npm run start -- -env.configFileLocation=./nkod.config.js 2>> /data/lp/forms/forms.log &
+WorkingDirectory=/opt/lp/dcat-ap-forms
+ExecStart=/usr/bin/npm run start -- --env configFileLocation=./nkod.config.js 2>> /data/lp/forms/forms.log &
 Restart=always
 
 [Install]
