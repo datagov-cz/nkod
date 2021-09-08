@@ -92,13 +92,13 @@ V této sekci je popsán doporučený postup instalace databáze na stroji **NKO
       4. Nainstalovat prerekvizity
          1. `sudo -u graphql bash`
          2. `npm ci`
-   2. Zprovoznit jako `systemd` službu pomocí [`nkod-graphql.service`](service/nkod-graphql.service)
+   2. Zprovoznit jako `systemd` službu pomocí [`nkod-graphql.service`](nkod-db/service/nkod-graphql.service)
       - vyžaduje existenci NKOD JSON dumpu
 3. Linked Data Fragments endpoint
    1. Běžným způsobem nainstalovat Node.js
    2. `npm install -g @ldf/server`
-   3. Do `/opt/ldf-server` umístit [`config.json`](ldf-server/config.json)
-   4. Zprovoznit jako `systemd` službu pomocí [`ldf-server.service`](service/ldf-server.service)
+   3. Do `/opt/ldf-server` umístit [`config.json`](nkod-db/ldf-server/config.json)
+   4. Zprovoznit jako `systemd` službu pomocí [`ldf-server.service`](nkod-db/service/ldf-server.service)
       - vyžaduje existenci NKOD HDT dumpu
 4. Webhooky
    1. Běžným způsobem nainstalovat `nginx` a `php7.4-fpm`
@@ -106,7 +106,7 @@ V této sekci je popsán doporučený postup instalace databáze na stroji **NKO
    2. Pomocí `sudo visudo` nastavit, aby uživatel `nginx` mohl signalizovat službě a restartovat Virtuoso
       1. `nginx ALL=(ALL) NOPASSWD: /usr/sbin/service`
       2. `nginx ALL=(ALL) NOPASSWD: /etc/init.d/virtuoso-opensource`
-   3. Do `/data/www/deploy` umístit [PHP webhooky](hooks/)
+   3. Do `/data/www/deploy` umístit [PHP webhooky](nkod-db/hooks/)
 
 
 ##  Transformace dat
