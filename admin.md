@@ -85,20 +85,22 @@ V této sekci je popsán doporučený postup instalace databáze na stroji **NKO
       5. Automatické spouštění po startu systému je zajištěno symlinkem na init script z `/etc/rc4.d`
       6. Je potřeba vytvořit uživatele `uploader`, který bude moci do `/data/virtuoso/upload` nahrávat data přes SSH/SCP
 2. GraphQL endpoint
-   1. Naklonovat do `/opt/nkod-graphql`
+   1. Běžným způsobem nainstalovat Node.js
+   2. Naklonovat do `/opt/nkod-graphql`
       1. V `/opt`: `sudo git clone https://github.com/opendata-mvcr/nkod-graphql.git`
       2. Vytvořit uživatele `graphql`: `sudo adduser graphql --disabled-login`
       3. Předat mu vlastnictví `sudo chown -R graphql:graphql nkod-graphql`
       4. Nainstalovat prerekvizity
          1. `sudo -u graphql bash`
          2. `npm ci`
-   2. Zprovoznit jako `systemd` službu pomocí [`nkod-graphql.service`](skripty/nkod-db/service/nkod-graphql.service)
+   3. Zprovoznit jako `systemd` službu pomocí [`nkod-graphql.service`](skripty/nkod-db/service/nkod-graphql.service)
       - vyžaduje existenci NKOD JSON dumpu
 3. Linked Data Fragments endpoint
    1. Běžným způsobem nainstalovat Node.js
    2. `npm install -g @ldf/server`
    3. Do `/opt/ldf-server` umístit [`config.json`](skripty/nkod-db/ldf-server/config.json)
-   4. Zprovoznit jako `systemd` službu pomocí [`ldf-server.service`](skripty/nkod-db/service/ldf-server.service)
+   4. Vytvořit uživatele `ldf`: `sudo adduser ldf --disabled-login`
+   5. Zprovoznit jako `systemd` službu pomocí [`ldf-server.service`](skripty/nkod-db/service/ldf-server.service)
       - vyžaduje existenci NKOD HDT dumpu
 4. Webhooky
    1. Běžným způsobem nainstalovat `nginx` a `php7.4-fpm`
