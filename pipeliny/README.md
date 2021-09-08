@@ -16,7 +16,7 @@ Pokud se zdrojové číselníky změní, je vhodné cache přegenerovat.
 [02 Seznam OVM](02%20Seznam%20OVM.jsonld) - převede do RDF datovou sadu [Seznam OVM](https://www.czechpoint.cz/spravadat/ovm/datafile.do?format=xml&service=seznamovm).
 Výsledek opět uloží do cache.
 Seznam OVM, konkrétně položka `kód OVM`, se používá pro kontrolu existence datových schránek a přiřazení registrovaných datových sad a katalogů registrovaných před updatem NKOD v roce 2017 správnému poskytovateli dat.
-![Screenshot: 02 Seznam OVM](screenshoty/02%20Seznam%20OVM.webp).
+![Screenshot: 02 Seznam OVM](screenshoty/02%20Seznam%20OVM.webp)
 U novějších registrací je jako základ IRI poskytovatelů použito jejich IČO ze seznamu datových schránek a `kód OVM` se dále již nepoužívá.
 
 ### 03 Konverze záznamů z PVS do DCAT-AP
