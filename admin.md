@@ -92,13 +92,13 @@ V této sekci je popsán doporučený postup instalace databáze na stroji **NKO
       4. Nainstalovat prerekvizity
          1. `sudo -u graphql bash`
          2. `npm ci`
-   2. Zprovoznit jako `systemd` službu pomocí [`nkod-graphql.service`](nkod-db/service/nkod-graphql.service)
+   2. Zprovoznit jako `systemd` službu pomocí [`nkod-graphql.service`](skripty/nkod-db/service/nkod-graphql.service)
       - vyžaduje existenci NKOD JSON dumpu
 3. Linked Data Fragments endpoint
    1. Běžným způsobem nainstalovat Node.js
    2. `npm install -g @ldf/server`
-   3. Do `/opt/ldf-server` umístit [`config.json`](nkod-db/ldf-server/config.json)
-   4. Zprovoznit jako `systemd` službu pomocí [`ldf-server.service`](nkod-db/service/ldf-server.service)
+   3. Do `/opt/ldf-server` umístit [`config.json`](skripty/nkod-db/ldf-server/config.json)
+   4. Zprovoznit jako `systemd` službu pomocí [`ldf-server.service`](skripty/nkod-db/service/ldf-server.service)
       - vyžaduje existenci NKOD HDT dumpu
 4. Webhooky
    1. Běžným způsobem nainstalovat `nginx` a `php7.4-fpm`
@@ -106,7 +106,7 @@ V této sekci je popsán doporučený postup instalace databáze na stroji **NKO
    2. Pomocí `sudo visudo` nastavit, aby uživatel `nginx` mohl signalizovat službě a restartovat Virtuoso
       1. `nginx ALL=(ALL) NOPASSWD: /usr/sbin/service`
       2. `nginx ALL=(ALL) NOPASSWD: /etc/init.d/virtuoso-opensource`
-   3. Do `/data/www/deploy` umístit [PHP webhooky](nkod-db/hooks/)
+   3. Do `/data/www/deploy` umístit [PHP webhooky](skripty/nkod-db/hooks/)
 
 
 ##  Transformace dat
@@ -134,10 +134,10 @@ V této sekci je popsán doporučený postup instalace stroje **NKOD-ETL** s OS 
    3. logy budou v `/data/lp/etl/logs`
    4. frontend běží na `localhost:8080`
 3. LinkedPipes ETL jako služby
-   1. `/etc/systemd/system/lpetl-executor.service` [ke stažení](skripty/nkod-etl/service/lpetl-executor.service)
-   2. `/etc/systemd/system/lpetl-executor-monitor.service` [ke stažení](skripty/nkod-etl/service/lpetl-executor-monitor.service)
-   3. `/etc/systemd/system/lpetl-storage.service` [ke stažení](skripty/nkod-etl/service/lpetl-storage.service)
-   4. `/etc/systemd/system/lpetl-frontend.service` [ke stažení](skripty/nkod-etl/service/lpetl-frontend.service)
+   1. [`/etc/systemd/system/lpetl-executor.service`](skripty/nkod-etl/service/lpetl-executor.service)
+   2. [`/etc/systemd/system/lpetl-executor-monitor.service`](skripty/nkod-etl/service/lpetl-executor-monitor.service)
+   3. [`/etc/systemd/system/lpetl-storage.service`](skripty/nkod-etl/service/lpetl-storage.service)
+   4. [`/etc/systemd/system/lpetl-frontend.service`](skripty/nkod-etl/service/lpetl-frontend.service)
 4. Nahrání [16x LP-ETL pipeline](pipeliny/README.md) a nastavení přístupových údajů v příslušných šablonách
 5. nginx [zpřístupňuje](skripty/nkod-etl/nginx/localhost.conf) `/data/cache` pro přístup z `localhost`
 6. Instalace NKOD-ISDS
