@@ -32,7 +32,7 @@ U novějších registrací je jako základ IRI poskytovatelů použito jejich I�
 ![Screenshot: 05 Nahrát číselníky do Solr pro LP DCAT-AP Forms](screenshoty/05%20Nahrát%20číselníky%20do%20Solr%20pro%20LP%20DCAT-AP%20Forms.webp)
 
 ### 06 Nahrát čísleníky do CouchDB pro LP DCAT-AP Viewer
-[Codelists to CouchDB for LP-DAV](06%20Nahrát%20čísleníky%20do%20CouchDB%20pro%20LP%20DCAT-AP%20Viewer.jsonld) - Nahraje evropské číselníky a prvky RÚIAN do Apache CouchDB pro LP DCAT-AP Viewer, tj. uživatelské rozhraní NKOD.
+[06 Nahrát čísleníky do CouchDB pro LP DCAT-AP Viewer](06%20Nahrát%20čísleníky%20do%20CouchDB%20pro%20LP%20DCAT-AP%20Viewer.jsonld) - Nahraje evropské číselníky a prvky RÚIAN do Apache CouchDB pro LP DCAT-AP Viewer, tj. uživatelské rozhraní NKOD.
 ![Screenshot: 06 Nahrát čísleníky do CouchDB pro LP DCAT-AP Viewer](screenshoty/06%20Nahrát%20čísleníky%20do%20CouchDB%20pro%20LP%20DCAT-AP%20Viewer.webp)
 
 ## Pravidelně spouštěné pipeline
