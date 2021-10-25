@@ -1,94 +1,253 @@
 server {
+        listen 80 ;
+        listen [::]:80 ;
+        server_name data.gov.cz;
+        return 301 https://$host$request_uri;
+}
 
-	listen 443 ssl http2 ;
-	listen [::]:443 ssl http2 ;
+server {
 
-        ssl_certificate /etc/letsencrypt/live/data.gov.cz/fullchain.pem;
-        ssl_certificate_key     /etc/letsencrypt/live/data.gov.cz/privkey.pem;
+        listen 443 ssl http2 ;
+        listen [::]:443 ssl http2 ;
 
-	server_name data.gov.cz;
-
-	proxy_buffer_size   128k;
+        proxy_buffer_size   128k;
         proxy_buffers   4 256k;
         proxy_busy_buffers_size   256k;
 
-	client_max_body_size 100M;
+        ssl_certificate /etc/ssl/nkod/data.gov.cz.chain.pem;
+        ssl_certificate_key     /etc/ssl/nkod/data.gov.cz.key.pem;
 
-	location ~ ^/((fct|describe).*) {
-		include hsts-cors.conf;	
+        server_name data.gov.cz;
 
-                proxy_pass http://<NKOD-DB>:8890$uri$is_args$args;
+        client_max_body_size 100M;
+
+        resolver 10.254.8.10;
+
+        error_page 404 /404.html;
+
+        location /404.html {
+                include hsts-cors.conf ;
+                root /data/opendata-mvcr.github.io/_site ;
+                internal;
+        }
+
+        #LP-DAV - NKOD
+
+        location ~ ^/((dataset|datová-sada|datasets|datové-sady|poskytovatelé|publishers|api|assets|public|keywords|klíčová-slova|local-catalogs|lokální-katalogy).*) {
+                include hsts-cors.conf ;
+                proxy_pass http://127.0.0.1:3000;
+                proxy_pass_request_headers      on;
+                proxy_set_header   X-Real-IP        $remote_addr;
+                proxy_set_header   X-Forwarded-For  $proxy_add_x_forwarded_for;
+                proxy_intercept_errors on;
+        }
+
+        #NKOD SPARQL Endpoint
+        location /sparql {
+                include hsts-cors.conf ;
+
+                proxy_pass http://<NKOD-DB-IP>:8890$uri$is_args$args;
+                proxy_set_header   Host             $host;
+                proxy_set_header   X-Real-IP        $remote_addr;
+                proxy_set_header   X-Forwarded-For  $proxy_add_x_forwarded_for;
+                proxy_intercept_errors on;
+                proxy_pass_request_headers      on;
+                proxy_connect_timeout       2400;
+                proxy_send_timeout          2400;
+                proxy_read_timeout          2400;
+                send_timeout                2400;
+        }
+        location /sparql-graph-crud {
+                include hsts-cors.conf ;
+
+                proxy_pass http://<NKOD-DB-IP>:8890$uri$is_args$args;
                 proxy_set_header   Host             $host;
                 proxy_set_header   X-Real-IP        $remote_addr;
                 proxy_set_header   X-Forwarded-For  $proxy_add_x_forwarded_for;
                 proxy_pass_request_headers      on;
+                proxy_intercept_errors on;
+                proxy_connect_timeout       2400;
+                proxy_send_timeout          2400;
+                proxy_read_timeout          2400;
+                send_timeout                2400;
+        }
+
+        location /sparql-graph-crud-auth {
+                return 404;
+        }
+        location /sparql-auth {
+                return 404;
+        }
+
+
+        #Virtuoso FCT
+
+        location ~ ^/((zdroj|slovník).*) {
+                include hsts-cors.conf ;
+
+                if ($http_accept ~ "application/ld\+json") {
+                        rewrite (.*) https://data.gov.cz/sparql?query=define%20sql%3Adescribe-mode%20"CBD"%20%20DESCRIBE%20<$scheme://$host$request_uri>&output=application%2Fld%2Bjson ;
+                }
+
+                proxy_pass http://<NKOD-DB-IP>:8890/describe/?url=https://data.gov.cz$uri;
+                proxy_set_header   Host             $host;
+                proxy_set_header   X-Real-IP        $remote_addr;
+                proxy_set_header   X-Forwarded-For  $proxy_add_x_forwarded_for;
+                proxy_pass_request_headers      on;
+                proxy_redirect http://data.gov.cz https://data.gov.cz ;
+                proxy_intercept_errors on;
 
                 sub_filter_once off;
                 sub_filter 'href="http://data.gov.cz' 'href="https://data.gov.cz';
                 sub_filter 'src="http://data.gov.cz' 'src="https://data.gov.cz';
         }
 
-        location ~ ^/((sparql|sparql-graph-crud).*) {
-		include hsts-cors.conf;	
-
-                proxy_pass http://<NKOD-DB>:8890$uri$is_args$args;
+        location ~ ^/fct/rdfdesc/usage.* {
+                return 403;
+        }
+        location ~ ^/((fct|describe).*) {
+                include hsts-cors.conf ;
+                proxy_pass http://<NKOD-DB-IP>:8890$uri$is_args$args;
                 proxy_set_header   Host             $host;
                 proxy_set_header   X-Real-IP        $remote_addr;
                 proxy_set_header   X-Forwarded-For  $proxy_add_x_forwarded_for;
                 proxy_pass_request_headers      on;
-		proxy_connect_timeout       600;
-		proxy_send_timeout          600;
-		proxy_read_timeout          600;
-		send_timeout                600;
-        }
+                proxy_intercept_errors on;
 
-        location /.well-known/ {
-		include hsts-cors.conf;	
-                proxy_pass http://<NKOD-DB>:8890$uri;
-                proxy_set_header   Host             $host;
-                proxy_set_header   X-Real-IP        $remote_addr;
-                proxy_set_header   X-Forwarded-For  $proxy_add_x_forwarded_for;
-        }
-
-        location /soubor/ {
-		include hsts-cors.conf;	
-		root /data;
-                try_files $uri $uri/ =404;
-		charset utf-8;
-		types {
-                        application/trig trig;
-			text/turtle ttl;
-			text/csv csv;
-                }
-		charset_types text/turtle application/csvm+json text/csv ;
-        }
-
-        location /datová-schránka-nkod/ {
-		include hsts-cors.conf;	
-                proxy_pass http://<NKOD-ETL>/isds/;
-                proxy_pass_request_headers      on;
-                proxy_set_header   X-Real-IP        $remote_addr;
-                proxy_set_header   X-Forwarded-For  $proxy_add_x_forwarded_for;
+                sub_filter_once off;
+                sub_filter 'href="http://data.gov.cz' 'href="https://data.gov.cz';
+                sub_filter 'src="http://data.gov.cz' 'src="https://data.gov.cz';
         }
 
         location /formulář/ {
-		include hsts-cors.conf;	
+                include hsts-cors.conf;
                 proxy_pass http://127.0.0.1:8057/;
                 proxy_pass_request_headers      on;
                 proxy_set_header   X-Real-IP        $remote_addr;
                 proxy_set_header   X-Forwarded-For  $proxy_add_x_forwarded_for;
         }
 
-        location ~ ^/((dataset|datová-sada|datasets|datové-sady|poskytovatelé|publishers|api|assets|public|klíčová-slova|keywords|lokální-katalogy|local-catalogs).*) {
-		include hsts-cors.conf;	
-                proxy_pass http://127.0.0.1:3000;
+
+        #Soubory
+        location /.well-known/ {
+                include hsts-cors.conf ;
+                proxy_pass http://<NKOD-DB-IP>:8890$uri;
+                proxy_set_header   Host             $host;
+                proxy_set_header   X-Real-IP        $remote_addr;
+                proxy_set_header   X-Forwarded-For  $proxy_add_x_forwarded_for;
+                proxy_intercept_errors on;
+        }
+
+        location /video {
+                include hsts-cors.conf ;
+                root /var/www ;
+                autoindex on;
+        }
+
+        location /soubor/ {
+                include hsts-cors.conf ;
+                root /var/www ;
+                try_files $uri $uri/ =404;
+                gzip_static on;
+                charset utf-8;
+                types {
+                        application/trig trig;
+                        text/turtle ttl;
+                        text/csv csv;
+                        application/vnd.hdt hdt;
+                        application/csvm+json json;
+                }
+                charset_types text/turtle application/csvm+json text/csv ;
+
+        }
+
+        #deploy webhooky pro data.gov.cz a datové standardy
+        location /deploy {
+                include hsts-cors.conf ;
+                root /data ;
+                try_files $uri =404;
+                fastcgi_pass unix:/var/run/php/php7.4-fpm.sock;
+                fastcgi_param SCRIPT_FILENAME $document_root$fastcgi_script_name;
+                include fastcgi_params;
+        }
+
+        #ofn.gov.cz klonované z GitHub Pages
+
+        location ~ ^/otevřené-formální-normy/(.*)$ {
+                return 301 https://ofn.gov.cz/$1 ;
+        }
+
+        #data.gov.cz klonované z GitHub Pages
+        location ~ ^/(images|css|js) {
+                include hsts-cors.conf ;
+                try_files $uri $uri/ =404;
+                root /data/opendata-mvcr.github.io/_site ;
+        }
+
+        #sitemaps for catalog records
+        location /sitemap.xml {
+                include hsts-cors.conf ;
+                alias /data/sitemaps/index.xml ;
+        }
+
+        location /smap-pages.xml {
+                include hsts-cors.conf ;
+                alias /data/opendata-mvcr.github.io/_site/sitemap.xml ;
+        }
+
+        location /smap {
+                include hsts-cors.conf ;
+                try_files $uri =404;
+                root /data/sitemaps ;
+        }
+
+        #LP-ETL
+        location /etl/ {
+                include hsts-cors.conf;
+                proxy_pass http://<NKOD-ETL-IP>:8080/;
+                proxy_pass_request_headers      on;
+                proxy_set_header   X-Real-IP        $remote_addr;
+                proxy_set_header   X-Forwarded-For  $proxy_add_x_forwarded_for;
+                proxy_set_header Early-Data $ssl_early_data;
+
+                auth_basic "Restricted";
+                auth_basic_user_file /etc/nginx/.etlpasswd;
+        }
+
+        location /etl/working {
+                include hsts-cors.conf;
+                proxy_pass http://<NKOD-ETL-IP>:80/working;
+                proxy_pass_request_headers      on;
+                proxy_set_header   X-Real-IP        $remote_addr;
+                proxy_set_header   X-Forwarded-For  $proxy_add_x_forwarded_for;
+                proxy_set_header Early-Data $ssl_early_data;
+
+                auth_basic "Restricted";
+                auth_basic_user_file /etc/nginx/.etlpasswd;
+        }
+
+         location /graphql {
+                proxy_pass http://<NKOD-DB-IP>:8032$request_uri;
                 proxy_pass_request_headers      on;
                 proxy_set_header   X-Real-IP        $remote_addr;
                 proxy_set_header   X-Forwarded-For  $proxy_add_x_forwarded_for;
         }
 
-	location / {
-		include hsts-cors.conf;	
-		rewrite ^/$ https://data.gov.cz/datové-sady redirect;
+        location /ldf-client {
+                root /opt/jQuery-Widget.js;
+                index index.html;
         }
+
+        location /ldf {
+                proxy_pass http://<NKOD-DB-IP>:5000$request_uri;
+                proxy_set_header Host $http_host;
+                proxy_pass_header Server;
+        }
+
+        location / {
+                include hsts-cors.conf ;
+                try_files $uri $uri/ $uri.html =404;
+                root /data/opendata-mvcr.github.io/_site ;
+        }
+
 }

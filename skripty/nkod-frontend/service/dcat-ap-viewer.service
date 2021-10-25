@@ -1,12 +1,12 @@
 [Unit]
 Description=DCAT-AP Viewer service
 After=network.target
- 
+
 [Service]
 Type=simple
 User=lpdav
 WorkingDirectory=/opt/lp/dcat-ap-viewer
-ExecStart=/usr/bin/npm run start -- -env.configFileLocation=configuration.properties 2>> /data/lp/dcat-ap-viewer/viewer.log &
+ExecStart=/usr/bin/npm run start 2>> /data/lp/dcat-ap-viewer/viewer.log &
 Restart=always
 
 [Install]

@@ -1,0 +1,19 @@
+[Unit]
+Description=Jekyll service for data.gov.cz
+After=syslog.target network.target
+
+[Service]
+User=nginx
+Type=simple
+WorkingDirectory=/data/opendata-mvcr.github.io
+ExecStart=/usr/local/bin/bundle exec jekyll build --watch
+ExecStop=/usr/bin/pkill -f jekyll
+Restart=always
+TimeoutStartSec=60
+RestartSec=60
+StandardOutput=syslog
+StandardError=syslog
+SyslogIdentifier=jekyll
+
+[Install]
+WantedBy=multi-user.target network-online.target

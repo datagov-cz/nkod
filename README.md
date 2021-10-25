@@ -23,13 +23,14 @@ If you have a new requirement to discuss, [create new issue](https://github.com/
 ## Proces zpracování požadavku na NKOD
 1. Proces je řízen pomocí [GitHub projektu](https://github.com/opendata-mvcr/nkod/projects/1)
 2. Pro nový požadavek je [založena issue](https://github.com/opendata-mvcr/nkod/issues/new) a je zařazena jako "Požadavek ke zpracování".
-3. Člen týmu OD II v diskuzi k issue vyjasní s autorem požadavku co je požadováno a jaké změny požadavek představuje pro NKOD, LKODy a proces harvestace.
-4. Po vyjasnění je issue zařazena jako "K probrání na týmu OD II". Zpravidla se tým schází každé úterý odpoledne.
-5. Po probrání na týmu OD II nastane jedna ze 3 možností.
+3. Člen týmu MV ČR v diskuzi k issue vyjasní s autorem požadavku co je požadováno a jaké změny požadavek představuje pro NKOD, LKODy a proces harvestace.
+4. Po vyjasnění je issue zařazena jako "K probrání na týmu MV ČR".
+5. Po probrání na týmu MV ČR nastane jedna ze 4 možností.
    1. Požadavek se vrací do kategorie "Požadavek ke zpracování" s tím, že tým vyžaduje doplnění ze strany autora požadavku
    2. Požadavek je schválen a přesunut do kategorie "Připraveno k zadání". To znamená že bude zahrnut do příští aktualizace NKOD.
    3. Požadavek je odložen do kategorie "Čeká na externí vstupy". To znamená, že požadavek je jasný, ale nebude se implementovat, dokud nevznikne nějaký externí výstup, například revize specifikace DCAT.
-6. Po vzniku externích výstupů se požadavky, které na ně čekaly, přesunou do kategorie "K probrání na týmu OD II".
+   4. Požadavek je uzavřen s tím, že nebude zapracován, a je vysvětleno proč.
+6. Po vzniku externích výstupů se požadavky, které na ně čekaly, přesunou do kategorie "K probrání na týmu MV ČR".
 
 
 Tento repozitář je udržován v rámci projektu OPZ č. CZ.03.4.74/0.0/0.0/15_025/0013983.
