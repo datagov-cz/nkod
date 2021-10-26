@@ -22,7 +22,7 @@
         "datasourceTitle": "NKOD SPARQL",
         "description": "NKOD TPF over Virtuoso SPARQL",
         "datasourcePath": "nkod-sparql-ldf",
-        "sparqlEndpoint": "http://localhost:8890/sparql"
+        "sparqlEndpoint": "http://127.0.0.1:8890/sparql"
       }
     ],
   
