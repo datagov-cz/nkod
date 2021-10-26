@@ -64,7 +64,7 @@ Na NKOD-DB také běží SSH server, přes který jsou předávány RDF dumpy k 
 SQL endpoint (`1111`) i celý HTTP endpoint (`8890`) včetně SPARQL endpointů pro zápis (`/sparql-auth` a `/sparql-graph-crud-auth`) jsou přístupné minimálně pro server NKOD-ETL.
 
 ### Postup instalace
-V této sekci je popsán doporučený postup instalace databáze na stroji **NKOD-DB** s OS [Ubuntu](https://www.ubuntu.com/) 21.04 ze zdrojových kódů z GitHubu.
+V této sekci je popsán doporučený postup instalace databáze na stroji **NKOD-DB** s OS [Ubuntu](https://www.ubuntu.com/) 21.10 ze zdrojových kódů z GitHubu.
 
 1. Openlink Virtuoso Open-Source
    1. Instalace
@@ -103,7 +103,7 @@ V této sekci je popsán doporučený postup instalace databáze na stroji **NKO
    5. Zprovoznit jako `systemd` službu pomocí [`ldf-server.service`](skripty/nkod-db/service/ldf-server.service)
       - vyžaduje existenci NKOD HDT dumpu
 4. Webhooky
-   1. Běžným způsobem nainstalovat `nginx` a `php7.4-fpm`
+   1. Běžným způsobem nainstalovat `nginx` a `php8.0-fpm`
       1. v `/etc/php/7.4/fpm/pool.d/www.conf` změnit uživatele `www-data` na `nginx`, pokud `nginx` běží pod uživatelem `nginx`
    2. Pomocí `sudo visudo` nastavit, aby uživatel `nginx` mohl signalizovat službě a restartovat Virtuoso
       1. `nginx ALL=(ALL) NOPASSWD: /usr/sbin/service`
@@ -112,13 +112,13 @@ V této sekci je popsán doporučený postup instalace databáze na stroji **NKO
 
 
 ##  Transformace dat
-V této sekci je popsán doporučený postup instalace stroje **NKOD-ETL** s OS [Ubuntu](https://www.ubuntu.com/) 21.04.
+V této sekci je popsán doporučený postup instalace stroje **NKOD-ETL** s OS [Ubuntu](https://www.ubuntu.com/) 21.10.
 
 ### Prerekvizity
 - [OpenJDK](https://jdk.java.net/16/) 16.0.2
 - [Apache Maven](https://maven.apache.org/)
 - [Git](https://git-scm.com/)
-- [node.js](https://nodejs.org) 16.9.0
+- [node.js](https://nodejs.org) 17.1.0
 - [nginx](http://nginx.org/)
 - [LinkedPipes ETL]
 - Vyzvedávátko zpráv z ISDS [NKOD-ISDS]
@@ -148,12 +148,12 @@ V této sekci je popsán doporučený postup instalace stroje **NKOD-ETL** s OS 
    3. konfigurační soubor v `/opt/nkod-isds/dist/configuration.properties`
 
 ##  Frontend
-V této sekci je popsán doporučený postup instalace stroje **NKOD-FRONTEND** s OS [Ubuntu](https://www.ubuntu.com/) 21.04.
+V této sekci je popsán doporučený postup instalace stroje **NKOD-FRONTEND** s OS [Ubuntu](https://www.ubuntu.com/) 21.10.
 
 ### Prerekvizity
 - [OpenJDK](https://jdk.java.net/16/) 16.0.2
 - [Git](https://git-scm.com/)
-- [node.js](https://nodejs.org) 16.9.0
+- [node.js](https://nodejs.org) 17.1.0
 - [nginx](http://nginx.org/) 1.21.3
 - certbot (letsencrypt.org) - pokud nebude jiný certifikát
 - [Apache CouchDB](https://couchdb.apache.org/) 2.2.0
