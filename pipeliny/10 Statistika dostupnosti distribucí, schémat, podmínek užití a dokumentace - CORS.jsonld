@@ -10,32 +10,32 @@
       "@id" : "https://pod-test.mvcr.gov.cz/etl/resources/components/1553525261215-f67b997e-9402-4907-908b-a13f4c539e62"
     } ]
   }, {
-    "@id" : "https://pod-test.mvcr.gov.cz/etl/resources/components/1612443346122-de843428-cfea-436b-9b14-5178a25c84d9",
+    "@id" : "https://dev.nkod.opendata.cz/etl/resources/components/1612443346122-de843428-cfea-436b-9b14-5178a25c84d9",
     "http://www.w3.org/2002/07/owl#sameAs" : [ {
       "@id" : "https://pod-test.mvcr.gov.cz/etl/resources/components/1612447792872-29879c34-105e-4e3c-8c84-6d9e07d7420a"
     } ]
   }, {
-    "@id" : "https://pod-test.mvcr.gov.cz/etl/resources/components/1612443549448-6449650b-a168-4d3e-9a98-a2476558b665",
+    "@id" : "https://dev.nkod.opendata.cz/etl/resources/components/1612443549448-6449650b-a168-4d3e-9a98-a2476558b665",
     "http://www.w3.org/2002/07/owl#sameAs" : [ {
       "@id" : "https://pod-test.mvcr.gov.cz/etl/resources/components/1612447852591-11bd574d-46d1-409b-9b4d-24f89ee3ac50"
     } ]
   }, {
-    "@id" : "https://pod-test.mvcr.gov.cz/etl/resources/components/1612443613371-086390c1-8bfe-4290-970d-a15084ea29d9",
+    "@id" : "https://dev.nkod.opendata.cz/etl/resources/components/1612443613371-086390c1-8bfe-4290-970d-a15084ea29d9",
     "http://www.w3.org/2002/07/owl#sameAs" : [ {
       "@id" : "https://pod-test.mvcr.gov.cz/etl/resources/components/1612447852590-1e734a48-2cd8-4977-8342-095a6dfe1674"
     } ]
   }, {
-    "@id" : "https://pod-test.mvcr.gov.cz/etl/resources/components/1612444414804-a3ece609-f40b-4f9c-b099-90825bd24740",
+    "@id" : "https://dev.nkod.opendata.cz/etl/resources/components/1612444414804-a3ece609-f40b-4f9c-b099-90825bd24740",
     "http://www.w3.org/2002/07/owl#sameAs" : [ {
       "@id" : "https://pod-test.mvcr.gov.cz/etl/resources/components/1612447860705-b7273275-f848-46ed-a4eb-b28e202a9a7d"
     } ]
   }, {
-    "@id" : "https://pod-test.mvcr.gov.cz/etl/resources/components/1614178661881-e6d217d1-4925-47b4-9de9-9bba8d101875",
+    "@id" : "https://dev.nkod.opendata.cz/etl/resources/components/1614178661881-e6d217d1-4925-47b4-9de9-9bba8d101875",
     "http://www.w3.org/2002/07/owl#sameAs" : [ {
       "@id" : "https://pod-test.mvcr.gov.cz/etl/resources/components/1614181023143-f151bc8f-effb-4507-9789-483b288b3cd7"
     } ]
   }, {
-    "@id" : "https://pod-test.mvcr.gov.cz/etl/resources/components/1537449783779-3dfa98db-1e9a-4865-bce5-cb4af25247bc",
+    "@id" : "https://etl.nakit.opendata.cz/resources/components/1537449783779-3dfa98db-1e9a-4865-bce5-cb4af25247bc",
     "http://www.w3.org/2002/07/owl#sameAs" : [ {
       "@id" : "https://pod-test.mvcr.gov.cz/etl/resources/components/1553525261214-c5f8d4b7-c57c-4d47-ab95-7177f16894c1"
     } ]
@@ -648,22 +648,7 @@
       "@id" : "https://pod-test.mvcr.gov.cz/etl/resources/pipelines/1631006715158/101"
     } ],
     "http://linkedpipes.com/ontology/vertex" : [ {
-      "@id" : "https://pod-test.mvcr.gov.cz/etl/resources/pipelines/1631006715158/103"
-    } ]
-  }, {
-    "@id" : "https://pod-test.mvcr.gov.cz/etl/resources/pipelines/1631006715158/103",
-    "@type" : [ "http://linkedpipes.com/ontology/Vertex" ],
-    "http://linkedpipes.com/ontology/order" : [ {
-      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
-      "@value" : "1"
-    } ],
-    "http://linkedpipes.com/ontology/x" : [ {
-      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
-      "@value" : "356"
-    } ],
-    "http://linkedpipes.com/ontology/y" : [ {
-      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
-      "@value" : "-298"
+      "@id" : "https://pod-test.mvcr.gov.cz/etl/resources/pipelines/1631006715158/vertex/f5e9-bc40"
     } ]
   }, {
     "@id" : "https://pod-test.mvcr.gov.cz/etl/resources/pipelines/1631006715158/104",
@@ -767,21 +752,6 @@
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
       "@value" : "SPARQL construct"
-    } ]
-  }, {
-    "@id" : "https://pod-test.mvcr.gov.cz/etl/resources/pipelines/1631006715158/11",
-    "@type" : [ "http://linkedpipes.com/ontology/Vertex" ],
-    "http://linkedpipes.com/ontology/order" : [ {
-      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
-      "@value" : "1"
-    } ],
-    "http://linkedpipes.com/ontology/x" : [ {
-      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
-      "@value" : "442"
-    } ],
-    "http://linkedpipes.com/ontology/y" : [ {
-      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
-      "@value" : "1757"
     } ]
   }, {
     "@id" : "https://pod-test.mvcr.gov.cz/etl/resources/pipelines/1631006715158/110",
@@ -958,7 +928,7 @@
       "@id" : "https://pod-test.mvcr.gov.cz/etl/resources/pipelines/1631006715158/120"
     } ],
     "http://linkedpipes.com/ontology/vertex" : [ {
-      "@id" : "https://pod-test.mvcr.gov.cz/etl/resources/pipelines/1631006715158/121"
+      "@id" : "https://pod-test.mvcr.gov.cz/etl/resources/pipelines/1631006715158/vertex/302e-b5e6"
     } ]
   }, {
     "@id" : "https://pod-test.mvcr.gov.cz/etl/resources/pipelines/1631006715158/12",
@@ -996,21 +966,6 @@
       "@value" : "Union"
     } ]
   }, {
-    "@id" : "https://pod-test.mvcr.gov.cz/etl/resources/pipelines/1631006715158/121",
-    "@type" : [ "http://linkedpipes.com/ontology/Vertex" ],
-    "http://linkedpipes.com/ontology/order" : [ {
-      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
-      "@value" : "1"
-    } ],
-    "http://linkedpipes.com/ontology/x" : [ {
-      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
-      "@value" : "373"
-    } ],
-    "http://linkedpipes.com/ontology/y" : [ {
-      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
-      "@value" : "-108"
-    } ]
-  }, {
     "@id" : "https://pod-test.mvcr.gov.cz/etl/resources/pipelines/1631006715158/122",
     "@type" : [ "http://linkedpipes.com/ontology/Connection" ],
     "http://linkedpipes.com/ontology/sourceBinding" : [ {
@@ -1026,22 +981,7 @@
       "@id" : "https://pod-test.mvcr.gov.cz/etl/resources/pipelines/1631006715158/33"
     } ],
     "http://linkedpipes.com/ontology/vertex" : [ {
-      "@id" : "https://pod-test.mvcr.gov.cz/etl/resources/pipelines/1631006715158/123"
-    } ]
-  }, {
-    "@id" : "https://pod-test.mvcr.gov.cz/etl/resources/pipelines/1631006715158/123",
-    "@type" : [ "http://linkedpipes.com/ontology/Vertex" ],
-    "http://linkedpipes.com/ontology/order" : [ {
-      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
-      "@value" : "1"
-    } ],
-    "http://linkedpipes.com/ontology/x" : [ {
-      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
-      "@value" : "436"
-    } ],
-    "http://linkedpipes.com/ontology/y" : [ {
-      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
-      "@value" : "1457"
+      "@id" : "https://pod-test.mvcr.gov.cz/etl/resources/pipelines/1631006715158/vertex/b607-bc94"
     } ]
   }, {
     "@id" : "https://pod-test.mvcr.gov.cz/etl/resources/pipelines/1631006715158/124",
@@ -1377,22 +1317,7 @@
       "@id" : "https://pod-test.mvcr.gov.cz/etl/resources/pipelines/1631006715158/130"
     } ],
     "http://linkedpipes.com/ontology/vertex" : [ {
-      "@id" : "https://pod-test.mvcr.gov.cz/etl/resources/pipelines/1631006715158/142"
-    } ]
-  }, {
-    "@id" : "https://pod-test.mvcr.gov.cz/etl/resources/pipelines/1631006715158/142",
-    "@type" : [ "http://linkedpipes.com/ontology/Vertex" ],
-    "http://linkedpipes.com/ontology/order" : [ {
-      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
-      "@value" : "1"
-    } ],
-    "http://linkedpipes.com/ontology/x" : [ {
-      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
-      "@value" : "363"
-    } ],
-    "http://linkedpipes.com/ontology/y" : [ {
-      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
-      "@value" : "631"
+      "@id" : "https://pod-test.mvcr.gov.cz/etl/resources/pipelines/1631006715158/vertex/296d-b504"
     } ]
   }, {
     "@id" : "https://pod-test.mvcr.gov.cz/etl/resources/pipelines/1631006715158/143",
@@ -1425,22 +1350,7 @@
       "@id" : "https://pod-test.mvcr.gov.cz/etl/resources/pipelines/1631006715158/83"
     } ],
     "http://linkedpipes.com/ontology/vertex" : [ {
-      "@id" : "https://pod-test.mvcr.gov.cz/etl/resources/pipelines/1631006715158/145"
-    } ]
-  }, {
-    "@id" : "https://pod-test.mvcr.gov.cz/etl/resources/pipelines/1631006715158/145",
-    "@type" : [ "http://linkedpipes.com/ontology/Vertex" ],
-    "http://linkedpipes.com/ontology/order" : [ {
-      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
-      "@value" : "1"
-    } ],
-    "http://linkedpipes.com/ontology/x" : [ {
-      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
-      "@value" : "398"
-    } ],
-    "http://linkedpipes.com/ontology/y" : [ {
-      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
-      "@value" : "16"
+      "@id" : "https://pod-test.mvcr.gov.cz/etl/resources/pipelines/1631006715158/vertex/91ce-8017"
     } ]
   }, {
     "@id" : "https://pod-test.mvcr.gov.cz/etl/resources/pipelines/1631006715158/146",
@@ -1750,7 +1660,7 @@
       "@id" : "https://pod-test.mvcr.gov.cz/etl/resources/pipelines/1631006715158/162"
     } ],
     "http://linkedpipes.com/ontology/vertex" : [ {
-      "@id" : "https://pod-test.mvcr.gov.cz/etl/resources/pipelines/1631006715158/163"
+      "@id" : "https://pod-test.mvcr.gov.cz/etl/resources/pipelines/1631006715158/vertex/bf35-89d3"
     } ]
   }, {
     "@id" : "https://pod-test.mvcr.gov.cz/etl/resources/pipelines/1631006715158/162",
@@ -1776,21 +1686,6 @@
       "@value" : "SPARQL construct"
     } ]
   }, {
-    "@id" : "https://pod-test.mvcr.gov.cz/etl/resources/pipelines/1631006715158/163",
-    "@type" : [ "http://linkedpipes.com/ontology/Vertex" ],
-    "http://linkedpipes.com/ontology/order" : [ {
-      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
-      "@value" : "1"
-    } ],
-    "http://linkedpipes.com/ontology/x" : [ {
-      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
-      "@value" : "361"
-    } ],
-    "http://linkedpipes.com/ontology/y" : [ {
-      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
-      "@value" : "974"
-    } ]
-  }, {
     "@id" : "https://pod-test.mvcr.gov.cz/etl/resources/pipelines/1631006715158/164",
     "@type" : [ "http://linkedpipes.com/ontology/Connection" ],
     "http://linkedpipes.com/ontology/sourceBinding" : [ {
@@ -1806,22 +1701,7 @@
       "@id" : "https://pod-test.mvcr.gov.cz/etl/resources/pipelines/1631006715158/86"
     } ],
     "http://linkedpipes.com/ontology/vertex" : [ {
-      "@id" : "https://pod-test.mvcr.gov.cz/etl/resources/pipelines/1631006715158/165"
-    } ]
-  }, {
-    "@id" : "https://pod-test.mvcr.gov.cz/etl/resources/pipelines/1631006715158/165",
-    "@type" : [ "http://linkedpipes.com/ontology/Vertex" ],
-    "http://linkedpipes.com/ontology/order" : [ {
-      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
-      "@value" : "1"
-    } ],
-    "http://linkedpipes.com/ontology/x" : [ {
-      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
-      "@value" : "410"
-    } ],
-    "http://linkedpipes.com/ontology/y" : [ {
-      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
-      "@value" : "1148"
+      "@id" : "https://pod-test.mvcr.gov.cz/etl/resources/pipelines/1631006715158/vertex/d3e7-9b95"
     } ]
   }, {
     "@id" : "https://pod-test.mvcr.gov.cz/etl/resources/pipelines/1631006715158/166",
@@ -2522,22 +2402,7 @@
       "@id" : "https://pod-test.mvcr.gov.cz/etl/resources/pipelines/1631006715158/158"
     } ],
     "http://linkedpipes.com/ontology/vertex" : [ {
-      "@id" : "https://pod-test.mvcr.gov.cz/etl/resources/pipelines/1631006715158/206"
-    } ]
-  }, {
-    "@id" : "https://pod-test.mvcr.gov.cz/etl/resources/pipelines/1631006715158/206",
-    "@type" : [ "http://linkedpipes.com/ontology/Vertex" ],
-    "http://linkedpipes.com/ontology/order" : [ {
-      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
-      "@value" : "1"
-    } ],
-    "http://linkedpipes.com/ontology/x" : [ {
-      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
-      "@value" : "431"
-    } ],
-    "http://linkedpipes.com/ontology/y" : [ {
-      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
-      "@value" : "1857"
+      "@id" : "https://pod-test.mvcr.gov.cz/etl/resources/pipelines/1631006715158/vertex/fb7d-9dc4"
     } ]
   }, {
     "@id" : "https://pod-test.mvcr.gov.cz/etl/resources/pipelines/1631006715158/207",
@@ -2570,7 +2435,7 @@
       "@id" : "https://pod-test.mvcr.gov.cz/etl/resources/pipelines/1631006715158/49"
     } ],
     "http://linkedpipes.com/ontology/vertex" : [ {
-      "@id" : "https://pod-test.mvcr.gov.cz/etl/resources/pipelines/1631006715158/4"
+      "@id" : "https://pod-test.mvcr.gov.cz/etl/resources/pipelines/1631006715158/vertex/f9a3-8228"
     } ]
   }, {
     "@id" : "https://pod-test.mvcr.gov.cz/etl/resources/pipelines/1631006715158/21",
@@ -2957,21 +2822,6 @@
       "@id" : "https://pod-test.mvcr.gov.cz/etl/resources/pipelines/1631006715158/22"
     } ]
   }, {
-    "@id" : "https://pod-test.mvcr.gov.cz/etl/resources/pipelines/1631006715158/4",
-    "@type" : [ "http://linkedpipes.com/ontology/Vertex" ],
-    "http://linkedpipes.com/ontology/order" : [ {
-      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
-      "@value" : "1"
-    } ],
-    "http://linkedpipes.com/ontology/x" : [ {
-      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
-      "@value" : "409"
-    } ],
-    "http://linkedpipes.com/ontology/y" : [ {
-      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
-      "@value" : "180"
-    } ]
-  }, {
     "@id" : "https://pod-test.mvcr.gov.cz/etl/resources/pipelines/1631006715158/40",
     "@type" : [ "http://linkedpipes.com/ontology/Connection" ],
     "http://linkedpipes.com/ontology/sourceBinding" : [ {
@@ -3179,7 +3029,7 @@
       "@id" : "https://pod-test.mvcr.gov.cz/etl/resources/pipelines/1631006715158/7"
     } ],
     "http://linkedpipes.com/ontology/vertex" : [ {
-      "@id" : "https://pod-test.mvcr.gov.cz/etl/resources/pipelines/1631006715158/8"
+      "@id" : "https://pod-test.mvcr.gov.cz/etl/resources/pipelines/1631006715158/vertex/1acc-9e40"
     } ]
   }, {
     "@id" : "https://pod-test.mvcr.gov.cz/etl/resources/pipelines/1631006715158/50",
@@ -3288,9 +3138,9 @@
       "@id" : "https://pod-test.mvcr.gov.cz/etl/resources/pipelines/1631006715158/56"
     } ],
     "http://linkedpipes.com/ontology/vertex" : [ {
-      "@id" : "https://pod-test.mvcr.gov.cz/etl/resources/pipelines/1631006715158/57"
+      "@id" : "https://pod-test.mvcr.gov.cz/etl/resources/pipelines/1631006715158/vertex/a7a3-ad01"
     }, {
-      "@id" : "https://pod-test.mvcr.gov.cz/etl/resources/pipelines/1631006715158/58"
+      "@id" : "https://pod-test.mvcr.gov.cz/etl/resources/pipelines/1631006715158/vertex/f28f-9a48"
     } ]
   }, {
     "@id" : "https://pod-test.mvcr.gov.cz/etl/resources/pipelines/1631006715158/56",
@@ -3314,36 +3164,6 @@
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
       "@value" : "SPARQL construct"
-    } ]
-  }, {
-    "@id" : "https://pod-test.mvcr.gov.cz/etl/resources/pipelines/1631006715158/57",
-    "@type" : [ "http://linkedpipes.com/ontology/Vertex" ],
-    "http://linkedpipes.com/ontology/order" : [ {
-      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
-      "@value" : "1"
-    } ],
-    "http://linkedpipes.com/ontology/x" : [ {
-      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
-      "@value" : "365"
-    } ],
-    "http://linkedpipes.com/ontology/y" : [ {
-      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
-      "@value" : "492"
-    } ]
-  }, {
-    "@id" : "https://pod-test.mvcr.gov.cz/etl/resources/pipelines/1631006715158/58",
-    "@type" : [ "http://linkedpipes.com/ontology/Vertex" ],
-    "http://linkedpipes.com/ontology/order" : [ {
-      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
-      "@value" : "2"
-    } ],
-    "http://linkedpipes.com/ontology/x" : [ {
-      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
-      "@value" : "413"
-    } ],
-    "http://linkedpipes.com/ontology/y" : [ {
-      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
-      "@value" : "312"
     } ]
   }, {
     "@id" : "https://pod-test.mvcr.gov.cz/etl/resources/pipelines/1631006715158/59",
@@ -3396,7 +3216,7 @@
       "@id" : "https://pod-test.mvcr.gov.cz/etl/resources/pipelines/1631006715158/61"
     } ],
     "http://linkedpipes.com/ontology/vertex" : [ {
-      "@id" : "https://pod-test.mvcr.gov.cz/etl/resources/pipelines/1631006715158/62"
+      "@id" : "https://pod-test.mvcr.gov.cz/etl/resources/pipelines/1631006715158/vertex/4ce4-a4d7"
     } ]
   }, {
     "@id" : "https://pod-test.mvcr.gov.cz/etl/resources/pipelines/1631006715158/61",
@@ -3417,21 +3237,6 @@
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
       "@value" : "Union"
-    } ]
-  }, {
-    "@id" : "https://pod-test.mvcr.gov.cz/etl/resources/pipelines/1631006715158/62",
-    "@type" : [ "http://linkedpipes.com/ontology/Vertex" ],
-    "http://linkedpipes.com/ontology/order" : [ {
-      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
-      "@value" : "1"
-    } ],
-    "http://linkedpipes.com/ontology/x" : [ {
-      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
-      "@value" : "423"
-    } ],
-    "http://linkedpipes.com/ontology/y" : [ {
-      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
-      "@value" : "2036"
     } ]
   }, {
     "@id" : "https://pod-test.mvcr.gov.cz/etl/resources/pipelines/1631006715158/63",
@@ -3548,7 +3353,7 @@
       "@id" : "https://pod-test.mvcr.gov.cz/etl/resources/pipelines/1631006715158/69"
     } ],
     "http://linkedpipes.com/ontology/vertex" : [ {
-      "@id" : "https://pod-test.mvcr.gov.cz/etl/resources/pipelines/1631006715158/70"
+      "@id" : "https://pod-test.mvcr.gov.cz/etl/resources/pipelines/1631006715158/vertex/d9f9-a43f"
     } ]
   }, {
     "@id" : "https://pod-test.mvcr.gov.cz/etl/resources/pipelines/1631006715158/69",
@@ -3592,21 +3397,6 @@
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
       "@value" : "SPARQL construct"
-    } ]
-  }, {
-    "@id" : "https://pod-test.mvcr.gov.cz/etl/resources/pipelines/1631006715158/70",
-    "@type" : [ "http://linkedpipes.com/ontology/Vertex" ],
-    "http://linkedpipes.com/ontology/order" : [ {
-      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
-      "@value" : "1"
-    } ],
-    "http://linkedpipes.com/ontology/x" : [ {
-      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
-      "@value" : "397"
-    } ],
-    "http://linkedpipes.com/ontology/y" : [ {
-      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
-      "@value" : "480"
     } ]
   }, {
     "@id" : "https://pod-test.mvcr.gov.cz/etl/resources/pipelines/1631006715158/71",
@@ -3762,22 +3552,7 @@
       "@id" : "https://pod-test.mvcr.gov.cz/etl/resources/pipelines/1631006715158/80"
     } ],
     "http://linkedpipes.com/ontology/vertex" : [ {
-      "@id" : "https://pod-test.mvcr.gov.cz/etl/resources/pipelines/1631006715158/81"
-    } ]
-  }, {
-    "@id" : "https://pod-test.mvcr.gov.cz/etl/resources/pipelines/1631006715158/8",
-    "@type" : [ "http://linkedpipes.com/ontology/Vertex" ],
-    "http://linkedpipes.com/ontology/order" : [ {
-      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
-      "@value" : "1"
-    } ],
-    "http://linkedpipes.com/ontology/x" : [ {
-      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
-      "@value" : "416"
-    } ],
-    "http://linkedpipes.com/ontology/y" : [ {
-      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
-      "@value" : "1289"
+      "@id" : "https://pod-test.mvcr.gov.cz/etl/resources/pipelines/1631006715158/vertex/c346-bc05"
     } ]
   }, {
     "@id" : "https://pod-test.mvcr.gov.cz/etl/resources/pipelines/1631006715158/80",
@@ -3801,21 +3576,6 @@
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
       "@value" : "SPARQL construct"
-    } ]
-  }, {
-    "@id" : "https://pod-test.mvcr.gov.cz/etl/resources/pipelines/1631006715158/81",
-    "@type" : [ "http://linkedpipes.com/ontology/Vertex" ],
-    "http://linkedpipes.com/ontology/order" : [ {
-      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
-      "@value" : "1"
-    } ],
-    "http://linkedpipes.com/ontology/x" : [ {
-      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
-      "@value" : "433"
-    } ],
-    "http://linkedpipes.com/ontology/y" : [ {
-      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
-      "@value" : "1564"
     } ]
   }, {
     "@id" : "https://pod-test.mvcr.gov.cz/etl/resources/pipelines/1631006715158/82",
@@ -3982,7 +3742,7 @@
       "@id" : "https://pod-test.mvcr.gov.cz/etl/resources/pipelines/1631006715158/10"
     } ],
     "http://linkedpipes.com/ontology/vertex" : [ {
-      "@id" : "https://pod-test.mvcr.gov.cz/etl/resources/pipelines/1631006715158/11"
+      "@id" : "https://pod-test.mvcr.gov.cz/etl/resources/pipelines/1631006715158/vertex/17b6-bc74"
     } ]
   }, {
     "@id" : "https://pod-test.mvcr.gov.cz/etl/resources/pipelines/1631006715158/90",
@@ -4157,6 +3917,246 @@
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
       "@value" : "HTTP Request"
     } ]
+  }, {
+    "@id" : "https://pod-test.mvcr.gov.cz/etl/resources/pipelines/1631006715158/vertex/17b6-bc74",
+    "@type" : [ "http://linkedpipes.com/ontology/Vertex" ],
+    "http://linkedpipes.com/ontology/order" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+      "@value" : "1"
+    } ],
+    "http://linkedpipes.com/ontology/x" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+      "@value" : "442"
+    } ],
+    "http://linkedpipes.com/ontology/y" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+      "@value" : "1757"
+    } ]
+  }, {
+    "@id" : "https://pod-test.mvcr.gov.cz/etl/resources/pipelines/1631006715158/vertex/1acc-9e40",
+    "@type" : [ "http://linkedpipes.com/ontology/Vertex" ],
+    "http://linkedpipes.com/ontology/order" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+      "@value" : "1"
+    } ],
+    "http://linkedpipes.com/ontology/x" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+      "@value" : "416"
+    } ],
+    "http://linkedpipes.com/ontology/y" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+      "@value" : "1289"
+    } ]
+  }, {
+    "@id" : "https://pod-test.mvcr.gov.cz/etl/resources/pipelines/1631006715158/vertex/296d-b504",
+    "@type" : [ "http://linkedpipes.com/ontology/Vertex" ],
+    "http://linkedpipes.com/ontology/order" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+      "@value" : "1"
+    } ],
+    "http://linkedpipes.com/ontology/x" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+      "@value" : "363"
+    } ],
+    "http://linkedpipes.com/ontology/y" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+      "@value" : "631"
+    } ]
+  }, {
+    "@id" : "https://pod-test.mvcr.gov.cz/etl/resources/pipelines/1631006715158/vertex/302e-b5e6",
+    "@type" : [ "http://linkedpipes.com/ontology/Vertex" ],
+    "http://linkedpipes.com/ontology/order" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+      "@value" : "1"
+    } ],
+    "http://linkedpipes.com/ontology/x" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+      "@value" : "373"
+    } ],
+    "http://linkedpipes.com/ontology/y" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+      "@value" : "-108"
+    } ]
+  }, {
+    "@id" : "https://pod-test.mvcr.gov.cz/etl/resources/pipelines/1631006715158/vertex/4ce4-a4d7",
+    "@type" : [ "http://linkedpipes.com/ontology/Vertex" ],
+    "http://linkedpipes.com/ontology/order" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+      "@value" : "1"
+    } ],
+    "http://linkedpipes.com/ontology/x" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+      "@value" : "423"
+    } ],
+    "http://linkedpipes.com/ontology/y" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+      "@value" : "2036"
+    } ]
+  }, {
+    "@id" : "https://pod-test.mvcr.gov.cz/etl/resources/pipelines/1631006715158/vertex/91ce-8017",
+    "@type" : [ "http://linkedpipes.com/ontology/Vertex" ],
+    "http://linkedpipes.com/ontology/order" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+      "@value" : "1"
+    } ],
+    "http://linkedpipes.com/ontology/x" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+      "@value" : "398"
+    } ],
+    "http://linkedpipes.com/ontology/y" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+      "@value" : "16"
+    } ]
+  }, {
+    "@id" : "https://pod-test.mvcr.gov.cz/etl/resources/pipelines/1631006715158/vertex/a7a3-ad01",
+    "@type" : [ "http://linkedpipes.com/ontology/Vertex" ],
+    "http://linkedpipes.com/ontology/order" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+      "@value" : "1"
+    } ],
+    "http://linkedpipes.com/ontology/x" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+      "@value" : "365"
+    } ],
+    "http://linkedpipes.com/ontology/y" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+      "@value" : "492"
+    } ]
+  }, {
+    "@id" : "https://pod-test.mvcr.gov.cz/etl/resources/pipelines/1631006715158/vertex/b607-bc94",
+    "@type" : [ "http://linkedpipes.com/ontology/Vertex" ],
+    "http://linkedpipes.com/ontology/order" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+      "@value" : "1"
+    } ],
+    "http://linkedpipes.com/ontology/x" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+      "@value" : "436"
+    } ],
+    "http://linkedpipes.com/ontology/y" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+      "@value" : "1457"
+    } ]
+  }, {
+    "@id" : "https://pod-test.mvcr.gov.cz/etl/resources/pipelines/1631006715158/vertex/bf35-89d3",
+    "@type" : [ "http://linkedpipes.com/ontology/Vertex" ],
+    "http://linkedpipes.com/ontology/order" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+      "@value" : "1"
+    } ],
+    "http://linkedpipes.com/ontology/x" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+      "@value" : "361"
+    } ],
+    "http://linkedpipes.com/ontology/y" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+      "@value" : "974"
+    } ]
+  }, {
+    "@id" : "https://pod-test.mvcr.gov.cz/etl/resources/pipelines/1631006715158/vertex/c346-bc05",
+    "@type" : [ "http://linkedpipes.com/ontology/Vertex" ],
+    "http://linkedpipes.com/ontology/order" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+      "@value" : "1"
+    } ],
+    "http://linkedpipes.com/ontology/x" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+      "@value" : "433"
+    } ],
+    "http://linkedpipes.com/ontology/y" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+      "@value" : "1564"
+    } ]
+  }, {
+    "@id" : "https://pod-test.mvcr.gov.cz/etl/resources/pipelines/1631006715158/vertex/d3e7-9b95",
+    "@type" : [ "http://linkedpipes.com/ontology/Vertex" ],
+    "http://linkedpipes.com/ontology/order" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+      "@value" : "1"
+    } ],
+    "http://linkedpipes.com/ontology/x" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+      "@value" : "410"
+    } ],
+    "http://linkedpipes.com/ontology/y" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+      "@value" : "1148"
+    } ]
+  }, {
+    "@id" : "https://pod-test.mvcr.gov.cz/etl/resources/pipelines/1631006715158/vertex/d9f9-a43f",
+    "@type" : [ "http://linkedpipes.com/ontology/Vertex" ],
+    "http://linkedpipes.com/ontology/order" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+      "@value" : "1"
+    } ],
+    "http://linkedpipes.com/ontology/x" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+      "@value" : "397"
+    } ],
+    "http://linkedpipes.com/ontology/y" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+      "@value" : "480"
+    } ]
+  }, {
+    "@id" : "https://pod-test.mvcr.gov.cz/etl/resources/pipelines/1631006715158/vertex/f28f-9a48",
+    "@type" : [ "http://linkedpipes.com/ontology/Vertex" ],
+    "http://linkedpipes.com/ontology/order" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+      "@value" : "2"
+    } ],
+    "http://linkedpipes.com/ontology/x" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+      "@value" : "413"
+    } ],
+    "http://linkedpipes.com/ontology/y" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+      "@value" : "312"
+    } ]
+  }, {
+    "@id" : "https://pod-test.mvcr.gov.cz/etl/resources/pipelines/1631006715158/vertex/f5e9-bc40",
+    "@type" : [ "http://linkedpipes.com/ontology/Vertex" ],
+    "http://linkedpipes.com/ontology/order" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+      "@value" : "1"
+    } ],
+    "http://linkedpipes.com/ontology/x" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+      "@value" : "356"
+    } ],
+    "http://linkedpipes.com/ontology/y" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+      "@value" : "-298"
+    } ]
+  }, {
+    "@id" : "https://pod-test.mvcr.gov.cz/etl/resources/pipelines/1631006715158/vertex/f9a3-8228",
+    "@type" : [ "http://linkedpipes.com/ontology/Vertex" ],
+    "http://linkedpipes.com/ontology/order" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+      "@value" : "1"
+    } ],
+    "http://linkedpipes.com/ontology/x" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+      "@value" : "409"
+    } ],
+    "http://linkedpipes.com/ontology/y" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+      "@value" : "180"
+    } ]
+  }, {
+    "@id" : "https://pod-test.mvcr.gov.cz/etl/resources/pipelines/1631006715158/vertex/fb7d-9dc4",
+    "@type" : [ "http://linkedpipes.com/ontology/Vertex" ],
+    "http://linkedpipes.com/ontology/order" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+      "@value" : "1"
+    } ],
+    "http://linkedpipes.com/ontology/x" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+      "@value" : "431"
+    } ],
+    "http://linkedpipes.com/ontology/y" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+      "@value" : "1857"
+    } ]
   } ],
   "@id" : "https://pod-test.mvcr.gov.cz/etl/resources/pipelines/1631006715158"
 }, {
@@ -4176,7 +4176,7 @@
     "@id" : "https://pod-test.mvcr.gov.cz/etl/resources/pipelines/1631006715158/210",
     "@type" : [ "http://plugins.linkedpipes.com/ontology/t-sparqlConstruct#Configuration" ],
     "http://plugins.linkedpipes.com/ontology/t-sparqlConstruct#query" : [ {
-      "@value" : "PREFIX schema: <http://schema.org/>\nPREFIX time: <http://www.w3.org/2006/time#>\nPREFIX skos: <http://www.w3.org/2004/02/skos/core#>\nPREFIX dqv: <http://www.w3.org/ns/dqv#>\nPREFIX ldqd: <http://www.w3.org/2016/05/ldqd#>\nPREFIX qb: <http://purl.org/linked-data/cube#>\nPREFIX dcat: <http://www.w3.org/ns/dcat#>\nPREFIX dcterms: <http://purl.org/dc/terms/>\nPREFIX foaf: <http://xmlns.com/foaf/0.1/>\nPREFIX sdmx-dimension: <http://purl.org/linked-data/sdmx/2009/dimension#>\nPREFIX xsd: <http://www.w3.org/2001/XMLSchema#>\n\nPREFIX nkod: <https://data.gov.cz/slovník/nkod/>\nPREFIX report: <https://vocabulary.etl.linkedpipes.com/report/>\nPREFIX httpRequest: <http://plugins.linkedpipes.com/ontology/x-httpRequest#>\nPREFIX : <https://data.gov.cz/zdroj/datová-kvalita/metriky/>\n\nCONSTRUCT {\n  :metrikaDostupnostiCORSEndpointDescription\n    a dqv:Metric ;\n    skos:definition \"It checks if CORS is available for the value of dcat:endpointDescription.\"@en , \"Kontroluje, zda je pro hodnotu dcat:endpointDescription dostupná technika CORS.\"@cs;\n    dqv:inDimension ldqd:availability ;\n    dqv:expectedDataType xsd:boolean\n    .\n  \n  ?dqds a qb:DataSet, dqv:QualityMeasurementDataset .\n  \n  ?service dqv:hasQualityMeasurement ?pozorování .\n  \n  ?pozorování a qb:Observation, dqv:QualityMeasurement ;\n    qb:dataSet ?dqds ;\n    sdmx-dimension:refPeriod ?refPeriod ;\n    dqv:computedOn ?service ;\n    dqv:isMeasurementOf :metrikaDostupnostiCORSEndpointDescription ;\n    dqv:value false ;\n    schema:object ?endpointDescription .\n  \n  ?refPeriod time:inXSDDateTime ?dtime .\n}\nWHERE { \n  ?s a dcat:Dataset;\n             dcat:distribution ?distribution ;\n             dcterms:publisher ?publisher .\n  ?distribution dcat:accessService ?service .\n  ?service dcat:endpointDescription ?endpointDescription.\n\n  OPTIONAL {?report report:task ?endpointDescription;\n        report:start ?now .\n  \n  FILTER NOT EXISTS {\n    ?service dqv:hasQualityMeasurement ?existujícíPozorování .\n    ?existujícíPozorování dqv:isMeasurementOf :metrikaDostupnostiCORSEndpointDescription ;\n                          schema:object ?endpointDescription .\n  }\n  }\n  FILTER(BOUND(?report))\n\n  BIND(\"https://pod-test.mvcr.gov.cz/zdroj/datová-kvalita/\" as ?prefix)\n  BIND(\"http://reference.data.gov.uk/id/gregorian-instant/\" as ?timePrefix)\n  BIND(IRI(CONCAT(?prefix, \"DataSet\")) as ?dqds)\n  BIND(SUBSTR(STR(?now),1,19) as ?time)\n  BIND(STRDT(?time, xsd:dateTime) as ?dtime)\n  BIND(IRI(CONCAT(?timePrefix, ?time)) AS ?refPeriod)\n  BIND(IRI(CONCAT(?prefix,\"pozorování/metrikaDostupnostiCORSEndpointDescription\" ,\"/\", ?time, \"/\", ENCODE_FOR_URI(STR(?endpointDescription)))) as ?pozorování)\n}"
+      "@value" : "PREFIX schema: <http://schema.org/>\nPREFIX time: <http://www.w3.org/2006/time#>\nPREFIX skos: <http://www.w3.org/2004/02/skos/core#>\nPREFIX dqv: <http://www.w3.org/ns/dqv#>\nPREFIX ldqd: <http://www.w3.org/2016/05/ldqd#>\nPREFIX qb: <http://purl.org/linked-data/cube#>\nPREFIX dcat: <http://www.w3.org/ns/dcat#>\nPREFIX dcterms: <http://purl.org/dc/terms/>\nPREFIX foaf: <http://xmlns.com/foaf/0.1/>\nPREFIX sdmx-dimension: <http://purl.org/linked-data/sdmx/2009/dimension#>\nPREFIX xsd: <http://www.w3.org/2001/XMLSchema#>\n\nPREFIX nkod: <https://data.gov.cz/slovník/nkod/>\nPREFIX report: <https://vocabulary.etl.linkedpipes.com/report/>\nPREFIX httpRequest: <http://plugins.linkedpipes.com/ontology/x-httpRequest#>\nPREFIX : <https://data.gov.cz/zdroj/datová-kvalita/metriky/>\n\nCONSTRUCT {\n  :metrikaDostupnostiCORSEndpointDescription\n    a dqv:Metric ;\n    skos:definition \"It checks if CORS is available for the value of dcat:endpointDescription.\"@en , \"Kontroluje, zda je pro hodnotu dcat:endpointDescription dostupná technika CORS.\"@cs;\n    dqv:inDimension ldqd:availability ;\n    dqv:expectedDataType xsd:boolean\n    .\n  \n  ?dqds a qb:DataSet, dqv:QualityMeasurementDataset .\n  \n  ?service dqv:hasQualityMeasurement ?pozorování .\n  \n  ?pozorování a qb:Observation, dqv:QualityMeasurement ;\n    qb:dataSet ?dqds ;\n    sdmx-dimension:refPeriod ?refPeriod ;\n    dqv:computedOn ?service ;\n    dqv:isMeasurementOf :metrikaDostupnostiCORSEndpointDescription ;\n    dqv:value false ;\n    schema:object ?endpointDescription .\n  \n  ?refPeriod time:inXSDDateTime ?dtime .\n}\nWHERE { \n  ?s a dcat:Dataset;\n             dcat:distribution ?distribution ;\n             dcterms:publisher ?publisher .\n  ?distribution dcat:accessService ?service .\n  ?service dcat:endpointDescription ?endpointDescription.\n\n  OPTIONAL {?report report:task ?endpointDescription;\n        report:start ?now .\n  \n  FILTER NOT EXISTS {\n    ?service dqv:hasQualityMeasurement ?existujícíPozorování .\n    ?existujícíPozorování dqv:isMeasurementOf :metrikaDostupnostiCORSEndpointDescription ;\n                          schema:object ?endpointDescription .\n  }\n  }\n  FILTER(BOUND(?report))\n\n  BIND(\"https://dev.nkod.opendata.cz/zdroj/datová-kvalita/\" as ?prefix)\n  BIND(\"http://reference.data.gov.uk/id/gregorian-instant/\" as ?timePrefix)\n  BIND(IRI(CONCAT(?prefix, \"DataSet\")) as ?dqds)\n  BIND(SUBSTR(STR(?now),1,19) as ?time)\n  BIND(STRDT(?time, xsd:dateTime) as ?dtime)\n  BIND(IRI(CONCAT(?timePrefix, ?time)) AS ?refPeriod)\n  BIND(IRI(CONCAT(?prefix,\"pozorování/metrikaDostupnostiCORSEndpointDescription\" ,\"/\", ?time, \"/\", ENCODE_FOR_URI(STR(?endpointDescription)))) as ?pozorování)\n}"
     } ],
     "http://plugins.linkedpipes.com/ontology/t-sparqlConstruct#queryControl" : [ {
       "@id" : "http://plugins.linkedpipes.com/resource/configuration/None"
@@ -4188,7 +4188,7 @@
     "@id" : "https://pod-test.mvcr.gov.cz/etl/resources/pipelines/1631006715158/211",
     "@type" : [ "http://plugins.linkedpipes.com/ontology/t-sparqlConstruct#Configuration" ],
     "http://plugins.linkedpipes.com/ontology/t-sparqlConstruct#query" : [ {
-      "@value" : "PREFIX schema: <http://schema.org/>\nPREFIX dcterm: <http://purl.org/dc/terms/>\nPREFIX dct: <http://purl.org/dc/terms/>\nPREFIX dc: <http://purl.org/dc/elements/1.1/>\nPREFIX time: <http://www.w3.org/2006/time#>\nPREFIX skos: <http://www.w3.org/2004/02/skos/core#>\nPREFIX dqv: <http://www.w3.org/ns/dqv#>\nPREFIX ldqd: <http://www.w3.org/2016/05/ldqd#>\nPREFIX qb: <http://purl.org/linked-data/cube#>\nPREFIX dcat: <http://www.w3.org/ns/dcat#>\nPREFIX dcterms: <http://purl.org/dc/terms/>\nPREFIX foaf: <http://xmlns.com/foaf/0.1/>\nPREFIX sdmx-dimension: <http://purl.org/linked-data/sdmx/2009/dimension#>\nPREFIX xsd: <http://www.w3.org/2001/XMLSchema#>\n\nPREFIX nkod: <https://data.gov.cz/slovník/nkod/>\nPREFIX report: <https://vocabulary.etl.linkedpipes.com/report/>\nPREFIX httpRequest: <http://plugins.linkedpipes.com/ontology/x-httpRequest#>\nPREFIX : <https://data.gov.cz/zdroj/datová-kvalita/metriky/>\n\nCONSTRUCT {\n  :metrikaDostupnostiCORSServiceConformsTo\n    a dqv:Metric ;\n    skos:definition \"It checks if CORS is available for the value of dcterms:conformsTo of a dcat:DataService.\"@en , \"Kontroluje, zda je pro hodnotu dcterms:conformsTo datové služby dostupná technika CORS.\"@cs;\n    dqv:inDimension ldqd:availability ;\n    dqv:expectedDataType xsd:boolean\n    .\n  \n  ?dqds a qb:DataSet, dqv:QualityMeasurementDataset .\n  \n  ?service dqv:hasQualityMeasurement ?pozorování .\n  \n  ?pozorování a qb:Observation, dqv:QualityMeasurement ;\n    qb:dataSet ?dqds ;\n    sdmx-dimension:refPeriod ?refPeriod ;\n    dqv:computedOn ?service ;\n    dqv:isMeasurementOf :metrikaDostupnostiCORSServiceConformsTo ;\n    dqv:value true ;\n    schema:object ?conformsTo .\n  \n  ?refPeriod time:inXSDDateTime ?dtime .\n}\nWHERE { \n  ?s a dcat:Dataset;\n             dcat:distribution ?distribution ;\n             dcterms:publisher ?publisher .\n  ?distribution dcat:accessService ?service .\n  ?service dcterms:conformsTo ?conformsTo.\n  ?report report:task ?conformsTo;\n        report:status report:Success ;\n        report:start ?now ;\n        httpRequest:response ?response .  \n  ?response httpRequest:hasHeaderObject ?ho .\n  \n  ?ho httpRequest:name \"Access-Control-Allow-Origin\" .\n  \n  {\n    ?ho httpRequest:value \"*\" . \n  } UNION {\n    ?ho httpRequest:value ?origin .\n    [] nkod:cors-origin ?origin .\n  }\n\n  BIND(\"https://pod-test.mvcr.gov.cz/zdroj/datová-kvalita/\" as ?prefix)\n  BIND(\"http://reference.data.gov.uk/id/gregorian-instant/\" as ?timePrefix)\n  BIND(IRI(CONCAT(?prefix, \"DataSet\")) as ?dqds)\n  BIND(SUBSTR(STR(?now),1,19) as ?time)\n  BIND(STRDT(?time, xsd:dateTime) as ?dtime)\n  BIND(IRI(CONCAT(?timePrefix, ?time)) AS ?refPeriod)\n  BIND(IRI(CONCAT(?prefix,\"pozorování/metrikaDostupnostiCORSServiceConformsTo\" ,\"/\", ?time, \"/\", ENCODE_FOR_URI(STR(?conformsTo)))) as ?pozorování)\n}"
+      "@value" : "PREFIX schema: <http://schema.org/>\nPREFIX dcterm: <http://purl.org/dc/terms/>\nPREFIX dct: <http://purl.org/dc/terms/>\nPREFIX dc: <http://purl.org/dc/elements/1.1/>\nPREFIX time: <http://www.w3.org/2006/time#>\nPREFIX skos: <http://www.w3.org/2004/02/skos/core#>\nPREFIX dqv: <http://www.w3.org/ns/dqv#>\nPREFIX ldqd: <http://www.w3.org/2016/05/ldqd#>\nPREFIX qb: <http://purl.org/linked-data/cube#>\nPREFIX dcat: <http://www.w3.org/ns/dcat#>\nPREFIX dcterms: <http://purl.org/dc/terms/>\nPREFIX foaf: <http://xmlns.com/foaf/0.1/>\nPREFIX sdmx-dimension: <http://purl.org/linked-data/sdmx/2009/dimension#>\nPREFIX xsd: <http://www.w3.org/2001/XMLSchema#>\n\nPREFIX nkod: <https://data.gov.cz/slovník/nkod/>\nPREFIX report: <https://vocabulary.etl.linkedpipes.com/report/>\nPREFIX httpRequest: <http://plugins.linkedpipes.com/ontology/x-httpRequest#>\nPREFIX : <https://data.gov.cz/zdroj/datová-kvalita/metriky/>\n\nCONSTRUCT {\n  :metrikaDostupnostiCORSServiceConformsTo\n    a dqv:Metric ;\n    skos:definition \"It checks if CORS is available for the value of dcterms:conformsTo of a dcat:DataService.\"@en , \"Kontroluje, zda je pro hodnotu dcterms:conformsTo datové služby dostupná technika CORS.\"@cs;\n    dqv:inDimension ldqd:availability ;\n    dqv:expectedDataType xsd:boolean\n    .\n  \n  ?dqds a qb:DataSet, dqv:QualityMeasurementDataset .\n  \n  ?service dqv:hasQualityMeasurement ?pozorování .\n  \n  ?pozorování a qb:Observation, dqv:QualityMeasurement ;\n    qb:dataSet ?dqds ;\n    sdmx-dimension:refPeriod ?refPeriod ;\n    dqv:computedOn ?service ;\n    dqv:isMeasurementOf :metrikaDostupnostiCORSServiceConformsTo ;\n    dqv:value true ;\n    schema:object ?conformsTo .\n  \n  ?refPeriod time:inXSDDateTime ?dtime .\n}\nWHERE { \n  ?s a dcat:Dataset;\n             dcat:distribution ?distribution ;\n             dcterms:publisher ?publisher .\n  ?distribution dcat:accessService ?service .\n  ?service dcterms:conformsTo ?conformsTo.\n  ?report report:task ?conformsTo;\n        report:status report:Success ;\n        report:start ?now ;\n        httpRequest:response ?response .  \n  ?response httpRequest:hasHeaderObject ?ho .\n  \n  ?ho httpRequest:name \"Access-Control-Allow-Origin\" .\n  \n  {\n    ?ho httpRequest:value \"*\" . \n  } UNION {\n    ?ho httpRequest:value ?origin .\n    [] nkod:cors-origin ?origin .\n  }\n\n  BIND(\"https://dev.nkod.opendata.cz/zdroj/datová-kvalita/\" as ?prefix)\n  BIND(\"http://reference.data.gov.uk/id/gregorian-instant/\" as ?timePrefix)\n  BIND(IRI(CONCAT(?prefix, \"DataSet\")) as ?dqds)\n  BIND(SUBSTR(STR(?now),1,19) as ?time)\n  BIND(STRDT(?time, xsd:dateTime) as ?dtime)\n  BIND(IRI(CONCAT(?timePrefix, ?time)) AS ?refPeriod)\n  BIND(IRI(CONCAT(?prefix,\"pozorování/metrikaDostupnostiCORSServiceConformsTo\" ,\"/\", ?time, \"/\", ENCODE_FOR_URI(STR(?conformsTo)))) as ?pozorování)\n}"
     } ],
     "http://plugins.linkedpipes.com/ontology/t-sparqlConstruct#queryControl" : [ {
       "@id" : "http://plugins.linkedpipes.com/resource/configuration/None"
@@ -4263,7 +4263,7 @@
     "@id" : "https://pod-test.mvcr.gov.cz/etl/resources/pipelines/1631006715158/217",
     "@type" : [ "http://plugins.linkedpipes.com/ontology/t-sparqlConstruct#Configuration" ],
     "http://plugins.linkedpipes.com/ontology/t-sparqlConstruct#query" : [ {
-      "@value" : "PREFIX schema: <http://schema.org/>\nPREFIX time: <http://www.w3.org/2006/time#>\nPREFIX skos: <http://www.w3.org/2004/02/skos/core#>\nPREFIX dqv: <http://www.w3.org/ns/dqv#>\nPREFIX ldqd: <http://www.w3.org/2016/05/ldqd#>\nPREFIX qb: <http://purl.org/linked-data/cube#>\nPREFIX dcat: <http://www.w3.org/ns/dcat#>\nPREFIX dcterms: <http://purl.org/dc/terms/>\nPREFIX foaf: <http://xmlns.com/foaf/0.1/>\nPREFIX sdmx-dimension: <http://purl.org/linked-data/sdmx/2009/dimension#>\nPREFIX xsd: <http://www.w3.org/2001/XMLSchema#>\n\nPREFIX nkod: <https://data.gov.cz/slovník/nkod/>\nPREFIX report: <https://vocabulary.etl.linkedpipes.com/report/>\nPREFIX httpRequest: <http://plugins.linkedpipes.com/ontology/x-httpRequest#>\nPREFIX : <https://data.gov.cz/zdroj/datová-kvalita/metriky/>\n\nCONSTRUCT {\n  :metrikaDostupnostiCORSServiceConformsTo\n    a dqv:Metric ;\n    skos:definition \"It checks if CORS is available for the value of dcterms:conformsTo of a dcat:DataService.\"@en , \"Kontroluje, zda je pro hodnotu dcterms:conformsTo datové služby dostupná technika CORS.\"@cs;\n    dqv:inDimension ldqd:availability ;\n    dqv:expectedDataType xsd:boolean\n    .\n  \n  ?dqds a qb:DataSet, dqv:QualityMeasurementDataset .\n  \n  ?service dqv:hasQualityMeasurement ?pozorování .\n  \n  ?pozorování a qb:Observation, dqv:QualityMeasurement ;\n    qb:dataSet ?dqds ;\n    sdmx-dimension:refPeriod ?refPeriod ;\n    dqv:computedOn ?service ;\n    dqv:isMeasurementOf :metrikaDostupnostiCORSServiceConformsTo ;\n    dqv:value false ;\n    schema:object ?conformsTo .\n  \n  ?refPeriod time:inXSDDateTime ?dtime .\n}\nWHERE { \n  ?s a dcat:Dataset;\n             dcat:distribution ?distribution ;\n             dcterms:publisher ?publisher .\n  ?distribution dcat:accessService ?service .\n  ?service dcterms:conformsTo ?conformsTo.\n  \n  OPTIONAL {?report report:task ?conformsTo;\n        report:start ?now .\n  \n  FILTER NOT EXISTS {\n    ?service dqv:hasQualityMeasurement ?existujícíPozorování .\n    ?existujícíPozorování dqv:isMeasurementOf :metrikaDostupnostiCORSServiceConformsTo ;\n                          schema:object ?conformsTo .\n    }}\n  FILTER(BOUND(?report))\n\n  BIND(\"https://pod-test.mvcr.gov.cz/zdroj/datová-kvalita/\" as ?prefix)\n  BIND(\"http://reference.data.gov.uk/id/gregorian-instant/\" as ?timePrefix)\n  BIND(IRI(CONCAT(?prefix, \"DataSet\")) as ?dqds)\n  BIND(SUBSTR(STR(?now),1,19) as ?time)\n  BIND(STRDT(?time, xsd:dateTime) as ?dtime)\n  BIND(IRI(CONCAT(?timePrefix, ?time)) AS ?refPeriod)\n  BIND(IRI(CONCAT(?prefix,\"pozorování/metrikaDostupnostiCORSServiceConformsTo\" ,\"/\", ?time, \"/\", ENCODE_FOR_URI(STR(?conformsTo)))) as ?pozorování)\n}"
+      "@value" : "PREFIX schema: <http://schema.org/>\nPREFIX time: <http://www.w3.org/2006/time#>\nPREFIX skos: <http://www.w3.org/2004/02/skos/core#>\nPREFIX dqv: <http://www.w3.org/ns/dqv#>\nPREFIX ldqd: <http://www.w3.org/2016/05/ldqd#>\nPREFIX qb: <http://purl.org/linked-data/cube#>\nPREFIX dcat: <http://www.w3.org/ns/dcat#>\nPREFIX dcterms: <http://purl.org/dc/terms/>\nPREFIX foaf: <http://xmlns.com/foaf/0.1/>\nPREFIX sdmx-dimension: <http://purl.org/linked-data/sdmx/2009/dimension#>\nPREFIX xsd: <http://www.w3.org/2001/XMLSchema#>\n\nPREFIX nkod: <https://data.gov.cz/slovník/nkod/>\nPREFIX report: <https://vocabulary.etl.linkedpipes.com/report/>\nPREFIX httpRequest: <http://plugins.linkedpipes.com/ontology/x-httpRequest#>\nPREFIX : <https://data.gov.cz/zdroj/datová-kvalita/metriky/>\n\nCONSTRUCT {\n  :metrikaDostupnostiCORSServiceConformsTo\n    a dqv:Metric ;\n    skos:definition \"It checks if CORS is available for the value of dcterms:conformsTo of a dcat:DataService.\"@en , \"Kontroluje, zda je pro hodnotu dcterms:conformsTo datové služby dostupná technika CORS.\"@cs;\n    dqv:inDimension ldqd:availability ;\n    dqv:expectedDataType xsd:boolean\n    .\n  \n  ?dqds a qb:DataSet, dqv:QualityMeasurementDataset .\n  \n  ?service dqv:hasQualityMeasurement ?pozorování .\n  \n  ?pozorování a qb:Observation, dqv:QualityMeasurement ;\n    qb:dataSet ?dqds ;\n    sdmx-dimension:refPeriod ?refPeriod ;\n    dqv:computedOn ?service ;\n    dqv:isMeasurementOf :metrikaDostupnostiCORSServiceConformsTo ;\n    dqv:value false ;\n    schema:object ?conformsTo .\n  \n  ?refPeriod time:inXSDDateTime ?dtime .\n}\nWHERE { \n  ?s a dcat:Dataset;\n             dcat:distribution ?distribution ;\n             dcterms:publisher ?publisher .\n  ?distribution dcat:accessService ?service .\n  ?service dcterms:conformsTo ?conformsTo.\n  \n  OPTIONAL {?report report:task ?conformsTo;\n        report:start ?now .\n  \n  FILTER NOT EXISTS {\n    ?service dqv:hasQualityMeasurement ?existujícíPozorování .\n    ?existujícíPozorování dqv:isMeasurementOf :metrikaDostupnostiCORSServiceConformsTo ;\n                          schema:object ?conformsTo .\n    }}\n  FILTER(BOUND(?report))\n\n  BIND(\"https://dev.nkod.opendata.cz/zdroj/datová-kvalita/\" as ?prefix)\n  BIND(\"http://reference.data.gov.uk/id/gregorian-instant/\" as ?timePrefix)\n  BIND(IRI(CONCAT(?prefix, \"DataSet\")) as ?dqds)\n  BIND(SUBSTR(STR(?now),1,19) as ?time)\n  BIND(STRDT(?time, xsd:dateTime) as ?dtime)\n  BIND(IRI(CONCAT(?timePrefix, ?time)) AS ?refPeriod)\n  BIND(IRI(CONCAT(?prefix,\"pozorování/metrikaDostupnostiCORSServiceConformsTo\" ,\"/\", ?time, \"/\", ENCODE_FOR_URI(STR(?conformsTo)))) as ?pozorování)\n}"
     } ],
     "http://plugins.linkedpipes.com/ontology/t-sparqlConstruct#queryControl" : [ {
       "@id" : "http://plugins.linkedpipes.com/resource/configuration/None"
@@ -4315,7 +4315,7 @@
     "@id" : "https://pod-test.mvcr.gov.cz/etl/resources/pipelines/1631006715158/224",
     "@type" : [ "http://plugins.linkedpipes.com/ontology/t-sparqlConstruct#Configuration" ],
     "http://plugins.linkedpipes.com/ontology/t-sparqlConstruct#query" : [ {
-      "@value" : "PREFIX schema: <http://schema.org/>\nPREFIX dcterm: <http://purl.org/dc/terms/>\nPREFIX dct: <http://purl.org/dc/terms/>\nPREFIX dc: <http://purl.org/dc/elements/1.1/>\nPREFIX time: <http://www.w3.org/2006/time#>\nPREFIX skos: <http://www.w3.org/2004/02/skos/core#>\nPREFIX dqv: <http://www.w3.org/ns/dqv#>\nPREFIX ldqd: <http://www.w3.org/2016/05/ldqd#>\nPREFIX qb: <http://purl.org/linked-data/cube#>\nPREFIX dcat: <http://www.w3.org/ns/dcat#>\nPREFIX dcterms: <http://purl.org/dc/terms/>\nPREFIX foaf: <http://xmlns.com/foaf/0.1/>\nPREFIX sdmx-dimension: <http://purl.org/linked-data/sdmx/2009/dimension#>\nPREFIX xsd: <http://www.w3.org/2001/XMLSchema#>\n\nPREFIX nkod: <https://data.gov.cz/slovník/nkod/>\nPREFIX report: <https://vocabulary.etl.linkedpipes.com/report/>\nPREFIX httpRequest: <http://plugins.linkedpipes.com/ontology/x-httpRequest#>\nPREFIX : <https://data.gov.cz/zdroj/datová-kvalita/metriky/>\n\nCONSTRUCT {\n  :metrikaDostupnostiCORSSpecifikace\n    a dqv:Metric ;\n    skos:definition \"It checks if CORS is available for the value of dcterms:conformsTo of a dataset.\"@en , \"Kontroluje, zda je pro hodnotu dcterms:conformsTo datové sady dostupná technika CORS.\"@cs;\n    dqv:inDimension ldqd:availability ;\n    dqv:expectedDataType xsd:boolean\n    .\n  \n  ?dqds a qb:DataSet, dqv:QualityMeasurementDataset .\n  \n  ?dataset dqv:hasQualityMeasurement ?pozorování .\n  \n  ?pozorování a qb:Observation, dqv:QualityMeasurement ;\n    qb:dataSet ?dqds ;\n    sdmx-dimension:refPeriod ?refPeriod ;\n    dqv:computedOn ?dataset ;\n    dqv:isMeasurementOf :metrikaDostupnostiCORSSpecifikace ;\n    dqv:value false ;\n    schema:object ?specifikace .\n  \n  ?refPeriod time:inXSDDateTime ?dtime .\n}\nWHERE { \n  ?dataset a dcat:Dataset;\n             dcterms:conformsTo ?specifikace ;\n             dcterms:publisher ?publisher .\n  OPTIONAL {?report report:task ?specifikace;\n        report:start ?now .\n\n  FILTER NOT EXISTS {\n    ?dataset dqv:hasQualityMeasurement ?existujícíPozorování .\n    ?existujícíPozorování dqv:isMeasurementOf :metrikaDostupnostiCORSSpecifikace ;\n                          schema:object ?specifikace .\n    }}\n  FILTER(BOUND(?report))\n\n  BIND(\"https://pod-test.mvcr.gov.cz/zdroj/datová-kvalita/\" as ?prefix)\n  BIND(\"http://reference.data.gov.uk/id/gregorian-instant/\" as ?timePrefix)\n  BIND(IRI(CONCAT(?prefix, \"DataSet\")) as ?dqds)\n  BIND(SUBSTR(STR(?now),1,19) as ?time)\n  BIND(STRDT(?time, xsd:dateTime) as ?dtime)\n  BIND(IRI(CONCAT(?timePrefix, ?time)) AS ?refPeriod)\n  BIND(IRI(CONCAT(?prefix,\"pozorování/metrikaDostupnostiCORSSpecifikace\" ,\"/\", ?time, \"/\", ENCODE_FOR_URI(STR(?specifikace)))) as ?pozorování)\n}"
+      "@value" : "PREFIX schema: <http://schema.org/>\nPREFIX dcterm: <http://purl.org/dc/terms/>\nPREFIX dct: <http://purl.org/dc/terms/>\nPREFIX dc: <http://purl.org/dc/elements/1.1/>\nPREFIX time: <http://www.w3.org/2006/time#>\nPREFIX skos: <http://www.w3.org/2004/02/skos/core#>\nPREFIX dqv: <http://www.w3.org/ns/dqv#>\nPREFIX ldqd: <http://www.w3.org/2016/05/ldqd#>\nPREFIX qb: <http://purl.org/linked-data/cube#>\nPREFIX dcat: <http://www.w3.org/ns/dcat#>\nPREFIX dcterms: <http://purl.org/dc/terms/>\nPREFIX foaf: <http://xmlns.com/foaf/0.1/>\nPREFIX sdmx-dimension: <http://purl.org/linked-data/sdmx/2009/dimension#>\nPREFIX xsd: <http://www.w3.org/2001/XMLSchema#>\n\nPREFIX nkod: <https://data.gov.cz/slovník/nkod/>\nPREFIX report: <https://vocabulary.etl.linkedpipes.com/report/>\nPREFIX httpRequest: <http://plugins.linkedpipes.com/ontology/x-httpRequest#>\nPREFIX : <https://data.gov.cz/zdroj/datová-kvalita/metriky/>\n\nCONSTRUCT {\n  :metrikaDostupnostiCORSSpecifikace\n    a dqv:Metric ;\n    skos:definition \"It checks if CORS is available for the value of dcterms:conformsTo of a dataset.\"@en , \"Kontroluje, zda je pro hodnotu dcterms:conformsTo datové sady dostupná technika CORS.\"@cs;\n    dqv:inDimension ldqd:availability ;\n    dqv:expectedDataType xsd:boolean\n    .\n  \n  ?dqds a qb:DataSet, dqv:QualityMeasurementDataset .\n  \n  ?dataset dqv:hasQualityMeasurement ?pozorování .\n  \n  ?pozorování a qb:Observation, dqv:QualityMeasurement ;\n    qb:dataSet ?dqds ;\n    sdmx-dimension:refPeriod ?refPeriod ;\n    dqv:computedOn ?dataset ;\n    dqv:isMeasurementOf :metrikaDostupnostiCORSSpecifikace ;\n    dqv:value false ;\n    schema:object ?specifikace .\n  \n  ?refPeriod time:inXSDDateTime ?dtime .\n}\nWHERE { \n  ?dataset a dcat:Dataset;\n             dcterms:conformsTo ?specifikace ;\n             dcterms:publisher ?publisher .\n  OPTIONAL {?report report:task ?specifikace;\n        report:start ?now .\n\n  FILTER NOT EXISTS {\n    ?dataset dqv:hasQualityMeasurement ?existujícíPozorování .\n    ?existujícíPozorování dqv:isMeasurementOf :metrikaDostupnostiCORSSpecifikace ;\n                          schema:object ?specifikace .\n    }}\n  FILTER(BOUND(?report))\n\n  BIND(\"https://dev.nkod.opendata.cz/zdroj/datová-kvalita/\" as ?prefix)\n  BIND(\"http://reference.data.gov.uk/id/gregorian-instant/\" as ?timePrefix)\n  BIND(IRI(CONCAT(?prefix, \"DataSet\")) as ?dqds)\n  BIND(SUBSTR(STR(?now),1,19) as ?time)\n  BIND(STRDT(?time, xsd:dateTime) as ?dtime)\n  BIND(IRI(CONCAT(?timePrefix, ?time)) AS ?refPeriod)\n  BIND(IRI(CONCAT(?prefix,\"pozorování/metrikaDostupnostiCORSSpecifikace\" ,\"/\", ?time, \"/\", ENCODE_FOR_URI(STR(?specifikace)))) as ?pozorování)\n}"
     } ],
     "http://plugins.linkedpipes.com/ontology/t-sparqlConstruct#queryControl" : [ {
       "@id" : "http://plugins.linkedpipes.com/resource/configuration/None"
@@ -4368,7 +4368,7 @@
     "@id" : "https://pod-test.mvcr.gov.cz/etl/resources/pipelines/1631006715158/226",
     "@type" : [ "http://plugins.linkedpipes.com/ontology/t-sparqlConstruct#Configuration" ],
     "http://plugins.linkedpipes.com/ontology/t-sparqlConstruct#query" : [ {
-      "@value" : "PREFIX schema: <http://schema.org/>\nPREFIX time: <http://www.w3.org/2006/time#>\nPREFIX skos: <http://www.w3.org/2004/02/skos/core#>\nPREFIX dqv: <http://www.w3.org/ns/dqv#>\nPREFIX ldqd: <http://www.w3.org/2016/05/ldqd#>\nPREFIX qb: <http://purl.org/linked-data/cube#>\nPREFIX dcat: <http://www.w3.org/ns/dcat#>\nPREFIX dcterms: <http://purl.org/dc/terms/>\nPREFIX foaf: <http://xmlns.com/foaf/0.1/>\nPREFIX sdmx-dimension: <http://purl.org/linked-data/sdmx/2009/dimension#>\nPREFIX xsd: <http://www.w3.org/2001/XMLSchema#>\n\nPREFIX nkod: <https://data.gov.cz/slovník/nkod/>\nPREFIX report: <https://vocabulary.etl.linkedpipes.com/report/>\nPREFIX httpRequest: <http://plugins.linkedpipes.com/ontology/x-httpRequest#>\nPREFIX : <https://data.gov.cz/zdroj/datová-kvalita/metriky/>\n\nCONSTRUCT {\n  :metrikaDostupnostiCORSDownloadURL\n    a dqv:Metric ;\n    skos:definition \"It checks if CORS is available for the value of dcat:downloadURL.\"@en , \"Kontroluje, zda je pro hodnotu dcat:downloadURL dostupná technika CORS.\"@cs;\n    dqv:inDimension ldqd:availability ;\n    dqv:expectedDataType xsd:boolean\n    .\n  \n  ?dqds a qb:DataSet, dqv:QualityMeasurementDataset .\n  \n  ?distribution dqv:hasQualityMeasurement ?pozorování .\n  \n  ?pozorování a qb:Observation, dqv:QualityMeasurement ;\n    qb:dataSet ?dqds ;\n    sdmx-dimension:refPeriod ?refPeriod ;\n    dqv:computedOn ?distribution ;\n    dqv:isMeasurementOf :metrikaDostupnostiCORSDownloadURL ;\n    dqv:value false ;\n    schema:object ?downloadURL .\n  \n  ?refPeriod time:inXSDDateTime ?dtime .\n}\nWHERE { \n  ?s a dcat:Dataset;\n             dcat:distribution ?distribution ;\n             dcterms:publisher ?publisher .\n  ?distribution dcat:downloadURL ?downloadURL .\n  \n  OPTIONAL {\n    ?report report:task ?downloadURL;\n          report:start ?now .\n\n  FILTER NOT EXISTS {\n    ?distribution dqv:hasQualityMeasurement ?existujícíPozorování .\n    ?existujícíPozorování dqv:isMeasurementOf :metrikaDostupnostiCORSDownloadURL ;\n                          schema:object ?downloadURL .\n  } \n  }\n  FILTER(BOUND(?report))  \n\n  BIND(\"https://pod-test.mvcr.gov.cz/zdroj/datová-kvalita/\" as ?prefix)\n  BIND(\"http://reference.data.gov.uk/id/gregorian-instant/\" as ?timePrefix)\n  BIND(IRI(CONCAT(?prefix, \"DataSet\")) as ?dqds)\n  BIND(SUBSTR(STR(?now),1,19) as ?time)\n  BIND(STRDT(?time, xsd:dateTime) as ?dtime)\n  BIND(IRI(CONCAT(?timePrefix, ?time)) AS ?refPeriod)\n  BIND(IRI(CONCAT(?prefix,\"pozorování/metrikaDostupnostiCORSDownloadURL\" ,\"/\", ?time, \"/\", ENCODE_FOR_URI(STR(?downloadURL)))) as ?pozorování)\n}"
+      "@value" : "PREFIX schema: <http://schema.org/>\nPREFIX time: <http://www.w3.org/2006/time#>\nPREFIX skos: <http://www.w3.org/2004/02/skos/core#>\nPREFIX dqv: <http://www.w3.org/ns/dqv#>\nPREFIX ldqd: <http://www.w3.org/2016/05/ldqd#>\nPREFIX qb: <http://purl.org/linked-data/cube#>\nPREFIX dcat: <http://www.w3.org/ns/dcat#>\nPREFIX dcterms: <http://purl.org/dc/terms/>\nPREFIX foaf: <http://xmlns.com/foaf/0.1/>\nPREFIX sdmx-dimension: <http://purl.org/linked-data/sdmx/2009/dimension#>\nPREFIX xsd: <http://www.w3.org/2001/XMLSchema#>\n\nPREFIX nkod: <https://data.gov.cz/slovník/nkod/>\nPREFIX report: <https://vocabulary.etl.linkedpipes.com/report/>\nPREFIX httpRequest: <http://plugins.linkedpipes.com/ontology/x-httpRequest#>\nPREFIX : <https://data.gov.cz/zdroj/datová-kvalita/metriky/>\n\nCONSTRUCT {\n  :metrikaDostupnostiCORSDownloadURL\n    a dqv:Metric ;\n    skos:definition \"It checks if CORS is available for the value of dcat:downloadURL.\"@en , \"Kontroluje, zda je pro hodnotu dcat:downloadURL dostupná technika CORS.\"@cs;\n    dqv:inDimension ldqd:availability ;\n    dqv:expectedDataType xsd:boolean\n    .\n  \n  ?dqds a qb:DataSet, dqv:QualityMeasurementDataset .\n  \n  ?distribution dqv:hasQualityMeasurement ?pozorování .\n  \n  ?pozorování a qb:Observation, dqv:QualityMeasurement ;\n    qb:dataSet ?dqds ;\n    sdmx-dimension:refPeriod ?refPeriod ;\n    dqv:computedOn ?distribution ;\n    dqv:isMeasurementOf :metrikaDostupnostiCORSDownloadURL ;\n    dqv:value false ;\n    schema:object ?downloadURL .\n  \n  ?refPeriod time:inXSDDateTime ?dtime .\n}\nWHERE { \n  ?s a dcat:Dataset;\n             dcat:distribution ?distribution ;\n             dcterms:publisher ?publisher .\n  ?distribution dcat:downloadURL ?downloadURL .\n  \n  OPTIONAL {\n    ?report report:task ?downloadURL;\n          report:start ?now .\n\n  FILTER NOT EXISTS {\n    ?distribution dqv:hasQualityMeasurement ?existujícíPozorování .\n    ?existujícíPozorování dqv:isMeasurementOf :metrikaDostupnostiCORSDownloadURL ;\n                          schema:object ?downloadURL .\n  } \n  }\n  FILTER(BOUND(?report))  \n\n  BIND(\"https://dev.nkod.opendata.cz/zdroj/datová-kvalita/\" as ?prefix)\n  BIND(\"http://reference.data.gov.uk/id/gregorian-instant/\" as ?timePrefix)\n  BIND(IRI(CONCAT(?prefix, \"DataSet\")) as ?dqds)\n  BIND(SUBSTR(STR(?now),1,19) as ?time)\n  BIND(STRDT(?time, xsd:dateTime) as ?dtime)\n  BIND(IRI(CONCAT(?timePrefix, ?time)) AS ?refPeriod)\n  BIND(IRI(CONCAT(?prefix,\"pozorování/metrikaDostupnostiCORSDownloadURL\" ,\"/\", ?time, \"/\", ENCODE_FOR_URI(STR(?downloadURL)))) as ?pozorování)\n}"
     } ],
     "http://plugins.linkedpipes.com/ontology/t-sparqlConstruct#queryControl" : [ {
       "@id" : "http://plugins.linkedpipes.com/resource/configuration/None"
@@ -4380,7 +4380,7 @@
     "@id" : "https://pod-test.mvcr.gov.cz/etl/resources/pipelines/1631006715158/227",
     "@type" : [ "http://plugins.linkedpipes.com/ontology/t-sparqlConstruct#Configuration" ],
     "http://plugins.linkedpipes.com/ontology/t-sparqlConstruct#query" : [ {
-      "@value" : "PREFIX schema: <http://schema.org/>\nPREFIX time: <http://www.w3.org/2006/time#>\nPREFIX skos: <http://www.w3.org/2004/02/skos/core#>\nPREFIX dqv: <http://www.w3.org/ns/dqv#>\nPREFIX ldqd: <http://www.w3.org/2016/05/ldqd#>\nPREFIX qb: <http://purl.org/linked-data/cube#>\nPREFIX dcat: <http://www.w3.org/ns/dcat#>\nPREFIX dcterms: <http://purl.org/dc/terms/>\nPREFIX foaf: <http://xmlns.com/foaf/0.1/>\nPREFIX sdmx-dimension: <http://purl.org/linked-data/sdmx/2009/dimension#>\nPREFIX xsd: <http://www.w3.org/2001/XMLSchema#>\n\nPREFIX nkod: <https://data.gov.cz/slovník/nkod/>\nPREFIX report: <https://vocabulary.etl.linkedpipes.com/report/>\nPREFIX httpRequest: <http://plugins.linkedpipes.com/ontology/x-httpRequest#>\nPREFIX pu:      <https://data.gov.cz/slovník/podmínky-užití/>\nPREFIX : <https://data.gov.cz/zdroj/datová-kvalita/metriky/>\n\nCONSTRUCT {\n  :metrikaDostupnostiCORSPodmínekUžitíAutorskéDílo\n    a dqv:Metric ;\n    skos:definition \"It checks if CORS is available for the value of pu:autorské-dílo.\"@en , \"Kontroluje, zda je pro hodnotu pu:autorské-dílo dostupná technika CORS.\"@cs;\n    dqv:inDimension ldqd:availability ;\n    dqv:expectedDataType xsd:boolean\n    .\n\n  :metrikaDostupnostiCORSPodmínekUžitíAutorskáDatabáze\n    a dqv:Metric ;\n    skos:definition \"It checks if CORS is available for the value of pu:databáze-jako-autorské-dílo.\"@en , \"Kontroluje, zda je pro hodnotu pu:databáze-jako-autorské-dílo dostupná technika CORS.\"@cs;\n    dqv:inDimension ldqd:availability ;\n    dqv:expectedDataType xsd:boolean\n    .\n\n  :metrikaDostupnostiCORSPodmínekUžitíZvláštníPrávoPořizovateleDatabáze\n    a dqv:Metric ;\n    skos:definition \"It checks if CORS is available for the value of pu:databáze-chráněná-zvláštními-právy.\"@en , \"Kontroluje, zda je pro hodnotu pu:datab��ze-chráněná-zvláštními-právy dostupná technika CORS.\"@cs;\n    dqv:inDimension ldqd:availability ;\n    dqv:expectedDataType xsd:boolean\n    .\n\n  ?dqds a qb:DataSet, dqv:QualityMeasurementDataset .\n  \n  ?distribution dqv:hasQualityMeasurement ?pozorování .\n  \n  ?pozorování a qb:Observation, dqv:QualityMeasurement ;\n    qb:dataSet ?dqds ;\n    sdmx-dimension:refPeriod ?refPeriod ;\n    dqv:computedOn ?distribution ;\n    dqv:isMeasurementOf ?metrika ;\n    dqv:value false ;\n    schema:object ?podmínky_užití .\n  \n  ?refPeriod time:inXSDDateTime ?dtime .\n}\nWHERE { \n  ?s a dcat:Dataset;\n             dcat:distribution ?distribution ;\n             dcterms:publisher ?publisher .\n  ?distribution pu:specifikace ?spec .\n  ?spec ?p ?podmínky_užití .\n\n  VALUES (?p ?metrika) {\n    (pu:autorské-dílo :metrikaDostupnostiCORSPodmínekUžitíAutorskéDílo )\n    (pu:databáze-jako-autorské-dílo :metrikaDostupnostiCORSPodmínekUžitíAutorskáDatabáze )\n    (pu:databáze-chráněná-zvláštními-právy :metrikaDostupnostiCORSPodmínekUžitíZvláštníPrávoPořizovateleDatabáze )\n  }\n\n  \n  OPTIONAL {?report report:task ?podmínky_užití;\n          report:start ?now .\n\n  FILTER NOT EXISTS {\n    ?distribution dqv:hasQualityMeasurement ?existujícíPozorování .\n    ?existujícíPozorování dqv:isMeasurementOf ?metrika ;\n                          schema:object ?podmínky_užití .\n  }\n  }\n  FILTER(BOUND(?report))\n\n  BIND(\"https://pod-test.mvcr.gov.cz/zdroj/datová-kvalita/\" as ?prefix)\n  BIND(\"http://reference.data.gov.uk/id/gregorian-instant/\" as ?timePrefix)\n  BIND(IRI(CONCAT(?prefix, \"DataSet\")) as ?dqds)\n  BIND(SUBSTR(STR(?now),1,19) as ?time)\n  BIND(STRDT(?time, xsd:dateTime) as ?dtime)\n  BIND(IRI(CONCAT(?timePrefix, ?time)) AS ?refPeriod)\n  BIND(IRI(CONCAT(?prefix,\"pozorování/\", STRAFTER(STR(?metrika),\"https://data.gov.cz/zdroj/datová-kvalita/metriky/\") ,\"/\", ?time, \"/\", ENCODE_FOR_URI(STR(?podmínky_užití)))) as ?pozorování)\n}"
+      "@value" : "PREFIX schema: <http://schema.org/>\nPREFIX time: <http://www.w3.org/2006/time#>\nPREFIX skos: <http://www.w3.org/2004/02/skos/core#>\nPREFIX dqv: <http://www.w3.org/ns/dqv#>\nPREFIX ldqd: <http://www.w3.org/2016/05/ldqd#>\nPREFIX qb: <http://purl.org/linked-data/cube#>\nPREFIX dcat: <http://www.w3.org/ns/dcat#>\nPREFIX dcterms: <http://purl.org/dc/terms/>\nPREFIX foaf: <http://xmlns.com/foaf/0.1/>\nPREFIX sdmx-dimension: <http://purl.org/linked-data/sdmx/2009/dimension#>\nPREFIX xsd: <http://www.w3.org/2001/XMLSchema#>\n\nPREFIX nkod: <https://data.gov.cz/slovník/nkod/>\nPREFIX report: <https://vocabulary.etl.linkedpipes.com/report/>\nPREFIX httpRequest: <http://plugins.linkedpipes.com/ontology/x-httpRequest#>\nPREFIX pu:      <https://data.gov.cz/slovník/podmínky-užití/>\nPREFIX : <https://data.gov.cz/zdroj/datová-kvalita/metriky/>\n\nCONSTRUCT {\n  :metrikaDostupnostiCORSPodmínekUžitíAutorskéDílo\n    a dqv:Metric ;\n    skos:definition \"It checks if CORS is available for the value of pu:autorské-dílo.\"@en , \"Kontroluje, zda je pro hodnotu pu:autorské-dílo dostupná technika CORS.\"@cs;\n    dqv:inDimension ldqd:availability ;\n    dqv:expectedDataType xsd:boolean\n    .\n\n  :metrikaDostupnostiCORSPodmínekUžitíAutorskáDatabáze\n    a dqv:Metric ;\n    skos:definition \"It checks if CORS is available for the value of pu:databáze-jako-autorské-dílo.\"@en , \"Kontroluje, zda je pro hodnotu pu:databáze-jako-autorské-dílo dostupná technika CORS.\"@cs;\n    dqv:inDimension ldqd:availability ;\n    dqv:expectedDataType xsd:boolean\n    .\n\n  :metrikaDostupnostiCORSPodmínekUžitíZvláštníPrávoPořizovateleDatabáze\n    a dqv:Metric ;\n    skos:definition \"It checks if CORS is available for the value of pu:databáze-chráněná-zvláštními-právy.\"@en , \"Kontroluje, zda je pro hodnotu pu:datab��ze-chráněná-zvláštními-právy dostupná technika CORS.\"@cs;\n    dqv:inDimension ldqd:availability ;\n    dqv:expectedDataType xsd:boolean\n    .\n\n  ?dqds a qb:DataSet, dqv:QualityMeasurementDataset .\n  \n  ?distribution dqv:hasQualityMeasurement ?pozorování .\n  \n  ?pozorování a qb:Observation, dqv:QualityMeasurement ;\n    qb:dataSet ?dqds ;\n    sdmx-dimension:refPeriod ?refPeriod ;\n    dqv:computedOn ?distribution ;\n    dqv:isMeasurementOf ?metrika ;\n    dqv:value false ;\n    schema:object ?podmínky_užití .\n  \n  ?refPeriod time:inXSDDateTime ?dtime .\n}\nWHERE { \n  ?s a dcat:Dataset;\n             dcat:distribution ?distribution ;\n             dcterms:publisher ?publisher .\n  ?distribution pu:specifikace ?spec .\n  ?spec ?p ?podmínky_užití .\n\n  VALUES (?p ?metrika) {\n    (pu:autorské-dílo :metrikaDostupnostiCORSPodmínekUžitíAutorskéDílo )\n    (pu:databáze-jako-autorské-dílo :metrikaDostupnostiCORSPodmínekUžitíAutorskáDatabáze )\n    (pu:databáze-chráněná-zvláštními-právy :metrikaDostupnostiCORSPodmínekUžitíZvláštníPrávoPořizovateleDatabáze )\n  }\n\n  \n  OPTIONAL {?report report:task ?podmínky_užití;\n          report:start ?now .\n\n  FILTER NOT EXISTS {\n    ?distribution dqv:hasQualityMeasurement ?existujícíPozorování .\n    ?existujícíPozorování dqv:isMeasurementOf ?metrika ;\n                          schema:object ?podmínky_užití .\n  }\n  }\n  FILTER(BOUND(?report))\n\n  BIND(\"https://dev.nkod.opendata.cz/zdroj/datová-kvalita/\" as ?prefix)\n  BIND(\"http://reference.data.gov.uk/id/gregorian-instant/\" as ?timePrefix)\n  BIND(IRI(CONCAT(?prefix, \"DataSet\")) as ?dqds)\n  BIND(SUBSTR(STR(?now),1,19) as ?time)\n  BIND(STRDT(?time, xsd:dateTime) as ?dtime)\n  BIND(IRI(CONCAT(?timePrefix, ?time)) AS ?refPeriod)\n  BIND(IRI(CONCAT(?prefix,\"pozorování/\", STRAFTER(STR(?metrika),\"https://data.gov.cz/zdroj/datová-kvalita/metriky/\") ,\"/\", ?time, \"/\", ENCODE_FOR_URI(STR(?podmínky_užití)))) as ?pozorování)\n}"
     } ],
     "http://plugins.linkedpipes.com/ontology/t-sparqlConstruct#queryControl" : [ {
       "@id" : "http://plugins.linkedpipes.com/resource/configuration/None"
@@ -4516,7 +4516,7 @@
     "@id" : "https://pod-test.mvcr.gov.cz/etl/resources/pipelines/1631006715158/231",
     "@type" : [ "http://plugins.linkedpipes.com/ontology/t-sparqlConstruct#Configuration" ],
     "http://plugins.linkedpipes.com/ontology/t-sparqlConstruct#query" : [ {
-      "@value" : "PREFIX schema: <http://schema.org/>\nPREFIX time: <http://www.w3.org/2006/time#>\nPREFIX skos: <http://www.w3.org/2004/02/skos/core#>\nPREFIX dqv: <http://www.w3.org/ns/dqv#>\nPREFIX ldqd: <http://www.w3.org/2016/05/ldqd#>\nPREFIX qb: <http://purl.org/linked-data/cube#>\nPREFIX dcat: <http://www.w3.org/ns/dcat#>\nPREFIX dcterms: <http://purl.org/dc/terms/>\nPREFIX foaf: <http://xmlns.com/foaf/0.1/>\nPREFIX sdmx-dimension: <http://purl.org/linked-data/sdmx/2009/dimension#>\nPREFIX xsd: <http://www.w3.org/2001/XMLSchema#>\n\nPREFIX nkod: <https://data.gov.cz/slovník/nkod/>\nPREFIX report: <https://vocabulary.etl.linkedpipes.com/report/>\nPREFIX httpRequest: <http://plugins.linkedpipes.com/ontology/x-httpRequest#>\nPREFIX : <https://data.gov.cz/zdroj/datová-kvalita/metriky/>\n\nCONSTRUCT {\n  :metrikaDostupnostiCORSEndpointURL\n    a dqv:Metric ;\n    skos:definition \"It checks if CORS is available for the value of dcat:endpointURL.\"@en , \"Kontroluje, zda je pro hodnotu dcat:endpointURL dostupná technika CORS.\"@cs;\n    dqv:inDimension ldqd:availability ;\n    dqv:expectedDataType xsd:boolean\n    .\n  \n  ?dqds a qb:DataSet, dqv:QualityMeasurementDataset .\n  \n  ?service dqv:hasQualityMeasurement ?pozorování .\n  \n  ?pozorování a qb:Observation, dqv:QualityMeasurement ;\n    qb:dataSet ?dqds ;\n    sdmx-dimension:refPeriod ?refPeriod ;\n    dqv:computedOn ?service ;\n    dqv:isMeasurementOf :metrikaDostupnostiCORSEndpointURL ;\n    dqv:value false ;\n    schema:object ?endpointURL .\n  \n  ?refPeriod time:inXSDDateTime ?dtime .\n}\nWHERE { \n  ?s a dcat:Dataset;\n             dcat:distribution ?distribution ;\n             dcterms:publisher ?publisher .\n  ?distribution dcat:accessService ?service .\n  ?service dcat:endpointURL ?endpointURL.\n\n  OPTIONAL {?report report:task ?endpointURL;\n        report:start ?now .\n        \n  FILTER NOT EXISTS {\n    ?service dqv:hasQualityMeasurement ?existujícíPozorování .\n    ?existujícíPozorování dqv:isMeasurementOf :metrikaDostupnostiCORSEndpointURL ;\n                          schema:object ?endpointURL .\n    }}\n  FILTER(BOUND(?report))\n\n  BIND(\"https://pod-test.mvcr.gov.cz/zdroj/datová-kvalita/\" as ?prefix)\n  BIND(\"http://reference.data.gov.uk/id/gregorian-instant/\" as ?timePrefix)\n  BIND(IRI(CONCAT(?prefix, \"DataSet\")) as ?dqds)\n  BIND(SUBSTR(STR(?now),1,19) as ?time)\n  BIND(STRDT(?time, xsd:dateTime) as ?dtime)\n  BIND(IRI(CONCAT(?timePrefix, ?time)) AS ?refPeriod)\n  BIND(IRI(CONCAT(?prefix,\"pozorování/metrikaDostupnostiCORSEndpointURL\" ,\"/\", ?time, \"/\", ENCODE_FOR_URI(STR(?endpointURL)))) as ?pozorování)\n}"
+      "@value" : "PREFIX schema: <http://schema.org/>\nPREFIX time: <http://www.w3.org/2006/time#>\nPREFIX skos: <http://www.w3.org/2004/02/skos/core#>\nPREFIX dqv: <http://www.w3.org/ns/dqv#>\nPREFIX ldqd: <http://www.w3.org/2016/05/ldqd#>\nPREFIX qb: <http://purl.org/linked-data/cube#>\nPREFIX dcat: <http://www.w3.org/ns/dcat#>\nPREFIX dcterms: <http://purl.org/dc/terms/>\nPREFIX foaf: <http://xmlns.com/foaf/0.1/>\nPREFIX sdmx-dimension: <http://purl.org/linked-data/sdmx/2009/dimension#>\nPREFIX xsd: <http://www.w3.org/2001/XMLSchema#>\n\nPREFIX nkod: <https://data.gov.cz/slovník/nkod/>\nPREFIX report: <https://vocabulary.etl.linkedpipes.com/report/>\nPREFIX httpRequest: <http://plugins.linkedpipes.com/ontology/x-httpRequest#>\nPREFIX : <https://data.gov.cz/zdroj/datová-kvalita/metriky/>\n\nCONSTRUCT {\n  :metrikaDostupnostiCORSEndpointURL\n    a dqv:Metric ;\n    skos:definition \"It checks if CORS is available for the value of dcat:endpointURL.\"@en , \"Kontroluje, zda je pro hodnotu dcat:endpointURL dostupná technika CORS.\"@cs;\n    dqv:inDimension ldqd:availability ;\n    dqv:expectedDataType xsd:boolean\n    .\n  \n  ?dqds a qb:DataSet, dqv:QualityMeasurementDataset .\n  \n  ?service dqv:hasQualityMeasurement ?pozorování .\n  \n  ?pozorování a qb:Observation, dqv:QualityMeasurement ;\n    qb:dataSet ?dqds ;\n    sdmx-dimension:refPeriod ?refPeriod ;\n    dqv:computedOn ?service ;\n    dqv:isMeasurementOf :metrikaDostupnostiCORSEndpointURL ;\n    dqv:value false ;\n    schema:object ?endpointURL .\n  \n  ?refPeriod time:inXSDDateTime ?dtime .\n}\nWHERE { \n  ?s a dcat:Dataset;\n             dcat:distribution ?distribution ;\n             dcterms:publisher ?publisher .\n  ?distribution dcat:accessService ?service .\n  ?service dcat:endpointURL ?endpointURL.\n\n  OPTIONAL {?report report:task ?endpointURL;\n        report:start ?now .\n        \n  FILTER NOT EXISTS {\n    ?service dqv:hasQualityMeasurement ?existujícíPozorování .\n    ?existujícíPozorování dqv:isMeasurementOf :metrikaDostupnostiCORSEndpointURL ;\n                          schema:object ?endpointURL .\n    }}\n  FILTER(BOUND(?report))\n\n  BIND(\"https://dev.nkod.opendata.cz/zdroj/datová-kvalita/\" as ?prefix)\n  BIND(\"http://reference.data.gov.uk/id/gregorian-instant/\" as ?timePrefix)\n  BIND(IRI(CONCAT(?prefix, \"DataSet\")) as ?dqds)\n  BIND(SUBSTR(STR(?now),1,19) as ?time)\n  BIND(STRDT(?time, xsd:dateTime) as ?dtime)\n  BIND(IRI(CONCAT(?timePrefix, ?time)) AS ?refPeriod)\n  BIND(IRI(CONCAT(?prefix,\"pozorování/metrikaDostupnostiCORSEndpointURL\" ,\"/\", ?time, \"/\", ENCODE_FOR_URI(STR(?endpointURL)))) as ?pozorování)\n}"
     } ],
     "http://plugins.linkedpipes.com/ontology/t-sparqlConstruct#queryControl" : [ {
       "@id" : "http://plugins.linkedpipes.com/resource/configuration/None"
@@ -4731,7 +4731,7 @@
     "@id" : "https://pod-test.mvcr.gov.cz/etl/resources/pipelines/1631006715158/248",
     "@type" : [ "http://plugins.linkedpipes.com/ontology/t-sparqlConstruct#Configuration" ],
     "http://plugins.linkedpipes.com/ontology/t-sparqlConstruct#query" : [ {
-      "@value" : "PREFIX schema: <http://schema.org/>\nPREFIX time: <http://www.w3.org/2006/time#>\nPREFIX skos: <http://www.w3.org/2004/02/skos/core#>\nPREFIX dqv: <http://www.w3.org/ns/dqv#>\nPREFIX ldqd: <http://www.w3.org/2016/05/ldqd#>\nPREFIX qb: <http://purl.org/linked-data/cube#>\nPREFIX dcat: <http://www.w3.org/ns/dcat#>\nPREFIX dcterms: <http://purl.org/dc/terms/>\nPREFIX foaf: <http://xmlns.com/foaf/0.1/>\nPREFIX sdmx-dimension: <http://purl.org/linked-data/sdmx/2009/dimension#>\nPREFIX xsd: <http://www.w3.org/2001/XMLSchema#>\n\nPREFIX nkod: <https://data.gov.cz/slovník/nkod/>\nPREFIX report: <https://vocabulary.etl.linkedpipes.com/report/>\nPREFIX httpRequest: <http://plugins.linkedpipes.com/ontology/x-httpRequest#>\nPREFIX : <https://data.gov.cz/zdroj/datová-kvalita/metriky/>\n\nCONSTRUCT {\n  :metrikaDostupnostiCORSDokumentace\n    a dqv:Metric ;\n    skos:definition \"It checks if CORS is available for the value of foaf:page.\"@en , \"Kontroluje, zda je pro hodnotu foaf:page dostupná technika CORS.\"@cs;\n    dqv:inDimension ldqd:availability ;\n    dqv:expectedDataType xsd:boolean\n    .\n  \n  ?dqds a qb:DataSet, dqv:QualityMeasurementDataset .\n  \n  ?dataset dqv:hasQualityMeasurement ?pozorování .\n  \n  ?pozorování a qb:Observation, dqv:QualityMeasurement ;\n    qb:dataSet ?dqds ;\n    sdmx-dimension:refPeriod ?refPeriod ;\n    dqv:computedOn ?dataset ;\n    dqv:isMeasurementOf :metrikaDostupnostiCORSDokumentace ;\n    dqv:value true ;\n    schema:object ?dokumentace .\n  \n  ?refPeriod time:inXSDDateTime ?dtime .\n}\nWHERE { \n  ?dataset a dcat:Dataset;\n     foaf:page ?dokumentace ;\n     dcterms:publisher ?publisher .\n  ?report report:task ?dokumentace;\n          report:status report:Success ;\n          report:start ?now ;\n          httpRequest:response ?response .  \n  ?response httpRequest:hasHeaderObject ?ho .\n\n  ?ho httpRequest:name \"Access-Control-Allow-Origin\" .\n\n  {\n      ?ho httpRequest:value \"*\" . \n  } UNION {\n      ?ho httpRequest:value ?origin .\n      [] nkod:cors-origin ?origin .\n  }\n\n  BIND(\"https://pod-test.mvcr.gov.cz/zdroj/datová-kvalita/\" as ?prefix)\n  BIND(\"http://reference.data.gov.uk/id/gregorian-instant/\" as ?timePrefix)\n  BIND(IRI(CONCAT(?prefix, \"DataSet\")) as ?dqds)\n  BIND(SUBSTR(STR(?now),1,19) as ?time)\n  BIND(STRDT(?time, xsd:dateTime) as ?dtime)\n  BIND(IRI(CONCAT(?timePrefix, ?time)) AS ?refPeriod)\n  BIND(IRI(CONCAT(?prefix,\"pozorování/metrikaDostupnostiCORSDokumentace\" ,\"/\", ?time, \"/\", ENCODE_FOR_URI(STR(?dokumentace)))) as ?pozorování)\n}"
+      "@value" : "PREFIX schema: <http://schema.org/>\nPREFIX time: <http://www.w3.org/2006/time#>\nPREFIX skos: <http://www.w3.org/2004/02/skos/core#>\nPREFIX dqv: <http://www.w3.org/ns/dqv#>\nPREFIX ldqd: <http://www.w3.org/2016/05/ldqd#>\nPREFIX qb: <http://purl.org/linked-data/cube#>\nPREFIX dcat: <http://www.w3.org/ns/dcat#>\nPREFIX dcterms: <http://purl.org/dc/terms/>\nPREFIX foaf: <http://xmlns.com/foaf/0.1/>\nPREFIX sdmx-dimension: <http://purl.org/linked-data/sdmx/2009/dimension#>\nPREFIX xsd: <http://www.w3.org/2001/XMLSchema#>\n\nPREFIX nkod: <https://data.gov.cz/slovník/nkod/>\nPREFIX report: <https://vocabulary.etl.linkedpipes.com/report/>\nPREFIX httpRequest: <http://plugins.linkedpipes.com/ontology/x-httpRequest#>\nPREFIX : <https://data.gov.cz/zdroj/datová-kvalita/metriky/>\n\nCONSTRUCT {\n  :metrikaDostupnostiCORSDokumentace\n    a dqv:Metric ;\n    skos:definition \"It checks if CORS is available for the value of foaf:page.\"@en , \"Kontroluje, zda je pro hodnotu foaf:page dostupná technika CORS.\"@cs;\n    dqv:inDimension ldqd:availability ;\n    dqv:expectedDataType xsd:boolean\n    .\n  \n  ?dqds a qb:DataSet, dqv:QualityMeasurementDataset .\n  \n  ?dataset dqv:hasQualityMeasurement ?pozorování .\n  \n  ?pozorování a qb:Observation, dqv:QualityMeasurement ;\n    qb:dataSet ?dqds ;\n    sdmx-dimension:refPeriod ?refPeriod ;\n    dqv:computedOn ?dataset ;\n    dqv:isMeasurementOf :metrikaDostupnostiCORSDokumentace ;\n    dqv:value true ;\n    schema:object ?dokumentace .\n  \n  ?refPeriod time:inXSDDateTime ?dtime .\n}\nWHERE { \n  ?dataset a dcat:Dataset;\n     foaf:page ?dokumentace ;\n     dcterms:publisher ?publisher .\n  ?report report:task ?dokumentace;\n          report:status report:Success ;\n          report:start ?now ;\n          httpRequest:response ?response .  \n  ?response httpRequest:hasHeaderObject ?ho .\n\n  ?ho httpRequest:name \"Access-Control-Allow-Origin\" .\n\n  {\n      ?ho httpRequest:value \"*\" . \n  } UNION {\n      ?ho httpRequest:value ?origin .\n      [] nkod:cors-origin ?origin .\n  }\n\n  BIND(\"https://dev.nkod.opendata.cz/zdroj/datová-kvalita/\" as ?prefix)\n  BIND(\"http://reference.data.gov.uk/id/gregorian-instant/\" as ?timePrefix)\n  BIND(IRI(CONCAT(?prefix, \"DataSet\")) as ?dqds)\n  BIND(SUBSTR(STR(?now),1,19) as ?time)\n  BIND(STRDT(?time, xsd:dateTime) as ?dtime)\n  BIND(IRI(CONCAT(?timePrefix, ?time)) AS ?refPeriod)\n  BIND(IRI(CONCAT(?prefix,\"pozorování/metrikaDostupnostiCORSDokumentace\" ,\"/\", ?time, \"/\", ENCODE_FOR_URI(STR(?dokumentace)))) as ?pozorování)\n}"
     } ],
     "http://plugins.linkedpipes.com/ontology/t-sparqlConstruct#queryControl" : [ {
       "@id" : "http://plugins.linkedpipes.com/resource/configuration/None"
@@ -4743,7 +4743,7 @@
     "@id" : "https://pod-test.mvcr.gov.cz/etl/resources/pipelines/1631006715158/249",
     "@type" : [ "http://plugins.linkedpipes.com/ontology/t-sparqlConstruct#Configuration" ],
     "http://plugins.linkedpipes.com/ontology/t-sparqlConstruct#query" : [ {
-      "@value" : "PREFIX schema: <http://schema.org/>\nPREFIX time: <http://www.w3.org/2006/time#>\nPREFIX skos: <http://www.w3.org/2004/02/skos/core#>\nPREFIX dqv: <http://www.w3.org/ns/dqv#>\nPREFIX ldqd: <http://www.w3.org/2016/05/ldqd#>\nPREFIX qb: <http://purl.org/linked-data/cube#>\nPREFIX dcat: <http://www.w3.org/ns/dcat#>\nPREFIX dcterms: <http://purl.org/dc/terms/>\nPREFIX foaf: <http://xmlns.com/foaf/0.1/>\nPREFIX sdmx-dimension: <http://purl.org/linked-data/sdmx/2009/dimension#>\nPREFIX xsd: <http://www.w3.org/2001/XMLSchema#>\n\nPREFIX nkod: <https://data.gov.cz/slovník/nkod/>\nPREFIX report: <https://vocabulary.etl.linkedpipes.com/report/>\nPREFIX httpRequest: <http://plugins.linkedpipes.com/ontology/x-httpRequest#>\nPREFIX : <https://data.gov.cz/zdroj/datová-kvalita/metriky/>\n\nCONSTRUCT {\n  :metrikaDostupnostiCORSSchématu\n    a dqv:Metric ;\n    skos:definition \"It checks if CORS is available for the value of dcterms:conformsTo.\"@en , \"Kontroluje, zda je pro hodnotu dcterms:conformsTo dostupná technika CORS.\"@cs;\n    dqv:inDimension ldqd:availability ;\n    dqv:expectedDataType xsd:boolean\n    .\n  \n  ?dqds a qb:DataSet, dqv:QualityMeasurementDataset .\n  \n  ?distribution dqv:hasQualityMeasurement ?pozorování .\n  \n  ?pozorování a qb:Observation, dqv:QualityMeasurement ;\n    qb:dataSet ?dqds ;\n    sdmx-dimension:refPeriod ?refPeriod ;\n    dqv:computedOn ?distribution ;\n    dqv:isMeasurementOf :metrikaDostupnostiCORSSchématu ;\n    dqv:value false ;\n    schema:object ?schéma .\n  \n  ?refPeriod time:inXSDDateTime ?dtime .\n}\nWHERE { \n  ?s a dcat:Dataset;\n        dcat:distribution ?distribution ;\n        dcterms:publisher ?publisher .\n  ?distribution dcterms:conformsTo ?schéma.\n  \n  OPTIONAL {?report report:task ?schéma ;\n        report:start ?now .\n\n  FILTER NOT EXISTS {\n    ?distribution dqv:hasQualityMeasurement ?existujícíPozorování .\n    ?existujícíPozorování dqv:isMeasurementOf :metrikaDostupnostiCORSSchématu ;\n                          schema:object ?schéma .\n  }  \n  }\n  FILTER(BOUND(?report))\n\n  BIND(\"https://pod-test.mvcr.gov.cz/zdroj/datová-kvalita/\" as ?prefix)\n  BIND(\"http://reference.data.gov.uk/id/gregorian-instant/\" as ?timePrefix)\n  BIND(IRI(CONCAT(?prefix, \"DataSet\")) as ?dqds)\n  BIND(SUBSTR(STR(?now),1,19) as ?time)\n  BIND(STRDT(?time, xsd:dateTime) as ?dtime)\n  BIND(IRI(CONCAT(?timePrefix, ?time)) AS ?refPeriod)\n  BIND(IRI(CONCAT(?prefix,\"pozorování/metrikaDostupnostiCORSSchématu\" ,\"/\", ?time, \"/\", ENCODE_FOR_URI(STR(?schéma)))) as ?pozorování)\n}"
+      "@value" : "PREFIX schema: <http://schema.org/>\nPREFIX time: <http://www.w3.org/2006/time#>\nPREFIX skos: <http://www.w3.org/2004/02/skos/core#>\nPREFIX dqv: <http://www.w3.org/ns/dqv#>\nPREFIX ldqd: <http://www.w3.org/2016/05/ldqd#>\nPREFIX qb: <http://purl.org/linked-data/cube#>\nPREFIX dcat: <http://www.w3.org/ns/dcat#>\nPREFIX dcterms: <http://purl.org/dc/terms/>\nPREFIX foaf: <http://xmlns.com/foaf/0.1/>\nPREFIX sdmx-dimension: <http://purl.org/linked-data/sdmx/2009/dimension#>\nPREFIX xsd: <http://www.w3.org/2001/XMLSchema#>\n\nPREFIX nkod: <https://data.gov.cz/slovník/nkod/>\nPREFIX report: <https://vocabulary.etl.linkedpipes.com/report/>\nPREFIX httpRequest: <http://plugins.linkedpipes.com/ontology/x-httpRequest#>\nPREFIX : <https://data.gov.cz/zdroj/datová-kvalita/metriky/>\n\nCONSTRUCT {\n  :metrikaDostupnostiCORSSchématu\n    a dqv:Metric ;\n    skos:definition \"It checks if CORS is available for the value of dcterms:conformsTo.\"@en , \"Kontroluje, zda je pro hodnotu dcterms:conformsTo dostupná technika CORS.\"@cs;\n    dqv:inDimension ldqd:availability ;\n    dqv:expectedDataType xsd:boolean\n    .\n  \n  ?dqds a qb:DataSet, dqv:QualityMeasurementDataset .\n  \n  ?distribution dqv:hasQualityMeasurement ?pozorování .\n  \n  ?pozorování a qb:Observation, dqv:QualityMeasurement ;\n    qb:dataSet ?dqds ;\n    sdmx-dimension:refPeriod ?refPeriod ;\n    dqv:computedOn ?distribution ;\n    dqv:isMeasurementOf :metrikaDostupnostiCORSSchématu ;\n    dqv:value false ;\n    schema:object ?schéma .\n  \n  ?refPeriod time:inXSDDateTime ?dtime .\n}\nWHERE { \n  ?s a dcat:Dataset;\n        dcat:distribution ?distribution ;\n        dcterms:publisher ?publisher .\n  ?distribution dcterms:conformsTo ?schéma.\n  \n  OPTIONAL {?report report:task ?schéma ;\n        report:start ?now .\n\n  FILTER NOT EXISTS {\n    ?distribution dqv:hasQualityMeasurement ?existujícíPozorování .\n    ?existujícíPozorování dqv:isMeasurementOf :metrikaDostupnostiCORSSchématu ;\n                          schema:object ?schéma .\n  }  \n  }\n  FILTER(BOUND(?report))\n\n  BIND(\"https://dev.nkod.opendata.cz/zdroj/datová-kvalita/\" as ?prefix)\n  BIND(\"http://reference.data.gov.uk/id/gregorian-instant/\" as ?timePrefix)\n  BIND(IRI(CONCAT(?prefix, \"DataSet\")) as ?dqds)\n  BIND(SUBSTR(STR(?now),1,19) as ?time)\n  BIND(STRDT(?time, xsd:dateTime) as ?dtime)\n  BIND(IRI(CONCAT(?timePrefix, ?time)) AS ?refPeriod)\n  BIND(IRI(CONCAT(?prefix,\"pozorování/metrikaDostupnostiCORSSchématu\" ,\"/\", ?time, \"/\", ENCODE_FOR_URI(STR(?schéma)))) as ?pozorování)\n}"
     } ],
     "http://plugins.linkedpipes.com/ontology/t-sparqlConstruct#queryControl" : [ {
       "@id" : "http://plugins.linkedpipes.com/resource/configuration/None"
@@ -4816,7 +4816,7 @@
     "@id" : "https://pod-test.mvcr.gov.cz/etl/resources/pipelines/1631006715158/253",
     "@type" : [ "http://plugins.linkedpipes.com/ontology/t-sparqlConstruct#Configuration" ],
     "http://plugins.linkedpipes.com/ontology/t-sparqlConstruct#query" : [ {
-      "@value" : "PREFIX schema: <http://schema.org/>\nPREFIX time: <http://www.w3.org/2006/time#>\nPREFIX skos: <http://www.w3.org/2004/02/skos/core#>\nPREFIX dqv: <http://www.w3.org/ns/dqv#>\nPREFIX ldqd: <http://www.w3.org/2016/05/ldqd#>\nPREFIX qb: <http://purl.org/linked-data/cube#>\nPREFIX dcat: <http://www.w3.org/ns/dcat#>\nPREFIX dcterms: <http://purl.org/dc/terms/>\nPREFIX foaf: <http://xmlns.com/foaf/0.1/>\nPREFIX sdmx-dimension: <http://purl.org/linked-data/sdmx/2009/dimension#>\nPREFIX xsd: <http://www.w3.org/2001/XMLSchema#>\n\nPREFIX nkod: <https://data.gov.cz/slovník/nkod/>\nPREFIX report: <https://vocabulary.etl.linkedpipes.com/report/>\nPREFIX httpRequest: <http://plugins.linkedpipes.com/ontology/x-httpRequest#>\nPREFIX : <https://data.gov.cz/zdroj/datová-kvalita/metriky/>\n\nCONSTRUCT {\n  :metrikaDostupnostiCORSEndpointURL\n    a dqv:Metric ;\n    skos:definition \"It checks if CORS is available for the value of dcat:endpointURL.\"@en , \"Kontroluje, zda je pro hodnotu dcat:endpointURL dostupná technika CORS.\"@cs;\n    dqv:inDimension ldqd:availability ;\n    dqv:expectedDataType xsd:boolean\n    .\n  \n  ?dqds a qb:DataSet, dqv:QualityMeasurementDataset .\n  \n  ?service dqv:hasQualityMeasurement ?pozorování .\n  \n  ?pozorování a qb:Observation, dqv:QualityMeasurement ;\n    qb:dataSet ?dqds ;\n    sdmx-dimension:refPeriod ?refPeriod ;\n    dqv:computedOn ?service ;\n    dqv:isMeasurementOf :metrikaDostupnostiCORSEndpointURL ;\n    dqv:value true ;\n    schema:object ?endpointURL .\n  \n  ?refPeriod time:inXSDDateTime ?dtime .\n}\nWHERE { \n  ?s a dcat:Dataset;\n             dcat:distribution ?distribution ;\n             dcterms:publisher ?publisher .\n  ?distribution dcat:accessService ?service .\n  ?service dcat:endpointURL ?endpointURL.\n  ?report report:task ?endpointURL;\n          report:status report:Success ;\n          report:start ?now ;\n          httpRequest:response ?response .  \n  ?response httpRequest:hasHeaderObject ?ho .\n\n  ?ho httpRequest:name \"Access-Control-Allow-Origin\" .\n\n  {\n    ?ho httpRequest:value \"*\" . \n  } UNION {\n    ?ho httpRequest:value ?origin .\n    [] nkod:cors-origin ?origin .\n  }\n\n  BIND(\"https://pod-test.mvcr.gov.cz/zdroj/datová-kvalita/\" as ?prefix)\n  BIND(\"http://reference.data.gov.uk/id/gregorian-instant/\" as ?timePrefix)\n  BIND(IRI(CONCAT(?prefix, \"DataSet\")) as ?dqds)\n  BIND(SUBSTR(STR(?now),1,19) as ?time)\n  BIND(STRDT(?time, xsd:dateTime) as ?dtime)\n  BIND(IRI(CONCAT(?timePrefix, ?time)) AS ?refPeriod)\n  BIND(IRI(CONCAT(?prefix,\"pozorování/metrikaDostupnostiCORSEndpointURL\" ,\"/\", ?time, \"/\", ENCODE_FOR_URI(STR(?endpointURL)))) as ?pozorování)\n}"
+      "@value" : "PREFIX schema: <http://schema.org/>\nPREFIX time: <http://www.w3.org/2006/time#>\nPREFIX skos: <http://www.w3.org/2004/02/skos/core#>\nPREFIX dqv: <http://www.w3.org/ns/dqv#>\nPREFIX ldqd: <http://www.w3.org/2016/05/ldqd#>\nPREFIX qb: <http://purl.org/linked-data/cube#>\nPREFIX dcat: <http://www.w3.org/ns/dcat#>\nPREFIX dcterms: <http://purl.org/dc/terms/>\nPREFIX foaf: <http://xmlns.com/foaf/0.1/>\nPREFIX sdmx-dimension: <http://purl.org/linked-data/sdmx/2009/dimension#>\nPREFIX xsd: <http://www.w3.org/2001/XMLSchema#>\n\nPREFIX nkod: <https://data.gov.cz/slovník/nkod/>\nPREFIX report: <https://vocabulary.etl.linkedpipes.com/report/>\nPREFIX httpRequest: <http://plugins.linkedpipes.com/ontology/x-httpRequest#>\nPREFIX : <https://data.gov.cz/zdroj/datová-kvalita/metriky/>\n\nCONSTRUCT {\n  :metrikaDostupnostiCORSEndpointURL\n    a dqv:Metric ;\n    skos:definition \"It checks if CORS is available for the value of dcat:endpointURL.\"@en , \"Kontroluje, zda je pro hodnotu dcat:endpointURL dostupná technika CORS.\"@cs;\n    dqv:inDimension ldqd:availability ;\n    dqv:expectedDataType xsd:boolean\n    .\n  \n  ?dqds a qb:DataSet, dqv:QualityMeasurementDataset .\n  \n  ?service dqv:hasQualityMeasurement ?pozorování .\n  \n  ?pozorování a qb:Observation, dqv:QualityMeasurement ;\n    qb:dataSet ?dqds ;\n    sdmx-dimension:refPeriod ?refPeriod ;\n    dqv:computedOn ?service ;\n    dqv:isMeasurementOf :metrikaDostupnostiCORSEndpointURL ;\n    dqv:value true ;\n    schema:object ?endpointURL .\n  \n  ?refPeriod time:inXSDDateTime ?dtime .\n}\nWHERE { \n  ?s a dcat:Dataset;\n             dcat:distribution ?distribution ;\n             dcterms:publisher ?publisher .\n  ?distribution dcat:accessService ?service .\n  ?service dcat:endpointURL ?endpointURL.\n  ?report report:task ?endpointURL;\n          report:status report:Success ;\n          report:start ?now ;\n          httpRequest:response ?response .  \n  ?response httpRequest:hasHeaderObject ?ho .\n\n  ?ho httpRequest:name \"Access-Control-Allow-Origin\" .\n\n  {\n    ?ho httpRequest:value \"*\" . \n  } UNION {\n    ?ho httpRequest:value ?origin .\n    [] nkod:cors-origin ?origin .\n  }\n\n  BIND(\"https://dev.nkod.opendata.cz/zdroj/datová-kvalita/\" as ?prefix)\n  BIND(\"http://reference.data.gov.uk/id/gregorian-instant/\" as ?timePrefix)\n  BIND(IRI(CONCAT(?prefix, \"DataSet\")) as ?dqds)\n  BIND(SUBSTR(STR(?now),1,19) as ?time)\n  BIND(STRDT(?time, xsd:dateTime) as ?dtime)\n  BIND(IRI(CONCAT(?timePrefix, ?time)) AS ?refPeriod)\n  BIND(IRI(CONCAT(?prefix,\"pozorování/metrikaDostupnostiCORSEndpointURL\" ,\"/\", ?time, \"/\", ENCODE_FOR_URI(STR(?endpointURL)))) as ?pozorování)\n}"
     } ],
     "http://plugins.linkedpipes.com/ontology/t-sparqlConstruct#queryControl" : [ {
       "@id" : "http://plugins.linkedpipes.com/resource/configuration/None"
@@ -4864,7 +4864,7 @@
     "@id" : "https://pod-test.mvcr.gov.cz/etl/resources/pipelines/1631006715158/260",
     "@type" : [ "http://plugins.linkedpipes.com/ontology/t-sparqlConstruct#Configuration" ],
     "http://plugins.linkedpipes.com/ontology/t-sparqlConstruct#query" : [ {
-      "@value" : "PREFIX schema: <http://schema.org/>\nPREFIX time: <http://www.w3.org/2006/time#>\nPREFIX skos: <http://www.w3.org/2004/02/skos/core#>\nPREFIX dqv: <http://www.w3.org/ns/dqv#>\nPREFIX ldqd: <http://www.w3.org/2016/05/ldqd#>\nPREFIX qb: <http://purl.org/linked-data/cube#>\nPREFIX dcat: <http://www.w3.org/ns/dcat#>\nPREFIX dcterms: <http://purl.org/dc/terms/>\nPREFIX foaf: <http://xmlns.com/foaf/0.1/>\nPREFIX sdmx-dimension: <http://purl.org/linked-data/sdmx/2009/dimension#>\nPREFIX xsd: <http://www.w3.org/2001/XMLSchema#>\n\nPREFIX nkod: <https://data.gov.cz/slovník/nkod/>\nPREFIX report: <https://vocabulary.etl.linkedpipes.com/report/>\nPREFIX httpRequest: <http://plugins.linkedpipes.com/ontology/x-httpRequest#>\nPREFIX : <https://data.gov.cz/zdroj/datová-kvalita/metriky/>\n\nCONSTRUCT {\n  :metrikaDostupnostiCORSDokumentace\n    a dqv:Metric ;\n    skos:definition \"It checks if CORS is available for the value of foaf:page.\"@en , \"Kontroluje, zda je pro hodnotu foaf:page dostupná technika CORS.\"@cs;\n    dqv:inDimension ldqd:availability ;\n    dqv:expectedDataType xsd:boolean\n    .\n  \n  ?dqds a qb:DataSet, dqv:QualityMeasurementDataset .\n  \n  ?dataset dqv:hasQualityMeasurement ?pozorování .\n  \n  ?pozorování a qb:Observation, dqv:QualityMeasurement ;\n    qb:dataSet ?dqds ;\n    sdmx-dimension:refPeriod ?refPeriod ;\n    dqv:computedOn ?dataset ;\n    dqv:isMeasurementOf :metrikaDostupnostiCORSDokumentace ;\n    dqv:value false ;\n    schema:object ?dokumentace .\n  \n  ?refPeriod time:inXSDDateTime ?dtime .\n}\nWHERE { \n  ?dataset a dcat:Dataset;\n             foaf:page ?dokumentace ;\n             dcterms:publisher ?publisher .\n  \n  OPTIONAL {?report report:task ?dokumentace;\n        report:start ?now .\n        \n  FILTER NOT EXISTS {\n    ?dataset dqv:hasQualityMeasurement ?existujícíPozorování .\n    ?existujícíPozorování dqv:isMeasurementOf :metrikaDostupnostiCORSDokumentace ;\n                          schema:object ?dokumentace .\n    }}\n  FILTER(BOUND(?report))\n  \n  BIND(\"https://pod-test.mvcr.gov.cz/zdroj/datová-kvalita/\" as ?prefix)\n  BIND(\"http://reference.data.gov.uk/id/gregorian-instant/\" as ?timePrefix)\n  BIND(IRI(CONCAT(?prefix, \"DataSet\")) as ?dqds)\n  BIND(SUBSTR(STR(?now),1,19) as ?time)\n  BIND(STRDT(?time, xsd:dateTime) as ?dtime)\n  BIND(IRI(CONCAT(?timePrefix, ?time)) AS ?refPeriod)\n  BIND(IRI(CONCAT(?prefix,\"pozorování/metrikaDostupnostiCORSDokumentace\" ,\"/\", ?time, \"/\", ENCODE_FOR_URI(STR(?dokumentace)))) as ?pozorování)\n}"
+      "@value" : "PREFIX schema: <http://schema.org/>\nPREFIX time: <http://www.w3.org/2006/time#>\nPREFIX skos: <http://www.w3.org/2004/02/skos/core#>\nPREFIX dqv: <http://www.w3.org/ns/dqv#>\nPREFIX ldqd: <http://www.w3.org/2016/05/ldqd#>\nPREFIX qb: <http://purl.org/linked-data/cube#>\nPREFIX dcat: <http://www.w3.org/ns/dcat#>\nPREFIX dcterms: <http://purl.org/dc/terms/>\nPREFIX foaf: <http://xmlns.com/foaf/0.1/>\nPREFIX sdmx-dimension: <http://purl.org/linked-data/sdmx/2009/dimension#>\nPREFIX xsd: <http://www.w3.org/2001/XMLSchema#>\n\nPREFIX nkod: <https://data.gov.cz/slovník/nkod/>\nPREFIX report: <https://vocabulary.etl.linkedpipes.com/report/>\nPREFIX httpRequest: <http://plugins.linkedpipes.com/ontology/x-httpRequest#>\nPREFIX : <https://data.gov.cz/zdroj/datová-kvalita/metriky/>\n\nCONSTRUCT {\n  :metrikaDostupnostiCORSDokumentace\n    a dqv:Metric ;\n    skos:definition \"It checks if CORS is available for the value of foaf:page.\"@en , \"Kontroluje, zda je pro hodnotu foaf:page dostupná technika CORS.\"@cs;\n    dqv:inDimension ldqd:availability ;\n    dqv:expectedDataType xsd:boolean\n    .\n  \n  ?dqds a qb:DataSet, dqv:QualityMeasurementDataset .\n  \n  ?dataset dqv:hasQualityMeasurement ?pozorování .\n  \n  ?pozorování a qb:Observation, dqv:QualityMeasurement ;\n    qb:dataSet ?dqds ;\n    sdmx-dimension:refPeriod ?refPeriod ;\n    dqv:computedOn ?dataset ;\n    dqv:isMeasurementOf :metrikaDostupnostiCORSDokumentace ;\n    dqv:value false ;\n    schema:object ?dokumentace .\n  \n  ?refPeriod time:inXSDDateTime ?dtime .\n}\nWHERE { \n  ?dataset a dcat:Dataset;\n             foaf:page ?dokumentace ;\n             dcterms:publisher ?publisher .\n  \n  OPTIONAL {?report report:task ?dokumentace;\n        report:start ?now .\n        \n  FILTER NOT EXISTS {\n    ?dataset dqv:hasQualityMeasurement ?existujícíPozorování .\n    ?existujícíPozorování dqv:isMeasurementOf :metrikaDostupnostiCORSDokumentace ;\n                          schema:object ?dokumentace .\n    }}\n  FILTER(BOUND(?report))\n  \n  BIND(\"https://dev.nkod.opendata.cz/zdroj/datová-kvalita/\" as ?prefix)\n  BIND(\"http://reference.data.gov.uk/id/gregorian-instant/\" as ?timePrefix)\n  BIND(IRI(CONCAT(?prefix, \"DataSet\")) as ?dqds)\n  BIND(SUBSTR(STR(?now),1,19) as ?time)\n  BIND(STRDT(?time, xsd:dateTime) as ?dtime)\n  BIND(IRI(CONCAT(?timePrefix, ?time)) AS ?refPeriod)\n  BIND(IRI(CONCAT(?prefix,\"pozorování/metrikaDostupnostiCORSDokumentace\" ,\"/\", ?time, \"/\", ENCODE_FOR_URI(STR(?dokumentace)))) as ?pozorování)\n}"
     } ],
     "http://plugins.linkedpipes.com/ontology/t-sparqlConstruct#queryControl" : [ {
       "@id" : "http://plugins.linkedpipes.com/resource/configuration/None"
@@ -4900,7 +4900,7 @@
     "@id" : "https://pod-test.mvcr.gov.cz/etl/resources/pipelines/1631006715158/265",
     "@type" : [ "http://plugins.linkedpipes.com/ontology/t-sparqlConstruct#Configuration" ],
     "http://plugins.linkedpipes.com/ontology/t-sparqlConstruct#query" : [ {
-      "@value" : "PREFIX schema: <http://schema.org/>\nPREFIX time: <http://www.w3.org/2006/time#>\nPREFIX skos: <http://www.w3.org/2004/02/skos/core#>\nPREFIX dqv: <http://www.w3.org/ns/dqv#>\nPREFIX ldqd: <http://www.w3.org/2016/05/ldqd#>\nPREFIX qb: <http://purl.org/linked-data/cube#>\nPREFIX dcat: <http://www.w3.org/ns/dcat#>\nPREFIX dcterms: <http://purl.org/dc/terms/>\nPREFIX foaf: <http://xmlns.com/foaf/0.1/>\nPREFIX sdmx-dimension: <http://purl.org/linked-data/sdmx/2009/dimension#>\nPREFIX xsd: <http://www.w3.org/2001/XMLSchema#>\n\nPREFIX nkod: <https://data.gov.cz/slovník/nkod/>\nPREFIX report: <https://vocabulary.etl.linkedpipes.com/report/>\nPREFIX httpRequest: <http://plugins.linkedpipes.com/ontology/x-httpRequest#>\nPREFIX : <https://data.gov.cz/zdroj/datová-kvalita/metriky/>\n\nCONSTRUCT {\n  :metrikaDostupnostiCORSDownloadURL\n    a dqv:Metric ;\n    skos:definition \"It checks if CORS is available for the value of dcat:downloadURL.\"@en , \"Kontroluje, zda je pro hodnotu dcat:downloadURL dostupná technika CORS.\"@cs;\n    dqv:inDimension ldqd:availability ;\n    dqv:expectedDataType xsd:boolean\n    .\n  \n  ?dqds a qb:DataSet, dqv:QualityMeasurementDataset .\n  \n  ?distribution dqv:hasQualityMeasurement ?pozorování .\n  \n  ?pozorování a qb:Observation, dqv:QualityMeasurement ;\n    qb:dataSet ?dqds ;\n    sdmx-dimension:refPeriod ?refPeriod ;\n    dqv:computedOn ?distribution ;\n    dqv:isMeasurementOf :metrikaDostupnostiCORSDownloadURL ;\n    dqv:value true ;\n    schema:object ?downloadURL .\n  \n  ?refPeriod time:inXSDDateTime ?dtime .\n}\nWHERE { \n  ?s a dcat:Dataset;\n             dcat:distribution ?distribution ;\n             dcterms:publisher ?publisher .\n  ?distribution dcat:downloadURL ?downloadURL .\n  ?report report:task ?downloadURL;\n          report:status report:Success ;\n          report:start ?now ;\n          httpRequest:response ?response .  \n  ?response httpRequest:hasHeaderObject ?ho .\n\n  ?ho httpRequest:name \"Access-Control-Allow-Origin\" .\n\n  {\n    ?ho httpRequest:value \"*\" . \n  } UNION {\n    ?ho httpRequest:value ?origin .\n    [] nkod:cors-origin ?origin .\n  }\n\n  BIND(\"https://pod-test.mvcr.gov.cz/zdroj/datová-kvalita/\" as ?prefix)\n  BIND(\"http://reference.data.gov.uk/id/gregorian-instant/\" as ?timePrefix)\n  BIND(IRI(CONCAT(?prefix, \"DataSet\")) as ?dqds)\n  BIND(SUBSTR(STR(?now),1,19) as ?time)\n  BIND(STRDT(?time, xsd:dateTime) as ?dtime)\n  BIND(IRI(CONCAT(?timePrefix, ?time)) AS ?refPeriod)\n  BIND(IRI(CONCAT(?prefix,\"pozorování/metrikaDostupnostiCORSDownloadURL\" ,\"/\", ?time, \"/\", ENCODE_FOR_URI(STR(?downloadURL)))) as ?pozorování)\n}"
+      "@value" : "PREFIX schema: <http://schema.org/>\nPREFIX time: <http://www.w3.org/2006/time#>\nPREFIX skos: <http://www.w3.org/2004/02/skos/core#>\nPREFIX dqv: <http://www.w3.org/ns/dqv#>\nPREFIX ldqd: <http://www.w3.org/2016/05/ldqd#>\nPREFIX qb: <http://purl.org/linked-data/cube#>\nPREFIX dcat: <http://www.w3.org/ns/dcat#>\nPREFIX dcterms: <http://purl.org/dc/terms/>\nPREFIX foaf: <http://xmlns.com/foaf/0.1/>\nPREFIX sdmx-dimension: <http://purl.org/linked-data/sdmx/2009/dimension#>\nPREFIX xsd: <http://www.w3.org/2001/XMLSchema#>\n\nPREFIX nkod: <https://data.gov.cz/slovník/nkod/>\nPREFIX report: <https://vocabulary.etl.linkedpipes.com/report/>\nPREFIX httpRequest: <http://plugins.linkedpipes.com/ontology/x-httpRequest#>\nPREFIX : <https://data.gov.cz/zdroj/datová-kvalita/metriky/>\n\nCONSTRUCT {\n  :metrikaDostupnostiCORSDownloadURL\n    a dqv:Metric ;\n    skos:definition \"It checks if CORS is available for the value of dcat:downloadURL.\"@en , \"Kontroluje, zda je pro hodnotu dcat:downloadURL dostupná technika CORS.\"@cs;\n    dqv:inDimension ldqd:availability ;\n    dqv:expectedDataType xsd:boolean\n    .\n  \n  ?dqds a qb:DataSet, dqv:QualityMeasurementDataset .\n  \n  ?distribution dqv:hasQualityMeasurement ?pozorování .\n  \n  ?pozorování a qb:Observation, dqv:QualityMeasurement ;\n    qb:dataSet ?dqds ;\n    sdmx-dimension:refPeriod ?refPeriod ;\n    dqv:computedOn ?distribution ;\n    dqv:isMeasurementOf :metrikaDostupnostiCORSDownloadURL ;\n    dqv:value true ;\n    schema:object ?downloadURL .\n  \n  ?refPeriod time:inXSDDateTime ?dtime .\n}\nWHERE { \n  ?s a dcat:Dataset;\n             dcat:distribution ?distribution ;\n             dcterms:publisher ?publisher .\n  ?distribution dcat:downloadURL ?downloadURL .\n  ?report report:task ?downloadURL;\n          report:status report:Success ;\n          report:start ?now ;\n          httpRequest:response ?response .  \n  ?response httpRequest:hasHeaderObject ?ho .\n\n  ?ho httpRequest:name \"Access-Control-Allow-Origin\" .\n\n  {\n    ?ho httpRequest:value \"*\" . \n  } UNION {\n    ?ho httpRequest:value ?origin .\n    [] nkod:cors-origin ?origin .\n  }\n\n  BIND(\"https://dev.nkod.opendata.cz/zdroj/datová-kvalita/\" as ?prefix)\n  BIND(\"http://reference.data.gov.uk/id/gregorian-instant/\" as ?timePrefix)\n  BIND(IRI(CONCAT(?prefix, \"DataSet\")) as ?dqds)\n  BIND(SUBSTR(STR(?now),1,19) as ?time)\n  BIND(STRDT(?time, xsd:dateTime) as ?dtime)\n  BIND(IRI(CONCAT(?timePrefix, ?time)) AS ?refPeriod)\n  BIND(IRI(CONCAT(?prefix,\"pozorování/metrikaDostupnostiCORSDownloadURL\" ,\"/\", ?time, \"/\", ENCODE_FOR_URI(STR(?downloadURL)))) as ?pozorování)\n}"
     } ],
     "http://plugins.linkedpipes.com/ontology/t-sparqlConstruct#queryControl" : [ {
       "@id" : "http://plugins.linkedpipes.com/resource/configuration/None"
@@ -4909,10 +4909,10 @@
   "@id" : "https://pod-test.mvcr.gov.cz/etl/resources/pipelines/1631006715158/265"
 }, {
   "@graph" : [ {
-    "@id" : "https://pod-test.mvcr.gov.cz/etl/resources/pipelines/1631006715158/266",
+    "@id" : "https://pod-test.mvcr.gov.cz/etl/resources/pipelines/1631006715158/54/configuration",
     "@type" : [ "http://plugins.linkedpipes.com/ontology/t-sparqlConstruct#Configuration" ],
     "http://plugins.linkedpipes.com/ontology/t-sparqlConstruct#query" : [ {
-      "@value" : "PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>\nPREFIX time: <http://www.w3.org/2006/time#>\nPREFIX schema: <http://schema.org/>\nPREFIX skos: <http://www.w3.org/2004/02/skos/core#>\nPREFIX dqv: <http://www.w3.org/ns/dqv#>\nPREFIX dcat: <http://www.w3.org/ns/dcat#>\nPREFIX dcterms: <http://purl.org/dc/terms/>\nPREFIX foaf: <http://xmlns.com/foaf/0.1/>\nPREFIX ldqd: <http://www.w3.org/2016/05/ldqd#>\nPREFIX qb: <http://purl.org/linked-data/cube#>\nPREFIX sdmx-dimension: <http://purl.org/linked-data/sdmx/2009/dimension#>\n\nPREFIX : <https://data.gov.cz/zdroj/datová-kvalita/metriky/>\nPREFIX nkod: <https://data.gov.cz/zdroj/katalog/NKOD>\n\nCONSTRUCT {\n  ?metrika\n    a dqv:Metric ;\n    skos:definition ?popis_en , ?popis_cs;\n    dqv:inDimension ldqd:availability ;\n    dqv:expectedDataType xsd:integer\n    .\n  \n  ?dqds a qb:DataSet, dqv:QualityMeasurementDataset .\n  \n  ?poskytovatel dqv:hasQualityMeasurement ?pozorování .\n  \n  ?pozorování a qb:Observation, dqv:QualityMeasurement ;\n    qb:dataSet ?dqds ;\n    sdmx-dimension:refPeriod ?refPeriod ;\n    dqv:computedOn ?poskytovatel ;\n    dqv:isMeasurementOf ?metrika ;\n    dqv:value ?výsledek .\n  \n  ?refPeriod time:inXSDDate ?ddate .\n}\nWHERE {\n  VALUES (?minulá_metrika ?metrika ?popis_cs ?popis_en ) {\n    (:metrikaDostupnostiCORSDokumentace :PočetDatovýchSadSbezCORSnaDokumentaci \"Indikuje, kolik datových sad (dcat:Dataset) poskytovatele nemá dostupnou techniku CORS na dokumentaci.\"@cs \"Indicates, how many dcat:Datasets of a publisher do not have CORS available on the documentation.\"@en)\n    (:metrikaDostupnostiCORSSpecifikace :PočetDatovýchSadSbezCORSnaSpecifikaci \"Indikuje, kolik distribucí datových sad (dcat:Dataset) poskytovatele nemá dostupnou techniku CORS na specifikaci.\"@cs \"Indicates, how many dcat:Datasets of a publisher do not have CORS available on the specification.\"@en)\n  }\n  {\n    SELECT ?poskytovatel ?minulá_metrika (MAX(?počet_nebo_nula) AS ?výsledek)\n    WHERE {\n      {\n        SELECT DISTINCT ?poskytovatel ?minulá_metrika (0 as ?počet_nebo_nula)\n        WHERE {\n          ?datová_sada a dcat:Dataset ;\n             dcterms:publisher ?poskytovatel .\n          VALUES ?minulá_metrika {\n            :metrikaDostupnostiCORSDokumentace\n            :metrikaDostupnostiCORSServiceConformsTo\n          }\n        }\n      }\n      UNION\n      {\n        SELECT ?poskytovatel ?minulá_metrika (COUNT(DISTINCT ?datová_sada) AS ?počet_nebo_nula)\n        WHERE {\n          [] a qb:Observation, dqv:QualityMeasurement ;\n             dqv:computedOn ?datová_sada ;\n             dqv:isMeasurementOf ?minulá_metrika ;\n             dqv:value false .\n\n          ?datová_sada dcterms:publisher ?poskytovatel .\n        }\n        GROUP BY ?poskytovatel ?minulá_metrika\n      }\n    }\n    GROUP BY ?poskytovatel ?minulá_metrika\n  }\n \n  nkod: dcterms:modified ?ddate .\n \n  BIND(STR(?ddate) as ?date)\n  BIND(\"https://data.gov.cz/zdroj/datová-kvalita/poskytovatelé/\" as ?prefix)\n  BIND(\"http://reference.data.gov.uk/id/gregorian-day/\" as ?datePrefix)\n  BIND(IRI(CONCAT(?prefix, \"DataSet\")) as ?dqds)\n  BIND(IRI(CONCAT(?datePrefix, ?date)) AS ?refPeriod)\n    BIND(IRI(CONCAT(?prefix,\"pozorování/\", STRAFTER(STR(?metrika), \"https://data.gov.cz/zdroj/datová-kvalita/metriky/\") ,\"/\", ?date, \"/\", ENCODE_FOR_URI(STR(?poskytovatel)))) as ?pozorování)\n}"
+      "@value" : "PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>\nPREFIX time: <http://www.w3.org/2006/time#>\nPREFIX schema: <http://schema.org/>\nPREFIX skos: <http://www.w3.org/2004/02/skos/core#>\nPREFIX dqv: <http://www.w3.org/ns/dqv#>\nPREFIX dcat: <http://www.w3.org/ns/dcat#>\nPREFIX dcterms: <http://purl.org/dc/terms/>\nPREFIX foaf: <http://xmlns.com/foaf/0.1/>\nPREFIX ldqd: <http://www.w3.org/2016/05/ldqd#>\nPREFIX qb: <http://purl.org/linked-data/cube#>\nPREFIX sdmx-dimension: <http://purl.org/linked-data/sdmx/2009/dimension#>\n\nPREFIX : <https://data.gov.cz/zdroj/datová-kvalita/metriky/>\nPREFIX nkod: <https://data.gov.cz/zdroj/katalog/NKOD>\n\nCONSTRUCT {\n  ?metrika\n    a dqv:Metric ;\n    skos:definition ?popis_en , ?popis_cs;\n    dqv:inDimension ldqd:availability ;\n    dqv:expectedDataType xsd:integer\n    .\n  \n  ?dqds a qb:DataSet, dqv:QualityMeasurementDataset .\n  \n  ?poskytovatel dqv:hasQualityMeasurement ?pozorování .\n  \n  ?pozorování a qb:Observation, dqv:QualityMeasurement ;\n    qb:dataSet ?dqds ;\n    sdmx-dimension:refPeriod ?refPeriod ;\n    dqv:computedOn ?poskytovatel ;\n    dqv:isMeasurementOf ?metrika ;\n    dqv:value ?výsledek .\n  \n  ?refPeriod time:inXSDDate ?ddate .\n}\nWHERE {\n  VALUES (?minulá_metrika ?metrika ?popis_cs ?popis_en ) {\n    (:metrikaDostupnostiCORSDokumentace :PočetDatovýchSadSbezCORSnaDokumentaci \"Indikuje, kolik datových sad (dcat:Dataset) poskytovatele nemá dostupnou techniku CORS na dokumentaci.\"@cs \"Indicates, how many dcat:Datasets of a publisher do not have CORS available on the documentation.\"@en)\n    (:metrikaDostupnostiCORSSpecifikace :PočetDatovýchSadSbezCORSnaSpecifikaci \"Indikuje, kolik distribucí datových sad (dcat:Dataset) poskytovatele nemá dostupnou techniku CORS na specifikaci.\"@cs \"Indicates, how many dcat:Datasets of a publisher do not have CORS available on the specification.\"@en)\n  }\n  {\n    SELECT ?poskytovatel ?minulá_metrika (MAX(?počet_nebo_nula) AS ?výsledek)\n    WHERE {\n      {\n        SELECT DISTINCT ?poskytovatel ?minulá_metrika (0 as ?počet_nebo_nula)\n        WHERE {\n          ?datová_sada a dcat:Dataset ;\n             dcterms:publisher ?poskytovatel .\n          VALUES ?minulá_metrika {\n            :metrikaDostupnostiCORSDokumentace\n            :metrikaDostupnostiCORSSpecifikace\n          }\n        }\n      }\n      UNION\n      {\n        SELECT ?poskytovatel ?minulá_metrika (COUNT(DISTINCT ?datová_sada) AS ?počet_nebo_nula)\n        WHERE {\n          [] a qb:Observation, dqv:QualityMeasurement ;\n             dqv:computedOn ?datová_sada ;\n             dqv:isMeasurementOf ?minulá_metrika ;\n             dqv:value false .\n\n          ?datová_sada dcterms:publisher ?poskytovatel .\n        }\n        GROUP BY ?poskytovatel ?minulá_metrika\n      }\n    }\n    GROUP BY ?poskytovatel ?minulá_metrika\n  }\n \n  nkod: dcterms:modified ?ddate .\n \n  BIND(STR(?ddate) as ?date)\n  BIND(\"https://data.gov.cz/zdroj/datová-kvalita/poskytovatelé/\" as ?prefix)\n  BIND(\"http://reference.data.gov.uk/id/gregorian-day/\" as ?datePrefix)\n  BIND(IRI(CONCAT(?prefix, \"DataSet\")) as ?dqds)\n  BIND(IRI(CONCAT(?datePrefix, ?date)) AS ?refPeriod)\n    BIND(IRI(CONCAT(?prefix,\"pozorování/\", STRAFTER(STR(?metrika), \"https://data.gov.cz/zdroj/datová-kvalita/metriky/\") ,\"/\", ?date, \"/\", ENCODE_FOR_URI(STR(?poskytovatel)))) as ?pozorování)\n}"
     } ],
     "http://plugins.linkedpipes.com/ontology/t-sparqlConstruct#queryControl" : [ {
       "@id" : "http://plugins.linkedpipes.com/resource/configuration/None"
@@ -4975,7 +4975,7 @@
     "@id" : "https://pod-test.mvcr.gov.cz/etl/resources/pipelines/1631006715158/268",
     "@type" : [ "http://plugins.linkedpipes.com/ontology/t-sparqlConstruct#Configuration" ],
     "http://plugins.linkedpipes.com/ontology/t-sparqlConstruct#query" : [ {
-      "@value" : "PREFIX schema: <http://schema.org/>\nPREFIX time: <http://www.w3.org/2006/time#>\nPREFIX skos: <http://www.w3.org/2004/02/skos/core#>\nPREFIX dqv: <http://www.w3.org/ns/dqv#>\nPREFIX ldqd: <http://www.w3.org/2016/05/ldqd#>\nPREFIX qb: <http://purl.org/linked-data/cube#>\nPREFIX dcat: <http://www.w3.org/ns/dcat#>\nPREFIX dcterms: <http://purl.org/dc/terms/>\nPREFIX foaf: <http://xmlns.com/foaf/0.1/>\nPREFIX sdmx-dimension: <http://purl.org/linked-data/sdmx/2009/dimension#>\nPREFIX xsd: <http://www.w3.org/2001/XMLSchema#>\n\nPREFIX nkod: <https://data.gov.cz/slovník/nkod/>\nPREFIX report: <https://vocabulary.etl.linkedpipes.com/report/>\nPREFIX httpRequest: <http://plugins.linkedpipes.com/ontology/x-httpRequest#>\nPREFIX : <https://data.gov.cz/zdroj/datová-kvalita/metriky/>\n\nCONSTRUCT {\n  :metrikaDostupnostiCORSEndpointDescription\n    a dqv:Metric ;\n    skos:definition \"It checks if CORS is available for the value of dcat:endpointDescription.\"@en , \"Kontroluje, zda je pro hodnotu dcat:endpointDescription dostupná technika CORS.\"@cs;\n    dqv:inDimension ldqd:availability ;\n    dqv:expectedDataType xsd:boolean\n    .\n  \n  ?dqds a qb:DataSet, dqv:QualityMeasurementDataset .\n  \n  ?service dqv:hasQualityMeasurement ?pozorování .\n  \n  ?pozorování a qb:Observation, dqv:QualityMeasurement ;\n    qb:dataSet ?dqds ;\n    sdmx-dimension:refPeriod ?refPeriod ;\n    dqv:computedOn ?service ;\n    dqv:isMeasurementOf :metrikaDostupnostiCORSEndpointDescription ;\n    dqv:value true ;\n    schema:object ?endpointDescription .\n  \n  ?refPeriod time:inXSDDateTime ?dtime .\n}\nWHERE { \n  ?s a dcat:Dataset;\n             dcat:distribution ?distribution ;\n             dcterms:publisher ?publisher .\n  ?distribution dcat:accessService ?service .\n  ?service dcat:endpointDescription ?endpointDescription.\n  ?report report:task ?endpointDescription;\n          report:status report:Success ;\n          report:start ?now ;\n          httpRequest:response ?response .  \n  ?response httpRequest:hasHeaderObject ?ho .\n\n  ?ho httpRequest:name \"Access-Control-Allow-Origin\" .\n\n  {\n    ?ho httpRequest:value \"*\" . \n  } UNION {\n    ?ho httpRequest:value ?origin .\n    [] nkod:cors-origin ?origin .\n  }\n\n  BIND(\"https://pod-test.mvcr.gov.cz/zdroj/datová-kvalita/\" as ?prefix)\n  BIND(\"http://reference.data.gov.uk/id/gregorian-instant/\" as ?timePrefix)\n  BIND(IRI(CONCAT(?prefix, \"DataSet\")) as ?dqds)\n  BIND(SUBSTR(STR(?now),1,19) as ?time)\n  BIND(STRDT(?time, xsd:dateTime) as ?dtime)\n  BIND(IRI(CONCAT(?timePrefix, ?time)) AS ?refPeriod)\n  BIND(IRI(CONCAT(?prefix,\"pozorování/metrikaDostupnostiCORSEndpointDescription\" ,\"/\", ?time, \"/\", ENCODE_FOR_URI(STR(?endpointDescription)))) as ?pozorování)\n}"
+      "@value" : "PREFIX schema: <http://schema.org/>\nPREFIX time: <http://www.w3.org/2006/time#>\nPREFIX skos: <http://www.w3.org/2004/02/skos/core#>\nPREFIX dqv: <http://www.w3.org/ns/dqv#>\nPREFIX ldqd: <http://www.w3.org/2016/05/ldqd#>\nPREFIX qb: <http://purl.org/linked-data/cube#>\nPREFIX dcat: <http://www.w3.org/ns/dcat#>\nPREFIX dcterms: <http://purl.org/dc/terms/>\nPREFIX foaf: <http://xmlns.com/foaf/0.1/>\nPREFIX sdmx-dimension: <http://purl.org/linked-data/sdmx/2009/dimension#>\nPREFIX xsd: <http://www.w3.org/2001/XMLSchema#>\n\nPREFIX nkod: <https://data.gov.cz/slovník/nkod/>\nPREFIX report: <https://vocabulary.etl.linkedpipes.com/report/>\nPREFIX httpRequest: <http://plugins.linkedpipes.com/ontology/x-httpRequest#>\nPREFIX : <https://data.gov.cz/zdroj/datová-kvalita/metriky/>\n\nCONSTRUCT {\n  :metrikaDostupnostiCORSEndpointDescription\n    a dqv:Metric ;\n    skos:definition \"It checks if CORS is available for the value of dcat:endpointDescription.\"@en , \"Kontroluje, zda je pro hodnotu dcat:endpointDescription dostupná technika CORS.\"@cs;\n    dqv:inDimension ldqd:availability ;\n    dqv:expectedDataType xsd:boolean\n    .\n  \n  ?dqds a qb:DataSet, dqv:QualityMeasurementDataset .\n  \n  ?service dqv:hasQualityMeasurement ?pozorování .\n  \n  ?pozorování a qb:Observation, dqv:QualityMeasurement ;\n    qb:dataSet ?dqds ;\n    sdmx-dimension:refPeriod ?refPeriod ;\n    dqv:computedOn ?service ;\n    dqv:isMeasurementOf :metrikaDostupnostiCORSEndpointDescription ;\n    dqv:value true ;\n    schema:object ?endpointDescription .\n  \n  ?refPeriod time:inXSDDateTime ?dtime .\n}\nWHERE { \n  ?s a dcat:Dataset;\n             dcat:distribution ?distribution ;\n             dcterms:publisher ?publisher .\n  ?distribution dcat:accessService ?service .\n  ?service dcat:endpointDescription ?endpointDescription.\n  ?report report:task ?endpointDescription;\n          report:status report:Success ;\n          report:start ?now ;\n          httpRequest:response ?response .  \n  ?response httpRequest:hasHeaderObject ?ho .\n\n  ?ho httpRequest:name \"Access-Control-Allow-Origin\" .\n\n  {\n    ?ho httpRequest:value \"*\" . \n  } UNION {\n    ?ho httpRequest:value ?origin .\n    [] nkod:cors-origin ?origin .\n  }\n\n  BIND(\"https://dev.nkod.opendata.cz/zdroj/datová-kvalita/\" as ?prefix)\n  BIND(\"http://reference.data.gov.uk/id/gregorian-instant/\" as ?timePrefix)\n  BIND(IRI(CONCAT(?prefix, \"DataSet\")) as ?dqds)\n  BIND(SUBSTR(STR(?now),1,19) as ?time)\n  BIND(STRDT(?time, xsd:dateTime) as ?dtime)\n  BIND(IRI(CONCAT(?timePrefix, ?time)) AS ?refPeriod)\n  BIND(IRI(CONCAT(?prefix,\"pozorování/metrikaDostupnostiCORSEndpointDescription\" ,\"/\", ?time, \"/\", ENCODE_FOR_URI(STR(?endpointDescription)))) as ?pozorování)\n}"
     } ],
     "http://plugins.linkedpipes.com/ontology/t-sparqlConstruct#queryControl" : [ {
       "@id" : "http://plugins.linkedpipes.com/resource/configuration/None"
@@ -5023,7 +5023,7 @@
     "@id" : "https://pod-test.mvcr.gov.cz/etl/resources/pipelines/1631006715158/272",
     "@type" : [ "http://plugins.linkedpipes.com/ontology/t-sparqlConstruct#Configuration" ],
     "http://plugins.linkedpipes.com/ontology/t-sparqlConstruct#query" : [ {
-      "@value" : "PREFIX schema: <http://schema.org/>\nPREFIX time: <http://www.w3.org/2006/time#>\nPREFIX skos: <http://www.w3.org/2004/02/skos/core#>\nPREFIX dqv: <http://www.w3.org/ns/dqv#>\nPREFIX ldqd: <http://www.w3.org/2016/05/ldqd#>\nPREFIX qb: <http://purl.org/linked-data/cube#>\nPREFIX dcat: <http://www.w3.org/ns/dcat#>\nPREFIX dcterms: <http://purl.org/dc/terms/>\nPREFIX foaf: <http://xmlns.com/foaf/0.1/>\nPREFIX sdmx-dimension: <http://purl.org/linked-data/sdmx/2009/dimension#>\nPREFIX xsd: <http://www.w3.org/2001/XMLSchema#>\n\nPREFIX nkod: <https://data.gov.cz/slovník/nkod/>\nPREFIX report: <https://vocabulary.etl.linkedpipes.com/report/>\nPREFIX httpRequest: <http://plugins.linkedpipes.com/ontology/x-httpRequest#>\nPREFIX pu:      <https://data.gov.cz/slovník/podmínky-užití/>\nPREFIX : <https://data.gov.cz/zdroj/datová-kvalita/metriky/>\n\nCONSTRUCT {\n  :metrikaDostupnostiCORSPodmínekUžitíAutorskéDílo\n    a dqv:Metric ;\n    skos:definition \"It checks if CORS is available for the value of pu:autorské-dílo.\"@en , \"Kontroluje, zda je pro hodnotu pu:autorské-dílo dostupná technika CORS.\"@cs;\n    dqv:inDimension ldqd:availability ;\n    dqv:expectedDataType xsd:boolean\n    .\n\n  :metrikaDostupnostiCORSPodmínekUžitíAutorskáDatabáze\n    a dqv:Metric ;\n    skos:definition \"It checks if CORS is available for the value of pu:databáze-jako-autorské-dílo.\"@en , \"Kontroluje, zda je pro hodnotu pu:databáze-jako-autorské-dílo dostupná technika CORS.\"@cs;\n    dqv:inDimension ldqd:availability ;\n    dqv:expectedDataType xsd:boolean\n    .\n\n  :metrikaDostupnostiCORSPodmínekUžitíZvláštníPrávoPořizovateleDatabáze\n    a dqv:Metric ;\n    skos:definition \"It checks if CORS is available for the value of pu:databáze-chráněná-zvláštními-právy.\"@en , \"Kontroluje, zda je pro hodnotu pu:databáze-chráněná-zvláštními-právy dostupná technika CORS.\"@cs;\n    dqv:inDimension ldqd:availability ;\n    dqv:expectedDataType xsd:boolean\n    .\n\n  ?dqds a qb:DataSet, dqv:QualityMeasurementDataset .\n  \n  ?distribution dqv:hasQualityMeasurement ?pozorování .\n  \n  ?pozorování a qb:Observation, dqv:QualityMeasurement ;\n    qb:dataSet ?dqds ;\n    sdmx-dimension:refPeriod ?refPeriod ;\n    dqv:computedOn ?distribution ;\n    dqv:isMeasurementOf ?metrika ;\n    dqv:value true ;\n    schema:object ?podmínky_užití .\n  \n  ?refPeriod time:inXSDDateTime ?dtime .\n}\nWHERE { \n  ?s a dcat:Dataset;\n          dcat:distribution ?distribution ;\n          dcterms:publisher ?publisher .\n  ?distribution pu:specifikace ?spec .\n  ?spec ?p ?podmínky_užití .\n  ?report report:task ?podmínky_užití;\n          report:status report:Success ;\n          report:start ?now ;\n          httpRequest:response ?response .  \n  ?response httpRequest:hasHeaderObject ?ho .\n\n  ?ho httpRequest:name \"Access-Control-Allow-Origin\" .\n\n    VALUES (?p ?metrika) {\n      (pu:autorské-dílo :metrikaDostupnostiCORSPodmínekUžitíAutorskéDílo )\n      (pu:databáze-jako-autorské-dílo :metrikaDostupnostiCORSPodmínekUžitíAutorskáDatabáze )\n      (pu:databáze-chráněná-zvláštními-právy :metrikaDostupnostiCORSPodmínekUžitíZvláštníPrávoPořizovateleDatabáze )\n    }\n\n  {\n      ?ho httpRequest:value \"*\" . \n  } UNION {\n      ?ho httpRequest:value ?origin .\n      [] nkod:cors-origin ?origin .\n  }\n\n  BIND(\"https://pod-test.mvcr.gov.cz/zdroj/datová-kvalita/\" as ?prefix)\n  BIND(\"http://reference.data.gov.uk/id/gregorian-instant/\" as ?timePrefix)\n  BIND(IRI(CONCAT(?prefix, \"DataSet\")) as ?dqds)\n  BIND(SUBSTR(STR(?now),1,19) as ?time)\n  BIND(STRDT(?time, xsd:dateTime) as ?dtime)\n  BIND(IRI(CONCAT(?timePrefix, ?time)) AS ?refPeriod)\n  BIND(IRI(CONCAT(?prefix,\"pozorování/\", STRAFTER(STR(?metrika),\"https://data.gov.cz/zdroj/datová-kvalita/metriky/\") ,\"/\", ?time, \"/\", ENCODE_FOR_URI(STR(?podmínky_užití)))) as ?pozorování)\n}"
+      "@value" : "PREFIX schema: <http://schema.org/>\nPREFIX time: <http://www.w3.org/2006/time#>\nPREFIX skos: <http://www.w3.org/2004/02/skos/core#>\nPREFIX dqv: <http://www.w3.org/ns/dqv#>\nPREFIX ldqd: <http://www.w3.org/2016/05/ldqd#>\nPREFIX qb: <http://purl.org/linked-data/cube#>\nPREFIX dcat: <http://www.w3.org/ns/dcat#>\nPREFIX dcterms: <http://purl.org/dc/terms/>\nPREFIX foaf: <http://xmlns.com/foaf/0.1/>\nPREFIX sdmx-dimension: <http://purl.org/linked-data/sdmx/2009/dimension#>\nPREFIX xsd: <http://www.w3.org/2001/XMLSchema#>\n\nPREFIX nkod: <https://data.gov.cz/slovník/nkod/>\nPREFIX report: <https://vocabulary.etl.linkedpipes.com/report/>\nPREFIX httpRequest: <http://plugins.linkedpipes.com/ontology/x-httpRequest#>\nPREFIX pu:      <https://data.gov.cz/slovník/podmínky-užití/>\nPREFIX : <https://data.gov.cz/zdroj/datová-kvalita/metriky/>\n\nCONSTRUCT {\n  :metrikaDostupnostiCORSPodmínekUžitíAutorskéDílo\n    a dqv:Metric ;\n    skos:definition \"It checks if CORS is available for the value of pu:autorské-dílo.\"@en , \"Kontroluje, zda je pro hodnotu pu:autorské-dílo dostupná technika CORS.\"@cs;\n    dqv:inDimension ldqd:availability ;\n    dqv:expectedDataType xsd:boolean\n    .\n\n  :metrikaDostupnostiCORSPodmínekUžitíAutorskáDatabáze\n    a dqv:Metric ;\n    skos:definition \"It checks if CORS is available for the value of pu:databáze-jako-autorské-dílo.\"@en , \"Kontroluje, zda je pro hodnotu pu:databáze-jako-autorské-dílo dostupná technika CORS.\"@cs;\n    dqv:inDimension ldqd:availability ;\n    dqv:expectedDataType xsd:boolean\n    .\n\n  :metrikaDostupnostiCORSPodmínekUžitíZvláštníPrávoPořizovateleDatabáze\n    a dqv:Metric ;\n    skos:definition \"It checks if CORS is available for the value of pu:databáze-chráněná-zvláštními-právy.\"@en , \"Kontroluje, zda je pro hodnotu pu:databáze-chráněná-zvláštními-právy dostupná technika CORS.\"@cs;\n    dqv:inDimension ldqd:availability ;\n    dqv:expectedDataType xsd:boolean\n    .\n\n  ?dqds a qb:DataSet, dqv:QualityMeasurementDataset .\n  \n  ?distribution dqv:hasQualityMeasurement ?pozorování .\n  \n  ?pozorování a qb:Observation, dqv:QualityMeasurement ;\n    qb:dataSet ?dqds ;\n    sdmx-dimension:refPeriod ?refPeriod ;\n    dqv:computedOn ?distribution ;\n    dqv:isMeasurementOf ?metrika ;\n    dqv:value true ;\n    schema:object ?podmínky_užití .\n  \n  ?refPeriod time:inXSDDateTime ?dtime .\n}\nWHERE { \n  ?s a dcat:Dataset;\n          dcat:distribution ?distribution ;\n          dcterms:publisher ?publisher .\n  ?distribution pu:specifikace ?spec .\n  ?spec ?p ?podmínky_užití .\n  ?report report:task ?podmínky_užití;\n          report:status report:Success ;\n          report:start ?now ;\n          httpRequest:response ?response .  \n  ?response httpRequest:hasHeaderObject ?ho .\n\n  ?ho httpRequest:name \"Access-Control-Allow-Origin\" .\n\n    VALUES (?p ?metrika) {\n      (pu:autorské-dílo :metrikaDostupnostiCORSPodmínekUžitíAutorskéDílo )\n      (pu:databáze-jako-autorské-dílo :metrikaDostupnostiCORSPodmínekUžitíAutorskáDatabáze )\n      (pu:databáze-chráněná-zvláštními-právy :metrikaDostupnostiCORSPodmínekUžitíZvláštníPrávoPořizovateleDatabáze )\n    }\n\n  {\n      ?ho httpRequest:value \"*\" . \n  } UNION {\n      ?ho httpRequest:value ?origin .\n      [] nkod:cors-origin ?origin .\n  }\n\n  BIND(\"https://dev.nkod.opendata.cz/zdroj/datová-kvalita/\" as ?prefix)\n  BIND(\"http://reference.data.gov.uk/id/gregorian-instant/\" as ?timePrefix)\n  BIND(IRI(CONCAT(?prefix, \"DataSet\")) as ?dqds)\n  BIND(SUBSTR(STR(?now),1,19) as ?time)\n  BIND(STRDT(?time, xsd:dateTime) as ?dtime)\n  BIND(IRI(CONCAT(?timePrefix, ?time)) AS ?refPeriod)\n  BIND(IRI(CONCAT(?prefix,\"pozorování/\", STRAFTER(STR(?metrika),\"https://data.gov.cz/zdroj/datová-kvalita/metriky/\") ,\"/\", ?time, \"/\", ENCODE_FOR_URI(STR(?podmínky_užití)))) as ?pozorování)\n}"
     } ],
     "http://plugins.linkedpipes.com/ontology/t-sparqlConstruct#queryControl" : [ {
       "@id" : "http://plugins.linkedpipes.com/resource/configuration/None"
@@ -5035,7 +5035,7 @@
     "@id" : "https://pod-test.mvcr.gov.cz/etl/resources/pipelines/1631006715158/273",
     "@type" : [ "http://plugins.linkedpipes.com/ontology/t-sparqlConstruct#Configuration" ],
     "http://plugins.linkedpipes.com/ontology/t-sparqlConstruct#query" : [ {
-      "@value" : "PREFIX schema: <http://schema.org/>\nPREFIX dcterm: <http://purl.org/dc/terms/>\nPREFIX dct: <http://purl.org/dc/terms/>\nPREFIX dc: <http://purl.org/dc/elements/1.1/>\nPREFIX time: <http://www.w3.org/2006/time#>\nPREFIX skos: <http://www.w3.org/2004/02/skos/core#>\nPREFIX dqv: <http://www.w3.org/ns/dqv#>\nPREFIX ldqd: <http://www.w3.org/2016/05/ldqd#>\nPREFIX qb: <http://purl.org/linked-data/cube#>\nPREFIX dcat: <http://www.w3.org/ns/dcat#>\nPREFIX dcterms: <http://purl.org/dc/terms/>\nPREFIX foaf: <http://xmlns.com/foaf/0.1/>\nPREFIX sdmx-dimension: <http://purl.org/linked-data/sdmx/2009/dimension#>\nPREFIX xsd: <http://www.w3.org/2001/XMLSchema#>\n\nPREFIX nkod: <https://data.gov.cz/slovník/nkod/>\nPREFIX report: <https://vocabulary.etl.linkedpipes.com/report/>\nPREFIX httpRequest: <http://plugins.linkedpipes.com/ontology/x-httpRequest#>\nPREFIX : <https://data.gov.cz/zdroj/datová-kvalita/metriky/>\n\nCONSTRUCT {\n  :metrikaDostupnostiCORSSpecifikace\n    a dqv:Metric ;\n    skos:definition \"It checks if CORS is available for the value of dcterms:conformsTo of a dataset.\"@en , \"Kontroluje, zda je pro hodnotu dcterms:conformsTo datové sady dostupná technika CORS.\"@cs;\n    dqv:inDimension ldqd:availability ;\n    dqv:expectedDataType xsd:boolean\n    .\n  \n  ?dqds a qb:DataSet, dqv:QualityMeasurementDataset .\n  \n  ?dataset dqv:hasQualityMeasurement ?pozorování .\n  \n  ?pozorování a qb:Observation, dqv:QualityMeasurement ;\n    qb:dataSet ?dqds ;\n    sdmx-dimension:refPeriod ?refPeriod ;\n    dqv:computedOn ?dataset ;\n    dqv:isMeasurementOf :metrikaDostupnostiCORSSpecifikace ;\n    dqv:value true ;\n    schema:object ?specifikace .\n  \n  ?refPeriod time:inXSDDateTime ?dtime .\n}\nWHERE { \n  ?dataset a dcat:Dataset;\n             dcterms:conformsTo ?specifikace ;\n             dcterms:publisher ?publisher .\n  ?report report:task ?specifikace;\n          report:status report:Success ;\n          report:start ?now ;\n          httpRequest:response ?response .  \n  ?response httpRequest:hasHeaderObject ?ho .\n\n  ?ho httpRequest:name \"Access-Control-Allow-Origin\" .\n\n  {\n    ?ho httpRequest:value \"*\" . \n  } UNION {\n    ?ho httpRequest:value ?origin .\n    [] nkod:cors-origin ?origin .\n  }\n\n  BIND(\"https://pod-test.mvcr.gov.cz/zdroj/datová-kvalita/\" as ?prefix)\n  BIND(\"http://reference.data.gov.uk/id/gregorian-instant/\" as ?timePrefix)\n  BIND(IRI(CONCAT(?prefix, \"DataSet\")) as ?dqds)\n  BIND(SUBSTR(STR(?now),1,19) as ?time)\n  BIND(STRDT(?time, xsd:dateTime) as ?dtime)\n  BIND(IRI(CONCAT(?timePrefix, ?time)) AS ?refPeriod)\n  BIND(IRI(CONCAT(?prefix,\"pozorování/metrikaDostupnostiCORSSpecifikace\" ,\"/\", ?time, \"/\", ENCODE_FOR_URI(STR(?specifikace)))) as ?pozorování)\n}"
+      "@value" : "PREFIX schema: <http://schema.org/>\nPREFIX dcterm: <http://purl.org/dc/terms/>\nPREFIX dct: <http://purl.org/dc/terms/>\nPREFIX dc: <http://purl.org/dc/elements/1.1/>\nPREFIX time: <http://www.w3.org/2006/time#>\nPREFIX skos: <http://www.w3.org/2004/02/skos/core#>\nPREFIX dqv: <http://www.w3.org/ns/dqv#>\nPREFIX ldqd: <http://www.w3.org/2016/05/ldqd#>\nPREFIX qb: <http://purl.org/linked-data/cube#>\nPREFIX dcat: <http://www.w3.org/ns/dcat#>\nPREFIX dcterms: <http://purl.org/dc/terms/>\nPREFIX foaf: <http://xmlns.com/foaf/0.1/>\nPREFIX sdmx-dimension: <http://purl.org/linked-data/sdmx/2009/dimension#>\nPREFIX xsd: <http://www.w3.org/2001/XMLSchema#>\n\nPREFIX nkod: <https://data.gov.cz/slovník/nkod/>\nPREFIX report: <https://vocabulary.etl.linkedpipes.com/report/>\nPREFIX httpRequest: <http://plugins.linkedpipes.com/ontology/x-httpRequest#>\nPREFIX : <https://data.gov.cz/zdroj/datová-kvalita/metriky/>\n\nCONSTRUCT {\n  :metrikaDostupnostiCORSSpecifikace\n    a dqv:Metric ;\n    skos:definition \"It checks if CORS is available for the value of dcterms:conformsTo of a dataset.\"@en , \"Kontroluje, zda je pro hodnotu dcterms:conformsTo datové sady dostupná technika CORS.\"@cs;\n    dqv:inDimension ldqd:availability ;\n    dqv:expectedDataType xsd:boolean\n    .\n  \n  ?dqds a qb:DataSet, dqv:QualityMeasurementDataset .\n  \n  ?dataset dqv:hasQualityMeasurement ?pozorování .\n  \n  ?pozorování a qb:Observation, dqv:QualityMeasurement ;\n    qb:dataSet ?dqds ;\n    sdmx-dimension:refPeriod ?refPeriod ;\n    dqv:computedOn ?dataset ;\n    dqv:isMeasurementOf :metrikaDostupnostiCORSSpecifikace ;\n    dqv:value true ;\n    schema:object ?specifikace .\n  \n  ?refPeriod time:inXSDDateTime ?dtime .\n}\nWHERE { \n  ?dataset a dcat:Dataset;\n             dcterms:conformsTo ?specifikace ;\n             dcterms:publisher ?publisher .\n  ?report report:task ?specifikace;\n          report:status report:Success ;\n          report:start ?now ;\n          httpRequest:response ?response .  \n  ?response httpRequest:hasHeaderObject ?ho .\n\n  ?ho httpRequest:name \"Access-Control-Allow-Origin\" .\n\n  {\n    ?ho httpRequest:value \"*\" . \n  } UNION {\n    ?ho httpRequest:value ?origin .\n    [] nkod:cors-origin ?origin .\n  }\n\n  BIND(\"https://dev.nkod.opendata.cz/zdroj/datová-kvalita/\" as ?prefix)\n  BIND(\"http://reference.data.gov.uk/id/gregorian-instant/\" as ?timePrefix)\n  BIND(IRI(CONCAT(?prefix, \"DataSet\")) as ?dqds)\n  BIND(SUBSTR(STR(?now),1,19) as ?time)\n  BIND(STRDT(?time, xsd:dateTime) as ?dtime)\n  BIND(IRI(CONCAT(?timePrefix, ?time)) AS ?refPeriod)\n  BIND(IRI(CONCAT(?prefix,\"pozorování/metrikaDostupnostiCORSSpecifikace\" ,\"/\", ?time, \"/\", ENCODE_FOR_URI(STR(?specifikace)))) as ?pozorování)\n}"
     } ],
     "http://plugins.linkedpipes.com/ontology/t-sparqlConstruct#queryControl" : [ {
       "@id" : "http://plugins.linkedpipes.com/resource/configuration/None"
@@ -5065,7 +5065,7 @@
     "@id" : "https://pod-test.mvcr.gov.cz/etl/resources/pipelines/1631006715158/278",
     "@type" : [ "http://plugins.linkedpipes.com/ontology/t-sparqlConstruct#Configuration" ],
     "http://plugins.linkedpipes.com/ontology/t-sparqlConstruct#query" : [ {
-      "@value" : "PREFIX schema: <http://schema.org/>\nPREFIX time: <http://www.w3.org/2006/time#>\nPREFIX skos: <http://www.w3.org/2004/02/skos/core#>\nPREFIX dqv: <http://www.w3.org/ns/dqv#>\nPREFIX ldqd: <http://www.w3.org/2016/05/ldqd#>\nPREFIX qb: <http://purl.org/linked-data/cube#>\nPREFIX dcat: <http://www.w3.org/ns/dcat#>\nPREFIX dcterms: <http://purl.org/dc/terms/>\nPREFIX foaf: <http://xmlns.com/foaf/0.1/>\nPREFIX sdmx-dimension: <http://purl.org/linked-data/sdmx/2009/dimension#>\nPREFIX xsd: <http://www.w3.org/2001/XMLSchema#>\n\nPREFIX nkod: <https://data.gov.cz/slovník/nkod/>\nPREFIX report: <https://vocabulary.etl.linkedpipes.com/report/>\nPREFIX httpRequest: <http://plugins.linkedpipes.com/ontology/x-httpRequest#>\nPREFIX : <https://data.gov.cz/zdroj/datová-kvalita/metriky/>\n\nCONSTRUCT {\n  :metrikaDostupnostiCORSSchématu\n    a dqv:Metric ;\n    skos:definition \"It checks if CORS is available for the value of dcterms:conformsTo.\"@en , \"Kontroluje, zda je pro hodnotu dcterms:conformsTo dostupná technika CORS.\"@cs;\n    dqv:inDimension ldqd:availability ;\n    dqv:expectedDataType xsd:boolean\n    .\n  \n  ?dqds a qb:DataSet, dqv:QualityMeasurementDataset .\n  \n  ?distribution dqv:hasQualityMeasurement ?pozorování .\n  \n  ?pozorování a qb:Observation, dqv:QualityMeasurement ;\n    qb:dataSet ?dqds ;\n    sdmx-dimension:refPeriod ?refPeriod ;\n    dqv:computedOn ?distribution ;\n    dqv:isMeasurementOf :metrikaDostupnostiCORSSchématu ;\n    dqv:value true ;\n    schema:object ?schéma .\n  \n  ?refPeriod time:inXSDDateTime ?dtime .\n}\nWHERE { \n  ?s a dcat:Dataset;\n             dcat:distribution ?distribution ;\n             dcterms:publisher ?publisher .\n  ?distribution dcterms:conformsTo ?schéma.\n  ?report report:task ?schéma;\n          report:status report:Success ;\n          report:start ?now ;\n          httpRequest:response ?response .  \n  ?response httpRequest:hasHeaderObject ?ho .\n\n  ?ho httpRequest:name \"Access-Control-Allow-Origin\" .\n\n  {\n    ?ho httpRequest:value \"*\" . \n  } UNION {\n    ?ho httpRequest:value ?origin .\n    [] nkod:cors-origin ?origin .\n  }\n\n  BIND(\"https://pod-test.mvcr.gov.cz/zdroj/datová-kvalita/\" as ?prefix)\n  BIND(\"http://reference.data.gov.uk/id/gregorian-instant/\" as ?timePrefix)\n  BIND(IRI(CONCAT(?prefix, \"DataSet\")) as ?dqds)\n  BIND(SUBSTR(STR(?now),1,19) as ?time)\n  BIND(STRDT(?time, xsd:dateTime) as ?dtime)\n  BIND(IRI(CONCAT(?timePrefix, ?time)) AS ?refPeriod)\n  BIND(IRI(CONCAT(?prefix,\"pozorování/metrikaDostupnostiCORSSchématu\" ,\"/\", ?time, \"/\", ENCODE_FOR_URI(STR(?schéma)))) as ?pozorování)\n}"
+      "@value" : "PREFIX schema: <http://schema.org/>\nPREFIX time: <http://www.w3.org/2006/time#>\nPREFIX skos: <http://www.w3.org/2004/02/skos/core#>\nPREFIX dqv: <http://www.w3.org/ns/dqv#>\nPREFIX ldqd: <http://www.w3.org/2016/05/ldqd#>\nPREFIX qb: <http://purl.org/linked-data/cube#>\nPREFIX dcat: <http://www.w3.org/ns/dcat#>\nPREFIX dcterms: <http://purl.org/dc/terms/>\nPREFIX foaf: <http://xmlns.com/foaf/0.1/>\nPREFIX sdmx-dimension: <http://purl.org/linked-data/sdmx/2009/dimension#>\nPREFIX xsd: <http://www.w3.org/2001/XMLSchema#>\n\nPREFIX nkod: <https://data.gov.cz/slovník/nkod/>\nPREFIX report: <https://vocabulary.etl.linkedpipes.com/report/>\nPREFIX httpRequest: <http://plugins.linkedpipes.com/ontology/x-httpRequest#>\nPREFIX : <https://data.gov.cz/zdroj/datová-kvalita/metriky/>\n\nCONSTRUCT {\n  :metrikaDostupnostiCORSSchématu\n    a dqv:Metric ;\n    skos:definition \"It checks if CORS is available for the value of dcterms:conformsTo.\"@en , \"Kontroluje, zda je pro hodnotu dcterms:conformsTo dostupná technika CORS.\"@cs;\n    dqv:inDimension ldqd:availability ;\n    dqv:expectedDataType xsd:boolean\n    .\n  \n  ?dqds a qb:DataSet, dqv:QualityMeasurementDataset .\n  \n  ?distribution dqv:hasQualityMeasurement ?pozorování .\n  \n  ?pozorování a qb:Observation, dqv:QualityMeasurement ;\n    qb:dataSet ?dqds ;\n    sdmx-dimension:refPeriod ?refPeriod ;\n    dqv:computedOn ?distribution ;\n    dqv:isMeasurementOf :metrikaDostupnostiCORSSchématu ;\n    dqv:value true ;\n    schema:object ?schéma .\n  \n  ?refPeriod time:inXSDDateTime ?dtime .\n}\nWHERE { \n  ?s a dcat:Dataset;\n             dcat:distribution ?distribution ;\n             dcterms:publisher ?publisher .\n  ?distribution dcterms:conformsTo ?schéma.\n  ?report report:task ?schéma;\n          report:status report:Success ;\n          report:start ?now ;\n          httpRequest:response ?response .  \n  ?response httpRequest:hasHeaderObject ?ho .\n\n  ?ho httpRequest:name \"Access-Control-Allow-Origin\" .\n\n  {\n    ?ho httpRequest:value \"*\" . \n  } UNION {\n    ?ho httpRequest:value ?origin .\n    [] nkod:cors-origin ?origin .\n  }\n\n  BIND(\"https://dev.nkod.opendata.cz/zdroj/datová-kvalita/\" as ?prefix)\n  BIND(\"http://reference.data.gov.uk/id/gregorian-instant/\" as ?timePrefix)\n  BIND(IRI(CONCAT(?prefix, \"DataSet\")) as ?dqds)\n  BIND(SUBSTR(STR(?now),1,19) as ?time)\n  BIND(STRDT(?time, xsd:dateTime) as ?dtime)\n  BIND(IRI(CONCAT(?timePrefix, ?time)) AS ?refPeriod)\n  BIND(IRI(CONCAT(?prefix,\"pozorování/metrikaDostupnostiCORSSchématu\" ,\"/\", ?time, \"/\", ENCODE_FOR_URI(STR(?schéma)))) as ?pozorování)\n}"
     } ],
     "http://plugins.linkedpipes.com/ontology/t-sparqlConstruct#queryControl" : [ {
       "@id" : "http://plugins.linkedpipes.com/resource/configuration/None"
@@ -5460,7 +5460,7 @@
     "@id" : "https://pod-test.mvcr.gov.cz/etl/resources/pipelines/1631006715158/286",
     "@type" : [ "http://plugins.linkedpipes.com/ontology/e-textHolder#Configuration" ],
     "http://plugins.linkedpipes.com/ontology/e-textHolder#content" : [ {
-      "@value" : "@prefix nkod: <https://data.gov.cz/slovník/nkod/> .\n[] nkod:cors-origin \"https://pod-test.mvcr.gov.cz\" ."
+      "@value" : "@prefix nkod: <https://data.gov.cz/slovník/nkod/> .\n[] nkod:cors-origin \"https://dev.nkod.opendata.cz\" ."
     } ],
     "http://plugins.linkedpipes.com/ontology/e-textHolder#contentControl" : [ {
       "@id" : "http://plugins.linkedpipes.com/resource/configuration/None"
