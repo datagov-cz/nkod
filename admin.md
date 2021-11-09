@@ -197,8 +197,12 @@ Tedy:
  
 Pak lze v cronu na **NKOD-ETL** v `/etc/cron.d/nkod` naplánovat [spouštění NKOD-ISDS](skripty/nkod-etl/download.sh) a [pipeline](skripty/nkod-etl/harvest.sh) `07 Harvestace LKOD a formulářů, aktualizace uživatelského rozhraní` v LP-ETL.
 
-# Monitoring
+# Monitoring a údržba prostředí
 Je třeba zejména na **NKOD-ETL** monitorovat místo na disku, které může dojít kvůli velikosti logů, pokud bude v produkčním prostředí poddimenzována velikost disku.
+Je tedy třeba např. jednou za měsíc promazat záznamy o proběhlých procesech, tj. adresář `/data/lp/etl/storage/working` a server restartovat.
+Dále může proces harvestace NKOD selhat z následujících očekávatelných důvodů:
+1. Selže pipeline `07 Harvestace LKOD a formulářů, aktualizace uživatelského rozhraní`, protože systém datových schránek má výpadek. Ten obvykle trvá jeden den, tedy ten den nebude NKOD harvestován.
+2. Selže pipeline `08.1 Nahrát NKOD do SPARQL endpointu a spustit pipeliny pro kvalitu` protože spadne instance databáze Virtuoso. Pak je třeba databázi, nebo celý server **NKOD-DB** restartovat a následně restartovat pipeline.
 
 [LinkedPipes DCAT-AP Viewer]: https://github.com/opendata-mvcr/dcat-ap-viewer "LinkedPipes DCAT-AP Viewer"
 [LinkedPipes DCAT-AP Forms]: https://github.com/opendata-mvcr/dcat-ap-forms "LinkedPipes DCAT-AP Forms"
