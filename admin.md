@@ -151,7 +151,7 @@ V této sekci je popsán doporučený postup instalace stroje **NKOD-ETL** s OS 
 V této sekci je popsán doporučený postup instalace stroje **NKOD-FRONTEND** s OS [Ubuntu](https://www.ubuntu.com/) 21.10.
 
 ### Prerekvizity
-- [OpenJDK](https://jdk.java.net/16/) 16.0.2
+- [OpenJDK](https://jdk.java.net/17/) 17.0.1
 - [Git](https://git-scm.com/)
 - [node.js](https://nodejs.org) 17.1.0
 - [nginx](http://nginx.org/) 1.21.3
