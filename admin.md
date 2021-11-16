@@ -104,7 +104,9 @@ V této sekci je popsán doporučený postup instalace databáze na stroji **NKO
       - vyžaduje existenci NKOD HDT dumpu
 4. Webhooky
    1. Běžným způsobem nainstalovat `nginx` a `php8.0-fpm`
-      1. v `/etc/php/7.4/fpm/pool.d/www.conf` změnit uživatele `www-data` na `nginx`, pokud `nginx` běží pod uživatelem `nginx`
+      1. v `/etc/php/8.0/fpm/pool.d/www.conf` změnit uživatele `www-data` na `nginx`, pokud `nginx` běží pod uživatelem `nginx`
+      2. v `/etc/php/8.0/fpm/php.ini` nastavit `max_execution_time = 300` - restart Virtuosa někdy trvá
+      3. v `/etc/systemd/system/multi-user.target.wants/php8.0-fpm.service` nastavit `KillMode=process`, což zabraňuje zabití Virtuosa po restartu php-fpm
    2. Pomocí `sudo visudo` nastavit, aby uživatel `nginx` mohl signalizovat službě a restartovat Virtuoso
       1. `nginx ALL=(ALL) NOPASSWD: /usr/sbin/service`
       2. `nginx ALL=(ALL) NOPASSWD: /etc/init.d/virtuoso-opensource`
