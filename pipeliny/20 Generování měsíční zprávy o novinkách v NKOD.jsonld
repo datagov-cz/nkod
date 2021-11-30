@@ -2517,7 +2517,7 @@
         ],
         "http://plugins.linkedpipes.com/ontology/e-textHolder#content": [
           {
-            "@value": "@prefix req: <http://plugins.linkedpipes.com/ontology/x-httpRequest#> .\n\n<http://localhost/slack> a req:Task ;\n  req:url \"https://hooks.slack.com/services/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\" ;\n#  req:url \"https://hooks.slack.com/services/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\" ;\n  req:method \"POST\" ;\n  req:postContentAsBody true ;\n  req:content <http://localhost/slack/content> .\n\n<http://localhost/slack/content> a req:Content ;\n  req:fileReference \"configuration.json\" ."
+            "@value": "@prefix req: <http://plugins.linkedpipes.com/ontology/x-httpRequest#> .\n\n<http://localhost/slack> a req:Task ;\n  req:url \"<WEBHOOK_URL>\" ;\n#  req:url \"<WEBHOOK_URL>\" ;\n  req:method \"POST\" ;\n  req:postContentAsBody true ;\n  req:content <http://localhost/slack/content> .\n\n<http://localhost/slack/content> a req:Content ;\n  req:fileReference \"configuration.json\" ."
           }
         ],
         "http://plugins.linkedpipes.com/ontology/e-textHolder#contentControl": [
