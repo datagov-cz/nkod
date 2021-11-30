@@ -1,0 +1,3572 @@
+[
+  {
+    "@graph": [
+      {
+        "@id": "https://dev.nkod.opendata.cz/etl/resources/components/1612442668582-86798181-6421-4480-ae7a-4691b2345d05",
+        "http://www.w3.org/2002/07/owl#sameAs": [
+          {
+            "@id": "https://pod-test.mvcr.gov.cz/etl/resources/components/1612447774219-4d623c6d-7e9b-4742-b367-3a3c2f2b34d3"
+          }
+        ]
+      },
+      {
+        "@id": "https://dev.nkod.opendata.cz/etl/resources/components/1612443346122-de843428-cfea-436b-9b14-5178a25c84d9",
+        "http://www.w3.org/2002/07/owl#sameAs": [
+          {
+            "@id": "https://pod-test.mvcr.gov.cz/etl/resources/components/1612447792872-29879c34-105e-4e3c-8c84-6d9e07d7420a"
+          }
+        ]
+      },
+      {
+        "@id": "https://dev.nkod.opendata.cz/etl/resources/components/1614178661881-e6d217d1-4925-47b4-9de9-9bba8d101875",
+        "http://www.w3.org/2002/07/owl#sameAs": [
+          {
+            "@id": "https://pod-test.mvcr.gov.cz/etl/resources/components/1614181023143-f151bc8f-effb-4507-9789-483b288b3cd7"
+          }
+        ]
+      },
+      {
+        "@id": "https://etl.nakit.opendata.cz/resources/components/1537449783779-3dfa98db-1e9a-4865-bce5-cb4af25247bc",
+        "http://www.w3.org/2002/07/owl#sameAs": [
+          {
+            "@id": "https://pod-test.mvcr.gov.cz/etl/resources/components/1553525261214-c5f8d4b7-c57c-4d47-ab95-7177f16894c1"
+          }
+        ]
+      }
+    ],
+    "@id": "http://etl.linkedpipes.com/resources/plugins/mapping"
+  },
+  {
+    "@graph": [
+      {
+        "@id": "https://pod-test.mvcr.gov.cz/etl/resources/components/1553525261214-c5f8d4b7-c57c-4d47-ab95-7177f16894c1",
+        "@type": [
+          "http://linkedpipes.com/ontology/Template"
+        ],
+        "http://linkedpipes.com/ontology/configurationGraph": [
+          {
+            "@id": "https://pod-test.mvcr.gov.cz/etl/resources/components/1553525261214-c5f8d4b7-c57c-4d47-ab95-7177f16894c1/configuration"
+          }
+        ],
+        "http://linkedpipes.com/ontology/template": [
+          {
+            "@id": "http://etl.linkedpipes.com/resources/components/l-filesToScp/0.0.0"
+          }
+        ],
+        "http://www.w3.org/2004/02/skos/core#prefLabel": [
+          {
+            "@value": "SCP to Frontend"
+          }
+        ]
+      }
+    ],
+    "@id": "https://pod-test.mvcr.gov.cz/etl/resources/components/1553525261214-c5f8d4b7-c57c-4d47-ab95-7177f16894c1"
+  },
+  {
+    "@graph": [
+      {
+        "@id": "https://pod-test.mvcr.gov.cz/etl/resources/components/1553525261214-c5f8d4b7-c57c-4d47-ab95-7177f16894c1/configuration",
+        "@type": [
+          "http://plugins.linkedpipes.com/ontology/l-filesToScp#Configuration"
+        ],
+        "http://plugins.linkedpipes.com/ontology/l-filesToScp#clearDirectory": [
+          {
+            "@type": "http://www.w3.org/2001/XMLSchema#boolean",
+            "@value": "false"
+          }
+        ],
+        "http://plugins.linkedpipes.com/ontology/l-filesToScp#clearDirectoryControl": [
+          {
+            "@id": "http://plugins.linkedpipes.com/resource/configuration/None"
+          }
+        ],
+        "http://plugins.linkedpipes.com/ontology/l-filesToScp#connectionTimeOutControl": [
+          {
+            "@id": "http://plugins.linkedpipes.com/resource/configuration/None"
+          }
+        ],
+        "http://plugins.linkedpipes.com/ontology/l-filesToScp#createDirectory": [
+          {
+            "@type": "http://www.w3.org/2001/XMLSchema#boolean",
+            "@value": "true"
+          }
+        ],
+        "http://plugins.linkedpipes.com/ontology/l-filesToScp#createDirectoryControl": [
+          {
+            "@id": "http://plugins.linkedpipes.com/resource/configuration/None"
+          }
+        ],
+        "http://plugins.linkedpipes.com/ontology/l-filesToScp#directory": [
+          {
+            "@value": "/data/soubor"
+          }
+        ],
+        "http://plugins.linkedpipes.com/ontology/l-filesToScp#directoryControl": [
+          {
+            "@id": "http://plugins.linkedpipes.com/resource/configuration/None"
+          }
+        ],
+        "http://plugins.linkedpipes.com/ontology/l-filesToScp#hostControl": [
+          {
+            "@id": "http://plugins.linkedpipes.com/resource/configuration/Force"
+          }
+        ],
+        "http://plugins.linkedpipes.com/ontology/l-filesToScp#passwordControl": [
+          {
+            "@id": "http://plugins.linkedpipes.com/resource/configuration/Force"
+          }
+        ],
+        "http://plugins.linkedpipes.com/ontology/l-filesToScp#portControl": [
+          {
+            "@id": "http://plugins.linkedpipes.com/resource/configuration/Force"
+          }
+        ],
+        "http://plugins.linkedpipes.com/ontology/l-filesToScp#userNameControl": [
+          {
+            "@id": "http://plugins.linkedpipes.com/resource/configuration/Force"
+          }
+        ]
+      }
+    ],
+    "@id": "https://pod-test.mvcr.gov.cz/etl/resources/components/1553525261214-c5f8d4b7-c57c-4d47-ab95-7177f16894c1/configuration"
+  },
+  {
+    "@graph": [
+      {
+        "@id": "https://pod-test.mvcr.gov.cz/etl/resources/components/1612447774219-4d623c6d-7e9b-4742-b367-3a3c2f2b34d3",
+        "@type": [
+          "http://linkedpipes.com/ontology/Template"
+        ],
+        "http://linkedpipes.com/ontology/configurationGraph": [
+          {
+            "@id": "https://pod-test.mvcr.gov.cz/etl/resources/components/1612447774219-4d623c6d-7e9b-4742-b367-3a3c2f2b34d3/configuration"
+          }
+        ],
+        "http://linkedpipes.com/ontology/template": [
+          {
+            "@id": "http://etl.linkedpipes.com/resources/components/e-httpGetFile/0.0.0"
+          }
+        ],
+        "http://purl.org/dc/terms/description": [
+          {
+            "@value": ""
+          }
+        ],
+        "http://www.w3.org/2004/02/skos/core#prefLabel": [
+          {
+            "@value": "Uložit včerejší NKOD"
+          }
+        ]
+      }
+    ],
+    "@id": "https://pod-test.mvcr.gov.cz/etl/resources/components/1612447774219-4d623c6d-7e9b-4742-b367-3a3c2f2b34d3"
+  },
+  {
+    "@graph": [
+      {
+        "@id": "https://pod-test.mvcr.gov.cz/etl/resources/components/1612447774219-4d623c6d-7e9b-4742-b367-3a3c2f2b34d3/configuration",
+        "@type": [
+          "http://plugins.linkedpipes.com/ontology/e-httpGetFile#Configuration"
+        ],
+        "http://plugins.linkedpipes.com/ontology/e-httpGetFile#encodeUrl": [
+          {
+            "@type": "http://www.w3.org/2001/XMLSchema#boolean",
+            "@value": "false"
+          }
+        ],
+        "http://plugins.linkedpipes.com/ontology/e-httpGetFile#encodeUrlControl": [
+          {
+            "@id": "http://plugins.linkedpipes.com/resource/configuration/Force"
+          }
+        ],
+        "http://plugins.linkedpipes.com/ontology/e-httpGetFile#fileName": [
+          {
+            "@value": "včerejší-nkod.trig"
+          }
+        ],
+        "http://plugins.linkedpipes.com/ontology/e-httpGetFile#fileNameControl": [
+          {
+            "@id": "http://plugins.linkedpipes.com/resource/configuration/Force"
+          }
+        ],
+        "http://plugins.linkedpipes.com/ontology/e-httpGetFile#fileUri": [
+          {
+            "@value": "https://pod-test.mvcr.gov.cz/soubor/nkod.trig"
+          }
+        ],
+        "http://plugins.linkedpipes.com/ontology/e-httpGetFile#fileUriControl": [
+          {
+            "@id": "http://plugins.linkedpipes.com/resource/configuration/Force"
+          }
+        ],
+        "http://plugins.linkedpipes.com/ontology/e-httpGetFile#hardRedirect": [
+          {
+            "@type": "http://www.w3.org/2001/XMLSchema#boolean",
+            "@value": "false"
+          }
+        ],
+        "http://plugins.linkedpipes.com/ontology/e-httpGetFile#hardRedirectControl": [
+          {
+            "@id": "http://plugins.linkedpipes.com/resource/configuration/Force"
+          }
+        ],
+        "http://plugins.linkedpipes.com/ontology/e-httpGetFile#userAgent": [
+          {
+            "@value": ""
+          }
+        ],
+        "http://plugins.linkedpipes.com/ontology/e-httpGetFile#userAgentControl": [
+          {
+            "@id": "http://plugins.linkedpipes.com/resource/configuration/Force"
+          }
+        ],
+        "http://plugins.linkedpipes.com/ontology/e-httpGetFile#utf8Redirect": [
+          {
+            "@type": "http://www.w3.org/2001/XMLSchema#boolean",
+            "@value": "false"
+          }
+        ],
+        "http://plugins.linkedpipes.com/ontology/e-httpGetFile#utf8RedirectControl": [
+          {
+            "@id": "http://plugins.linkedpipes.com/resource/configuration/Force"
+          }
+        ]
+      }
+    ],
+    "@id": "https://pod-test.mvcr.gov.cz/etl/resources/components/1612447774219-4d623c6d-7e9b-4742-b367-3a3c2f2b34d3/configuration"
+  },
+  {
+    "@graph": [
+      {
+        "@id": "https://pod-test.mvcr.gov.cz/etl/resources/components/1612447792872-29879c34-105e-4e3c-8c84-6d9e07d7420a",
+        "@type": [
+          "http://linkedpipes.com/ontology/Template"
+        ],
+        "http://linkedpipes.com/ontology/configurationGraph": [
+          {
+            "@id": "https://pod-test.mvcr.gov.cz/etl/resources/components/1612447792872-29879c34-105e-4e3c-8c84-6d9e07d7420a/configuration"
+          }
+        ],
+        "http://linkedpipes.com/ontology/template": [
+          {
+            "@id": "http://etl.linkedpipes.com/resources/components/e-sparqlEndpoint/0.0.0"
+          }
+        ],
+        "http://purl.org/dc/terms/description": [
+          {
+            "@value": ""
+          }
+        ],
+        "http://www.w3.org/2004/02/skos/core#prefLabel": [
+          {
+            "@value": "NKOD SPARQL endpoint"
+          }
+        ]
+      }
+    ],
+    "@id": "https://pod-test.mvcr.gov.cz/etl/resources/components/1612447792872-29879c34-105e-4e3c-8c84-6d9e07d7420a"
+  },
+  {
+    "@graph": [
+      {
+        "@id": "https://pod-test.mvcr.gov.cz/etl/resources/components/1612447792872-29879c34-105e-4e3c-8c84-6d9e07d7420a/configuration",
+        "@type": [
+          "http://plugins.linkedpipes.com/ontology/e-sparqlEndpoint#Configuration"
+        ],
+        "http://plugins.linkedpipes.com/ontology/e-sparqlEndpoint#defaultGraphControl": [
+          {
+            "@id": "http://plugins.linkedpipes.com/resource/configuration/None"
+          }
+        ],
+        "http://plugins.linkedpipes.com/ontology/e-sparqlEndpoint#encodeRdf": [
+          {
+            "@type": "http://www.w3.org/2001/XMLSchema#boolean",
+            "@value": "false"
+          }
+        ],
+        "http://plugins.linkedpipes.com/ontology/e-sparqlEndpoint#encodeRdfControl": [
+          {
+            "@id": "http://plugins.linkedpipes.com/resource/configuration/Force"
+          }
+        ],
+        "http://plugins.linkedpipes.com/ontology/e-sparqlEndpoint#endpoint": [
+          {
+            "@value": "http://10.32.2.30:8890/sparql"
+          }
+        ],
+        "http://plugins.linkedpipes.com/ontology/e-sparqlEndpoint#endpointControl": [
+          {
+            "@id": "http://plugins.linkedpipes.com/resource/configuration/Force"
+          }
+        ],
+        "http://plugins.linkedpipes.com/ontology/e-sparqlEndpoint#handleInvalidData": [
+          {
+            "@type": "http://www.w3.org/2001/XMLSchema#boolean",
+            "@value": "false"
+          }
+        ],
+        "http://plugins.linkedpipes.com/ontology/e-sparqlEndpoint#handleInvalidDataControl": [
+          {
+            "@id": "http://plugins.linkedpipes.com/resource/configuration/Force"
+          }
+        ],
+        "http://plugins.linkedpipes.com/ontology/e-sparqlEndpoint#headerAcceptControl": [
+          {
+            "@id": "http://plugins.linkedpipes.com/resource/configuration/Force"
+          }
+        ],
+        "http://plugins.linkedpipes.com/ontology/e-sparqlEndpoint#passwordControl": [
+          {
+            "@id": "http://plugins.linkedpipes.com/resource/configuration/Force"
+          }
+        ],
+        "http://plugins.linkedpipes.com/ontology/e-sparqlEndpoint#query": [
+          {
+            "@value": ""
+          }
+        ],
+        "http://plugins.linkedpipes.com/ontology/e-sparqlEndpoint#queryControl": [
+          {
+            "@id": "http://plugins.linkedpipes.com/resource/configuration/None"
+          }
+        ],
+        "http://plugins.linkedpipes.com/ontology/e-sparqlEndpoint#useAuthentication": [
+          {
+            "@type": "http://www.w3.org/2001/XMLSchema#boolean",
+            "@value": "false"
+          }
+        ],
+        "http://plugins.linkedpipes.com/ontology/e-sparqlEndpoint#useAuthenticationControl": [
+          {
+            "@id": "http://plugins.linkedpipes.com/resource/configuration/Force"
+          }
+        ],
+        "http://plugins.linkedpipes.com/ontology/e-sparqlEndpoint#useTolerantRepository": [
+          {
+            "@type": "http://www.w3.org/2001/XMLSchema#boolean",
+            "@value": "false"
+          }
+        ],
+        "http://plugins.linkedpipes.com/ontology/e-sparqlEndpoint#useTolerantRepositoryControl": [
+          {
+            "@id": "http://plugins.linkedpipes.com/resource/configuration/Force"
+          }
+        ],
+        "http://plugins.linkedpipes.com/ontology/e-sparqlEndpoint#userNameControl": [
+          {
+            "@id": "http://plugins.linkedpipes.com/resource/configuration/Force"
+          }
+        ]
+      }
+    ],
+    "@id": "https://pod-test.mvcr.gov.cz/etl/resources/components/1612447792872-29879c34-105e-4e3c-8c84-6d9e07d7420a/configuration"
+  },
+  {
+    "@graph": [
+      {
+        "@id": "https://pod-test.mvcr.gov.cz/etl/resources/components/1614181023143-f151bc8f-effb-4507-9789-483b288b3cd7",
+        "@type": [
+          "http://linkedpipes.com/ontology/Template"
+        ],
+        "http://linkedpipes.com/ontology/configurationGraph": [
+          {
+            "@id": "https://pod-test.mvcr.gov.cz/etl/resources/components/1614181023143-f151bc8f-effb-4507-9789-483b288b3cd7/configuration"
+          }
+        ],
+        "http://linkedpipes.com/ontology/template": [
+          {
+            "@id": "https://pod-test.mvcr.gov.cz/etl/resources/components/1612447792872-29879c34-105e-4e3c-8c84-6d9e07d7420a"
+          }
+        ],
+        "http://purl.org/dc/terms/description": [
+          {
+            "@value": ""
+          }
+        ],
+        "http://www.w3.org/2004/02/skos/core#prefLabel": [
+          {
+            "@value": "Datum harvestace"
+          }
+        ]
+      }
+    ],
+    "@id": "https://pod-test.mvcr.gov.cz/etl/resources/components/1614181023143-f151bc8f-effb-4507-9789-483b288b3cd7"
+  },
+  {
+    "@graph": [
+      {
+        "@id": "https://pod-test.mvcr.gov.cz/etl/resources/components/1614181023143-f151bc8f-effb-4507-9789-483b288b3cd7/configuration/0",
+        "@type": [
+          "http://plugins.linkedpipes.com/ontology/e-sparqlEndpoint#Configuration"
+        ],
+        "http://plugins.linkedpipes.com/ontology/e-sparqlEndpoint#defaultGraph": [
+          {
+            "@id": "https://data.gov.cz/zdroj/datová-sada/NKOD"
+          }
+        ],
+        "http://plugins.linkedpipes.com/ontology/e-sparqlEndpoint#defaultGraphControl": [
+          {
+            "@id": "http://plugins.linkedpipes.com/resource/configuration/Force"
+          }
+        ],
+        "http://plugins.linkedpipes.com/ontology/e-sparqlEndpoint#encodeRdf": [
+          {
+            "@type": "http://www.w3.org/2001/XMLSchema#boolean",
+            "@value": "false"
+          }
+        ],
+        "http://plugins.linkedpipes.com/ontology/e-sparqlEndpoint#encodeRdfControl": [
+          {
+            "@id": "http://plugins.linkedpipes.com/resource/configuration/Inherit"
+          }
+        ],
+        "http://plugins.linkedpipes.com/ontology/e-sparqlEndpoint#endpoint": [
+          {
+            "@value": "http://localhost:8890/sparql"
+          }
+        ],
+        "http://plugins.linkedpipes.com/ontology/e-sparqlEndpoint#endpointControl": [
+          {
+            "@id": "http://plugins.linkedpipes.com/resource/configuration/Inherit"
+          }
+        ],
+        "http://plugins.linkedpipes.com/ontology/e-sparqlEndpoint#handleInvalidData": [
+          {
+            "@type": "http://www.w3.org/2001/XMLSchema#boolean",
+            "@value": "false"
+          }
+        ],
+        "http://plugins.linkedpipes.com/ontology/e-sparqlEndpoint#handleInvalidDataControl": [
+          {
+            "@id": "http://plugins.linkedpipes.com/resource/configuration/Inherit"
+          }
+        ],
+        "http://plugins.linkedpipes.com/ontology/e-sparqlEndpoint#headerAcceptControl": [
+          {
+            "@id": "http://plugins.linkedpipes.com/resource/configuration/Inherit"
+          }
+        ],
+        "http://plugins.linkedpipes.com/ontology/e-sparqlEndpoint#passwordControl": [
+          {
+            "@id": "http://plugins.linkedpipes.com/resource/configuration/Inherit"
+          }
+        ],
+        "http://plugins.linkedpipes.com/ontology/e-sparqlEndpoint#query": [
+          {
+            "@value": "PREFIX dcterms: <http://purl.org/dc/terms/>\nCONSTRUCT WHERE {\n<https://data.gov.cz/zdroj/katalog/NKOD> dcterms:modified ?modified .\n}"
+          }
+        ],
+        "http://plugins.linkedpipes.com/ontology/e-sparqlEndpoint#queryControl": [
+          {
+            "@id": "http://plugins.linkedpipes.com/resource/configuration/Force"
+          }
+        ],
+        "http://plugins.linkedpipes.com/ontology/e-sparqlEndpoint#useAuthentication": [
+          {
+            "@type": "http://www.w3.org/2001/XMLSchema#boolean",
+            "@value": "false"
+          }
+        ],
+        "http://plugins.linkedpipes.com/ontology/e-sparqlEndpoint#useAuthenticationControl": [
+          {
+            "@id": "http://plugins.linkedpipes.com/resource/configuration/Inherit"
+          }
+        ],
+        "http://plugins.linkedpipes.com/ontology/e-sparqlEndpoint#useTolerantRepository": [
+          {
+            "@type": "http://www.w3.org/2001/XMLSchema#boolean",
+            "@value": "false"
+          }
+        ],
+        "http://plugins.linkedpipes.com/ontology/e-sparqlEndpoint#useTolerantRepositoryControl": [
+          {
+            "@id": "http://plugins.linkedpipes.com/resource/configuration/Inherit"
+          }
+        ],
+        "http://plugins.linkedpipes.com/ontology/e-sparqlEndpoint#userNameControl": [
+          {
+            "@id": "http://plugins.linkedpipes.com/resource/configuration/Inherit"
+          }
+        ]
+      }
+    ],
+    "@id": "https://pod-test.mvcr.gov.cz/etl/resources/components/1614181023143-f151bc8f-effb-4507-9789-483b288b3cd7/configuration"
+  },
+  {
+    "@graph": [
+      {
+        "@id": "https://pod-test.mvcr.gov.cz/etl/resources/components/1638257600466-73941383-7bdc-4c6a-9446-0da2b4b99c80",
+        "@type": [
+          "http://linkedpipes.com/ontology/Template"
+        ],
+        "http://linkedpipes.com/ontology/configurationGraph": [
+          {
+            "@id": "https://pod-test.mvcr.gov.cz/etl/resources/components/1638257600466-73941383-7bdc-4c6a-9446-0da2b4b99c80/configuration"
+          }
+        ],
+        "http://linkedpipes.com/ontology/template": [
+          {
+            "@id": "http://etl.linkedpipes.com/resources/components/e-httpGetFile/0.0.0"
+          }
+        ],
+        "http://www.w3.org/2004/02/skos/core#prefLabel": [
+          {
+            "@value": "NKOD minulý měsíc"
+          }
+        ]
+      }
+    ],
+    "@id": "https://pod-test.mvcr.gov.cz/etl/resources/components/1638257600466-73941383-7bdc-4c6a-9446-0da2b4b99c80"
+  },
+  {
+    "@graph": [
+      {
+        "@id": "https://pod-test.mvcr.gov.cz/etl/resources/components/1638257600466-73941383-7bdc-4c6a-9446-0da2b4b99c80/configuration/0",
+        "@type": [
+          "http://plugins.linkedpipes.com/ontology/e-httpGetFile#Configuration"
+        ],
+        "http://plugins.linkedpipes.com/ontology/e-httpGetFile#encodeUrl": [
+          {
+            "@type": "http://www.w3.org/2001/XMLSchema#boolean",
+            "@value": "false"
+          }
+        ],
+        "http://plugins.linkedpipes.com/ontology/e-httpGetFile#encodeUrlControl": [
+          {
+            "@id": "http://plugins.linkedpipes.com/resource/configuration/Force"
+          }
+        ],
+        "http://plugins.linkedpipes.com/ontology/e-httpGetFile#fileName": [
+          {
+            "@value": "nkod-minulý-měsíc.trig"
+          }
+        ],
+        "http://plugins.linkedpipes.com/ontology/e-httpGetFile#fileNameControl": [
+          {
+            "@id": "http://plugins.linkedpipes.com/resource/configuration/Force"
+          }
+        ],
+        "http://plugins.linkedpipes.com/ontology/e-httpGetFile#fileUri": [
+          {
+            "@value": "https://pod-test.mvcr.gov.cz/soubor/nkod-minulý-měsíc.trig"
+          }
+        ],
+        "http://plugins.linkedpipes.com/ontology/e-httpGetFile#fileUriControl": [
+          {
+            "@id": "http://plugins.linkedpipes.com/resource/configuration/Force"
+          }
+        ],
+        "http://plugins.linkedpipes.com/ontology/e-httpGetFile#hardRedirect": [
+          {
+            "@type": "http://www.w3.org/2001/XMLSchema#boolean",
+            "@value": "false"
+          }
+        ],
+        "http://plugins.linkedpipes.com/ontology/e-httpGetFile#hardRedirectControl": [
+          {
+            "@id": "http://plugins.linkedpipes.com/resource/configuration/Force"
+          }
+        ],
+        "http://plugins.linkedpipes.com/ontology/e-httpGetFile#userAgent": [
+          {
+            "@value": ""
+          }
+        ],
+        "http://plugins.linkedpipes.com/ontology/e-httpGetFile#userAgentControl": [
+          {
+            "@id": "http://plugins.linkedpipes.com/resource/configuration/Force"
+          }
+        ],
+        "http://plugins.linkedpipes.com/ontology/e-httpGetFile#utf8Redirect": [
+          {
+            "@type": "http://www.w3.org/2001/XMLSchema#boolean",
+            "@value": "false"
+          }
+        ],
+        "http://plugins.linkedpipes.com/ontology/e-httpGetFile#utf8RedirectControl": [
+          {
+            "@id": "http://plugins.linkedpipes.com/resource/configuration/Force"
+          }
+        ]
+      }
+    ],
+    "@id": "https://pod-test.mvcr.gov.cz/etl/resources/components/1638257600466-73941383-7bdc-4c6a-9446-0da2b4b99c80/configuration"
+  },
+  {
+    "@graph": [
+      {
+        "@id": "https://pod-test.mvcr.gov.cz/etl/resources/pipelines/1638257151964",
+        "@type": [
+          "http://linkedpipes.com/ontology/Pipeline"
+        ],
+        "http://etl.linkedpipes.com/ontology/tag": [
+          {
+            "@value": "NKOD"
+          },
+          {
+            "@value": "RUNEXTERNALLY"
+          }
+        ],
+        "http://etl.linkedpipes.com/ontology/version": [
+          {
+            "@type": "http://www.w3.org/2001/XMLSchema#int",
+            "@value": "2"
+          }
+        ],
+        "http://linkedpipes.com/ontology/profile": [
+          {
+            "@id": "https://pod-test.mvcr.gov.cz/etl/resources/pipelines/1638257151964/2"
+          }
+        ],
+        "http://www.w3.org/2004/02/skos/core#prefLabel": [
+          {
+            "@value": "20 Generování měsíční zprávy o novinkách v NKOD"
+          }
+        ]
+      },
+      {
+        "@id": "https://pod-test.mvcr.gov.cz/etl/resources/pipelines/1638257151964/10",
+        "@type": [
+          "http://linkedpipes.com/ontology/Component"
+        ],
+        "http://linkedpipes.com/ontology/configurationGraph": [
+          {
+            "@id": "https://pod-test.mvcr.gov.cz/etl/resources/pipelines/1638257151964/graph/67"
+          }
+        ],
+        "http://linkedpipes.com/ontology/template": [
+          {
+            "@id": "http://etl.linkedpipes.com/resources/components/t-mustache/0.0.0"
+          }
+        ],
+        "http://linkedpipes.com/ontology/x": [
+          {
+            "@type": "http://www.w3.org/2001/XMLSchema#integer",
+            "@value": "1141"
+          }
+        ],
+        "http://linkedpipes.com/ontology/y": [
+          {
+            "@type": "http://www.w3.org/2001/XMLSchema#integer",
+            "@value": "46"
+          }
+        ],
+        "http://www.w3.org/2004/02/skos/core#prefLabel": [
+          {
+            "@value": "Mustache"
+          }
+        ]
+      },
+      {
+        "@id": "https://pod-test.mvcr.gov.cz/etl/resources/pipelines/1638257151964/11",
+        "@type": [
+          "http://linkedpipes.com/ontology/Component"
+        ],
+        "http://linkedpipes.com/ontology/configurationGraph": [
+          {
+            "@id": "https://pod-test.mvcr.gov.cz/etl/resources/pipelines/1638257151964/graph/62"
+          }
+        ],
+        "http://linkedpipes.com/ontology/disabled": [
+          {
+            "@type": "http://www.w3.org/2001/XMLSchema#boolean",
+            "@value": "true"
+          }
+        ],
+        "http://linkedpipes.com/ontology/template": [
+          {
+            "@id": "http://etl.linkedpipes.com/resources/components/x-httpRequest/0.0.0"
+          }
+        ],
+        "http://linkedpipes.com/ontology/x": [
+          {
+            "@type": "http://www.w3.org/2001/XMLSchema#integer",
+            "@value": "1303"
+          }
+        ],
+        "http://linkedpipes.com/ontology/y": [
+          {
+            "@type": "http://www.w3.org/2001/XMLSchema#integer",
+            "@value": "249"
+          }
+        ],
+        "http://www.w3.org/2004/02/skos/core#prefLabel": [
+          {
+            "@value": "HTTP Request"
+          }
+        ]
+      },
+      {
+        "@id": "https://pod-test.mvcr.gov.cz/etl/resources/pipelines/1638257151964/12",
+        "@type": [
+          "http://linkedpipes.com/ontology/Connection"
+        ],
+        "http://linkedpipes.com/ontology/sourceBinding": [
+          {
+            "@value": "OutputFiles"
+          }
+        ],
+        "http://linkedpipes.com/ontology/sourceComponent": [
+          {
+            "@id": "https://pod-test.mvcr.gov.cz/etl/resources/pipelines/1638257151964/10"
+          }
+        ],
+        "http://linkedpipes.com/ontology/targetBinding": [
+          {
+            "@value": "FilesInput"
+          }
+        ],
+        "http://linkedpipes.com/ontology/targetComponent": [
+          {
+            "@id": "https://pod-test.mvcr.gov.cz/etl/resources/pipelines/1638257151964/13"
+          }
+        ]
+      },
+      {
+        "@id": "https://pod-test.mvcr.gov.cz/etl/resources/pipelines/1638257151964/13",
+        "@type": [
+          "http://linkedpipes.com/ontology/Component"
+        ],
+        "http://linkedpipes.com/ontology/configurationGraph": [
+          {
+            "@id": "https://pod-test.mvcr.gov.cz/etl/resources/pipelines/1638257151964/graph/79"
+          }
+        ],
+        "http://linkedpipes.com/ontology/disabled": [
+          {
+            "@type": "http://www.w3.org/2001/XMLSchema#boolean",
+            "@value": "true"
+          }
+        ],
+        "http://linkedpipes.com/ontology/template": [
+          {
+            "@id": "http://etl.linkedpipes.com/resources/components/x-httpRequest/0.0.0"
+          }
+        ],
+        "http://linkedpipes.com/ontology/x": [
+          {
+            "@type": "http://www.w3.org/2001/XMLSchema#integer",
+            "@value": "1296"
+          }
+        ],
+        "http://linkedpipes.com/ontology/y": [
+          {
+            "@type": "http://www.w3.org/2001/XMLSchema#integer",
+            "@value": "47"
+          }
+        ],
+        "http://www.w3.org/2004/02/skos/core#prefLabel": [
+          {
+            "@value": "HTTP Request"
+          }
+        ]
+      },
+      {
+        "@id": "https://pod-test.mvcr.gov.cz/etl/resources/pipelines/1638257151964/14",
+        "@type": [
+          "http://linkedpipes.com/ontology/RunAfter"
+        ],
+        "http://linkedpipes.com/ontology/sourceComponent": [
+          {
+            "@id": "https://pod-test.mvcr.gov.cz/etl/resources/pipelines/1638257151964/11"
+          }
+        ],
+        "http://linkedpipes.com/ontology/targetComponent": [
+          {
+            "@id": "https://pod-test.mvcr.gov.cz/etl/resources/pipelines/1638257151964/13"
+          }
+        ]
+      },
+      {
+        "@id": "https://pod-test.mvcr.gov.cz/etl/resources/pipelines/1638257151964/15",
+        "@type": [
+          "http://linkedpipes.com/ontology/Connection"
+        ],
+        "http://linkedpipes.com/ontology/sourceBinding": [
+          {
+            "@value": "OutputRdf"
+          }
+        ],
+        "http://linkedpipes.com/ontology/sourceComponent": [
+          {
+            "@id": "https://pod-test.mvcr.gov.cz/etl/resources/pipelines/1638257151964/3"
+          }
+        ],
+        "http://linkedpipes.com/ontology/targetBinding": [
+          {
+            "@value": "InputRdf"
+          }
+        ],
+        "http://linkedpipes.com/ontology/targetComponent": [
+          {
+            "@id": "https://pod-test.mvcr.gov.cz/etl/resources/pipelines/1638257151964/16"
+          }
+        ]
+      },
+      {
+        "@id": "https://pod-test.mvcr.gov.cz/etl/resources/pipelines/1638257151964/16",
+        "@type": [
+          "http://linkedpipes.com/ontology/Component"
+        ],
+        "http://linkedpipes.com/ontology/configurationGraph": [
+          {
+            "@id": "https://pod-test.mvcr.gov.cz/etl/resources/pipelines/1638257151964/graph/58"
+          }
+        ],
+        "http://linkedpipes.com/ontology/template": [
+          {
+            "@id": "http://etl.linkedpipes.com/resources/components/t-sparqlConstruct/0.0.0"
+          }
+        ],
+        "http://linkedpipes.com/ontology/x": [
+          {
+            "@type": "http://www.w3.org/2001/XMLSchema#integer",
+            "@value": "843"
+          }
+        ],
+        "http://linkedpipes.com/ontology/y": [
+          {
+            "@type": "http://www.w3.org/2001/XMLSchema#integer",
+            "@value": "44"
+          }
+        ],
+        "http://purl.org/dc/terms/description": [
+          {
+            "@value": "Detailní změny\npočtu datových sad"
+          }
+        ],
+        "http://www.w3.org/2004/02/skos/core#prefLabel": [
+          {
+            "@value": "SPARQL construct"
+          }
+        ]
+      },
+      {
+        "@id": "https://pod-test.mvcr.gov.cz/etl/resources/pipelines/1638257151964/17",
+        "@type": [
+          "http://linkedpipes.com/ontology/Connection"
+        ],
+        "http://linkedpipes.com/ontology/sourceBinding": [
+          {
+            "@value": "OutputRdf"
+          }
+        ],
+        "http://linkedpipes.com/ontology/sourceComponent": [
+          {
+            "@id": "https://pod-test.mvcr.gov.cz/etl/resources/pipelines/1638257151964/18"
+          }
+        ],
+        "http://linkedpipes.com/ontology/targetBinding": [
+          {
+            "@value": "InputRdf"
+          }
+        ],
+        "http://linkedpipes.com/ontology/targetComponent": [
+          {
+            "@id": "https://pod-test.mvcr.gov.cz/etl/resources/pipelines/1638257151964/16"
+          }
+        ]
+      },
+      {
+        "@id": "https://pod-test.mvcr.gov.cz/etl/resources/pipelines/1638257151964/18",
+        "@type": [
+          "http://linkedpipes.com/ontology/Component"
+        ],
+        "http://linkedpipes.com/ontology/configurationGraph": [
+          {
+            "@id": "https://pod-test.mvcr.gov.cz/etl/resources/pipelines/1638257151964/68"
+          }
+        ],
+        "http://linkedpipes.com/ontology/template": [
+          {
+            "@id": "http://etl.linkedpipes.com/resources/components/t-sparqlConstruct/0.0.0"
+          }
+        ],
+        "http://linkedpipes.com/ontology/x": [
+          {
+            "@type": "http://www.w3.org/2001/XMLSchema#integer",
+            "@value": "522"
+          }
+        ],
+        "http://linkedpipes.com/ontology/y": [
+          {
+            "@type": "http://www.w3.org/2001/XMLSchema#integer",
+            "@value": "25"
+          }
+        ],
+        "http://purl.org/dc/terms/description": [
+          {
+            "@value": "Minulé datasety"
+          }
+        ],
+        "http://www.w3.org/2004/02/skos/core#prefLabel": [
+          {
+            "@value": "SPARQL construct"
+          }
+        ]
+      },
+      {
+        "@id": "https://pod-test.mvcr.gov.cz/etl/resources/pipelines/1638257151964/19",
+        "@type": [
+          "http://linkedpipes.com/ontology/Connection"
+        ],
+        "http://linkedpipes.com/ontology/sourceBinding": [
+          {
+            "@value": "FilesOutput"
+          }
+        ],
+        "http://linkedpipes.com/ontology/sourceComponent": [
+          {
+            "@id": "https://pod-test.mvcr.gov.cz/etl/resources/pipelines/1638257151964/20"
+          }
+        ],
+        "http://linkedpipes.com/ontology/targetBinding": [
+          {
+            "@value": "InputFiles"
+          }
+        ],
+        "http://linkedpipes.com/ontology/targetComponent": [
+          {
+            "@id": "https://pod-test.mvcr.gov.cz/etl/resources/pipelines/1638257151964/21"
+          }
+        ]
+      },
+      {
+        "@id": "https://pod-test.mvcr.gov.cz/etl/resources/pipelines/1638257151964/2",
+        "@type": [
+          "http://linkedpipes.com/ontology/ExecutionProfile"
+        ],
+        "http://linkedpipes.com/ontology/rdfRepositoryPolicy": [
+          {
+            "@id": "http://linkedpipes.com/ontology/repository/PerInputRepository"
+          }
+        ],
+        "http://linkedpipes.com/ontology/rdfRepositoryType": [
+          {
+            "@id": "http://linkedpipes.com/ontology/repository/NativeStore"
+          }
+        ]
+      },
+      {
+        "@id": "https://pod-test.mvcr.gov.cz/etl/resources/pipelines/1638257151964/20",
+        "@type": [
+          "http://linkedpipes.com/ontology/Component"
+        ],
+        "http://linkedpipes.com/ontology/configurationGraph": [
+          {
+            "@id": "https://pod-test.mvcr.gov.cz/etl/resources/pipelines/1638257151964/56"
+          }
+        ],
+        "http://linkedpipes.com/ontology/template": [
+          {
+            "@id": "http://etl.linkedpipes.com/resources/components/e-textHolder/0.0.0"
+          }
+        ],
+        "http://linkedpipes.com/ontology/x": [
+          {
+            "@type": "http://www.w3.org/2001/XMLSchema#integer",
+            "@value": "823"
+          }
+        ],
+        "http://linkedpipes.com/ontology/y": [
+          {
+            "@type": "http://www.w3.org/2001/XMLSchema#integer",
+            "@value": "184"
+          }
+        ],
+        "http://www.w3.org/2004/02/skos/core#prefLabel": [
+          {
+            "@value": "Text holder"
+          }
+        ]
+      },
+      {
+        "@id": "https://pod-test.mvcr.gov.cz/etl/resources/pipelines/1638257151964/21",
+        "@type": [
+          "http://linkedpipes.com/ontology/Component"
+        ],
+        "http://linkedpipes.com/ontology/configurationGraph": [
+          {
+            "@id": "https://pod-test.mvcr.gov.cz/etl/resources/pipelines/1638257151964/graph/83"
+          }
+        ],
+        "http://linkedpipes.com/ontology/template": [
+          {
+            "@id": "http://etl.linkedpipes.com/resources/components/t-filesToRdfGraph/0.0.0"
+          }
+        ],
+        "http://linkedpipes.com/ontology/x": [
+          {
+            "@type": "http://www.w3.org/2001/XMLSchema#integer",
+            "@value": "1037"
+          }
+        ],
+        "http://linkedpipes.com/ontology/y": [
+          {
+            "@type": "http://www.w3.org/2001/XMLSchema#integer",
+            "@value": "165"
+          }
+        ],
+        "http://www.w3.org/2004/02/skos/core#prefLabel": [
+          {
+            "@value": "Files to RDF single graph"
+          }
+        ]
+      },
+      {
+        "@id": "https://pod-test.mvcr.gov.cz/etl/resources/pipelines/1638257151964/22",
+        "@type": [
+          "http://linkedpipes.com/ontology/Connection"
+        ],
+        "http://linkedpipes.com/ontology/sourceBinding": [
+          {
+            "@value": "OutputFiles"
+          }
+        ],
+        "http://linkedpipes.com/ontology/sourceComponent": [
+          {
+            "@id": "https://pod-test.mvcr.gov.cz/etl/resources/pipelines/1638257151964/23"
+          }
+        ],
+        "http://linkedpipes.com/ontology/targetBinding": [
+          {
+            "@value": "FilesInput"
+          }
+        ],
+        "http://linkedpipes.com/ontology/targetComponent": [
+          {
+            "@id": "https://pod-test.mvcr.gov.cz/etl/resources/pipelines/1638257151964/11"
+          }
+        ]
+      },
+      {
+        "@id": "https://pod-test.mvcr.gov.cz/etl/resources/pipelines/1638257151964/23",
+        "@type": [
+          "http://linkedpipes.com/ontology/Component"
+        ],
+        "http://linkedpipes.com/ontology/configurationGraph": [
+          {
+            "@id": "https://pod-test.mvcr.gov.cz/etl/resources/pipelines/1638257151964/66"
+          }
+        ],
+        "http://linkedpipes.com/ontology/template": [
+          {
+            "@id": "http://etl.linkedpipes.com/resources/components/t-mustache/0.0.0"
+          }
+        ],
+        "http://linkedpipes.com/ontology/x": [
+          {
+            "@type": "http://www.w3.org/2001/XMLSchema#integer",
+            "@value": "1146"
+          }
+        ],
+        "http://linkedpipes.com/ontology/y": [
+          {
+            "@type": "http://www.w3.org/2001/XMLSchema#integer",
+            "@value": "264"
+          }
+        ],
+        "http://www.w3.org/2004/02/skos/core#prefLabel": [
+          {
+            "@value": "Mustache"
+          }
+        ]
+      },
+      {
+        "@id": "https://pod-test.mvcr.gov.cz/etl/resources/pipelines/1638257151964/24",
+        "@type": [
+          "http://linkedpipes.com/ontology/Connection"
+        ],
+        "http://linkedpipes.com/ontology/sourceBinding": [
+          {
+            "@value": "OutputRdf"
+          }
+        ],
+        "http://linkedpipes.com/ontology/sourceComponent": [
+          {
+            "@id": "https://pod-test.mvcr.gov.cz/etl/resources/pipelines/1638257151964/21"
+          }
+        ],
+        "http://linkedpipes.com/ontology/targetBinding": [
+          {
+            "@value": "Task"
+          }
+        ],
+        "http://linkedpipes.com/ontology/targetComponent": [
+          {
+            "@id": "https://pod-test.mvcr.gov.cz/etl/resources/pipelines/1638257151964/11"
+          }
+        ]
+      },
+      {
+        "@id": "https://pod-test.mvcr.gov.cz/etl/resources/pipelines/1638257151964/25",
+        "@type": [
+          "http://linkedpipes.com/ontology/Connection"
+        ],
+        "http://linkedpipes.com/ontology/sourceBinding": [
+          {
+            "@value": "OutputRdf"
+          }
+        ],
+        "http://linkedpipes.com/ontology/sourceComponent": [
+          {
+            "@id": "https://pod-test.mvcr.gov.cz/etl/resources/pipelines/1638257151964/18"
+          }
+        ],
+        "http://linkedpipes.com/ontology/targetBinding": [
+          {
+            "@value": "InputRdf"
+          }
+        ],
+        "http://linkedpipes.com/ontology/targetComponent": [
+          {
+            "@id": "https://pod-test.mvcr.gov.cz/etl/resources/pipelines/1638257151964/26"
+          }
+        ]
+      },
+      {
+        "@id": "https://pod-test.mvcr.gov.cz/etl/resources/pipelines/1638257151964/26",
+        "@type": [
+          "http://linkedpipes.com/ontology/Component"
+        ],
+        "http://linkedpipes.com/ontology/configurationGraph": [
+          {
+            "@id": "https://pod-test.mvcr.gov.cz/etl/resources/pipelines/1638257151964/graph/81"
+          }
+        ],
+        "http://linkedpipes.com/ontology/template": [
+          {
+            "@id": "http://etl.linkedpipes.com/resources/components/t-sparqlSelect/0.0.0"
+          }
+        ],
+        "http://linkedpipes.com/ontology/x": [
+          {
+            "@type": "http://www.w3.org/2001/XMLSchema#integer",
+            "@value": "814"
+          }
+        ],
+        "http://linkedpipes.com/ontology/y": [
+          {
+            "@type": "http://www.w3.org/2001/XMLSchema#integer",
+            "@value": "-198"
+          }
+        ],
+        "http://www.w3.org/2004/02/skos/core#prefLabel": [
+          {
+            "@value": "SPARQL select"
+          }
+        ]
+      },
+      {
+        "@id": "https://pod-test.mvcr.gov.cz/etl/resources/pipelines/1638257151964/27",
+        "@type": [
+          "http://linkedpipes.com/ontology/Connection"
+        ],
+        "http://linkedpipes.com/ontology/sourceBinding": [
+          {
+            "@value": "OutputRdf"
+          }
+        ],
+        "http://linkedpipes.com/ontology/sourceComponent": [
+          {
+            "@id": "https://pod-test.mvcr.gov.cz/etl/resources/pipelines/1638257151964/5"
+          }
+        ],
+        "http://linkedpipes.com/ontology/targetBinding": [
+          {
+            "@value": "Configuration"
+          }
+        ],
+        "http://linkedpipes.com/ontology/targetComponent": [
+          {
+            "@id": "https://pod-test.mvcr.gov.cz/etl/resources/pipelines/1638257151964/26"
+          }
+        ]
+      },
+      {
+        "@id": "https://pod-test.mvcr.gov.cz/etl/resources/pipelines/1638257151964/28",
+        "@type": [
+          "http://linkedpipes.com/ontology/Connection"
+        ],
+        "http://linkedpipes.com/ontology/sourceBinding": [
+          {
+            "@value": "OutputRdf"
+          }
+        ],
+        "http://linkedpipes.com/ontology/sourceComponent": [
+          {
+            "@id": "https://pod-test.mvcr.gov.cz/etl/resources/pipelines/1638257151964/9"
+          }
+        ],
+        "http://linkedpipes.com/ontology/targetBinding": [
+          {
+            "@value": "InputRdf"
+          }
+        ],
+        "http://linkedpipes.com/ontology/targetComponent": [
+          {
+            "@id": "https://pod-test.mvcr.gov.cz/etl/resources/pipelines/1638257151964/18"
+          }
+        ]
+      },
+      {
+        "@id": "https://pod-test.mvcr.gov.cz/etl/resources/pipelines/1638257151964/29",
+        "@type": [
+          "http://linkedpipes.com/ontology/Connection"
+        ],
+        "http://linkedpipes.com/ontology/sourceBinding": [
+          {
+            "@value": "OutputRdf"
+          }
+        ],
+        "http://linkedpipes.com/ontology/sourceComponent": [
+          {
+            "@id": "https://pod-test.mvcr.gov.cz/etl/resources/pipelines/1638257151964/3"
+          }
+        ],
+        "http://linkedpipes.com/ontology/targetBinding": [
+          {
+            "@value": "InputRdf"
+          }
+        ],
+        "http://linkedpipes.com/ontology/targetComponent": [
+          {
+            "@id": "https://pod-test.mvcr.gov.cz/etl/resources/pipelines/1638257151964/26"
+          }
+        ]
+      },
+      {
+        "@id": "https://pod-test.mvcr.gov.cz/etl/resources/pipelines/1638257151964/3",
+        "@type": [
+          "http://linkedpipes.com/ontology/Component"
+        ],
+        "http://linkedpipes.com/ontology/configurationGraph": [
+          {
+            "@id": "https://pod-test.mvcr.gov.cz/etl/resources/pipelines/1638257151964/65"
+          }
+        ],
+        "http://linkedpipes.com/ontology/template": [
+          {
+            "@id": "http://etl.linkedpipes.com/resources/components/t-sparqlConstruct/0.0.0"
+          }
+        ],
+        "http://linkedpipes.com/ontology/x": [
+          {
+            "@type": "http://www.w3.org/2001/XMLSchema#integer",
+            "@value": "519"
+          }
+        ],
+        "http://linkedpipes.com/ontology/y": [
+          {
+            "@type": "http://www.w3.org/2001/XMLSchema#integer",
+            "@value": "113"
+          }
+        ],
+        "http://purl.org/dc/terms/description": [
+          {
+            "@value": "Dnešní datasety"
+          }
+        ],
+        "http://www.w3.org/2004/02/skos/core#prefLabel": [
+          {
+            "@value": "SPARQL construct"
+          }
+        ]
+      },
+      {
+        "@id": "https://pod-test.mvcr.gov.cz/etl/resources/pipelines/1638257151964/30",
+        "@type": [
+          "http://linkedpipes.com/ontology/Connection"
+        ],
+        "http://linkedpipes.com/ontology/sourceBinding": [
+          {
+            "@value": "OutputRdf"
+          }
+        ],
+        "http://linkedpipes.com/ontology/sourceComponent": [
+          {
+            "@id": "https://pod-test.mvcr.gov.cz/etl/resources/pipelines/1638257151964/7"
+          }
+        ],
+        "http://linkedpipes.com/ontology/targetBinding": [
+          {
+            "@value": "InputRdf"
+          }
+        ],
+        "http://linkedpipes.com/ontology/targetComponent": [
+          {
+            "@id": "https://pod-test.mvcr.gov.cz/etl/resources/pipelines/1638257151964/4"
+          }
+        ]
+      },
+      {
+        "@id": "https://pod-test.mvcr.gov.cz/etl/resources/pipelines/1638257151964/31",
+        "@type": [
+          "http://linkedpipes.com/ontology/Connection"
+        ],
+        "http://linkedpipes.com/ontology/sourceBinding": [
+          {
+            "@value": "OutputRdf"
+          }
+        ],
+        "http://linkedpipes.com/ontology/sourceComponent": [
+          {
+            "@id": "https://pod-test.mvcr.gov.cz/etl/resources/pipelines/1638257151964/4"
+          }
+        ],
+        "http://linkedpipes.com/ontology/targetBinding": [
+          {
+            "@value": "InputRdf"
+          }
+        ],
+        "http://linkedpipes.com/ontology/targetComponent": [
+          {
+            "@id": "https://pod-test.mvcr.gov.cz/etl/resources/pipelines/1638257151964/32"
+          }
+        ]
+      },
+      {
+        "@id": "https://pod-test.mvcr.gov.cz/etl/resources/pipelines/1638257151964/32",
+        "@type": [
+          "http://linkedpipes.com/ontology/Component"
+        ],
+        "http://linkedpipes.com/ontology/configurationGraph": [
+          {
+            "@id": "https://pod-test.mvcr.gov.cz/etl/resources/pipelines/1638257151964/graph/85"
+          }
+        ],
+        "http://linkedpipes.com/ontology/template": [
+          {
+            "@id": "http://etl.linkedpipes.com/resources/components/t-sparqlConstruct/0.0.0"
+          }
+        ],
+        "http://linkedpipes.com/ontology/x": [
+          {
+            "@type": "http://www.w3.org/2001/XMLSchema#integer",
+            "@value": "792"
+          }
+        ],
+        "http://linkedpipes.com/ontology/y": [
+          {
+            "@type": "http://www.w3.org/2001/XMLSchema#integer",
+            "@value": "274"
+          }
+        ],
+        "http://purl.org/dc/terms/description": [
+          {
+            "@value": "Změny součtů\npočtu DS a DIST"
+          }
+        ],
+        "http://www.w3.org/2004/02/skos/core#prefLabel": [
+          {
+            "@value": "SPARQL construct"
+          }
+        ]
+      },
+      {
+        "@id": "https://pod-test.mvcr.gov.cz/etl/resources/pipelines/1638257151964/33",
+        "@type": [
+          "http://linkedpipes.com/ontology/Connection"
+        ],
+        "http://linkedpipes.com/ontology/sourceBinding": [
+          {
+            "@value": "OutputRdf"
+          }
+        ],
+        "http://linkedpipes.com/ontology/sourceComponent": [
+          {
+            "@id": "https://pod-test.mvcr.gov.cz/etl/resources/pipelines/1638257151964/16"
+          }
+        ],
+        "http://linkedpipes.com/ontology/targetBinding": [
+          {
+            "@value": "InputRdf"
+          }
+        ],
+        "http://linkedpipes.com/ontology/targetComponent": [
+          {
+            "@id": "https://pod-test.mvcr.gov.cz/etl/resources/pipelines/1638257151964/10"
+          }
+        ]
+      },
+      {
+        "@id": "https://pod-test.mvcr.gov.cz/etl/resources/pipelines/1638257151964/34",
+        "@type": [
+          "http://linkedpipes.com/ontology/Connection"
+        ],
+        "http://linkedpipes.com/ontology/sourceBinding": [
+          {
+            "@value": "OutputRdf"
+          }
+        ],
+        "http://linkedpipes.com/ontology/sourceComponent": [
+          {
+            "@id": "https://pod-test.mvcr.gov.cz/etl/resources/pipelines/1638257151964/35"
+          }
+        ],
+        "http://linkedpipes.com/ontology/targetBinding": [
+          {
+            "@value": "InputRdf"
+          }
+        ],
+        "http://linkedpipes.com/ontology/targetComponent": [
+          {
+            "@id": "https://pod-test.mvcr.gov.cz/etl/resources/pipelines/1638257151964/32"
+          }
+        ]
+      },
+      {
+        "@id": "https://pod-test.mvcr.gov.cz/etl/resources/pipelines/1638257151964/35",
+        "@type": [
+          "http://linkedpipes.com/ontology/Component"
+        ],
+        "http://linkedpipes.com/ontology/configurationGraph": [
+          {
+            "@id": "https://pod-test.mvcr.gov.cz/etl/resources/pipelines/1638257151964/76"
+          }
+        ],
+        "http://linkedpipes.com/ontology/template": [
+          {
+            "@id": "http://etl.linkedpipes.com/resources/components/t-sparqlConstruct/0.0.0"
+          }
+        ],
+        "http://linkedpipes.com/ontology/x": [
+          {
+            "@type": "http://www.w3.org/2001/XMLSchema#integer",
+            "@value": "521"
+          }
+        ],
+        "http://linkedpipes.com/ontology/y": [
+          {
+            "@type": "http://www.w3.org/2001/XMLSchema#integer",
+            "@value": "207"
+          }
+        ],
+        "http://purl.org/dc/terms/description": [
+          {
+            "@value": "Minulé statistiky"
+          }
+        ],
+        "http://www.w3.org/2004/02/skos/core#prefLabel": [
+          {
+            "@value": "SPARQL construct"
+          }
+        ]
+      },
+      {
+        "@id": "https://pod-test.mvcr.gov.cz/etl/resources/pipelines/1638257151964/36",
+        "@type": [
+          "http://linkedpipes.com/ontology/Connection"
+        ],
+        "http://linkedpipes.com/ontology/sourceBinding": [
+          {
+            "@value": "OutputRdf"
+          }
+        ],
+        "http://linkedpipes.com/ontology/sourceComponent": [
+          {
+            "@id": "https://pod-test.mvcr.gov.cz/etl/resources/pipelines/1638257151964/9"
+          }
+        ],
+        "http://linkedpipes.com/ontology/targetBinding": [
+          {
+            "@value": "InputRdf"
+          }
+        ],
+        "http://linkedpipes.com/ontology/targetComponent": [
+          {
+            "@id": "https://pod-test.mvcr.gov.cz/etl/resources/pipelines/1638257151964/35"
+          }
+        ]
+      },
+      {
+        "@id": "https://pod-test.mvcr.gov.cz/etl/resources/pipelines/1638257151964/37",
+        "@type": [
+          "http://linkedpipes.com/ontology/Connection"
+        ],
+        "http://linkedpipes.com/ontology/sourceBinding": [
+          {
+            "@value": "OutputRdf"
+          }
+        ],
+        "http://linkedpipes.com/ontology/sourceComponent": [
+          {
+            "@id": "https://pod-test.mvcr.gov.cz/etl/resources/pipelines/1638257151964/21"
+          }
+        ],
+        "http://linkedpipes.com/ontology/targetBinding": [
+          {
+            "@value": "Task"
+          }
+        ],
+        "http://linkedpipes.com/ontology/targetComponent": [
+          {
+            "@id": "https://pod-test.mvcr.gov.cz/etl/resources/pipelines/1638257151964/13"
+          }
+        ]
+      },
+      {
+        "@id": "https://pod-test.mvcr.gov.cz/etl/resources/pipelines/1638257151964/38",
+        "@type": [
+          "http://linkedpipes.com/ontology/Connection"
+        ],
+        "http://linkedpipes.com/ontology/sourceBinding": [
+          {
+            "@value": "OutputRdf"
+          }
+        ],
+        "http://linkedpipes.com/ontology/sourceComponent": [
+          {
+            "@id": "https://pod-test.mvcr.gov.cz/etl/resources/pipelines/1638257151964/6"
+          }
+        ],
+        "http://linkedpipes.com/ontology/targetBinding": [
+          {
+            "@value": "InputRdf"
+          }
+        ],
+        "http://linkedpipes.com/ontology/targetComponent": [
+          {
+            "@id": "https://pod-test.mvcr.gov.cz/etl/resources/pipelines/1638257151964/39"
+          }
+        ]
+      },
+      {
+        "@id": "https://pod-test.mvcr.gov.cz/etl/resources/pipelines/1638257151964/39",
+        "@type": [
+          "http://linkedpipes.com/ontology/Component"
+        ],
+        "http://linkedpipes.com/ontology/configurationGraph": [
+          {
+            "@id": "https://pod-test.mvcr.gov.cz/etl/resources/pipelines/1638257151964/73"
+          }
+        ],
+        "http://linkedpipes.com/ontology/template": [
+          {
+            "@id": "http://etl.linkedpipes.com/resources/components/t-mustache/0.0.0"
+          }
+        ],
+        "http://linkedpipes.com/ontology/x": [
+          {
+            "@type": "http://www.w3.org/2001/XMLSchema#integer",
+            "@value": "1032"
+          }
+        ],
+        "http://linkedpipes.com/ontology/y": [
+          {
+            "@type": "http://www.w3.org/2001/XMLSchema#integer",
+            "@value": "-104"
+          }
+        ],
+        "http://www.w3.org/2004/02/skos/core#prefLabel": [
+          {
+            "@value": "Mustache"
+          }
+        ]
+      },
+      {
+        "@id": "https://pod-test.mvcr.gov.cz/etl/resources/pipelines/1638257151964/4",
+        "@type": [
+          "http://linkedpipes.com/ontology/Component"
+        ],
+        "http://linkedpipes.com/ontology/configurationGraph": [
+          {
+            "@id": "https://pod-test.mvcr.gov.cz/etl/resources/pipelines/1638257151964/63"
+          }
+        ],
+        "http://linkedpipes.com/ontology/template": [
+          {
+            "@id": "http://etl.linkedpipes.com/resources/components/t-sparqlConstruct/0.0.0"
+          }
+        ],
+        "http://linkedpipes.com/ontology/x": [
+          {
+            "@type": "http://www.w3.org/2001/XMLSchema#integer",
+            "@value": "521"
+          }
+        ],
+        "http://linkedpipes.com/ontology/y": [
+          {
+            "@type": "http://www.w3.org/2001/XMLSchema#integer",
+            "@value": "291"
+          }
+        ],
+        "http://purl.org/dc/terms/description": [
+          {
+            "@value": "Dnešní statistiky"
+          }
+        ],
+        "http://www.w3.org/2004/02/skos/core#prefLabel": [
+          {
+            "@value": "SPARQL construct"
+          }
+        ]
+      },
+      {
+        "@id": "https://pod-test.mvcr.gov.cz/etl/resources/pipelines/1638257151964/40",
+        "@type": [
+          "http://linkedpipes.com/ontology/Connection"
+        ],
+        "http://linkedpipes.com/ontology/sourceBinding": [
+          {
+            "@value": "OutputRdf"
+          }
+        ],
+        "http://linkedpipes.com/ontology/sourceComponent": [
+          {
+            "@id": "https://pod-test.mvcr.gov.cz/etl/resources/pipelines/1638257151964/7"
+          }
+        ],
+        "http://linkedpipes.com/ontology/targetBinding": [
+          {
+            "@value": "InputRdf"
+          }
+        ],
+        "http://linkedpipes.com/ontology/targetComponent": [
+          {
+            "@id": "https://pod-test.mvcr.gov.cz/etl/resources/pipelines/1638257151964/3"
+          }
+        ]
+      },
+      {
+        "@id": "https://pod-test.mvcr.gov.cz/etl/resources/pipelines/1638257151964/41",
+        "@type": [
+          "http://linkedpipes.com/ontology/Connection"
+        ],
+        "http://linkedpipes.com/ontology/sourceBinding": [
+          {
+            "@value": "OutputRdf"
+          }
+        ],
+        "http://linkedpipes.com/ontology/sourceComponent": [
+          {
+            "@id": "https://pod-test.mvcr.gov.cz/etl/resources/pipelines/1638257151964/32"
+          }
+        ],
+        "http://linkedpipes.com/ontology/targetBinding": [
+          {
+            "@value": "InputRdf"
+          }
+        ],
+        "http://linkedpipes.com/ontology/targetComponent": [
+          {
+            "@id": "https://pod-test.mvcr.gov.cz/etl/resources/pipelines/1638257151964/23"
+          }
+        ]
+      },
+      {
+        "@id": "https://pod-test.mvcr.gov.cz/etl/resources/pipelines/1638257151964/43",
+        "@type": [
+          "http://linkedpipes.com/ontology/Component"
+        ],
+        "http://linkedpipes.com/ontology/configurationGraph": [
+          {
+            "@id": "https://pod-test.mvcr.gov.cz/etl/resources/pipelines/1638257151964/86"
+          }
+        ],
+        "http://linkedpipes.com/ontology/template": [
+          {
+            "@id": "https://pod-test.mvcr.gov.cz/etl/resources/components/1553525261214-c5f8d4b7-c57c-4d47-ab95-7177f16894c1"
+          }
+        ],
+        "http://linkedpipes.com/ontology/x": [
+          {
+            "@type": "http://www.w3.org/2001/XMLSchema#integer",
+            "@value": "1171"
+          }
+        ],
+        "http://linkedpipes.com/ontology/y": [
+          {
+            "@type": "http://www.w3.org/2001/XMLSchema#integer",
+            "@value": "-222"
+          }
+        ],
+        "http://www.w3.org/2004/02/skos/core#prefLabel": [
+          {
+            "@value": "SCP to Frontend"
+          }
+        ]
+      },
+      {
+        "@id": "https://pod-test.mvcr.gov.cz/etl/resources/pipelines/1638257151964/44",
+        "@type": [
+          "http://linkedpipes.com/ontology/Component"
+        ],
+        "http://linkedpipes.com/ontology/configurationGraph": [
+          {
+            "@id": "https://pod-test.mvcr.gov.cz/etl/resources/pipelines/1638257151964/graph/70"
+          }
+        ],
+        "http://linkedpipes.com/ontology/template": [
+          {
+            "@id": "https://pod-test.mvcr.gov.cz/etl/resources/components/1614181023143-f151bc8f-effb-4507-9789-483b288b3cd7"
+          }
+        ],
+        "http://linkedpipes.com/ontology/x": [
+          {
+            "@type": "http://www.w3.org/2001/XMLSchema#integer",
+            "@value": "500"
+          }
+        ],
+        "http://linkedpipes.com/ontology/y": [
+          {
+            "@type": "http://www.w3.org/2001/XMLSchema#integer",
+            "@value": "-70"
+          }
+        ],
+        "http://www.w3.org/2004/02/skos/core#prefLabel": [
+          {
+            "@value": "Datum harvestace"
+          }
+        ]
+      },
+      {
+        "@id": "https://pod-test.mvcr.gov.cz/etl/resources/pipelines/1638257151964/45",
+        "@type": [
+          "http://linkedpipes.com/ontology/Component"
+        ],
+        "http://linkedpipes.com/ontology/configurationGraph": [
+          {
+            "@id": "https://pod-test.mvcr.gov.cz/etl/resources/pipelines/1638257151964/55"
+          }
+        ],
+        "http://linkedpipes.com/ontology/template": [
+          {
+            "@id": "https://pod-test.mvcr.gov.cz/etl/resources/components/1553525261214-c5f8d4b7-c57c-4d47-ab95-7177f16894c1"
+          }
+        ],
+        "http://linkedpipes.com/ontology/x": [
+          {
+            "@type": "http://www.w3.org/2001/XMLSchema#integer",
+            "@value": "1204"
+          }
+        ],
+        "http://linkedpipes.com/ontology/y": [
+          {
+            "@type": "http://www.w3.org/2001/XMLSchema#integer",
+            "@value": "-104"
+          }
+        ],
+        "http://www.w3.org/2004/02/skos/core#prefLabel": [
+          {
+            "@value": "SCP to Frontend"
+          }
+        ]
+      },
+      {
+        "@id": "https://pod-test.mvcr.gov.cz/etl/resources/pipelines/1638257151964/46",
+        "@type": [
+          "http://linkedpipes.com/ontology/Component"
+        ],
+        "http://linkedpipes.com/ontology/configurationGraph": [
+          {
+            "@id": "https://pod-test.mvcr.gov.cz/etl/resources/pipelines/1638257151964/64"
+          }
+        ],
+        "http://linkedpipes.com/ontology/template": [
+          {
+            "@id": "https://pod-test.mvcr.gov.cz/etl/resources/components/1612447774219-4d623c6d-7e9b-4742-b367-3a3c2f2b34d3"
+          }
+        ],
+        "http://linkedpipes.com/ontology/x": [
+          {
+            "@type": "http://www.w3.org/2001/XMLSchema#integer",
+            "@value": "241"
+          }
+        ],
+        "http://linkedpipes.com/ontology/y": [
+          {
+            "@type": "http://www.w3.org/2001/XMLSchema#integer",
+            "@value": "307"
+          }
+        ],
+        "http://www.w3.org/2004/02/skos/core#prefLabel": [
+          {
+            "@value": "NKOD dump"
+          }
+        ]
+      },
+      {
+        "@id": "https://pod-test.mvcr.gov.cz/etl/resources/pipelines/1638257151964/47",
+        "@type": [
+          "http://linkedpipes.com/ontology/Connection"
+        ],
+        "http://linkedpipes.com/ontology/sourceBinding": [
+          {
+            "@value": "OutputRdf"
+          }
+        ],
+        "http://linkedpipes.com/ontology/sourceComponent": [
+          {
+            "@id": "https://pod-test.mvcr.gov.cz/etl/resources/pipelines/1638257151964/44"
+          }
+        ],
+        "http://linkedpipes.com/ontology/targetBinding": [
+          {
+            "@value": "InputRdf"
+          }
+        ],
+        "http://linkedpipes.com/ontology/targetComponent": [
+          {
+            "@id": "https://pod-test.mvcr.gov.cz/etl/resources/pipelines/1638257151964/5"
+          }
+        ]
+      },
+      {
+        "@id": "https://pod-test.mvcr.gov.cz/etl/resources/pipelines/1638257151964/48",
+        "@type": [
+          "http://linkedpipes.com/ontology/Connection"
+        ],
+        "http://linkedpipes.com/ontology/sourceBinding": [
+          {
+            "@value": "FilesOutput"
+          }
+        ],
+        "http://linkedpipes.com/ontology/sourceComponent": [
+          {
+            "@id": "https://pod-test.mvcr.gov.cz/etl/resources/pipelines/1638257151964/46"
+          }
+        ],
+        "http://linkedpipes.com/ontology/targetBinding": [
+          {
+            "@value": "InputFiles"
+          }
+        ],
+        "http://linkedpipes.com/ontology/targetComponent": [
+          {
+            "@id": "https://pod-test.mvcr.gov.cz/etl/resources/pipelines/1638257151964/7"
+          }
+        ]
+      },
+      {
+        "@id": "https://pod-test.mvcr.gov.cz/etl/resources/pipelines/1638257151964/49",
+        "@type": [
+          "http://linkedpipes.com/ontology/Connection"
+        ],
+        "http://linkedpipes.com/ontology/sourceBinding": [
+          {
+            "@value": "OutputRdf"
+          }
+        ],
+        "http://linkedpipes.com/ontology/sourceComponent": [
+          {
+            "@id": "https://pod-test.mvcr.gov.cz/etl/resources/pipelines/1638257151964/44"
+          }
+        ],
+        "http://linkedpipes.com/ontology/targetBinding": [
+          {
+            "@value": "InputRdf"
+          }
+        ],
+        "http://linkedpipes.com/ontology/targetComponent": [
+          {
+            "@id": "https://pod-test.mvcr.gov.cz/etl/resources/pipelines/1638257151964/32"
+          }
+        ]
+      },
+      {
+        "@id": "https://pod-test.mvcr.gov.cz/etl/resources/pipelines/1638257151964/5",
+        "@type": [
+          "http://linkedpipes.com/ontology/Component"
+        ],
+        "http://linkedpipes.com/ontology/configurationGraph": [
+          {
+            "@id": "https://pod-test.mvcr.gov.cz/etl/resources/pipelines/1638257151964/graph/78"
+          }
+        ],
+        "http://linkedpipes.com/ontology/template": [
+          {
+            "@id": "http://etl.linkedpipes.com/resources/components/t-sparqlConstruct/0.0.0"
+          }
+        ],
+        "http://linkedpipes.com/ontology/x": [
+          {
+            "@type": "http://www.w3.org/2001/XMLSchema#integer",
+            "@value": "596"
+          }
+        ],
+        "http://linkedpipes.com/ontology/y": [
+          {
+            "@type": "http://www.w3.org/2001/XMLSchema#integer",
+            "@value": "-197"
+          }
+        ],
+        "http://purl.org/dc/terms/description": [
+          {
+            "@value": "Změny - wikipage"
+          }
+        ],
+        "http://www.w3.org/2004/02/skos/core#prefLabel": [
+          {
+            "@value": "SPARQL construct"
+          }
+        ]
+      },
+      {
+        "@id": "https://pod-test.mvcr.gov.cz/etl/resources/pipelines/1638257151964/50",
+        "@type": [
+          "http://linkedpipes.com/ontology/Connection"
+        ],
+        "http://linkedpipes.com/ontology/sourceBinding": [
+          {
+            "@value": "OutputFiles"
+          }
+        ],
+        "http://linkedpipes.com/ontology/sourceComponent": [
+          {
+            "@id": "https://pod-test.mvcr.gov.cz/etl/resources/pipelines/1638257151964/26"
+          }
+        ],
+        "http://linkedpipes.com/ontology/targetBinding": [
+          {
+            "@value": "FilesInput"
+          }
+        ],
+        "http://linkedpipes.com/ontology/targetComponent": [
+          {
+            "@id": "https://pod-test.mvcr.gov.cz/etl/resources/pipelines/1638257151964/43"
+          }
+        ]
+      },
+      {
+        "@id": "https://pod-test.mvcr.gov.cz/etl/resources/pipelines/1638257151964/51",
+        "@type": [
+          "http://linkedpipes.com/ontology/Connection"
+        ],
+        "http://linkedpipes.com/ontology/sourceBinding": [
+          {
+            "@value": "OutputRdf"
+          }
+        ],
+        "http://linkedpipes.com/ontology/sourceComponent": [
+          {
+            "@id": "https://pod-test.mvcr.gov.cz/etl/resources/pipelines/1638257151964/44"
+          }
+        ],
+        "http://linkedpipes.com/ontology/targetBinding": [
+          {
+            "@value": "InputRdf"
+          }
+        ],
+        "http://linkedpipes.com/ontology/targetComponent": [
+          {
+            "@id": "https://pod-test.mvcr.gov.cz/etl/resources/pipelines/1638257151964/16"
+          }
+        ]
+      },
+      {
+        "@id": "https://pod-test.mvcr.gov.cz/etl/resources/pipelines/1638257151964/52",
+        "@type": [
+          "http://linkedpipes.com/ontology/Connection"
+        ],
+        "http://linkedpipes.com/ontology/sourceBinding": [
+          {
+            "@value": "OutputRdf"
+          }
+        ],
+        "http://linkedpipes.com/ontology/sourceComponent": [
+          {
+            "@id": "https://pod-test.mvcr.gov.cz/etl/resources/pipelines/1638257151964/44"
+          }
+        ],
+        "http://linkedpipes.com/ontology/targetBinding": [
+          {
+            "@value": "InputRdf"
+          }
+        ],
+        "http://linkedpipes.com/ontology/targetComponent": [
+          {
+            "@id": "https://pod-test.mvcr.gov.cz/etl/resources/pipelines/1638257151964/6"
+          }
+        ]
+      },
+      {
+        "@id": "https://pod-test.mvcr.gov.cz/etl/resources/pipelines/1638257151964/53",
+        "@type": [
+          "http://linkedpipes.com/ontology/RunAfter"
+        ],
+        "http://linkedpipes.com/ontology/sourceComponent": [
+          {
+            "@id": "https://pod-test.mvcr.gov.cz/etl/resources/pipelines/1638257151964/43"
+          }
+        ],
+        "http://linkedpipes.com/ontology/targetComponent": [
+          {
+            "@id": "https://pod-test.mvcr.gov.cz/etl/resources/pipelines/1638257151964/45"
+          }
+        ]
+      },
+      {
+        "@id": "https://pod-test.mvcr.gov.cz/etl/resources/pipelines/1638257151964/54",
+        "@type": [
+          "http://linkedpipes.com/ontology/Connection"
+        ],
+        "http://linkedpipes.com/ontology/sourceBinding": [
+          {
+            "@value": "OutputFiles"
+          }
+        ],
+        "http://linkedpipes.com/ontology/sourceComponent": [
+          {
+            "@id": "https://pod-test.mvcr.gov.cz/etl/resources/pipelines/1638257151964/39"
+          }
+        ],
+        "http://linkedpipes.com/ontology/targetBinding": [
+          {
+            "@value": "FilesInput"
+          }
+        ],
+        "http://linkedpipes.com/ontology/targetComponent": [
+          {
+            "@id": "https://pod-test.mvcr.gov.cz/etl/resources/pipelines/1638257151964/45"
+          }
+        ]
+      },
+      {
+        "@id": "https://pod-test.mvcr.gov.cz/etl/resources/pipelines/1638257151964/6",
+        "@type": [
+          "http://linkedpipes.com/ontology/Component"
+        ],
+        "http://linkedpipes.com/ontology/configurationGraph": [
+          {
+            "@id": "https://pod-test.mvcr.gov.cz/etl/resources/pipelines/1638257151964/graph/75"
+          }
+        ],
+        "http://linkedpipes.com/ontology/template": [
+          {
+            "@id": "http://etl.linkedpipes.com/resources/components/t-sparqlConstruct/0.0.0"
+          }
+        ],
+        "http://linkedpipes.com/ontology/x": [
+          {
+            "@type": "http://www.w3.org/2001/XMLSchema#integer",
+            "@value": "816"
+          }
+        ],
+        "http://linkedpipes.com/ontology/y": [
+          {
+            "@type": "http://www.w3.org/2001/XMLSchema#integer",
+            "@value": "-101"
+          }
+        ],
+        "http://purl.org/dc/terms/description": [
+          {
+            "@value": "Změny - wikipage"
+          }
+        ],
+        "http://www.w3.org/2004/02/skos/core#prefLabel": [
+          {
+            "@value": "SPARQL construct"
+          }
+        ]
+      },
+      {
+        "@id": "https://pod-test.mvcr.gov.cz/etl/resources/pipelines/1638257151964/7",
+        "@type": [
+          "http://linkedpipes.com/ontology/Component"
+        ],
+        "http://linkedpipes.com/ontology/configurationGraph": [
+          {
+            "@id": "https://pod-test.mvcr.gov.cz/etl/resources/pipelines/1638257151964/graph/60"
+          }
+        ],
+        "http://linkedpipes.com/ontology/template": [
+          {
+            "@id": "http://etl.linkedpipes.com/resources/components/t-filesToRdfGraph/0.0.0"
+          }
+        ],
+        "http://linkedpipes.com/ontology/x": [
+          {
+            "@type": "http://www.w3.org/2001/XMLSchema#integer",
+            "@value": "223"
+          }
+        ],
+        "http://linkedpipes.com/ontology/y": [
+          {
+            "@type": "http://www.w3.org/2001/XMLSchema#integer",
+            "@value": "204"
+          }
+        ],
+        "http://www.w3.org/2004/02/skos/core#prefLabel": [
+          {
+            "@value": "Files to RDF single graph"
+          }
+        ]
+      },
+      {
+        "@id": "https://pod-test.mvcr.gov.cz/etl/resources/pipelines/1638257151964/9",
+        "@type": [
+          "http://linkedpipes.com/ontology/Component"
+        ],
+        "http://linkedpipes.com/ontology/configurationGraph": [
+          {
+            "@id": "https://pod-test.mvcr.gov.cz/etl/resources/pipelines/1638257151964/graph/82"
+          }
+        ],
+        "http://linkedpipes.com/ontology/template": [
+          {
+            "@id": "http://etl.linkedpipes.com/resources/components/t-filesToRdfGraph/0.0.0"
+          }
+        ],
+        "http://linkedpipes.com/ontology/x": [
+          {
+            "@type": "http://www.w3.org/2001/XMLSchema#integer",
+            "@value": "221"
+          }
+        ],
+        "http://linkedpipes.com/ontology/y": [
+          {
+            "@type": "http://www.w3.org/2001/XMLSchema#integer",
+            "@value": "113"
+          }
+        ],
+        "http://www.w3.org/2004/02/skos/core#prefLabel": [
+          {
+            "@value": "Files to RDF single graph"
+          }
+        ]
+      },
+      {
+        "@id": "https://pod-test.mvcr.gov.cz/etl/resources/pipelines/1638257151964/component/9a7d-9151",
+        "@type": [
+          "http://linkedpipes.com/ontology/Component"
+        ],
+        "http://linkedpipes.com/ontology/configurationGraph": [
+          {
+            "@id": "https://pod-test.mvcr.gov.cz/etl/resources/pipelines/1638257151964/component/9a7d-9151/configuration"
+          }
+        ],
+        "http://linkedpipes.com/ontology/template": [
+          {
+            "@id": "http://etl.linkedpipes.com/resources/components/t-filesRenamer/0.0.0"
+          }
+        ],
+        "http://linkedpipes.com/ontology/x": [
+          {
+            "@type": "http://www.w3.org/2001/XMLSchema#integer",
+            "@value": "301"
+          }
+        ],
+        "http://linkedpipes.com/ontology/y": [
+          {
+            "@type": "http://www.w3.org/2001/XMLSchema#integer",
+            "@value": "-356"
+          }
+        ],
+        "http://www.w3.org/2004/02/skos/core#prefLabel": [
+          {
+            "@value": "Files renamer"
+          }
+        ]
+      },
+      {
+        "@id": "https://pod-test.mvcr.gov.cz/etl/resources/pipelines/1638257151964/component/e788-87bf",
+        "@type": [
+          "http://linkedpipes.com/ontology/Component"
+        ],
+        "http://linkedpipes.com/ontology/configurationGraph": [
+          {
+            "@id": "https://pod-test.mvcr.gov.cz/etl/resources/pipelines/1638257151964/component/e788-87bf/configuration"
+          }
+        ],
+        "http://linkedpipes.com/ontology/template": [
+          {
+            "@id": "https://pod-test.mvcr.gov.cz/etl/resources/components/1638257600466-73941383-7bdc-4c6a-9446-0da2b4b99c80"
+          }
+        ],
+        "http://linkedpipes.com/ontology/x": [
+          {
+            "@type": "http://www.w3.org/2001/XMLSchema#integer",
+            "@value": "225"
+          }
+        ],
+        "http://linkedpipes.com/ontology/y": [
+          {
+            "@type": "http://www.w3.org/2001/XMLSchema#integer",
+            "@value": "36"
+          }
+        ],
+        "http://www.w3.org/2004/02/skos/core#prefLabel": [
+          {
+            "@value": "NKOD minulý měsíc"
+          }
+        ]
+      },
+      {
+        "@id": "https://pod-test.mvcr.gov.cz/etl/resources/pipelines/1638257151964/component/fcdb-84d4",
+        "@type": [
+          "http://linkedpipes.com/ontology/Component"
+        ],
+        "http://linkedpipes.com/ontology/configurationGraph": [
+          {
+            "@id": "https://pod-test.mvcr.gov.cz/etl/resources/pipelines/1638257151964/component/fcdb-84d4/configuration"
+          }
+        ],
+        "http://linkedpipes.com/ontology/disabled": [
+          {
+            "@type": "http://www.w3.org/2001/XMLSchema#boolean",
+            "@value": "true"
+          }
+        ],
+        "http://linkedpipes.com/ontology/template": [
+          {
+            "@id": "https://pod-test.mvcr.gov.cz/etl/resources/components/1553525261214-c5f8d4b7-c57c-4d47-ab95-7177f16894c1"
+          }
+        ],
+        "http://linkedpipes.com/ontology/x": [
+          {
+            "@type": "http://www.w3.org/2001/XMLSchema#integer",
+            "@value": "963"
+          }
+        ],
+        "http://linkedpipes.com/ontology/y": [
+          {
+            "@type": "http://www.w3.org/2001/XMLSchema#integer",
+            "@value": "-380"
+          }
+        ],
+        "http://www.w3.org/2004/02/skos/core#prefLabel": [
+          {
+            "@value": "SCP to Frontend"
+          }
+        ]
+      },
+      {
+        "@id": "https://pod-test.mvcr.gov.cz/etl/resources/pipelines/1638257151964/connection/46ba-a204",
+        "@type": [
+          "http://linkedpipes.com/ontology/Connection"
+        ],
+        "http://linkedpipes.com/ontology/sourceBinding": [
+          {
+            "@value": "FilesOutput"
+          }
+        ],
+        "http://linkedpipes.com/ontology/sourceComponent": [
+          {
+            "@id": "https://pod-test.mvcr.gov.cz/etl/resources/pipelines/1638257151964/component/e788-87bf"
+          }
+        ],
+        "http://linkedpipes.com/ontology/targetBinding": [
+          {
+            "@value": "InputFiles"
+          }
+        ],
+        "http://linkedpipes.com/ontology/targetComponent": [
+          {
+            "@id": "https://pod-test.mvcr.gov.cz/etl/resources/pipelines/1638257151964/9"
+          }
+        ]
+      },
+      {
+        "@id": "https://pod-test.mvcr.gov.cz/etl/resources/pipelines/1638257151964/connection/5847-a4df",
+        "@type": [
+          "http://linkedpipes.com/ontology/Connection"
+        ],
+        "http://linkedpipes.com/ontology/sourceBinding": [
+          {
+            "@value": "OutputFiles"
+          }
+        ],
+        "http://linkedpipes.com/ontology/sourceComponent": [
+          {
+            "@id": "https://pod-test.mvcr.gov.cz/etl/resources/pipelines/1638257151964/component/9a7d-9151"
+          }
+        ],
+        "http://linkedpipes.com/ontology/targetBinding": [
+          {
+            "@value": "FilesInput"
+          }
+        ],
+        "http://linkedpipes.com/ontology/targetComponent": [
+          {
+            "@id": "https://pod-test.mvcr.gov.cz/etl/resources/pipelines/1638257151964/component/fcdb-84d4"
+          }
+        ]
+      },
+      {
+        "@id": "https://pod-test.mvcr.gov.cz/etl/resources/pipelines/1638257151964/connection/631c-bc0d",
+        "@type": [
+          "http://linkedpipes.com/ontology/RunAfter"
+        ],
+        "http://linkedpipes.com/ontology/sourceComponent": [
+          {
+            "@id": "https://pod-test.mvcr.gov.cz/etl/resources/pipelines/1638257151964/13"
+          }
+        ],
+        "http://linkedpipes.com/ontology/targetComponent": [
+          {
+            "@id": "https://pod-test.mvcr.gov.cz/etl/resources/pipelines/1638257151964/component/fcdb-84d4"
+          }
+        ],
+        "http://linkedpipes.com/ontology/vertex": [
+          {
+            "@id": "https://pod-test.mvcr.gov.cz/etl/resources/pipelines/1638257151964/vertex/296d-9637"
+          }
+        ]
+      },
+      {
+        "@id": "https://pod-test.mvcr.gov.cz/etl/resources/pipelines/1638257151964/connection/cc70-8d20",
+        "@type": [
+          "http://linkedpipes.com/ontology/Connection"
+        ],
+        "http://linkedpipes.com/ontology/sourceBinding": [
+          {
+            "@value": "FilesOutput"
+          }
+        ],
+        "http://linkedpipes.com/ontology/sourceComponent": [
+          {
+            "@id": "https://pod-test.mvcr.gov.cz/etl/resources/pipelines/1638257151964/46"
+          }
+        ],
+        "http://linkedpipes.com/ontology/targetBinding": [
+          {
+            "@value": "InputFiles"
+          }
+        ],
+        "http://linkedpipes.com/ontology/targetComponent": [
+          {
+            "@id": "https://pod-test.mvcr.gov.cz/etl/resources/pipelines/1638257151964/component/9a7d-9151"
+          }
+        ],
+        "http://linkedpipes.com/ontology/vertex": [
+          {
+            "@id": "https://pod-test.mvcr.gov.cz/etl/resources/pipelines/1638257151964/vertex/d357-b171"
+          },
+          {
+            "@id": "https://pod-test.mvcr.gov.cz/etl/resources/pipelines/1638257151964/vertex/948d-8645"
+          },
+          {
+            "@id": "https://pod-test.mvcr.gov.cz/etl/resources/pipelines/1638257151964/vertex/613e-bf4f"
+          }
+        ]
+      },
+      {
+        "@id": "https://pod-test.mvcr.gov.cz/etl/resources/pipelines/1638257151964/vertex/296d-9637",
+        "@type": [
+          "http://linkedpipes.com/ontology/Vertex"
+        ],
+        "http://linkedpipes.com/ontology/order": [
+          {
+            "@type": "http://www.w3.org/2001/XMLSchema#integer",
+            "@value": "1"
+          }
+        ],
+        "http://linkedpipes.com/ontology/x": [
+          {
+            "@type": "http://www.w3.org/2001/XMLSchema#integer",
+            "@value": "1426"
+          }
+        ],
+        "http://linkedpipes.com/ontology/y": [
+          {
+            "@type": "http://www.w3.org/2001/XMLSchema#integer",
+            "@value": "-323"
+          }
+        ]
+      },
+      {
+        "@id": "https://pod-test.mvcr.gov.cz/etl/resources/pipelines/1638257151964/vertex/613e-bf4f",
+        "@type": [
+          "http://linkedpipes.com/ontology/Vertex"
+        ],
+        "http://linkedpipes.com/ontology/order": [
+          {
+            "@type": "http://www.w3.org/2001/XMLSchema#integer",
+            "@value": "3"
+          }
+        ],
+        "http://linkedpipes.com/ontology/x": [
+          {
+            "@type": "http://www.w3.org/2001/XMLSchema#integer",
+            "@value": "76"
+          }
+        ],
+        "http://linkedpipes.com/ontology/y": [
+          {
+            "@type": "http://www.w3.org/2001/XMLSchema#integer",
+            "@value": "-287"
+          }
+        ]
+      },
+      {
+        "@id": "https://pod-test.mvcr.gov.cz/etl/resources/pipelines/1638257151964/vertex/948d-8645",
+        "@type": [
+          "http://linkedpipes.com/ontology/Vertex"
+        ],
+        "http://linkedpipes.com/ontology/order": [
+          {
+            "@type": "http://www.w3.org/2001/XMLSchema#integer",
+            "@value": "2"
+          }
+        ],
+        "http://linkedpipes.com/ontology/x": [
+          {
+            "@type": "http://www.w3.org/2001/XMLSchema#integer",
+            "@value": "79"
+          }
+        ],
+        "http://linkedpipes.com/ontology/y": [
+          {
+            "@type": "http://www.w3.org/2001/XMLSchema#integer",
+            "@value": "384"
+          }
+        ]
+      },
+      {
+        "@id": "https://pod-test.mvcr.gov.cz/etl/resources/pipelines/1638257151964/vertex/d357-b171",
+        "@type": [
+          "http://linkedpipes.com/ontology/Vertex"
+        ],
+        "http://linkedpipes.com/ontology/order": [
+          {
+            "@type": "http://www.w3.org/2001/XMLSchema#integer",
+            "@value": "1"
+          }
+        ],
+        "http://linkedpipes.com/ontology/x": [
+          {
+            "@type": "http://www.w3.org/2001/XMLSchema#integer",
+            "@value": "360"
+          }
+        ],
+        "http://linkedpipes.com/ontology/y": [
+          {
+            "@type": "http://www.w3.org/2001/XMLSchema#integer",
+            "@value": "389"
+          }
+        ]
+      }
+    ],
+    "@id": "https://pod-test.mvcr.gov.cz/etl/resources/pipelines/1638257151964"
+  },
+  {
+    "@graph": [
+      {
+        "@id": "https://pod-test.mvcr.gov.cz/etl/resources/pipelines/1638257151964/55",
+        "@type": [
+          "http://plugins.linkedpipes.com/ontology/l-filesToScp#Configuration"
+        ],
+        "http://plugins.linkedpipes.com/ontology/l-filesToScp#clearDirectory": [
+          {
+            "@type": "http://www.w3.org/2001/XMLSchema#boolean",
+            "@value": "false"
+          }
+        ],
+        "http://plugins.linkedpipes.com/ontology/l-filesToScp#clearDirectoryControl": [
+          {
+            "@id": "http://plugins.linkedpipes.com/resource/configuration/None"
+          }
+        ],
+        "http://plugins.linkedpipes.com/ontology/l-filesToScp#connectionTimeOutControl": [
+          {
+            "@id": "http://plugins.linkedpipes.com/resource/configuration/Inherit"
+          }
+        ],
+        "http://plugins.linkedpipes.com/ontology/l-filesToScp#createDirectory": [
+          {
+            "@type": "http://www.w3.org/2001/XMLSchema#boolean",
+            "@value": "true"
+          }
+        ],
+        "http://plugins.linkedpipes.com/ontology/l-filesToScp#createDirectoryControl": [
+          {
+            "@id": "http://plugins.linkedpipes.com/resource/configuration/None"
+          }
+        ],
+        "http://plugins.linkedpipes.com/ontology/l-filesToScp#directory": [
+          {
+            "@value": "/data/dokuwiki/data/pages/statistika"
+          }
+        ],
+        "http://plugins.linkedpipes.com/ontology/l-filesToScp#directoryControl": [
+          {
+            "@id": "http://plugins.linkedpipes.com/resource/configuration/None"
+          }
+        ],
+        "http://plugins.linkedpipes.com/ontology/l-filesToScp#hostControl": [
+          {
+            "@id": "http://plugins.linkedpipes.com/resource/configuration/Inherit"
+          }
+        ],
+        "http://plugins.linkedpipes.com/ontology/l-filesToScp#passwordControl": [
+          {
+            "@id": "http://plugins.linkedpipes.com/resource/configuration/Inherit"
+          }
+        ],
+        "http://plugins.linkedpipes.com/ontology/l-filesToScp#portControl": [
+          {
+            "@id": "http://plugins.linkedpipes.com/resource/configuration/Inherit"
+          }
+        ],
+        "http://plugins.linkedpipes.com/ontology/l-filesToScp#userNameControl": [
+          {
+            "@id": "http://plugins.linkedpipes.com/resource/configuration/Inherit"
+          }
+        ]
+      }
+    ],
+    "@id": "https://pod-test.mvcr.gov.cz/etl/resources/pipelines/1638257151964/55"
+  },
+  {
+    "@graph": [
+      {
+        "@id": "https://pod-test.mvcr.gov.cz/etl/resources/pipelines/1638257151964/56",
+        "@type": [
+          "http://plugins.linkedpipes.com/ontology/e-textHolder#Configuration"
+        ],
+        "http://plugins.linkedpipes.com/ontology/e-textHolder#content": [
+          {
+            "@value": "@prefix req: <http://plugins.linkedpipes.com/ontology/x-httpRequest#> .\n\n<http://localhost/slack> a req:Task ;\n  req:url \"https://hooks.slack.com/services/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\" ;\n#  req:url \"https://hooks.slack.com/services/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\" ;\n  req:method \"POST\" ;\n  req:postContentAsBody true ;\n  req:content <http://localhost/slack/content> .\n\n<http://localhost/slack/content> a req:Content ;\n  req:fileReference \"configuration.json\" ."
+          }
+        ],
+        "http://plugins.linkedpipes.com/ontology/e-textHolder#contentControl": [
+          {
+            "@id": "http://plugins.linkedpipes.com/resource/configuration/None"
+          }
+        ],
+        "http://plugins.linkedpipes.com/ontology/e-textHolder#fileName": [
+          {
+            "@value": "task1.ttl"
+          }
+        ],
+        "http://plugins.linkedpipes.com/ontology/e-textHolder#fileNameControl": [
+          {
+            "@id": "http://plugins.linkedpipes.com/resource/configuration/None"
+          }
+        ]
+      }
+    ],
+    "@id": "https://pod-test.mvcr.gov.cz/etl/resources/pipelines/1638257151964/56"
+  },
+  {
+    "@graph": [
+      {
+        "@id": "https://pod-test.mvcr.gov.cz/etl/resources/pipelines/1638257151964/63",
+        "@type": [
+          "http://plugins.linkedpipes.com/ontology/t-sparqlConstruct#Configuration"
+        ],
+        "http://plugins.linkedpipes.com/ontology/t-sparqlConstruct#query": [
+          {
+            "@value": "PREFIX dcat: <http://www.w3.org/ns/dcat#>\nPREFIX foaf: <http://xmlns.com/foaf/0.1/>\nPREFIX dcterms: <http://purl.org/dc/terms/>\n\nPREFIX : <http://localhost/stat/>\n\nCONSTRUCT \n{\n  ?publisher a :DnešníPoskytovatel ;\n    foaf:name ?Poskytovatel ;\n    :PočetDatovýchSadDnes ?PočetDatovýchSad ;\n    :PočetDistribucíDnes ?PočetDistribucí .\n} \nWHERE \n{  \n  {\n  SELECT ?publisher ?Poskytovatel (count(distinct ?dataset) as ?PočetDatovýchSad) (count(distinct ?distribution) as ?PočetDistribucí)\n\n  WHERE { \n  ?dataset a dcat:Dataset;\n           dcterms:publisher ?publisher ;\n           ^dcat:dataset <https://data.gov.cz/zdroj/katalog/NKOD> .\n          \n  OPTIONAL {?dataset dcat:distribution ?distribution . }\n  ?publisher foaf:name ?Poskytovatel.\n  \n  }\n  GROUP BY ?publisher ?Poskytovatel\n  ORDER BY DESC(?PočetDatovýchSad) \n  }\n}"
+          }
+        ],
+        "http://plugins.linkedpipes.com/ontology/t-sparqlConstruct#queryControl": [
+          {
+            "@id": "http://plugins.linkedpipes.com/resource/configuration/None"
+          }
+        ]
+      }
+    ],
+    "@id": "https://pod-test.mvcr.gov.cz/etl/resources/pipelines/1638257151964/63"
+  },
+  {
+    "@graph": [
+      {
+        "@id": "https://pod-test.mvcr.gov.cz/etl/resources/pipelines/1638257151964/64",
+        "@type": [
+          "http://plugins.linkedpipes.com/ontology/e-httpGetFile#Configuration"
+        ],
+        "http://plugins.linkedpipes.com/ontology/e-httpGetFile#encodeUrl": [
+          {
+            "@type": "http://www.w3.org/2001/XMLSchema#boolean",
+            "@value": "false"
+          }
+        ],
+        "http://plugins.linkedpipes.com/ontology/e-httpGetFile#encodeUrlControl": [
+          {
+            "@id": "http://plugins.linkedpipes.com/resource/configuration/Inherit"
+          }
+        ],
+        "http://plugins.linkedpipes.com/ontology/e-httpGetFile#fileName": [
+          {
+            "@value": "včerejší-nkod.trig"
+          }
+        ],
+        "http://plugins.linkedpipes.com/ontology/e-httpGetFile#fileNameControl": [
+          {
+            "@id": "http://plugins.linkedpipes.com/resource/configuration/Inherit"
+          }
+        ],
+        "http://plugins.linkedpipes.com/ontology/e-httpGetFile#fileUri": [
+          {
+            "@value": "https://dev.nkod.opendata.cz/soubor/nkod.trig"
+          }
+        ],
+        "http://plugins.linkedpipes.com/ontology/e-httpGetFile#fileUriControl": [
+          {
+            "@id": "http://plugins.linkedpipes.com/resource/configuration/Inherit"
+          }
+        ],
+        "http://plugins.linkedpipes.com/ontology/e-httpGetFile#hardRedirect": [
+          {
+            "@type": "http://www.w3.org/2001/XMLSchema#boolean",
+            "@value": "false"
+          }
+        ],
+        "http://plugins.linkedpipes.com/ontology/e-httpGetFile#hardRedirectControl": [
+          {
+            "@id": "http://plugins.linkedpipes.com/resource/configuration/Inherit"
+          }
+        ],
+        "http://plugins.linkedpipes.com/ontology/e-httpGetFile#userAgent": [
+          {
+            "@value": ""
+          }
+        ],
+        "http://plugins.linkedpipes.com/ontology/e-httpGetFile#userAgentControl": [
+          {
+            "@id": "http://plugins.linkedpipes.com/resource/configuration/Inherit"
+          }
+        ],
+        "http://plugins.linkedpipes.com/ontology/e-httpGetFile#utf8Redirect": [
+          {
+            "@type": "http://www.w3.org/2001/XMLSchema#boolean",
+            "@value": "false"
+          }
+        ],
+        "http://plugins.linkedpipes.com/ontology/e-httpGetFile#utf8RedirectControl": [
+          {
+            "@id": "http://plugins.linkedpipes.com/resource/configuration/Inherit"
+          }
+        ]
+      }
+    ],
+    "@id": "https://pod-test.mvcr.gov.cz/etl/resources/pipelines/1638257151964/64"
+  },
+  {
+    "@graph": [
+      {
+        "@id": "https://pod-test.mvcr.gov.cz/etl/resources/pipelines/1638257151964/65",
+        "@type": [
+          "http://plugins.linkedpipes.com/ontology/t-sparqlConstruct#Configuration"
+        ],
+        "http://plugins.linkedpipes.com/ontology/t-sparqlConstruct#query": [
+          {
+            "@value": "PREFIX : <http://localhost/stat/>\nPREFIX dcterms: <http://purl.org/dc/terms/>\nPREFIX foaf: <http://xmlns.com/foaf/0.1/>\nPREFIX dcat: <http://www.w3.org/ns/dcat#>\nPREFIX dc: <http://purl.org/dc/elements/1.1/>\n\nCONSTRUCT { \n  ?dataset a dcat:Dataset, :DnešníDataset;\n           dcterms:title ?název ;\n           dcterms:publisher ?publisher .\n  ?publisher a :DnešníPoskytovatel;\n           foaf:name ?PublisherName .\n} \nWHERE { \n  ?dataset a dcat:Dataset ;\n           dcterms:title ?název ;\n           dcterms:publisher ?publisher .\n  ?publisher foaf:name ?PublisherName .\n}"
+          }
+        ],
+        "http://plugins.linkedpipes.com/ontology/t-sparqlConstruct#queryControl": [
+          {
+            "@id": "http://plugins.linkedpipes.com/resource/configuration/None"
+          }
+        ]
+      }
+    ],
+    "@id": "https://pod-test.mvcr.gov.cz/etl/resources/pipelines/1638257151964/65"
+  },
+  {
+    "@graph": [
+      {
+        "@id": "https://pod-test.mvcr.gov.cz/etl/resources/pipelines/1638257151964/23/configuration",
+        "@type": [
+          "http://plugins.linkedpipes.com/ontology/t-mustache#Configuration"
+        ],
+        "http://plugins.linkedpipes.com/ontology/t-mustache#addFirstFlag": [
+          {
+            "@type": "http://www.w3.org/2001/XMLSchema#boolean",
+            "@value": "false"
+          }
+        ],
+        "http://plugins.linkedpipes.com/ontology/t-mustache#addFirstFlagControl": [
+          {
+            "@id": "http://plugins.linkedpipes.com/resource/configuration/None"
+          }
+        ],
+        "http://plugins.linkedpipes.com/ontology/t-mustache#class": [
+          {
+            "@value": "http://localhost/temp/Message"
+          }
+        ],
+        "http://plugins.linkedpipes.com/ontology/t-mustache#classControl": [
+          {
+            "@id": "http://plugins.linkedpipes.com/resource/configuration/None"
+          }
+        ],
+        "http://plugins.linkedpipes.com/ontology/t-mustache#escapeForJson": [
+          {
+            "@type": "http://www.w3.org/2001/XMLSchema#boolean",
+            "@value": "false"
+          }
+        ],
+        "http://plugins.linkedpipes.com/ontology/t-mustache#escapeForJsonControl": [
+          {
+            "@id": "http://plugins.linkedpipes.com/resource/configuration/None"
+          }
+        ],
+        "http://plugins.linkedpipes.com/ontology/t-mustache#template": [
+          {
+            "@value": "{{!\n  PREFIX mustache: <http://plugins.linkedpipes.com/ontology/t-mustache#>\n  PREFIX local:   <http://localhost/temp/>\n}}\n{\n\"text\" : \"{{{local:text}}}\"\n}"
+          }
+        ],
+        "http://plugins.linkedpipes.com/ontology/t-mustache#templateControl": [
+          {
+            "@id": "http://plugins.linkedpipes.com/resource/configuration/None"
+          }
+        ]
+      }
+    ],
+    "@id": "https://pod-test.mvcr.gov.cz/etl/resources/pipelines/1638257151964/66"
+  },
+  {
+    "@graph": [
+      {
+        "@id": "https://pod-test.mvcr.gov.cz/etl/resources/pipelines/1638257151964/18/configuration",
+        "@type": [
+          "http://plugins.linkedpipes.com/ontology/t-sparqlConstruct#Configuration"
+        ],
+        "http://plugins.linkedpipes.com/ontology/t-sparqlConstruct#query": [
+          {
+            "@value": "PREFIX : <http://localhost/stat/>\nPREFIX dcterms: <http://purl.org/dc/terms/>\nPREFIX foaf: <http://xmlns.com/foaf/0.1/>\nPREFIX dcat: <http://www.w3.org/ns/dcat#>\nPREFIX dc: <http://purl.org/dc/elements/1.1/>\n\nCONSTRUCT { \n  ?dataset a dcat:Dataset, :VčerejšíDataset ;\n             dcterms:title ?název ;\n             dcterms:publisher ?publisher .\n  ?publisher a :VčerejšíPoskytovatel;\n    foaf:name ?PublisherName .\n} \nWHERE { \n  ?dataset a dcat:Dataset ;\n           dcterms:title ?název ;\n           dcterms:publisher ?publisher .\n  ?publisher foaf:name ?PublisherName .\n}"
+          }
+        ],
+        "http://plugins.linkedpipes.com/ontology/t-sparqlConstruct#queryControl": [
+          {
+            "@id": "http://plugins.linkedpipes.com/resource/configuration/None"
+          }
+        ]
+      }
+    ],
+    "@id": "https://pod-test.mvcr.gov.cz/etl/resources/pipelines/1638257151964/68"
+  },
+  {
+    "@graph": [
+      {
+        "@id": "https://pod-test.mvcr.gov.cz/etl/resources/pipelines/1638257151964/39/configuration",
+        "@type": [
+          "http://plugins.linkedpipes.com/ontology/t-mustache#Configuration"
+        ],
+        "http://plugins.linkedpipes.com/ontology/t-mustache#addFirstFlag": [
+          {
+            "@type": "http://www.w3.org/2001/XMLSchema#boolean",
+            "@value": "false"
+          }
+        ],
+        "http://plugins.linkedpipes.com/ontology/t-mustache#addFirstFlagControl": [
+          {
+            "@id": "http://plugins.linkedpipes.com/resource/configuration/None"
+          }
+        ],
+        "http://plugins.linkedpipes.com/ontology/t-mustache#class": [
+          {
+            "@value": "http://plugins.linkedpipes.com/ontology/t-sparqlSelect#Configuration"
+          }
+        ],
+        "http://plugins.linkedpipes.com/ontology/t-mustache#classControl": [
+          {
+            "@id": "http://plugins.linkedpipes.com/resource/configuration/None"
+          }
+        ],
+        "http://plugins.linkedpipes.com/ontology/t-mustache#escapeForJson": [
+          {
+            "@type": "http://www.w3.org/2001/XMLSchema#boolean",
+            "@value": "false"
+          }
+        ],
+        "http://plugins.linkedpipes.com/ontology/t-mustache#escapeForJsonControl": [
+          {
+            "@id": "http://plugins.linkedpipes.com/resource/configuration/None"
+          }
+        ],
+        "http://plugins.linkedpipes.com/ontology/t-mustache#template": [
+          {
+            "@value": "====== Měsíční změny v NKOD ======\nAktualizováno {{https://localhost/temp/now}}\n\n{{=<% %>=}}\n{{:statistika:<%https://localhost/temp/csvname%>|Měsíční změny v NKOD}}\n<%={{ }}=%>\n<csv statistika:{{https://localhost/temp/csvname}}></csv>"
+          }
+        ],
+        "http://plugins.linkedpipes.com/ontology/t-mustache#templateControl": [
+          {
+            "@id": "http://plugins.linkedpipes.com/resource/configuration/None"
+          }
+        ]
+      }
+    ],
+    "@id": "https://pod-test.mvcr.gov.cz/etl/resources/pipelines/1638257151964/73"
+  },
+  {
+    "@graph": [
+      {
+        "@id": "https://pod-test.mvcr.gov.cz/etl/resources/pipelines/1638257151964/35/configuration",
+        "@type": [
+          "http://plugins.linkedpipes.com/ontology/t-sparqlConstruct#Configuration"
+        ],
+        "http://plugins.linkedpipes.com/ontology/t-sparqlConstruct#query": [
+          {
+            "@value": "PREFIX dcat: <http://www.w3.org/ns/dcat#>\nPREFIX foaf: <http://xmlns.com/foaf/0.1/>\nPREFIX dcterms: <http://purl.org/dc/terms/>\n\nPREFIX : <http://localhost/stat/>\n\nCONSTRUCT \n{\n  ?publisher a :VčerejšíPoskytovatel ;\n    foaf:name ?Poskytovatel ;\n    :PočetDatovýchSadVčera ?PočetDatovýchSad ;\n    :PočetDistribucíVčera ?PočetDistribucí .\n} \nWHERE \n{  \n  {\n  SELECT ?publisher ?Poskytovatel (count(distinct ?dataset) as ?PočetDatovýchSad) (count(distinct ?distribution) as ?PočetDistribucí)\n\n  WHERE { \n  ?dataset a dcat:Dataset;\n           dcterms:publisher ?publisher ;\n           ^dcat:dataset <https://data.gov.cz/zdroj/katalog/NKOD> .\n          \n  OPTIONAL {?dataset dcat:distribution ?distribution . }\n  ?publisher foaf:name ?Poskytovatel.\n  \n  }\n  GROUP BY ?publisher ?Poskytovatel\n  ORDER BY DESC(?PočetDatovýchSad) \n  }\n}"
+          }
+        ],
+        "http://plugins.linkedpipes.com/ontology/t-sparqlConstruct#queryControl": [
+          {
+            "@id": "http://plugins.linkedpipes.com/resource/configuration/None"
+          }
+        ]
+      }
+    ],
+    "@id": "https://pod-test.mvcr.gov.cz/etl/resources/pipelines/1638257151964/76"
+  },
+  {
+    "@graph": [
+      {
+        "@id": "https://pod-test.mvcr.gov.cz/etl/resources/pipelines/1638257151964/86",
+        "@type": [
+          "http://plugins.linkedpipes.com/ontology/l-filesToScp#Configuration"
+        ],
+        "http://plugins.linkedpipes.com/ontology/l-filesToScp#clearDirectory": [
+          {
+            "@type": "http://www.w3.org/2001/XMLSchema#boolean",
+            "@value": "false"
+          }
+        ],
+        "http://plugins.linkedpipes.com/ontology/l-filesToScp#clearDirectoryControl": [
+          {
+            "@id": "http://plugins.linkedpipes.com/resource/configuration/None"
+          }
+        ],
+        "http://plugins.linkedpipes.com/ontology/l-filesToScp#connectionTimeOutControl": [
+          {
+            "@id": "http://plugins.linkedpipes.com/resource/configuration/Inherit"
+          }
+        ],
+        "http://plugins.linkedpipes.com/ontology/l-filesToScp#createDirectory": [
+          {
+            "@type": "http://www.w3.org/2001/XMLSchema#boolean",
+            "@value": "true"
+          }
+        ],
+        "http://plugins.linkedpipes.com/ontology/l-filesToScp#createDirectoryControl": [
+          {
+            "@id": "http://plugins.linkedpipes.com/resource/configuration/None"
+          }
+        ],
+        "http://plugins.linkedpipes.com/ontology/l-filesToScp#directory": [
+          {
+            "@value": "/data/dokuwiki/data/media/statistika"
+          }
+        ],
+        "http://plugins.linkedpipes.com/ontology/l-filesToScp#directoryControl": [
+          {
+            "@id": "http://plugins.linkedpipes.com/resource/configuration/None"
+          }
+        ],
+        "http://plugins.linkedpipes.com/ontology/l-filesToScp#hostControl": [
+          {
+            "@id": "http://plugins.linkedpipes.com/resource/configuration/Inherit"
+          }
+        ],
+        "http://plugins.linkedpipes.com/ontology/l-filesToScp#passwordControl": [
+          {
+            "@id": "http://plugins.linkedpipes.com/resource/configuration/Inherit"
+          }
+        ],
+        "http://plugins.linkedpipes.com/ontology/l-filesToScp#portControl": [
+          {
+            "@id": "http://plugins.linkedpipes.com/resource/configuration/Inherit"
+          }
+        ],
+        "http://plugins.linkedpipes.com/ontology/l-filesToScp#userNameControl": [
+          {
+            "@id": "http://plugins.linkedpipes.com/resource/configuration/Inherit"
+          }
+        ]
+      }
+    ],
+    "@id": "https://pod-test.mvcr.gov.cz/etl/resources/pipelines/1638257151964/86"
+  },
+  {
+    "@graph": [
+      {
+        "@id": "https://pod-test.mvcr.gov.cz/etl/resources/pipelines/1638257151964/component/9a7d-9151/configuration",
+        "@type": [
+          "http://plugins.linkedpipes.com/ontology/t-filesRenamer#Configuration"
+        ],
+        "http://plugins.linkedpipes.com/ontology/t-filesRenamer#pattern": [
+          {
+            "@value": "včerejší-nkod\\.trig"
+          }
+        ],
+        "http://plugins.linkedpipes.com/ontology/t-filesRenamer#patternControl": [
+          {
+            "@id": "http://plugins.linkedpipes.com/resource/configuration/None"
+          }
+        ],
+        "http://plugins.linkedpipes.com/ontology/t-filesRenamer#replaceWith": [
+          {
+            "@value": "nkod-minulý-měsíc\\.trig"
+          }
+        ],
+        "http://plugins.linkedpipes.com/ontology/t-filesRenamer#replaceWithControl": [
+          {
+            "@id": "http://plugins.linkedpipes.com/resource/configuration/None"
+          }
+        ]
+      }
+    ],
+    "@id": "https://pod-test.mvcr.gov.cz/etl/resources/pipelines/1638257151964/component/9a7d-9151/configuration"
+  },
+  {
+    "@graph": [
+      {
+        "@id": "https://pod-test.mvcr.gov.cz/etl/resources/pipelines/1638257151964/component/e788-87bf/configuration",
+        "@type": [
+          "http://plugins.linkedpipes.com/ontology/e-httpGetFile#Configuration"
+        ],
+        "http://plugins.linkedpipes.com/ontology/e-httpGetFile#encodeUrl": [
+          {
+            "@type": "http://www.w3.org/2001/XMLSchema#boolean",
+            "@value": "false"
+          }
+        ],
+        "http://plugins.linkedpipes.com/ontology/e-httpGetFile#encodeUrlControl": [
+          {
+            "@id": "http://plugins.linkedpipes.com/resource/configuration/None"
+          }
+        ],
+        "http://plugins.linkedpipes.com/ontology/e-httpGetFile#fileName": [
+          {
+            "@value": "nkod-minulý-měsíc.trig"
+          }
+        ],
+        "http://plugins.linkedpipes.com/ontology/e-httpGetFile#fileNameControl": [
+          {
+            "@id": "http://plugins.linkedpipes.com/resource/configuration/None"
+          }
+        ],
+        "http://plugins.linkedpipes.com/ontology/e-httpGetFile#fileUri": [
+          {
+            "@value": "https://pod-test.mvcr.gov.cz/soubor/nkod-minulý-měsíc.trig"
+          }
+        ],
+        "http://plugins.linkedpipes.com/ontology/e-httpGetFile#fileUriControl": [
+          {
+            "@id": "http://plugins.linkedpipes.com/resource/configuration/None"
+          }
+        ],
+        "http://plugins.linkedpipes.com/ontology/e-httpGetFile#hardRedirect": [
+          {
+            "@type": "http://www.w3.org/2001/XMLSchema#boolean",
+            "@value": "false"
+          }
+        ],
+        "http://plugins.linkedpipes.com/ontology/e-httpGetFile#hardRedirectControl": [
+          {
+            "@id": "http://plugins.linkedpipes.com/resource/configuration/None"
+          }
+        ],
+        "http://plugins.linkedpipes.com/ontology/e-httpGetFile#userAgent": [
+          {
+            "@value": ""
+          }
+        ],
+        "http://plugins.linkedpipes.com/ontology/e-httpGetFile#userAgentControl": [
+          {
+            "@id": "http://plugins.linkedpipes.com/resource/configuration/None"
+          }
+        ],
+        "http://plugins.linkedpipes.com/ontology/e-httpGetFile#utf8Redirect": [
+          {
+            "@type": "http://www.w3.org/2001/XMLSchema#boolean",
+            "@value": "false"
+          }
+        ],
+        "http://plugins.linkedpipes.com/ontology/e-httpGetFile#utf8RedirectControl": [
+          {
+            "@id": "http://plugins.linkedpipes.com/resource/configuration/None"
+          }
+        ]
+      }
+    ],
+    "@id": "https://pod-test.mvcr.gov.cz/etl/resources/pipelines/1638257151964/component/e788-87bf/configuration"
+  },
+  {
+    "@graph": [
+      {
+        "@id": "https://pod-test.mvcr.gov.cz/etl/resources/pipelines/1638257151964/component/fcdb-84d4/configuration",
+        "@type": [
+          "http://plugins.linkedpipes.com/ontology/l-filesToScp#Configuration"
+        ],
+        "http://plugins.linkedpipes.com/ontology/l-filesToScp#clearDirectory": [
+          {
+            "@type": "http://www.w3.org/2001/XMLSchema#boolean",
+            "@value": "false"
+          }
+        ],
+        "http://plugins.linkedpipes.com/ontology/l-filesToScp#clearDirectoryControl": [
+          {
+            "@id": "http://plugins.linkedpipes.com/resource/configuration/None"
+          }
+        ],
+        "http://plugins.linkedpipes.com/ontology/l-filesToScp#connectionTimeOutControl": [
+          {
+            "@id": "http://plugins.linkedpipes.com/resource/configuration/Inherit"
+          }
+        ],
+        "http://plugins.linkedpipes.com/ontology/l-filesToScp#createDirectory": [
+          {
+            "@type": "http://www.w3.org/2001/XMLSchema#boolean",
+            "@value": "true"
+          }
+        ],
+        "http://plugins.linkedpipes.com/ontology/l-filesToScp#createDirectoryControl": [
+          {
+            "@id": "http://plugins.linkedpipes.com/resource/configuration/None"
+          }
+        ],
+        "http://plugins.linkedpipes.com/ontology/l-filesToScp#directory": [
+          {
+            "@value": "/data/soubor"
+          }
+        ],
+        "http://plugins.linkedpipes.com/ontology/l-filesToScp#directoryControl": [
+          {
+            "@id": "http://plugins.linkedpipes.com/resource/configuration/None"
+          }
+        ],
+        "http://plugins.linkedpipes.com/ontology/l-filesToScp#hostControl": [
+          {
+            "@id": "http://plugins.linkedpipes.com/resource/configuration/Inherit"
+          }
+        ],
+        "http://plugins.linkedpipes.com/ontology/l-filesToScp#passwordControl": [
+          {
+            "@id": "http://plugins.linkedpipes.com/resource/configuration/Inherit"
+          }
+        ],
+        "http://plugins.linkedpipes.com/ontology/l-filesToScp#portControl": [
+          {
+            "@id": "http://plugins.linkedpipes.com/resource/configuration/Inherit"
+          }
+        ],
+        "http://plugins.linkedpipes.com/ontology/l-filesToScp#userNameControl": [
+          {
+            "@id": "http://plugins.linkedpipes.com/resource/configuration/Inherit"
+          }
+        ]
+      }
+    ],
+    "@id": "https://pod-test.mvcr.gov.cz/etl/resources/pipelines/1638257151964/component/fcdb-84d4/configuration"
+  },
+  {
+    "@graph": [
+      {
+        "@id": "https://pod-test.mvcr.gov.cz/etl/resources/pipelines/1638257151964/16/configuration",
+        "@type": [
+          "http://plugins.linkedpipes.com/ontology/t-sparqlConstruct#Configuration"
+        ],
+        "http://plugins.linkedpipes.com/ontology/t-sparqlConstruct#query": [
+          {
+            "@value": "PREFIX dcat: <http://www.w3.org/ns/dcat#>\nPREFIX foaf: <http://xmlns.com/foaf/0.1/>\nPREFIX dcterms: <http://purl.org/dc/terms/>\n\nPREFIX nkod: <https://data.gov.cz/zdroj/katalog/NKOD>\nPREFIX : <http://localhost/stat/>\n\nCONSTRUCT { [] a <http://localhost/temp/Message>; \n    <http://localhost/temp/text> ?finaltext ;\n    <http://plugins.linkedpipes.com/ontology/t-mustache#fileName> \"configuration.json\" .\n} \nWHERE {  \n  {\n    SELECT (GROUP_CONCAT(?line) as ?text) \n    WHERE {\n\n      {        \n        SELECT ?stav ?publisher ?Poskytovatel ?DatovýchSadPřibylo ?DatovýchSadUbylo ?Rozdíl\n        WHERE {\n\n          ?publisher a :DnešníPoskytovatel, :VčerejšíPoskytovatel ;\n    foaf:name ?Poskytovatel.\n\n          OPTIONAL {\n            SELECT ?publisher (count(distinct ?dataset) as ?DatovýchSadPřibyloTemp)\n            WHERE {\n              ?dataset a :DnešníDataset;\n    dcterms:publisher ?publisher .\n\n              FILTER NOT EXISTS {?dataset a :VčerejšíDataset}\n            }\n            GROUP BY ?publisher\n          }\n\n          OPTIONAL {\n            SELECT ?publisher (count(distinct ?dataset) as ?DatovýchSadUbyloTemp)\n            WHERE {\n              ?dataset a :VčerejšíDataset;\n    dcterms:publisher ?publisher .\n\n              FILTER NOT EXISTS {?dataset a :DnešníDataset}\n            }\n            GROUP BY ?publisher\n          }\n\n          BIND(\"V počtu datových sad se změnil\" as ?stav)\n\n          BIND(IF(BOUND(?DatovýchSadPřibyloTemp), ?DatovýchSadPřibyloTemp, 0) as ?DatovýchSadPřibylo)\n          BIND(IF(BOUND(?DatovýchSadUbyloTemp), ?DatovýchSadUbyloTemp, 0) as ?DatovýchSadUbylo)\n\n          BIND(CONCAT(IF(?DatovýchSadPřibylo - ?DatovýchSadUbylo > 0, \"+\",\"\"),STR(?DatovýchSadPřibylo - ?DatovýchSadUbylo)) as ?Rozdíl)\n          FILTER((?DatovýchSadPřibylo != 0) || (?DatovýchSadUbylo != 0))\n        }\n      }\n      BIND(CONCAT(?stav, \" \", STR(?Poskytovatel),\": Rozdíl:\", STR(?Rozdíl), \", DS+: \",STR(?DatovýchSadPřibylo), \", DS-:\", STR(?DatovýchSadUbylo), \"\\n\") as ?line)    }\n  }\n  nkod: dcterms:modified ?date .\n  BIND(CONCAT(STR(?date), \"\\\\nDetaily: https://opendata.gov.cz/statistika:mesicni_zmeny\\\\n\", REPLACE(?text, \"\\n\", \"\\\\\\\\n\")) as ?finaltext)\n}"
+          }
+        ],
+        "http://plugins.linkedpipes.com/ontology/t-sparqlConstruct#queryControl": [
+          {
+            "@id": "http://plugins.linkedpipes.com/resource/configuration/None"
+          }
+        ]
+      }
+    ],
+    "@id": "https://pod-test.mvcr.gov.cz/etl/resources/pipelines/1638257151964/graph/58"
+  },
+  {
+    "@graph": [
+      {
+        "@id": "https://pod-test.mvcr.gov.cz/etl/resources/pipelines/1638257151964/59",
+        "@type": [
+          "http://plugins.linkedpipes.com/ontology/t-filesToRdfGraph#Configuration"
+        ],
+        "http://plugins.linkedpipes.com/ontology/t-filesToRdfGraph#commitSize": [
+          {
+            "@type": "http://www.w3.org/2001/XMLSchema#integer",
+            "@value": "50000"
+          }
+        ],
+        "http://plugins.linkedpipes.com/ontology/t-filesToRdfGraph#commitSizeControl": [
+          {
+            "@id": "http://plugins.linkedpipes.com/resource/configuration/None"
+          }
+        ],
+        "http://plugins.linkedpipes.com/ontology/t-filesToRdfGraph#mimeType": [
+          {
+            "@value": ""
+          }
+        ],
+        "http://plugins.linkedpipes.com/ontology/t-filesToRdfGraph#mimeTypeControl": [
+          {
+            "@id": "http://plugins.linkedpipes.com/resource/configuration/None"
+          }
+        ],
+        "http://plugins.linkedpipes.com/ontology/t-filesToRdfGraph#softFail": [
+          {
+            "@type": "http://www.w3.org/2001/XMLSchema#boolean",
+            "@value": "false"
+          }
+        ],
+        "http://plugins.linkedpipes.com/ontology/t-filesToRdfGraph#softFailControl": [
+          {
+            "@id": "http://plugins.linkedpipes.com/resource/configuration/None"
+          }
+        ]
+      }
+    ],
+    "@id": "https://pod-test.mvcr.gov.cz/etl/resources/pipelines/1638257151964/graph/60"
+  },
+  {
+    "@graph": [
+      {
+        "@id": "https://pod-test.mvcr.gov.cz/etl/resources/pipelines/1638257151964/61",
+        "@type": [
+          "http://plugins.linkedpipes.com/ontology/x-httpRequest#Configuration"
+        ],
+        "http://plugins.linkedpipes.com/ontology/e-httpGetFile#encodeUrlControl": [
+          {
+            "@id": "http://plugins.linkedpipes.com/resource/configuration/None"
+          }
+        ],
+        "http://plugins.linkedpipes.com/ontology/x-httpRequest#followRedirect": [
+          {
+            "@type": "http://www.w3.org/2001/XMLSchema#boolean",
+            "@value": "false"
+          }
+        ],
+        "http://plugins.linkedpipes.com/ontology/x-httpRequest#followRedirectControl": [
+          {
+            "@id": "http://plugins.linkedpipes.com/resource/configuration/None"
+          }
+        ],
+        "http://plugins.linkedpipes.com/ontology/x-httpRequest#skipOnErrorControl": [
+          {
+            "@id": "http://plugins.linkedpipes.com/resource/configuration/None"
+          }
+        ],
+        "http://plugins.linkedpipes.com/ontology/x-httpRequest#threads": [
+          {
+            "@type": "http://www.w3.org/2001/XMLSchema#integer",
+            "@value": "1"
+          }
+        ],
+        "http://plugins.linkedpipes.com/ontology/x-httpRequest#threadsControl": [
+          {
+            "@id": "http://plugins.linkedpipes.com/resource/configuration/None"
+          }
+        ],
+        "http://plugins.linkedpipes.com/ontology/x-httpRequest#threadsPerGroup": [
+          {
+            "@type": "http://www.w3.org/2001/XMLSchema#integer",
+            "@value": "1"
+          }
+        ],
+        "http://plugins.linkedpipes.com/ontology/x-httpRequest#threadsPerGroupControl": [
+          {
+            "@id": "http://plugins.linkedpipes.com/resource/configuration/None"
+          }
+        ],
+        "http://plugins.linkedpipes.com/ontology/x-httpRequest#timeoutControl": [
+          {
+            "@id": "http://plugins.linkedpipes.com/resource/configuration/None"
+          }
+        ],
+        "http://plugins.linkedpipes.com/ontology/x-httpRequest#utf8RedirectControl": [
+          {
+            "@id": "http://plugins.linkedpipes.com/resource/configuration/None"
+          }
+        ]
+      }
+    ],
+    "@id": "https://pod-test.mvcr.gov.cz/etl/resources/pipelines/1638257151964/graph/62"
+  },
+  {
+    "@graph": [
+      {
+        "@id": "https://pod-test.mvcr.gov.cz/etl/resources/pipelines/1638257151964/10/configuration",
+        "@type": [
+          "http://plugins.linkedpipes.com/ontology/t-mustache#Configuration"
+        ],
+        "http://plugins.linkedpipes.com/ontology/t-mustache#addFirstFlag": [
+          {
+            "@type": "http://www.w3.org/2001/XMLSchema#boolean",
+            "@value": "false"
+          }
+        ],
+        "http://plugins.linkedpipes.com/ontology/t-mustache#addFirstFlagControl": [
+          {
+            "@id": "http://plugins.linkedpipes.com/resource/configuration/None"
+          }
+        ],
+        "http://plugins.linkedpipes.com/ontology/t-mustache#class": [
+          {
+            "@value": "http://localhost/temp/Message"
+          }
+        ],
+        "http://plugins.linkedpipes.com/ontology/t-mustache#classControl": [
+          {
+            "@id": "http://plugins.linkedpipes.com/resource/configuration/None"
+          }
+        ],
+        "http://plugins.linkedpipes.com/ontology/t-mustache#escapeForJson": [
+          {
+            "@type": "http://www.w3.org/2001/XMLSchema#boolean",
+            "@value": "false"
+          }
+        ],
+        "http://plugins.linkedpipes.com/ontology/t-mustache#escapeForJsonControl": [
+          {
+            "@id": "http://plugins.linkedpipes.com/resource/configuration/None"
+          }
+        ],
+        "http://plugins.linkedpipes.com/ontology/t-mustache#template": [
+          {
+            "@value": "{{!\n  PREFIX mustache: <http://plugins.linkedpipes.com/ontology/t-mustache#>\n  PREFIX local:   <http://localhost/temp/>\n}}\n{\n\"text\" : \"{{{local:text}}}\"\n}"
+          }
+        ],
+        "http://plugins.linkedpipes.com/ontology/t-mustache#templateControl": [
+          {
+            "@id": "http://plugins.linkedpipes.com/resource/configuration/None"
+          }
+        ]
+      }
+    ],
+    "@id": "https://pod-test.mvcr.gov.cz/etl/resources/pipelines/1638257151964/graph/67"
+  },
+  {
+    "@graph": [
+      {
+        "@id": "https://pod-test.mvcr.gov.cz/etl/resources/pipelines/1638257151964/69",
+        "@type": [
+          "http://plugins.linkedpipes.com/ontology/e-sparqlEndpoint#Configuration"
+        ],
+        "http://plugins.linkedpipes.com/ontology/e-sparqlEndpoint#defaultGraph": [
+          {
+            "@id": "https://data.gov.cz/zdroj/datová-sada/NKOD"
+          }
+        ],
+        "http://plugins.linkedpipes.com/ontology/e-sparqlEndpoint#defaultGraphControl": [
+          {
+            "@id": "http://plugins.linkedpipes.com/resource/configuration/Inherit"
+          }
+        ],
+        "http://plugins.linkedpipes.com/ontology/e-sparqlEndpoint#encodeRdf": [
+          {
+            "@type": "http://www.w3.org/2001/XMLSchema#boolean",
+            "@value": "false"
+          }
+        ],
+        "http://plugins.linkedpipes.com/ontology/e-sparqlEndpoint#encodeRdfControl": [
+          {
+            "@id": "http://plugins.linkedpipes.com/resource/configuration/Inherit"
+          }
+        ],
+        "http://plugins.linkedpipes.com/ontology/e-sparqlEndpoint#endpoint": [
+          {
+            "@value": "http://localhost:8890/sparql"
+          }
+        ],
+        "http://plugins.linkedpipes.com/ontology/e-sparqlEndpoint#endpointControl": [
+          {
+            "@id": "http://plugins.linkedpipes.com/resource/configuration/Inherit"
+          }
+        ],
+        "http://plugins.linkedpipes.com/ontology/e-sparqlEndpoint#handleInvalidData": [
+          {
+            "@type": "http://www.w3.org/2001/XMLSchema#boolean",
+            "@value": "false"
+          }
+        ],
+        "http://plugins.linkedpipes.com/ontology/e-sparqlEndpoint#handleInvalidDataControl": [
+          {
+            "@id": "http://plugins.linkedpipes.com/resource/configuration/Inherit"
+          }
+        ],
+        "http://plugins.linkedpipes.com/ontology/e-sparqlEndpoint#headerAcceptControl": [
+          {
+            "@id": "http://plugins.linkedpipes.com/resource/configuration/Inherit"
+          }
+        ],
+        "http://plugins.linkedpipes.com/ontology/e-sparqlEndpoint#passwordControl": [
+          {
+            "@id": "http://plugins.linkedpipes.com/resource/configuration/Inherit"
+          }
+        ],
+        "http://plugins.linkedpipes.com/ontology/e-sparqlEndpoint#query": [
+          {
+            "@value": "PREFIX dcterms: <http://purl.org/dc/terms/>\nCONSTRUCT WHERE {\n<https://data.gov.cz/zdroj/katalog/NKOD> dcterms:modified ?modified .\n}"
+          }
+        ],
+        "http://plugins.linkedpipes.com/ontology/e-sparqlEndpoint#queryControl": [
+          {
+            "@id": "http://plugins.linkedpipes.com/resource/configuration/Inherit"
+          }
+        ],
+        "http://plugins.linkedpipes.com/ontology/e-sparqlEndpoint#useAuthentication": [
+          {
+            "@type": "http://www.w3.org/2001/XMLSchema#boolean",
+            "@value": "false"
+          }
+        ],
+        "http://plugins.linkedpipes.com/ontology/e-sparqlEndpoint#useAuthenticationControl": [
+          {
+            "@id": "http://plugins.linkedpipes.com/resource/configuration/Inherit"
+          }
+        ],
+        "http://plugins.linkedpipes.com/ontology/e-sparqlEndpoint#useTolerantRepository": [
+          {
+            "@type": "http://www.w3.org/2001/XMLSchema#boolean",
+            "@value": "false"
+          }
+        ],
+        "http://plugins.linkedpipes.com/ontology/e-sparqlEndpoint#useTolerantRepositoryControl": [
+          {
+            "@id": "http://plugins.linkedpipes.com/resource/configuration/Inherit"
+          }
+        ],
+        "http://plugins.linkedpipes.com/ontology/e-sparqlEndpoint#userNameControl": [
+          {
+            "@id": "http://plugins.linkedpipes.com/resource/configuration/Inherit"
+          }
+        ]
+      }
+    ],
+    "@id": "https://pod-test.mvcr.gov.cz/etl/resources/pipelines/1638257151964/graph/70"
+  },
+  {
+    "@graph": [
+      {
+        "@id": "https://pod-test.mvcr.gov.cz/etl/resources/pipelines/1638257151964/6/configuration",
+        "@type": [
+          "http://plugins.linkedpipes.com/ontology/t-sparqlConstruct#Configuration"
+        ],
+        "http://plugins.linkedpipes.com/ontology/t-sparqlConstruct#query": [
+          {
+            "@value": "PREFIX dcterms: <http://purl.org/dc/terms/>\nPREFIX ss: <http://plugins.linkedpipes.com/ontology/t-sparqlSelect#>\nPREFIX temp: <https://localhost/temp/>\nPREFIX nkod: <https://data.gov.cz/zdroj/katalog/NKOD>\n\nCONSTRUCT { \n  <http://localhost/config> a ss:Configuration ;\n    <http://plugins.linkedpipes.com/ontology/t-mustache#fileName> \"mesicni_zmeny.txt\" ;\n    temp:csvname ?filename ;\n    temp:now ?now .\n} \nWHERE { \n  nkod: dcterms:modified ?date .\n\n  BIND (CONCAT(\"mesicni_zmeny_\",STR(?date),\".csv\") as ?filename)\n}"
+          }
+        ],
+        "http://plugins.linkedpipes.com/ontology/t-sparqlConstruct#queryControl": [
+          {
+            "@id": "http://plugins.linkedpipes.com/resource/configuration/None"
+          }
+        ]
+      }
+    ],
+    "@id": "https://pod-test.mvcr.gov.cz/etl/resources/pipelines/1638257151964/graph/75"
+  },
+  {
+    "@graph": [
+      {
+        "@id": "https://pod-test.mvcr.gov.cz/etl/resources/pipelines/1638257151964/5/configuration",
+        "@type": [
+          "http://plugins.linkedpipes.com/ontology/t-sparqlConstruct#Configuration"
+        ],
+        "http://plugins.linkedpipes.com/ontology/t-sparqlConstruct#query": [
+          {
+            "@value": "PREFIX dcterms: <http://purl.org/dc/terms/>\nPREFIX ss: <http://plugins.linkedpipes.com/ontology/t-sparqlSelect#>\n\nPREFIX nkod: <https://data.gov.cz/zdroj/katalog/NKOD>\n\nCONSTRUCT { \n<http://localhost/config> a ss:Configuration ;\n    ss:fileName ?filename .\n} \nWHERE { \n  nkod: dcterms:modified ?date .\n\n  BIND (CONCAT(\"mesicni_zmeny_\",STR(?date),\".csv\") as ?filename)\n}"
+          }
+        ],
+        "http://plugins.linkedpipes.com/ontology/t-sparqlConstruct#queryControl": [
+          {
+            "@id": "http://plugins.linkedpipes.com/resource/configuration/None"
+          }
+        ]
+      }
+    ],
+    "@id": "https://pod-test.mvcr.gov.cz/etl/resources/pipelines/1638257151964/graph/78"
+  },
+  {
+    "@graph": [
+      {
+        "@id": "https://pod-test.mvcr.gov.cz/etl/resources/pipelines/1638257151964/61",
+        "@type": [
+          "http://plugins.linkedpipes.com/ontology/x-httpRequest#Configuration"
+        ],
+        "http://plugins.linkedpipes.com/ontology/e-httpGetFile#encodeUrlControl": [
+          {
+            "@id": "http://plugins.linkedpipes.com/resource/configuration/None"
+          }
+        ],
+        "http://plugins.linkedpipes.com/ontology/x-httpRequest#followRedirect": [
+          {
+            "@type": "http://www.w3.org/2001/XMLSchema#boolean",
+            "@value": "false"
+          }
+        ],
+        "http://plugins.linkedpipes.com/ontology/x-httpRequest#followRedirectControl": [
+          {
+            "@id": "http://plugins.linkedpipes.com/resource/configuration/None"
+          }
+        ],
+        "http://plugins.linkedpipes.com/ontology/x-httpRequest#skipOnErrorControl": [
+          {
+            "@id": "http://plugins.linkedpipes.com/resource/configuration/None"
+          }
+        ],
+        "http://plugins.linkedpipes.com/ontology/x-httpRequest#threads": [
+          {
+            "@type": "http://www.w3.org/2001/XMLSchema#integer",
+            "@value": "1"
+          }
+        ],
+        "http://plugins.linkedpipes.com/ontology/x-httpRequest#threadsControl": [
+          {
+            "@id": "http://plugins.linkedpipes.com/resource/configuration/None"
+          }
+        ],
+        "http://plugins.linkedpipes.com/ontology/x-httpRequest#threadsPerGroup": [
+          {
+            "@type": "http://www.w3.org/2001/XMLSchema#integer",
+            "@value": "1"
+          }
+        ],
+        "http://plugins.linkedpipes.com/ontology/x-httpRequest#threadsPerGroupControl": [
+          {
+            "@id": "http://plugins.linkedpipes.com/resource/configuration/None"
+          }
+        ],
+        "http://plugins.linkedpipes.com/ontology/x-httpRequest#timeoutControl": [
+          {
+            "@id": "http://plugins.linkedpipes.com/resource/configuration/None"
+          }
+        ],
+        "http://plugins.linkedpipes.com/ontology/x-httpRequest#utf8RedirectControl": [
+          {
+            "@id": "http://plugins.linkedpipes.com/resource/configuration/None"
+          }
+        ]
+      }
+    ],
+    "@id": "https://pod-test.mvcr.gov.cz/etl/resources/pipelines/1638257151964/graph/79"
+  },
+  {
+    "@graph": [
+      {
+        "@id": "https://pod-test.mvcr.gov.cz/etl/resources/pipelines/1638257151964/80",
+        "@type": [
+          "http://plugins.linkedpipes.com/ontology/t-sparqlSelect#Configuration"
+        ],
+        "http://plugins.linkedpipes.com/ontology/t-sparqlSelect#fileName": [
+          {
+            "@value": "zmeny.csv"
+          }
+        ],
+        "http://plugins.linkedpipes.com/ontology/t-sparqlSelect#fileNameControl": [
+          {
+            "@id": "http://plugins.linkedpipes.com/resource/configuration/None"
+          }
+        ],
+        "http://plugins.linkedpipes.com/ontology/t-sparqlSelect#query": [
+          {
+            "@value": "PREFIX dcat: <http://www.w3.org/ns/dcat#>\nPREFIX foaf: <http://xmlns.com/foaf/0.1/>\nPREFIX dcterms: <http://purl.org/dc/terms/>\n\nPREFIX : <http://localhost/stat/>\n\nSELECT ?stav ?Poskytovatel ?název ?link\nWHERE {\n   {\n   ?dataset a :VčerejšíDataset ;\n            dcterms:title ?název;\n            dcterms:publisher ?publisher .\n   ?publisher foaf:name ?Poskytovatel .\n  \n   FILTER NOT EXISTS {?dataset a :DnešníDataset}\n   FILTER(langMatches(LANG(?název), \"cs\"))\n   BIND(\"Zmizela\" as ?stav)\n  }\n  UNION\n  {\n   ?dataset a :DnešníDataset ;\n            dcterms:title ?název;\n            dcterms:publisher ?publisher .\n   ?publisher foaf:name ?Poskytovatel .\n  \n   FILTER NOT EXISTS {?dataset a :VčerejšíDataset}\n   FILTER(langMatches(LANG(?název), \"cs\"))\n   BIND(CONCAT(\"https://data.gov.cz/datová-sada?iri=\", STR(?dataset)) as ?link)\n   BIND(\"Přibyla\" as ?stav)\n  }\n}\nORDER BY ?stav ?Poskytovatel"
+          }
+        ],
+        "http://plugins.linkedpipes.com/ontology/t-sparqlSelect#queryControl": [
+          {
+            "@id": "http://plugins.linkedpipes.com/resource/configuration/None"
+          }
+        ]
+      }
+    ],
+    "@id": "https://pod-test.mvcr.gov.cz/etl/resources/pipelines/1638257151964/graph/81"
+  },
+  {
+    "@graph": [
+      {
+        "@id": "https://pod-test.mvcr.gov.cz/etl/resources/pipelines/1638257151964/59",
+        "@type": [
+          "http://plugins.linkedpipes.com/ontology/t-filesToRdfGraph#Configuration"
+        ],
+        "http://plugins.linkedpipes.com/ontology/t-filesToRdfGraph#commitSize": [
+          {
+            "@type": "http://www.w3.org/2001/XMLSchema#integer",
+            "@value": "50000"
+          }
+        ],
+        "http://plugins.linkedpipes.com/ontology/t-filesToRdfGraph#commitSizeControl": [
+          {
+            "@id": "http://plugins.linkedpipes.com/resource/configuration/None"
+          }
+        ],
+        "http://plugins.linkedpipes.com/ontology/t-filesToRdfGraph#mimeType": [
+          {
+            "@value": ""
+          }
+        ],
+        "http://plugins.linkedpipes.com/ontology/t-filesToRdfGraph#mimeTypeControl": [
+          {
+            "@id": "http://plugins.linkedpipes.com/resource/configuration/None"
+          }
+        ],
+        "http://plugins.linkedpipes.com/ontology/t-filesToRdfGraph#softFail": [
+          {
+            "@type": "http://www.w3.org/2001/XMLSchema#boolean",
+            "@value": "false"
+          }
+        ],
+        "http://plugins.linkedpipes.com/ontology/t-filesToRdfGraph#softFailControl": [
+          {
+            "@id": "http://plugins.linkedpipes.com/resource/configuration/None"
+          }
+        ]
+      }
+    ],
+    "@id": "https://pod-test.mvcr.gov.cz/etl/resources/pipelines/1638257151964/graph/82"
+  },
+  {
+    "@graph": [
+      {
+        "@id": "https://pod-test.mvcr.gov.cz/etl/resources/pipelines/1638257151964/59",
+        "@type": [
+          "http://plugins.linkedpipes.com/ontology/t-filesToRdfGraph#Configuration"
+        ],
+        "http://plugins.linkedpipes.com/ontology/t-filesToRdfGraph#commitSize": [
+          {
+            "@type": "http://www.w3.org/2001/XMLSchema#integer",
+            "@value": "50000"
+          }
+        ],
+        "http://plugins.linkedpipes.com/ontology/t-filesToRdfGraph#commitSizeControl": [
+          {
+            "@id": "http://plugins.linkedpipes.com/resource/configuration/None"
+          }
+        ],
+        "http://plugins.linkedpipes.com/ontology/t-filesToRdfGraph#mimeType": [
+          {
+            "@value": ""
+          }
+        ],
+        "http://plugins.linkedpipes.com/ontology/t-filesToRdfGraph#mimeTypeControl": [
+          {
+            "@id": "http://plugins.linkedpipes.com/resource/configuration/None"
+          }
+        ],
+        "http://plugins.linkedpipes.com/ontology/t-filesToRdfGraph#softFail": [
+          {
+            "@type": "http://www.w3.org/2001/XMLSchema#boolean",
+            "@value": "false"
+          }
+        ],
+        "http://plugins.linkedpipes.com/ontology/t-filesToRdfGraph#softFailControl": [
+          {
+            "@id": "http://plugins.linkedpipes.com/resource/configuration/None"
+          }
+        ]
+      }
+    ],
+    "@id": "https://pod-test.mvcr.gov.cz/etl/resources/pipelines/1638257151964/graph/83"
+  },
+  {
+    "@graph": [
+      {
+        "@id": "https://pod-test.mvcr.gov.cz/etl/resources/pipelines/1638257151964/32/configuration",
+        "@type": [
+          "http://plugins.linkedpipes.com/ontology/t-sparqlConstruct#Configuration"
+        ],
+        "http://plugins.linkedpipes.com/ontology/t-sparqlConstruct#query": [
+          {
+            "@value": "PREFIX dcat: <http://www.w3.org/ns/dcat#>\nPREFIX foaf: <http://xmlns.com/foaf/0.1/>\nPREFIX dcterms: <http://purl.org/dc/terms/>\n\nPREFIX nkod: <https://data.gov.cz/zdroj/katalog/NKOD>\nPREFIX : <http://localhost/stat/>\n\nCONSTRUCT { [] a <http://localhost/temp/Message>; \n    <http://localhost/temp/text> ?finaltext ;\n    <http://plugins.linkedpipes.com/ontology/t-mustache#fileName> \"configuration.json\" .\n} \nWHERE {  \n  {\n    SELECT (GROUP_CONCAT(?line) as ?text) \n    WHERE {\n\n      {        \n        SELECT ?stav ?Poskytovatel ?PočetDatovýchSadReport ?PočetDistribucíReport\n        WHERE {\n          {\n\n            ?publisher a :VčerejšíPoskytovatel ;\n    :PočetDatovýchSadVčera ?PočetDatovýchSadVčera ;\n    :PočetDistribucíVčera ?PočetDistribucíVčera ;\n    foaf:name ?Poskytovatel.\n\n            FILTER NOT EXISTS {?publisher a :DnešníPoskytovatel}\n            BIND(\"Zmizel\" as ?stav)\n            BIND(STR(?PočetDatovýchSadVčera) as ?PočetDatovýchSadReport)\n            BIND(STR(?PočetDistribucíVčera) as ?PočetDistribucíReport)     \n          }\n          UNION\n          {\n            ?publisher a :DnešníPoskytovatel ;\n                          :PočetDatovýchSadDnes ?PočetDatovýchSadDnes ;\n                          :PočetDistribucíDnes ?PočetDistribucíDnes ;\n                          foaf:name ?Poskytovatel.\n\n            FILTER NOT EXISTS {?publisher a :VčerejšíPoskytovatel}\n            BIND(\"Přibyl\" as ?stav)\n            BIND(STR(?PočetDatovýchSadDnes) as ?PočetDatovýchSadReport)\n            BIND(STR(?PočetDistribucíDnes) as ?PočetDistribucíReport)\n          }  \n          UNION \n          {        \n            ?publisher a :DnešníPoskytovatel, :VčerejšíPoskytovatel ;\n                          :PočetDatovýchSadDnes ?PočetDatovýchSadDnes ;\n                          :PočetDistribucíDnes ?PočetDistribucíDnes ;\n                          :PočetDatovýchSadVčera ?PočetDatovýchSadVčera ;\n                          :PočetDistribucíVčera ?PočetDistribucíVčera ;\n                          foaf:name ?Poskytovatel.\n            BIND(\"V počtech DS a DIST se změnil\" as ?stav)\n            BIND(CONCAT(IF(?PočetDatovýchSadDnes - ?PočetDatovýchSadVčera > 0, \"+\",\"\"),STR(?PočetDatovýchSadDnes - ?PočetDatovýchSadVčera)) as ?PočetDatovýchSadReport)\n            BIND(CONCAT(IF(?PočetDistribucíDnes - ?PočetDistribucíVčera > 0, \"+\", \"\"), STR(?PočetDistribucíDnes - ?PočetDistribucíVčera)) as ?PočetDistribucíReport)\n            FILTER((?PočetDatovýchSadDnes - ?PočetDatovýchSadVčera != 0) || (?PočetDistribucíDnes - ?PočetDistribucíVčera != 0))\n          }\n        }\n      }\n      BIND(CONCAT(?stav, \" \", STR(?Poskytovatel),\": DS:\", STR(?PočetDatovýchSadReport), \", DIST: \",?PočetDistribucíReport,\"\\n\") as ?line)      \n    }\n  }\n  nkod: dcterms:modified ?date .\n  BIND(CONCAT(STR(?date), \"\\\\nDetaily: https://opendata.gov.cz/statistika:mesicni_zmeny\\\\n\", REPLACE(?text, \"\\n\", \"\\\\\\\\n\")) as ?finaltext)\n}"
+          }
+        ],
+        "http://plugins.linkedpipes.com/ontology/t-sparqlConstruct#queryControl": [
+          {
+            "@id": "http://plugins.linkedpipes.com/resource/configuration/None"
+          }
+        ]
+      }
+    ],
+    "@id": "https://pod-test.mvcr.gov.cz/etl/resources/pipelines/1638257151964/graph/85"
+  }
+]
