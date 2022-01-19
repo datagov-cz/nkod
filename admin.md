@@ -203,8 +203,9 @@ Pak lze v cronu na **NKOD-ETL** v `/etc/cron.d/nkod` naplánovat [spouštění N
 Je třeba zejména na **NKOD-ETL** monitorovat místo na disku, které může dojít kvůli velikosti logů, pokud bude v produkčním prostředí poddimenzována velikost disku.
 Je tedy třeba např. jednou za měsíc promazat záznamy o proběhlých procesech, tj. adresář `/data/lp/etl/storage/working` a server restartovat.
 Dále může proces harvestace NKOD selhat z následujících očekávatelných důvodů:
-1. Selže pipeline `07 Harvestace LKOD a formulářů, aktualizace uživatelského rozhraní`, protože systém datových schránek má výpadek. Ten obvykle trvá jeden den, tedy ten den nebude NKOD harvestován.
-2. Selže pipeline `08.1 Nahrát NKOD do SPARQL endpointu a spustit pipeliny pro kvalitu` protože spadne instance databáze Virtuoso. Pak je třeba databázi, nebo celý server **NKOD-DB** restartovat a následně restartovat pipeline.
+1. Selže pipeline `07 Harvestace LKOD a formulářů, aktualizace uživatelského rozhraní`, protože systém datových schránek má výpadek. Ten obvykle trvá jeden den, tedy ten den nebude NKOD harvestován. Není nutný další zásah.
+2. Selže pipeline `08.1 Nahrát NKOD do SPARQL endpointu a spustit pipeliny pro kvalitu` protože spadne instance databáze Virtuoso. Pak je třeba celý server **NKOD-DB** restartovat a následně restartovat pipeline.
+3. Selže pipeline `07 Harvestace LKOD a formulářů, aktualizace uživatelského rozhraní` a `08.1 Nahrát NKOD do SPARQL endpointu a spustit pipeliny pro kvalitu` na chybu `502 Bad Gateway` při aktualizaci LDF serveru nebo restartu Virtuosa. Zřejmě spadla databáze Virtuoso a s ní i PHP server obsluhující webhooky. Je třeba restartovat **NKOD-DB** a znovu spustit pipeline `07 Harvestace LKOD a formulářů, aktualizace uživatelského rozhraní` nebo počkat na další den harvestace.
 
 [LinkedPipes DCAT-AP Viewer]: https://github.com/opendata-mvcr/dcat-ap-viewer "LinkedPipes DCAT-AP Viewer"
 [LinkedPipes DCAT-AP Forms]: https://github.com/opendata-mvcr/dcat-ap-forms "LinkedPipes DCAT-AP Forms"
