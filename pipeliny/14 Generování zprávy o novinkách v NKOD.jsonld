@@ -2602,7 +2602,7 @@
         ],
         "http://plugins.linkedpipes.com/ontology/t-mustache#template": [
           {
-            "@value": "====== Změny v NKOD ======\nAktualizováno {{https://localhost/temp/now}}\n\n{{=<% %>=}}\n{{:statistika:<%https://localhost/temp/csvname%>|Změny v NKOD}}\n<%={{ }}=%>\n<csv statistika:{{https://localhost/temp/csvname}}></csv>"
+            "@value": "====== Denní změny v NKOD ======\nAktualizováno {{https://localhost/temp/now}}\n\n{{=<% %>=}}\n{{:statistika:<%https://localhost/temp/csvname%>|Změny v NKOD}}\n<%={{ }}=%>\n<csv statistika:{{https://localhost/temp/csvname}}></csv>"
           }
         ],
         "http://plugins.linkedpipes.com/ontology/t-mustache#templateControl": [
