@@ -3,7 +3,7 @@
 define('LOGFILE', '/data/gh-logs/ldf.log');
 
 // what command to execute upon retrieval of a valid push event
-$cmd = 'sudo service ldf-server reload';
+$cmd = 'sudo service ldf-server stop && sudo service ldf-server start';
 
 function log_msg($msg) {
         if(LOGFILE != '') {
