@@ -1663,7 +1663,7 @@
         "http://linkedpipes.com/ontology/lastUpdate": [
           {
             "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
-            "@value": "2023-04-27T11:19:38.457527754"
+            "@value": "2023-07-10T09:33:58.761884498"
           }
         ],
         "http://linkedpipes.com/ontology/profile": [

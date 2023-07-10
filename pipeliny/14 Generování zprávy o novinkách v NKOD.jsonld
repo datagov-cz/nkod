@@ -2,63 +2,34 @@
   {
     "@graph": [
       {
-        "@id": "https://dev.nkod.opendata.cz/etl/resources/components/1612442668582-86798181-6421-4480-ae7a-4691b2345d05",
-        "http://www.w3.org/2002/07/owl#sameAs": [
-          {
-            "@id": "https://pod-test.mvcr.gov.cz/etl/resources/components/1612447774219-4d623c6d-7e9b-4742-b367-3a3c2f2b34d3"
-          }
-        ]
-      },
-      {
-        "@id": "https://dev.nkod.opendata.cz/etl/resources/components/1612443346122-de843428-cfea-436b-9b14-5178a25c84d9",
-        "http://www.w3.org/2002/07/owl#sameAs": [
-          {
-            "@id": "https://pod-test.mvcr.gov.cz/etl/resources/components/1612447792872-29879c34-105e-4e3c-8c84-6d9e07d7420a"
-          }
-        ]
-      },
-      {
-        "@id": "https://dev.nkod.opendata.cz/etl/resources/components/1612445925339-de821e65-1a42-41b0-87e4-fc9a7d676e82",
-        "http://www.w3.org/2002/07/owl#sameAs": [
-          {
-            "@id": "https://pod-test.mvcr.gov.cz/etl/resources/components/1612447947684-cf658265-db3c-42ab-a799-f850fff55502"
-          }
-        ]
-      },
-      {
-        "@id": "https://dev.nkod.opendata.cz/etl/resources/components/1614178661881-e6d217d1-4925-47b4-9de9-9bba8d101875",
-        "http://www.w3.org/2002/07/owl#sameAs": [
-          {
-            "@id": "https://pod-test.mvcr.gov.cz/etl/resources/components/1614181023143-f151bc8f-effb-4507-9789-483b288b3cd7"
-          }
-        ]
-      },
-      {
-        "@id": "https://etl.nakit.opendata.cz/resources/components/1537449783779-3dfa98db-1e9a-4865-bce5-cb4af25247bc",
-        "http://www.w3.org/2002/07/owl#sameAs": [
-          {
-            "@id": "https://pod-test.mvcr.gov.cz/etl/resources/components/1553525261214-c5f8d4b7-c57c-4d47-ab95-7177f16894c1"
-          }
-        ]
-      }
-    ],
-    "@id": "http://etl.linkedpipes.com/resources/plugins/mapping"
-  },
-  {
-    "@graph": [
-      {
         "@id": "https://pod-test.mvcr.gov.cz/etl/resources/components/1553525261214-c5f8d4b7-c57c-4d47-ab95-7177f16894c1",
         "@type": [
           "http://linkedpipes.com/ontology/Template"
+        ],
+        "http://etl.linkedpipes.com/ontology/version": [
+          {
+            "@type": "http://www.w3.org/2001/XMLSchema#int",
+            "@value": "5"
+          }
         ],
         "http://linkedpipes.com/ontology/configurationGraph": [
           {
             "@id": "https://pod-test.mvcr.gov.cz/etl/resources/components/1553525261214-c5f8d4b7-c57c-4d47-ab95-7177f16894c1/configuration"
           }
         ],
+        "http://linkedpipes.com/ontology/pluginTemplate": [
+          {
+            "@id": "http://etl.linkedpipes.com/resources/components/l-filesToScp/0.0.0"
+          }
+        ],
         "http://linkedpipes.com/ontology/template": [
           {
             "@id": "http://etl.linkedpipes.com/resources/components/l-filesToScp/0.0.0"
+          }
+        ],
+        "http://www.w3.org/2002/07/owl#sameAs": [
+          {
+            "@id": "https://etl.nakit.opendata.cz/resources/components/1537449783779-3dfa98db-1e9a-4865-bce5-cb4af25247bc"
           }
         ],
         "http://www.w3.org/2004/02/skos/core#prefLabel": [
@@ -145,9 +116,20 @@
         "@type": [
           "http://linkedpipes.com/ontology/Template"
         ],
+        "http://etl.linkedpipes.com/ontology/version": [
+          {
+            "@type": "http://www.w3.org/2001/XMLSchema#int",
+            "@value": "5"
+          }
+        ],
         "http://linkedpipes.com/ontology/configurationGraph": [
           {
             "@id": "https://pod-test.mvcr.gov.cz/etl/resources/components/1612447774219-4d623c6d-7e9b-4742-b367-3a3c2f2b34d3/configuration"
+          }
+        ],
+        "http://linkedpipes.com/ontology/pluginTemplate": [
+          {
+            "@id": "http://etl.linkedpipes.com/resources/components/e-httpGetFile/0.0.0"
           }
         ],
         "http://linkedpipes.com/ontology/template": [
@@ -158,6 +140,11 @@
         "http://purl.org/dc/terms/description": [
           {
             "@value": ""
+          }
+        ],
+        "http://www.w3.org/2002/07/owl#sameAs": [
+          {
+            "@id": "https://dev.nkod.opendata.cz/etl/resources/components/1612442668582-86798181-6421-4480-ae7a-4691b2345d05"
           }
         ],
         "http://www.w3.org/2004/02/skos/core#prefLabel": [
@@ -199,7 +186,7 @@
         ],
         "http://plugins.linkedpipes.com/ontology/e-httpGetFile#fileUri": [
           {
-            "@value": "https://pod-test.mvcr.gov.cz/soubor/nkod.trig"
+            "@value": "https://pod-test.dia.gov.cz/soubor/nkod.trig"
           }
         ],
         "http://plugins.linkedpipes.com/ontology/e-httpGetFile#fileUriControl": [
@@ -250,9 +237,20 @@
         "@type": [
           "http://linkedpipes.com/ontology/Template"
         ],
+        "http://etl.linkedpipes.com/ontology/version": [
+          {
+            "@type": "http://www.w3.org/2001/XMLSchema#int",
+            "@value": "5"
+          }
+        ],
         "http://linkedpipes.com/ontology/configurationGraph": [
           {
             "@id": "https://pod-test.mvcr.gov.cz/etl/resources/components/1612447792872-29879c34-105e-4e3c-8c84-6d9e07d7420a/configuration"
+          }
+        ],
+        "http://linkedpipes.com/ontology/pluginTemplate": [
+          {
+            "@id": "http://etl.linkedpipes.com/resources/components/e-sparqlEndpoint/0.0.0"
           }
         ],
         "http://linkedpipes.com/ontology/template": [
@@ -263,6 +261,11 @@
         "http://purl.org/dc/terms/description": [
           {
             "@value": ""
+          }
+        ],
+        "http://www.w3.org/2002/07/owl#sameAs": [
+          {
+            "@id": "https://dev.nkod.opendata.cz/etl/resources/components/1612443346122-de843428-cfea-436b-9b14-5178a25c84d9"
           }
         ],
         "http://www.w3.org/2004/02/skos/core#prefLabel": [
@@ -376,9 +379,20 @@
         "@type": [
           "http://linkedpipes.com/ontology/Template"
         ],
+        "http://etl.linkedpipes.com/ontology/version": [
+          {
+            "@type": "http://www.w3.org/2001/XMLSchema#int",
+            "@value": "5"
+          }
+        ],
         "http://linkedpipes.com/ontology/configurationGraph": [
           {
             "@id": "https://pod-test.mvcr.gov.cz/etl/resources/components/1612447947684-cf658265-db3c-42ab-a799-f850fff55502/configuration"
+          }
+        ],
+        "http://linkedpipes.com/ontology/pluginTemplate": [
+          {
+            "@id": "http://etl.linkedpipes.com/resources/components/e-httpGetFile/0.0.0"
           }
         ],
         "http://linkedpipes.com/ontology/template": [
@@ -389,6 +403,11 @@
         "http://purl.org/dc/terms/description": [
           {
             "@value": ""
+          }
+        ],
+        "http://www.w3.org/2002/07/owl#sameAs": [
+          {
+            "@id": "https://dev.nkod.opendata.cz/etl/resources/components/1612445925339-de821e65-1a42-41b0-87e4-fc9a7d676e82"
           }
         ],
         "http://www.w3.org/2004/02/skos/core#prefLabel": [
@@ -430,7 +449,7 @@
         ],
         "http://plugins.linkedpipes.com/ontology/e-httpGetFile#fileUri": [
           {
-            "@value": "https://pod-test.mvcr.gov.cz/soubor/včerejší-nkod.trig"
+            "@value": "https://pod-test.dia.gov.cz/soubor/včerejší-nkod.trig"
           }
         ],
         "http://plugins.linkedpipes.com/ontology/e-httpGetFile#fileUriControl": [
@@ -481,9 +500,20 @@
         "@type": [
           "http://linkedpipes.com/ontology/Template"
         ],
+        "http://etl.linkedpipes.com/ontology/version": [
+          {
+            "@type": "http://www.w3.org/2001/XMLSchema#int",
+            "@value": "5"
+          }
+        ],
         "http://linkedpipes.com/ontology/configurationGraph": [
           {
             "@id": "https://pod-test.mvcr.gov.cz/etl/resources/components/1614181023143-f151bc8f-effb-4507-9789-483b288b3cd7/configuration"
+          }
+        ],
+        "http://linkedpipes.com/ontology/pluginTemplate": [
+          {
+            "@id": "http://etl.linkedpipes.com/resources/components/e-sparqlEndpoint/0.0.0"
           }
         ],
         "http://linkedpipes.com/ontology/template": [
@@ -494,6 +524,11 @@
         "http://purl.org/dc/terms/description": [
           {
             "@value": ""
+          }
+        ],
+        "http://www.w3.org/2002/07/owl#sameAs": [
+          {
+            "@id": "https://dev.nkod.opendata.cz/etl/resources/components/1614178661881-e6d217d1-4925-47b4-9de9-9bba8d101875"
           }
         ],
         "http://www.w3.org/2004/02/skos/core#prefLabel": [
@@ -626,12 +661,24 @@
         "http://etl.linkedpipes.com/ontology/version": [
           {
             "@type": "http://www.w3.org/2001/XMLSchema#int",
-            "@value": "2"
+            "@value": "5"
+          }
+        ],
+        "http://linkedpipes.com/ontology/events/created": [
+          {
+            "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "@value": "2021-09-07T11:25:37.957"
+          }
+        ],
+        "http://linkedpipes.com/ontology/lastUpdate": [
+          {
+            "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "@value": "2023-07-10T09:35:01.073105763"
           }
         ],
         "http://linkedpipes.com/ontology/profile": [
           {
-            "@id": "https://pod-test.mvcr.gov.cz/etl/resources/pipelines/1631006737957/2"
+            "@id": "https://pod-test.mvcr.gov.cz/etl/resources/pipelines/1631006737957/profile/default"
           }
         ],
         "http://www.w3.org/2004/02/skos/core#prefLabel": [
@@ -657,13 +704,13 @@
         ],
         "http://linkedpipes.com/ontology/x": [
           {
-            "@type": "http://www.w3.org/2001/XMLSchema#integer",
+            "@type": "http://www.w3.org/2001/XMLSchema#int",
             "@value": "519"
           }
         ],
         "http://linkedpipes.com/ontology/y": [
           {
-            "@type": "http://www.w3.org/2001/XMLSchema#integer",
+            "@type": "http://www.w3.org/2001/XMLSchema#int",
             "@value": "113"
           }
         ],
@@ -695,13 +742,13 @@
         ],
         "http://linkedpipes.com/ontology/x": [
           {
-            "@type": "http://www.w3.org/2001/XMLSchema#integer",
+            "@type": "http://www.w3.org/2001/XMLSchema#int",
             "@value": "521"
           }
         ],
         "http://linkedpipes.com/ontology/y": [
           {
-            "@type": "http://www.w3.org/2001/XMLSchema#integer",
+            "@type": "http://www.w3.org/2001/XMLSchema#int",
             "@value": "291"
           }
         ],
@@ -733,13 +780,13 @@
         ],
         "http://linkedpipes.com/ontology/x": [
           {
-            "@type": "http://www.w3.org/2001/XMLSchema#integer",
+            "@type": "http://www.w3.org/2001/XMLSchema#int",
             "@value": "596"
           }
         ],
         "http://linkedpipes.com/ontology/y": [
           {
-            "@type": "http://www.w3.org/2001/XMLSchema#integer",
+            "@type": "http://www.w3.org/2001/XMLSchema#int",
             "@value": "-197"
           }
         ],
@@ -771,13 +818,13 @@
         ],
         "http://linkedpipes.com/ontology/x": [
           {
-            "@type": "http://www.w3.org/2001/XMLSchema#integer",
+            "@type": "http://www.w3.org/2001/XMLSchema#int",
             "@value": "816"
           }
         ],
         "http://linkedpipes.com/ontology/y": [
           {
-            "@type": "http://www.w3.org/2001/XMLSchema#integer",
+            "@type": "http://www.w3.org/2001/XMLSchema#int",
             "@value": "-101"
           }
         ],
@@ -809,13 +856,13 @@
         ],
         "http://linkedpipes.com/ontology/x": [
           {
-            "@type": "http://www.w3.org/2001/XMLSchema#integer",
+            "@type": "http://www.w3.org/2001/XMLSchema#int",
             "@value": "223"
           }
         ],
         "http://linkedpipes.com/ontology/y": [
           {
-            "@type": "http://www.w3.org/2001/XMLSchema#integer",
+            "@type": "http://www.w3.org/2001/XMLSchema#int",
             "@value": "204"
           }
         ],
@@ -842,13 +889,13 @@
         ],
         "http://linkedpipes.com/ontology/x": [
           {
-            "@type": "http://www.w3.org/2001/XMLSchema#integer",
+            "@type": "http://www.w3.org/2001/XMLSchema#int",
             "@value": "222"
           }
         ],
         "http://linkedpipes.com/ontology/y": [
           {
-            "@type": "http://www.w3.org/2001/XMLSchema#integer",
+            "@type": "http://www.w3.org/2001/XMLSchema#int",
             "@value": "47"
           }
         ],
@@ -875,13 +922,13 @@
         ],
         "http://linkedpipes.com/ontology/x": [
           {
-            "@type": "http://www.w3.org/2001/XMLSchema#integer",
+            "@type": "http://www.w3.org/2001/XMLSchema#int",
             "@value": "221"
           }
         ],
         "http://linkedpipes.com/ontology/y": [
           {
-            "@type": "http://www.w3.org/2001/XMLSchema#integer",
+            "@type": "http://www.w3.org/2001/XMLSchema#int",
             "@value": "113"
           }
         ],
@@ -908,13 +955,13 @@
         ],
         "http://linkedpipes.com/ontology/x": [
           {
-            "@type": "http://www.w3.org/2001/XMLSchema#integer",
+            "@type": "http://www.w3.org/2001/XMLSchema#int",
             "@value": "1141"
           }
         ],
         "http://linkedpipes.com/ontology/y": [
           {
-            "@type": "http://www.w3.org/2001/XMLSchema#integer",
+            "@type": "http://www.w3.org/2001/XMLSchema#int",
             "@value": "46"
           }
         ],
@@ -947,13 +994,13 @@
         ],
         "http://linkedpipes.com/ontology/x": [
           {
-            "@type": "http://www.w3.org/2001/XMLSchema#integer",
+            "@type": "http://www.w3.org/2001/XMLSchema#int",
             "@value": "1303"
           }
         ],
         "http://linkedpipes.com/ontology/y": [
           {
-            "@type": "http://www.w3.org/2001/XMLSchema#integer",
+            "@type": "http://www.w3.org/2001/XMLSchema#int",
             "@value": "249"
           }
         ],
@@ -986,22 +1033,6 @@
         "http://linkedpipes.com/ontology/targetComponent": [
           {
             "@id": "https://pod-test.mvcr.gov.cz/etl/resources/pipelines/1631006737957/9"
-          }
-        ]
-      },
-      {
-        "@id": "https://pod-test.mvcr.gov.cz/etl/resources/pipelines/1631006737957/2",
-        "@type": [
-          "http://linkedpipes.com/ontology/ExecutionProfile"
-        ],
-        "http://linkedpipes.com/ontology/rdfRepositoryPolicy": [
-          {
-            "@id": "http://linkedpipes.com/ontology/repository/PerInputRepository"
-          }
-        ],
-        "http://linkedpipes.com/ontology/rdfRepositoryType": [
-          {
-            "@id": "http://linkedpipes.com/ontology/repository/NativeStore"
           }
         ]
       },
@@ -1064,13 +1095,13 @@
         ],
         "http://linkedpipes.com/ontology/x": [
           {
-            "@type": "http://www.w3.org/2001/XMLSchema#integer",
+            "@type": "http://www.w3.org/2001/XMLSchema#int",
             "@value": "843"
           }
         ],
         "http://linkedpipes.com/ontology/y": [
           {
-            "@type": "http://www.w3.org/2001/XMLSchema#integer",
+            "@type": "http://www.w3.org/2001/XMLSchema#int",
             "@value": "44"
           }
         ],
@@ -1128,13 +1159,13 @@
         ],
         "http://linkedpipes.com/ontology/x": [
           {
-            "@type": "http://www.w3.org/2001/XMLSchema#integer",
+            "@type": "http://www.w3.org/2001/XMLSchema#int",
             "@value": "522"
           }
         ],
         "http://linkedpipes.com/ontology/y": [
           {
-            "@type": "http://www.w3.org/2001/XMLSchema#integer",
+            "@type": "http://www.w3.org/2001/XMLSchema#int",
             "@value": "25"
           }
         ],
@@ -1296,13 +1327,13 @@
         ],
         "http://linkedpipes.com/ontology/x": [
           {
-            "@type": "http://www.w3.org/2001/XMLSchema#integer",
+            "@type": "http://www.w3.org/2001/XMLSchema#int",
             "@value": "1037"
           }
         ],
         "http://linkedpipes.com/ontology/y": [
           {
-            "@type": "http://www.w3.org/2001/XMLSchema#integer",
+            "@type": "http://www.w3.org/2001/XMLSchema#int",
             "@value": "165"
           }
         ],
@@ -1485,13 +1516,13 @@
         ],
         "http://linkedpipes.com/ontology/x": [
           {
-            "@type": "http://www.w3.org/2001/XMLSchema#integer",
+            "@type": "http://www.w3.org/2001/XMLSchema#int",
             "@value": "521"
           }
         ],
         "http://linkedpipes.com/ontology/y": [
           {
-            "@type": "http://www.w3.org/2001/XMLSchema#integer",
+            "@type": "http://www.w3.org/2001/XMLSchema#int",
             "@value": "207"
           }
         ],
@@ -1601,13 +1632,13 @@
         ],
         "http://linkedpipes.com/ontology/x": [
           {
-            "@type": "http://www.w3.org/2001/XMLSchema#integer",
+            "@type": "http://www.w3.org/2001/XMLSchema#int",
             "@value": "1146"
           }
         ],
         "http://linkedpipes.com/ontology/y": [
           {
-            "@type": "http://www.w3.org/2001/XMLSchema#integer",
+            "@type": "http://www.w3.org/2001/XMLSchema#int",
             "@value": "264"
           }
         ],
@@ -1712,13 +1743,13 @@
         ],
         "http://linkedpipes.com/ontology/x": [
           {
-            "@type": "http://www.w3.org/2001/XMLSchema#integer",
+            "@type": "http://www.w3.org/2001/XMLSchema#int",
             "@value": "1171"
           }
         ],
         "http://linkedpipes.com/ontology/y": [
           {
-            "@type": "http://www.w3.org/2001/XMLSchema#integer",
+            "@type": "http://www.w3.org/2001/XMLSchema#int",
             "@value": "-222"
           }
         ],
@@ -1745,13 +1776,13 @@
         ],
         "http://linkedpipes.com/ontology/x": [
           {
-            "@type": "http://www.w3.org/2001/XMLSchema#integer",
+            "@type": "http://www.w3.org/2001/XMLSchema#int",
             "@value": "500"
           }
         ],
         "http://linkedpipes.com/ontology/y": [
           {
-            "@type": "http://www.w3.org/2001/XMLSchema#integer",
+            "@type": "http://www.w3.org/2001/XMLSchema#int",
             "@value": "-70"
           }
         ],
@@ -1778,13 +1809,13 @@
         ],
         "http://linkedpipes.com/ontology/x": [
           {
-            "@type": "http://www.w3.org/2001/XMLSchema#integer",
+            "@type": "http://www.w3.org/2001/XMLSchema#int",
             "@value": "1204"
           }
         ],
         "http://linkedpipes.com/ontology/y": [
           {
-            "@type": "http://www.w3.org/2001/XMLSchema#integer",
+            "@type": "http://www.w3.org/2001/XMLSchema#int",
             "@value": "-104"
           }
         ],
@@ -1811,13 +1842,13 @@
         ],
         "http://linkedpipes.com/ontology/x": [
           {
-            "@type": "http://www.w3.org/2001/XMLSchema#integer",
+            "@type": "http://www.w3.org/2001/XMLSchema#int",
             "@value": "241"
           }
         ],
         "http://linkedpipes.com/ontology/y": [
           {
-            "@type": "http://www.w3.org/2001/XMLSchema#integer",
+            "@type": "http://www.w3.org/2001/XMLSchema#int",
             "@value": "307"
           }
         ],
@@ -1922,13 +1953,13 @@
         ],
         "http://linkedpipes.com/ontology/x": [
           {
-            "@type": "http://www.w3.org/2001/XMLSchema#integer",
+            "@type": "http://www.w3.org/2001/XMLSchema#int",
             "@value": "792"
           }
         ],
         "http://linkedpipes.com/ontology/y": [
           {
-            "@type": "http://www.w3.org/2001/XMLSchema#integer",
+            "@type": "http://www.w3.org/2001/XMLSchema#int",
             "@value": "274"
           }
         ],
@@ -2080,13 +2111,13 @@
         ],
         "http://linkedpipes.com/ontology/x": [
           {
-            "@type": "http://www.w3.org/2001/XMLSchema#integer",
+            "@type": "http://www.w3.org/2001/XMLSchema#int",
             "@value": "814"
           }
         ],
         "http://linkedpipes.com/ontology/y": [
           {
-            "@type": "http://www.w3.org/2001/XMLSchema#integer",
+            "@type": "http://www.w3.org/2001/XMLSchema#int",
             "@value": "-198"
           }
         ],
@@ -2113,13 +2144,13 @@
         ],
         "http://linkedpipes.com/ontology/x": [
           {
-            "@type": "http://www.w3.org/2001/XMLSchema#integer",
+            "@type": "http://www.w3.org/2001/XMLSchema#int",
             "@value": "823"
           }
         ],
         "http://linkedpipes.com/ontology/y": [
           {
-            "@type": "http://www.w3.org/2001/XMLSchema#integer",
+            "@type": "http://www.w3.org/2001/XMLSchema#int",
             "@value": "184"
           }
         ],
@@ -2146,13 +2177,13 @@
         ],
         "http://linkedpipes.com/ontology/x": [
           {
-            "@type": "http://www.w3.org/2001/XMLSchema#integer",
+            "@type": "http://www.w3.org/2001/XMLSchema#int",
             "@value": "1032"
           }
         ],
         "http://linkedpipes.com/ontology/y": [
           {
-            "@type": "http://www.w3.org/2001/XMLSchema#integer",
+            "@type": "http://www.w3.org/2001/XMLSchema#int",
             "@value": "-104"
           }
         ],
@@ -2185,19 +2216,40 @@
         ],
         "http://linkedpipes.com/ontology/x": [
           {
-            "@type": "http://www.w3.org/2001/XMLSchema#integer",
+            "@type": "http://www.w3.org/2001/XMLSchema#int",
             "@value": "1296"
           }
         ],
         "http://linkedpipes.com/ontology/y": [
           {
-            "@type": "http://www.w3.org/2001/XMLSchema#integer",
+            "@type": "http://www.w3.org/2001/XMLSchema#int",
             "@value": "47"
           }
         ],
         "http://www.w3.org/2004/02/skos/core#prefLabel": [
           {
             "@value": "HTTP Request"
+          }
+        ]
+      },
+      {
+        "@id": "https://pod-test.mvcr.gov.cz/etl/resources/pipelines/1631006737957/profile/default",
+        "@type": [
+          "http://linkedpipes.com/ontology/ExecutionProfile"
+        ],
+        "http://etl.linkedpipes.com/ontology/logRetentionPolicy": [
+          {
+            "@id": "http://linkedpipes.com/resources/Keep"
+          }
+        ],
+        "http://linkedpipes.com/ontology/rdfRepositoryPolicy": [
+          {
+            "@id": "http://linkedpipes.com/ontology/repository/PerInputRepository"
+          }
+        ],
+        "http://linkedpipes.com/ontology/rdfRepositoryType": [
+          {
+            "@id": "http://linkedpipes.com/ontology/repository/NativeStore"
           }
         ]
       }
@@ -2213,7 +2265,7 @@
         ],
         "http://plugins.linkedpipes.com/ontology/e-textHolder#content": [
           {
-            "@value": "@prefix req: <http://plugins.linkedpipes.com/ontology/x-httpRequest#> .\n\n<http://localhost/slack> a req:Task ;\n  req:url \"https://hooks.slack.com/services/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\" ;\n#  req:url \"https://hooks.slack.com/services/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\" ;\n  req:method \"POST\" ;\n  req:postContentAsBody true ;\n  req:content <http://localhost/slack/content> .\n\n<http://localhost/slack/content> a req:Content ;\n  req:fileReference \"configuration.json\" ."
+            "@value": "@prefix req: <http://plugins.linkedpipes.com/ontology/x-httpRequest#> .\n\n<http://localhost/slack> a req:Task ;\n  req:url \"https://hooks.slack.com/services/<insert_token>\" ;\n#  req:url \"https://hooks.slack.com/services/<insert_token>\" ;\n  req:method \"POST\" ;\n  req:postContentAsBody true ;\n  req:content <http://localhost/slack/content> .\n\n<http://localhost/slack/content> a req:Content ;\n  req:fileReference \"configuration.json\" ."
           }
         ],
         "http://plugins.linkedpipes.com/ontology/e-textHolder#contentControl": [
@@ -2427,9 +2479,19 @@
             "@id": "http://plugins.linkedpipes.com/resource/configuration/None"
           }
         ],
+        "http://plugins.linkedpipes.com/ontology/l-filesToScp#host": [
+          {
+            "@value": "localhost"
+          }
+        ],
         "http://plugins.linkedpipes.com/ontology/l-filesToScp#hostControl": [
           {
             "@id": "http://plugins.linkedpipes.com/resource/configuration/Inherit"
+          }
+        ],
+        "http://plugins.linkedpipes.com/ontology/l-filesToScp#password": [
+          {
+            "@value": "nejlepsipaper"
           }
         ],
         "http://plugins.linkedpipes.com/ontology/l-filesToScp#passwordControl": [
@@ -2437,9 +2499,20 @@
             "@id": "http://plugins.linkedpipes.com/resource/configuration/Inherit"
           }
         ],
+        "http://plugins.linkedpipes.com/ontology/l-filesToScp#port": [
+          {
+            "@type": "http://www.w3.org/2001/XMLSchema#integer",
+            "@value": "22"
+          }
+        ],
         "http://plugins.linkedpipes.com/ontology/l-filesToScp#portControl": [
           {
             "@id": "http://plugins.linkedpipes.com/resource/configuration/Inherit"
+          }
+        ],
+        "http://plugins.linkedpipes.com/ontology/l-filesToScp#userName": [
+          {
+            "@value": "uploader"
           }
         ],
         "http://plugins.linkedpipes.com/ontology/l-filesToScp#userNameControl": [
@@ -2495,9 +2568,19 @@
             "@id": "http://plugins.linkedpipes.com/resource/configuration/None"
           }
         ],
+        "http://plugins.linkedpipes.com/ontology/l-filesToScp#host": [
+          {
+            "@value": "localhost"
+          }
+        ],
         "http://plugins.linkedpipes.com/ontology/l-filesToScp#hostControl": [
           {
             "@id": "http://plugins.linkedpipes.com/resource/configuration/Inherit"
+          }
+        ],
+        "http://plugins.linkedpipes.com/ontology/l-filesToScp#password": [
+          {
+            "@value": "nejlepsipaper"
           }
         ],
         "http://plugins.linkedpipes.com/ontology/l-filesToScp#passwordControl": [
@@ -2505,9 +2588,20 @@
             "@id": "http://plugins.linkedpipes.com/resource/configuration/Inherit"
           }
         ],
+        "http://plugins.linkedpipes.com/ontology/l-filesToScp#port": [
+          {
+            "@type": "http://www.w3.org/2001/XMLSchema#integer",
+            "@value": "22"
+          }
+        ],
         "http://plugins.linkedpipes.com/ontology/l-filesToScp#portControl": [
           {
             "@id": "http://plugins.linkedpipes.com/resource/configuration/Inherit"
+          }
+        ],
+        "http://plugins.linkedpipes.com/ontology/l-filesToScp#userName": [
+          {
+            "@value": "uploader"
           }
         ],
         "http://plugins.linkedpipes.com/ontology/l-filesToScp#userNameControl": [
@@ -2564,7 +2658,7 @@
   {
     "@graph": [
       {
-        "@id": "https://pod-test.mvcr.gov.cz/etl/resources/pipelines/1631006737957/85",
+        "@id": "https://pod-test.mvcr.gov.cz/etl/resources/pipelines/1631006737957/8/configuration",
         "@type": [
           "http://plugins.linkedpipes.com/ontology/t-mustache#Configuration"
         ],
