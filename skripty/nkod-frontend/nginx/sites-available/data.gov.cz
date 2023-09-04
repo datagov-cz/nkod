@@ -1,33 +1,28 @@
 server {
-        listen 80 ;
-        listen [::]:80 ;
-        server_name data.gov.cz;
-        return 301 https://$host$request_uri;
-}
 
-server {
+        listen 443 ssl default_server ;
+        listen [::]:443 ssl default_server ;
+        listen 443 quic reuseport ;
+        listen [::]:443 quic reuseport ;
 
-        listen 443 ssl http2 ;
-        listen [::]:443 ssl http2 ;
+        http2 on;
 
         proxy_buffer_size   128k;
         proxy_buffers   4 256k;
         proxy_busy_buffers_size   256k;
 
-        ssl_certificate /etc/ssl/nkod/data.gov.cz.chain.pem;
-        ssl_certificate_key     /etc/ssl/nkod/data.gov.cz.key.pem;
+        ssl_certificate /etc/ssl/nkod/dia/data.gov.cz.chain;
+        ssl_certificate_key     /etc/ssl/nkod/dia/data.gov.cz.key;
 
         server_name data.gov.cz;
 
         client_max_body_size 100M;
 
-        resolver 10.254.8.10;
-
         error_page 404 /404.html;
 
         location /404.html {
                 include hsts-cors.conf ;
-                root /data/opendata-mvcr.github.io/_site ;
+                root /data/data.gov.cz/_site ;
                 internal;
         }
 
@@ -46,7 +41,7 @@ server {
         location /sparql {
                 include hsts-cors.conf ;
 
-                proxy_pass http://<NKOD-DB-IP>:8890$uri$is_args$args;
+                proxy_pass http://<NKOD_DB_IP>:8890$uri$is_args$args;
                 proxy_set_header   Host             $host;
                 proxy_set_header   X-Real-IP        $remote_addr;
                 proxy_set_header   X-Forwarded-For  $proxy_add_x_forwarded_for;
@@ -56,11 +51,12 @@ server {
                 proxy_send_timeout          2400;
                 proxy_read_timeout          2400;
                 send_timeout                2400;
+                add_header X-Robots-Tag noindex always;
         }
         location /sparql-graph-crud {
                 include hsts-cors.conf ;
 
-                proxy_pass http://<NKOD-DB-IP>:8890$uri$is_args$args;
+                proxy_pass http://<NKOD_DB_IP>:8890$uri$is_args$args;
                 proxy_set_header   Host             $host;
                 proxy_set_header   X-Real-IP        $remote_addr;
                 proxy_set_header   X-Forwarded-For  $proxy_add_x_forwarded_for;
@@ -70,6 +66,7 @@ server {
                 proxy_send_timeout          2400;
                 proxy_read_timeout          2400;
                 send_timeout                2400;
+                add_header X-Robots-Tag noindex always;
         }
 
         location /sparql-graph-crud-auth {
@@ -89,7 +86,7 @@ server {
                         rewrite (.*) https://data.gov.cz/sparql?query=define%20sql%3Adescribe-mode%20"CBD"%20%20DESCRIBE%20<$scheme://$host$request_uri>&output=application%2Fld%2Bjson ;
                 }
 
-                proxy_pass http://<NKOD-DB-IP>:8890/describe/?url=https://data.gov.cz$uri;
+                proxy_pass http://<NKOD_DB_IP>:8890/describe/?url=https://data.gov.cz$uri;
                 proxy_set_header   Host             $host;
                 proxy_set_header   X-Real-IP        $remote_addr;
                 proxy_set_header   X-Forwarded-For  $proxy_add_x_forwarded_for;
@@ -102,17 +99,30 @@ server {
                 sub_filter 'src="http://data.gov.cz' 'src="https://data.gov.cz';
         }
 
+        location ~ ^/fct/facet.vsp.* {
+                return 403;
+        }
+        location ~ ^.*/etc/passwd.* {
+                return 403;
+        }
+        location ~ ^.*win.ini.* {
+                return 403;
+        }
+        location ~ ^.*boot.ini.* {
+                return 403;
+        }
         location ~ ^/fct/rdfdesc/usage.* {
                 return 403;
         }
         location ~ ^/((fct|describe).*) {
                 include hsts-cors.conf ;
-                proxy_pass http://<NKOD-DB-IP>:8890$uri$is_args$args;
+                proxy_pass http://<NKOD_DB_IP>:8890$uri$is_args$args;
                 proxy_set_header   Host             $host;
                 proxy_set_header   X-Real-IP        $remote_addr;
                 proxy_set_header   X-Forwarded-For  $proxy_add_x_forwarded_for;
                 proxy_pass_request_headers      on;
                 proxy_intercept_errors on;
+                add_header X-Robots-Tag noindex always;
 
                 sub_filter_once off;
                 sub_filter 'href="http://data.gov.cz' 'href="https://data.gov.cz';
@@ -131,7 +141,7 @@ server {
         #Soubory
         location /.well-known/ {
                 include hsts-cors.conf ;
-                proxy_pass http://<NKOD-DB-IP>:8890$uri;
+                proxy_pass http://<NKOD_DB_IP>:8890$uri;
                 proxy_set_header   Host             $host;
                 proxy_set_header   X-Real-IP        $remote_addr;
                 proxy_set_header   X-Forwarded-For  $proxy_add_x_forwarded_for;
@@ -142,6 +152,15 @@ server {
                 include hsts-cors.conf ;
                 root /var/www ;
                 autoindex on;
+        }
+
+        location /video/modelování {
+                include hsts-cors.conf;
+                root /var/www ;
+                autoindex on;
+
+                auth_basic "Restricted";
+                auth_basic_user_file /etc/nginx/.modelování;
         }
 
         location /soubor/ {
@@ -166,9 +185,10 @@ server {
                 include hsts-cors.conf ;
                 root /data ;
                 try_files $uri =404;
-                fastcgi_pass unix:/var/run/php/php8.0-fpm.sock;
+                fastcgi_pass unix:/var/run/php/php8.1-fpm.sock;
                 fastcgi_param SCRIPT_FILENAME $document_root$fastcgi_script_name;
                 include fastcgi_params;
+                add_header X-Robots-Tag noindex always;
         }
 
         #ofn.gov.cz klonované z GitHub Pages
@@ -181,8 +201,18 @@ server {
         location ~ ^/(images|css|js) {
                 include hsts-cors.conf ;
                 try_files $uri $uri/ =404;
-                root /data/opendata-mvcr.github.io/_site ;
+#                expires 1D;
+                root /data/data.gov.cz/_site ;
         }
+
+#        location /datová-schránka-nkod/ {
+#                include hsts-cors.conf;
+#                proxy_pass http://<NKOD_ETL_IP>/isds/;
+#                proxy_pass_request_headers      on;
+#                proxy_set_header   X-Real-IP        $remote_addr;
+#                proxy_set_header   X-Forwarded-For  $proxy_add_x_forwarded_for;
+#                proxy_intercept_errors on;
+#        }
 
         #sitemaps for catalog records
         location /sitemap.xml {
@@ -192,7 +222,7 @@ server {
 
         location /smap-pages.xml {
                 include hsts-cors.conf ;
-                alias /data/opendata-mvcr.github.io/_site/sitemap.xml ;
+                alias /data/data.gov.cz/_site/sitemap.xml ;
         }
 
         location /smap {
@@ -204,11 +234,12 @@ server {
         #LP-ETL
         location /etl/ {
                 include hsts-cors.conf;
-                proxy_pass http://<NKOD-ETL-IP>:8080/;
+                proxy_pass http://<NKOD_ETL_IP>:8080/;
                 proxy_pass_request_headers      on;
                 proxy_set_header   X-Real-IP        $remote_addr;
                 proxy_set_header   X-Forwarded-For  $proxy_add_x_forwarded_for;
                 proxy_set_header Early-Data $ssl_early_data;
+                add_header X-Robots-Tag noindex always;
 
                 auth_basic "Restricted";
                 auth_basic_user_file /etc/nginx/.etlpasswd;
@@ -216,21 +247,24 @@ server {
 
         location /etl/working {
                 include hsts-cors.conf;
-                proxy_pass http://<NKOD-ETL-IP>:80/working;
+                proxy_pass http://<NKOD_ETL_IP>:80/working;
                 proxy_pass_request_headers      on;
                 proxy_set_header   X-Real-IP        $remote_addr;
                 proxy_set_header   X-Forwarded-For  $proxy_add_x_forwarded_for;
                 proxy_set_header Early-Data $ssl_early_data;
+                add_header X-Robots-Tag noindex always;
 
                 auth_basic "Restricted";
                 auth_basic_user_file /etc/nginx/.etlpasswd;
         }
 
          location /graphql {
-                proxy_pass http://<NKOD-DB-IP>:8032$request_uri;
+                include hsts-cors.conf;
+                proxy_pass http://<NKOD_DB_IP>:8032$request_uri;
                 proxy_pass_request_headers      on;
                 proxy_set_header   X-Real-IP        $remote_addr;
                 proxy_set_header   X-Forwarded-For  $proxy_add_x_forwarded_for;
+                add_header X-Robots-Tag noindex always;
         }
 
         location /ldf-client {
@@ -239,15 +273,16 @@ server {
         }
 
         location /ldf {
-                proxy_pass http://<NKOD-DB-IP>:5000$request_uri;
+                proxy_pass http://<NKOD_DB_IP>:5000$request_uri;
                 proxy_set_header Host $http_host;
                 proxy_pass_header Server;
+                add_header X-Robots-Tag noindex always;
         }
 
         location / {
                 include hsts-cors.conf ;
                 try_files $uri $uri/ $uri.html =404;
-                root /data/opendata-mvcr.github.io/_site ;
+                root /data/data.gov.cz/_site ;
         }
 
 }

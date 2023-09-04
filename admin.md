@@ -68,10 +68,10 @@ V této sekci je popsán doporučený postup instalace databáze na stroji **NKO
 
 1. Openlink Virtuoso Open-Source
    1. Instalace
-      1. Prerekvizity: `sudo apt-get install dpkg-dev build-essential autoconf automake libtool flex bison gperf gawk m4 make odbcinst libxml2-dev libreadline-dev net-tools`
-      2. V adresáři `/opt`: Zdrojové kódy develop verze Virtuosa 
-         1.`sudo git clone https://github.com/openlink/virtuoso-opensource.git -b develop/7`
-         2.`sudo chown -R user:group virtuoso-opensource`
+      1. Prerekvizity: `sudo apt-get install dpkg-dev build-essential autoconf automake libtool flex bison gperf gawk m4 make odbcinst libxml2-dev libreadline-dev net-tools libssl-dev`
+      2. V adresáři `/opt`: Zdrojové kódy develop verze Virtuosa
+         1. `sudo git clone https://github.com/openlink/virtuoso-opensource.git -b develop/7`
+         2. `sudo chown -R user:group virtuoso-opensource`
       3. `cd /opt/virtuoso-opensource`
       4. `./autogen.sh`
       5. `./configure --prefix=/usr/local/ --with-readline --program-transform-name="s/isql/isql-v/" --with-layout=Debian --enable-fct-vad`
@@ -87,7 +87,7 @@ V této sekci je popsán doporučený postup instalace databáze na stroji **NKO
 2. GraphQL endpoint
    1. Běžným způsobem nainstalovat Node.js
    2. Naklonovat do `/opt/nkod-graphql`
-      1. V `/opt`: `sudo git clone https://github.com/opendata-mvcr/nkod-graphql.git`
+      1. V `/opt`: `sudo git clone https://github.com/datagov-cz/nkod-graphql.git`
       2. Vytvořit uživatele `graphql`: `sudo adduser graphql --disabled-login`
       3. Předat mu vlastnictví `sudo chown -R graphql:graphql nkod-graphql`
       4. Nainstalovat prerekvizity
@@ -103,10 +103,10 @@ V této sekci je popsán doporučený postup instalace databáze na stroji **NKO
    5. Zprovoznit jako `systemd` službu pomocí [`ldf-server.service`](skripty/nkod-db/service/ldf-server.service)
       - vyžaduje existenci NKOD HDT dumpu
 4. Webhooky
-   1. Běžným způsobem nainstalovat `nginx` a `php8.0-fpm`
-      1. v `/etc/php/8.0/fpm/pool.d/www.conf` změnit uživatele `www-data` na `nginx`, pokud `nginx` běží pod uživatelem `nginx`
-      2. v `/etc/php/8.0/fpm/php.ini` nastavit `max_execution_time = 300` - restart Virtuosa někdy trvá
-      3. v `/etc/systemd/system/multi-user.target.wants/php8.0-fpm.service` nastavit `KillMode=process`, což zabraňuje zabití Virtuosa po restartu php-fpm
+   1. Běžným způsobem nainstalovat `nginx` a `php8.1-fpm`
+      1. v `/etc/php/8.1/fpm/pool.d/www.conf` změnit uživatele `www-data` na `nginx`, pokud `nginx` běží pod uživatelem `nginx`
+      2. v `/etc/php/8.1/fpm/php.ini` nastavit `max_execution_time = 300` - restart Virtuosa někdy trvá
+      3. v `/etc/systemd/system/multi-user.target.wants/php8.1-fpm.service` nastavit v `[Service]` `KillMode=process`, což zabraňuje zabití Virtuosa po restartu php-fpm
    2. Pomocí `sudo visudo` nastavit, aby uživatel `nginx` mohl signalizovat službě a restartovat Virtuoso
       1. `nginx ALL=(ALL) NOPASSWD: /usr/sbin/service`
       2. `nginx ALL=(ALL) NOPASSWD: /etc/init.d/virtuoso-opensource`
@@ -114,13 +114,13 @@ V této sekci je popsán doporučený postup instalace databáze na stroji **NKO
 
 
 ##  Transformace dat
-V této sekci je popsán doporučený postup instalace stroje **NKOD-ETL** s OS [Ubuntu](https://www.ubuntu.com/) 21.10.
+V této sekci je popsán doporučený postup instalace stroje **NKOD-ETL** s OS [Ubuntu](https://www.ubuntu.com/) 22.04.
 
 ### Prerekvizity
-- [OpenJDK](https://jdk.java.net/16/) 16.0.2
+- [OpenJDK](https://jdk.java.net/17/) 17.0.8.1
 - [Apache Maven](https://maven.apache.org/)
 - [Git](https://git-scm.com/)
-- [node.js](https://nodejs.org) 17.1.0
+- [node.js](https://nodejs.org) 20.5.1
 - [nginx](http://nginx.org/)
 - [LinkedPipes ETL]
 - Vyzvedávátko zpráv z ISDS [NKOD-ISDS]
@@ -128,7 +128,7 @@ V této sekci je popsán doporučený postup instalace stroje **NKOD-ETL** s OS 
 ### Postup instalace
 1. Instalace LinkedPipes ETL [dle návodu](https://etl.linkedpipes.com/installation/)
    1. Přidán uživatel `lpetl`, pod kterým bude nástroj běžet
-   2. `/opt/lp`: `git clone https://github.com/opendata-mvcr/etl.git`
+   2. `/opt/lp`: `git clone https://github.com/datagov-cz/etl.git`
       1. `cd etl`
       2. `mvn install`
     3. v `/opt/lp/etl/deploy/frontend`: `npm i`
@@ -145,7 +145,7 @@ V této sekci je popsán doporučený postup instalace stroje **NKOD-ETL** s OS 
 4. Nahrání [16x LP-ETL pipeline](pipeliny/README.md) a nastavení přístupových údajů v příslušných šablonách
 5. nginx [zpřístupňuje](skripty/nkod-etl/nginx/localhost.conf) `/data/cache` pro přístup z `localhost`
 6. Instalace NKOD-ISDS
-   1. v `/opt`: `git clone https://github.com/opendata-mvcr/nkod-isds.git`
+   1. v `/opt`: `git clone https://github.com/datagov-cz/nkod-isds.git`
    2. v `/opt/nkod-isds`: `mvn install`
    3. konfigurační soubor v `/opt/nkod-isds/dist/configuration.properties`
 
@@ -153,28 +153,28 @@ V této sekci je popsán doporučený postup instalace stroje **NKOD-ETL** s OS 
 V této sekci je popsán doporučený postup instalace stroje **NKOD-FRONTEND** s OS [Ubuntu](https://www.ubuntu.com/) 21.10.
 
 ### Prerekvizity
-- [OpenJDK](https://jdk.java.net/17/) 17.0.1
+- [OpenJDK](https://jdk.java.net/17/) 17.0.8.1
 - [Git](https://git-scm.com/)
-- [node.js](https://nodejs.org) 17.1.0
-- [nginx](http://nginx.org/) 1.21.3
+- [node.js](https://nodejs.org) 20.5.1 (17.x pro DCAT-AP Forms)
+- [nginx](http://nginx.org/) 1.25.2
 - certbot (letsencrypt.org) - pokud nebude jiný certifikát
 - [Apache CouchDB](https://couchdb.apache.org/) 2.2.0
-- [Apache Solr](http://lucene.apache.org/solr/) 8.7.0
+- [Apache Solr](http://lucene.apache.org/solr/) 8.11.1
 - [LinkedPipes DCAT-AP Viewer]
 - [LinkedPipes DCAT-AP Forms]
 
 ### Postup instalace
 1. Běžným způsobem nainstalována Apache CouchDB, Apache Solr, OpenJDK, Node.js, nginx
-2. Pro Apache Solr lze použít [návod pro zprovoznění](https://lucene.apache.org/solr/guide/8_7/taking-solr-to-production.html)
+2. Pro Apache Solr lze použít [návod pro zprovoznění](https://solr.apache.org/guide/8_11/taking-solr-to-production.html)
 3. Instalace LinkedPipes DCAT-AP Forms
    1. zřídit uživatele `lpdaf`
-   2. v `/opt/lp`: `git clone https://github.com/opendata-mvcr/dcat-ap-forms.git`
-   3. dále dle [návodu](https://github.com/opendata-mvcr/dcat-ap-forms)
+   2. v `/opt/lp`: `git clone https://github.com/datagov-cz/dcat-ap-forms.git`
+   3. dále dle [návodu](https://github.com/datagov-cz/dcat-ap-forms)
    4. Instalováno [jako služba](skripty/nkod-frontend/service/dcat-ap-forms.service) v `/etc/systemd/system/dcat-ap-forms.service`
 4. Instalace LinkedPipes DCAT-AP Viewer
    1. zřídit uživatele lpdav
-   2. v `/opt/lp`: `git clone https://github.com/opendata-mvcr/dcat-ap-viewer.git -b nkod`
-   3. Dále dle [návodu](https://github.com/opendata-mvcr/dcat-ap-viewer)
+   2. v `/opt/lp`: `git clone https://github.com/datagov-cz/dcat-ap-viewer.git`
+   3. Dále dle [návodu](https://github.com/datagov-cz/dcat-ap-viewer)
    4. Instalováno [jako služba](skripty/nkod-frontend/service/dcat-ap-viewer.service) v `/etc/systemd/system/dcat-ap-viewer.service`
 5. Je potřeba vytvořit uživatele `uploader`, který bude moci do `/data/soubor` nahrávat data přes SSH/SCP
 6. nginx [reverse proxy na jednolivé části NKOD](skripty/nkod-frontend/nginx)
@@ -207,13 +207,13 @@ Dále může proces harvestace NKOD selhat z následujících očekávatelných 
 2. Selže pipeline `08.1 Nahrát NKOD do SPARQL endpointu a spustit pipeliny pro kvalitu` protože spadne instance databáze Virtuoso. Pak je třeba celý server **NKOD-DB** restartovat a následně restartovat pipeline.
 3. Selže pipeline `07 Harvestace LKOD a formulářů, aktualizace uživatelského rozhraní` a `08.1 Nahrát NKOD do SPARQL endpointu a spustit pipeliny pro kvalitu` na chybu `502 Bad Gateway` při aktualizaci LDF serveru nebo restartu Virtuosa. Zřejmě spadla databáze Virtuoso a s ní i PHP server obsluhující webhooky. Je třeba restartovat **NKOD-DB** a znovu spustit pipeline `07 Harvestace LKOD a formulářů, aktualizace uživatelského rozhraní` nebo počkat na další den harvestace.
 
-[LinkedPipes DCAT-AP Viewer]: https://github.com/opendata-mvcr/dcat-ap-viewer "LinkedPipes DCAT-AP Viewer"
-[LinkedPipes DCAT-AP Forms]: https://github.com/opendata-mvcr/dcat-ap-forms "LinkedPipes DCAT-AP Forms"
-[LinkedPipes ETL]: https://github.com/opendata-mvcr/etl "LinkedPipes ETL"
-[NKOD-ISDS]: https://github.com/opendata-mvcr/nkod-isds "NKOD-ISDS"
-[OpenLink Virtuoso Open-Source]: https://github.com/opendata-mvcr/virtuoso-opensource "OpenLink Virtuoso Open-Source"
-[Linked Data Fragments server]: https://github.com/opendata-mvcr/Server.js "Linked Data Fragments server"
-[GraphQL server NKOD]: https://github.com/opendata-mvcr/nkod-graphql "GraphQL server NKOD"
+[LinkedPipes DCAT-AP Viewer]: https://github.com/datagov-cz/dcat-ap-viewer "LinkedPipes DCAT-AP Viewer"
+[LinkedPipes DCAT-AP Forms]: https://github.com/datagov-cz/dcat-ap-forms "LinkedPipes DCAT-AP Forms"
+[LinkedPipes ETL]: https://github.com/datagov-cz/etl "LinkedPipes ETL"
+[NKOD-ISDS]: https://github.com/datagov-cz/nkod-isds "NKOD-ISDS"
+[OpenLink Virtuoso Open-Source]: https://github.com/datagov-cz/virtuoso-opensource "OpenLink Virtuoso Open-Source"
+[Linked Data Fragments server]: https://github.com/datagov-cz/Server.js "Linked Data Fragments server"
+[GraphQL server NKOD]: https://github.com/datagov-cz/nkod-graphql "GraphQL server NKOD"
 [Rozhraní katalogů otevřených dat: DCAT-AP-CZ]: https://ofn.gov.cz/rozhraní-katalogů-otevřených-dat/2021-01-11/ "Otevřená formální norma Rozhraní katalogů otevřených dat: DCAT-AP-CZ"
 [POD]: https://data.gov.cz "Portál otevřených dat"
 [Oficiální portál evropských dat]: https://data.europa.eu "Oficiální portál evropských dat"

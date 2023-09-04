@@ -1,13 +1,16 @@
 server {
 
-        listen 443 ssl http2 ;
-        listen [::]:443 ssl http2 ;
+        listen 443 ssl ;
+        listen [::]:443 ssl ;
+        listen 443 quic ;
+        listen [::]:443 quic ;
 
-        ssl_certificate /etc/ssl/nkod/data.gov.cz.chain.pem;
-        ssl_certificate_key     /etc/ssl/nkod/data.gov.cz.key.pem;
+        http2 on;
+
+        ssl_certificate /etc/ssl/nkod/dia/data.gov.cz.chain;
+        ssl_certificate_key     /etc/ssl/nkod/dia/data.gov.cz.key;
 
         server_name opendata.gov.cz;
-        resolver 10.254.8.10;
 
         proxy_buffer_size   128k;
         proxy_buffers   4 256k;
@@ -49,7 +52,7 @@ server {
                 include fastcgi_params;
                 fastcgi_param SCRIPT_FILENAME $document_root$fastcgi_script_name;
                 fastcgi_param REDIRECT_STATUS 200;
-                fastcgi_pass unix:/var/run/php/php8.0-fpm.sock;
+                fastcgi_pass unix:/var/run/php/php8.1-fpm.sock;
         }
 
 }
