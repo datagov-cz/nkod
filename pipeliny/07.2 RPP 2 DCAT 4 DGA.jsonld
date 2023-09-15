@@ -134,7 +134,7 @@
         "http://linkedpipes.com/ontology/lastUpdate": [
           {
             "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
-            "@value": "2023-09-15T11:14:56.219386892"
+            "@value": "2023-09-15T11:30:22.040051476"
           }
         ],
         "http://linkedpipes.com/ontology/profile": [
@@ -1194,7 +1194,7 @@
         ],
         "http://plugins.linkedpipes.com/ontology/t-sparqlUpdate#query": [
           {
-            "@value": "PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>\nPREFIX skos: <http://www.w3.org/2004/02/skos/core#>\nPREFIX dcat: <http://www.w3.org/ns/dcat#>\nPREFIX dcterms: <http://purl.org/dc/terms/>\nPREFIX dcatap: <http://data.europa.eu/r5r/>\n\nINSERT { \n  ?datováSada dcat:distribution ?distribuce .\n  ?distribuce a dcat:Distribution ;\n    dcatap:applicableLegislation <http://data.europa.eu/eli/reg/2022/868/oj> ;\n    dcat:accessURL <https://nkd.gov.cz/zadost-rizeny-pristup> ;\n    dcterms:rights <https://nkd.gov.cz/zadost-rizeny-pristup> .\n} \nWHERE { \n  ?datováSada a dcat:Dataset .\n  FILTER NOT EXISTS {?datováSada a dcat:DatasetSeries}\n  BIND(IRI(CONCAT(STR(?datováSada), \"/distribuce/1\")) AS ?distribuce)\n}"
+            "@value": "PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>\nPREFIX skos: <http://www.w3.org/2004/02/skos/core#>\nPREFIX dcat: <http://www.w3.org/ns/dcat#>\nPREFIX dcterms: <http://purl.org/dc/terms/>\nPREFIX dcatap: <http://data.europa.eu/r5r/>\n\nINSERT { \n  ?datováSada dcat:distribution ?distribuce .\n  ?distribuce a dcat:Distribution ;\n    dcatap:applicableLegislation <http://data.europa.eu/eli/reg/2022/868/oj> ;\n    dcat:accessURL <https://data.gov.cz/dga-žádost-o-přístup/> ;\n    dcterms:rights <https://data.gov.cz/dga-žádost-o-přístup/> ;\n    dcterms:format <http://publications.europa.eu/resource/authority/file-type/XML> .\n} \nWHERE { \n  ?datováSada a dcat:Dataset .\n  FILTER NOT EXISTS {?datováSada a dcat:DatasetSeries}\n  BIND(IRI(CONCAT(STR(?datováSada), \"/distribuce/1\")) AS ?distribuce)\n}"
           }
         ],
         "http://plugins.linkedpipes.com/ontology/t-sparqlUpdate#queryControl": [
