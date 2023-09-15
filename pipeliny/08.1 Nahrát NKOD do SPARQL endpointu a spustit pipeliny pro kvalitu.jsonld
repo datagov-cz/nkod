@@ -611,6 +611,283 @@
   {
     "@graph": [
       {
+        "@id": "https://oha02.dia.gov.cz/etl/resources/components/1694778798220-0008",
+        "@type": [
+          "http://linkedpipes.com/ontology/Template"
+        ],
+        "http://etl.linkedpipes.com/ontology/version": [
+          {
+            "@type": "http://www.w3.org/2001/XMLSchema#int",
+            "@value": "5"
+          }
+        ],
+        "http://linkedpipes.com/ontology/configurationGraph": [
+          {
+            "@id": "https://oha02.dia.gov.cz/etl/resources/components/1694778798220-0008/configuration"
+          }
+        ],
+        "http://linkedpipes.com/ontology/pluginTemplate": [
+          {
+            "@id": "http://etl.linkedpipes.com/resources/components/e-textHolder/0.0.0"
+          }
+        ],
+        "http://linkedpipes.com/ontology/template": [
+          {
+            "@id": "http://etl.linkedpipes.com/resources/components/e-textHolder/0.0.0"
+          }
+        ],
+        "http://www.w3.org/2004/02/skos/core#prefLabel": [
+          {
+            "@value": "Spustit 15"
+          }
+        ]
+      }
+    ],
+    "@id": "https://oha02.dia.gov.cz/etl/resources/components/1694778798220-0008"
+  },
+  {
+    "@graph": [
+      {
+        "@id": "https://oha02.dia.gov.cz/etl/resources/components/1694778798220-0008/1",
+        "@type": [
+          "http://plugins.linkedpipes.com/ontology/e-textHolder#Configuration"
+        ],
+        "http://plugins.linkedpipes.com/ontology/e-textHolder#content": [
+          {
+            "@value": "@prefix req: <http://plugins.linkedpipes.com/ontology/x-httpRequest#> .\n\n<http://localhost/query2> a req:Task ;\n  req:url \"http://localhost:8080/resources/executions?pipeline=https://oha02.dia.gov.cz/etl/resources/pipelines/1614849417812\" ;\n  req:method \"POST\" ;\n  req:content <http://localhost/query2/content> .\n\n<http://localhost/query2/content> a req:Content ;\n  req:name \"configuration\" ;\n  req:fileName \"configuration.jsonld\" ;\n  req:fileReference \"configuration.jsonld\" ."
+          }
+        ],
+        "http://plugins.linkedpipes.com/ontology/e-textHolder#contentControl": [
+          {
+            "@id": "http://plugins.linkedpipes.com/resource/configuration/Force"
+          }
+        ],
+        "http://plugins.linkedpipes.com/ontology/e-textHolder#fileName": [
+          {
+            "@value": "sitemaps.ttl"
+          }
+        ],
+        "http://plugins.linkedpipes.com/ontology/e-textHolder#fileNameControl": [
+          {
+            "@id": "http://plugins.linkedpipes.com/resource/configuration/Force"
+          }
+        ]
+      }
+    ],
+    "@id": "https://oha02.dia.gov.cz/etl/resources/components/1694778798220-0008/configuration"
+  },
+  {
+    "@graph": [
+      {
+        "@id": "https://oha02.dia.gov.cz/etl/resources/components/1694778814843-0009",
+        "@type": [
+          "http://linkedpipes.com/ontology/Template"
+        ],
+        "http://etl.linkedpipes.com/ontology/version": [
+          {
+            "@type": "http://www.w3.org/2001/XMLSchema#int",
+            "@value": "5"
+          }
+        ],
+        "http://linkedpipes.com/ontology/configurationGraph": [
+          {
+            "@id": "https://oha02.dia.gov.cz/etl/resources/components/1694778814843-0009/configuration"
+          }
+        ],
+        "http://linkedpipes.com/ontology/pluginTemplate": [
+          {
+            "@id": "http://etl.linkedpipes.com/resources/components/e-textHolder/0.0.0"
+          }
+        ],
+        "http://linkedpipes.com/ontology/template": [
+          {
+            "@id": "http://etl.linkedpipes.com/resources/components/e-textHolder/0.0.0"
+          }
+        ],
+        "http://www.w3.org/2004/02/skos/core#prefLabel": [
+          {
+            "@value": "Spustit 09"
+          }
+        ]
+      }
+    ],
+    "@id": "https://oha02.dia.gov.cz/etl/resources/components/1694778814843-0009"
+  },
+  {
+    "@graph": [
+      {
+        "@id": "https://oha02.dia.gov.cz/etl/resources/components/1694778814843-0009/1",
+        "@type": [
+          "http://plugins.linkedpipes.com/ontology/e-textHolder#Configuration"
+        ],
+        "http://plugins.linkedpipes.com/ontology/e-textHolder#content": [
+          {
+            "@value": "@prefix req: <http://plugins.linkedpipes.com/ontology/x-httpRequest#> .\n\n<http://localhost/query2> a req:Task ;\n  req:url \"http://localhost:8080/resources/executions?pipeline=https://oha02.dia.gov.cz/etl/resources/pipelines/1631006709692\" ;\n  req:method \"POST\" ;\n  req:content <http://localhost/query2/content> .\n\n<http://localhost/query2/content> a req:Content ;\n  req:name \"configuration\" ;\n  req:fileName \"configuration.jsonld\" ;\n  req:fileReference \"configuration.jsonld\" ."
+          }
+        ],
+        "http://plugins.linkedpipes.com/ontology/e-textHolder#contentControl": [
+          {
+            "@id": "http://plugins.linkedpipes.com/resource/configuration/Force"
+          }
+        ],
+        "http://plugins.linkedpipes.com/ontology/e-textHolder#fileName": [
+          {
+            "@value": "task1.ttl"
+          }
+        ],
+        "http://plugins.linkedpipes.com/ontology/e-textHolder#fileNameControl": [
+          {
+            "@id": "http://plugins.linkedpipes.com/resource/configuration/Force"
+          }
+        ]
+      }
+    ],
+    "@id": "https://oha02.dia.gov.cz/etl/resources/components/1694778814843-0009/configuration"
+  },
+  {
+    "@graph": [
+      {
+        "@id": "https://oha02.dia.gov.cz/etl/resources/components/1694778834871-0010",
+        "@type": [
+          "http://linkedpipes.com/ontology/Template"
+        ],
+        "http://etl.linkedpipes.com/ontology/version": [
+          {
+            "@type": "http://www.w3.org/2001/XMLSchema#int",
+            "@value": "5"
+          }
+        ],
+        "http://linkedpipes.com/ontology/configurationGraph": [
+          {
+            "@id": "https://oha02.dia.gov.cz/etl/resources/components/1694778834871-0010/configuration"
+          }
+        ],
+        "http://linkedpipes.com/ontology/pluginTemplate": [
+          {
+            "@id": "http://etl.linkedpipes.com/resources/components/e-textHolder/0.0.0"
+          }
+        ],
+        "http://linkedpipes.com/ontology/template": [
+          {
+            "@id": "http://etl.linkedpipes.com/resources/components/e-textHolder/0.0.0"
+          }
+        ],
+        "http://www.w3.org/2004/02/skos/core#prefLabel": [
+          {
+            "@value": "Spustit 10"
+          }
+        ]
+      }
+    ],
+    "@id": "https://oha02.dia.gov.cz/etl/resources/components/1694778834871-0010"
+  },
+  {
+    "@graph": [
+      {
+        "@id": "https://oha02.dia.gov.cz/etl/resources/components/1694778834871-0010/1",
+        "@type": [
+          "http://plugins.linkedpipes.com/ontology/e-textHolder#Configuration"
+        ],
+        "http://plugins.linkedpipes.com/ontology/e-textHolder#content": [
+          {
+            "@value": "@prefix req: <http://plugins.linkedpipes.com/ontology/x-httpRequest#> .\n\n<http://localhost/query2> a req:Task ;\n  req:url \"http://localhost:8080/resources/executions?pipeline=https://oha02.dia.gov.cz/etl/resources/pipelines/1631006715158\" ;\n  req:method \"POST\" ;\n  req:content <http://localhost/query2/content> .\n\n<http://localhost/query2/content> a req:Content ;\n  req:name \"configuration\" ;\n  req:fileName \"configuration.jsonld\" ;\n  req:fileReference \"configuration.jsonld\" ."
+          }
+        ],
+        "http://plugins.linkedpipes.com/ontology/e-textHolder#contentControl": [
+          {
+            "@id": "http://plugins.linkedpipes.com/resource/configuration/Force"
+          }
+        ],
+        "http://plugins.linkedpipes.com/ontology/e-textHolder#fileName": [
+          {
+            "@value": "task2.ttl"
+          }
+        ],
+        "http://plugins.linkedpipes.com/ontology/e-textHolder#fileNameControl": [
+          {
+            "@id": "http://plugins.linkedpipes.com/resource/configuration/Force"
+          }
+        ]
+      }
+    ],
+    "@id": "https://oha02.dia.gov.cz/etl/resources/components/1694778834871-0010/configuration"
+  },
+  {
+    "@graph": [
+      {
+        "@id": "https://oha02.dia.gov.cz/etl/resources/components/1694778873196-0011",
+        "@type": [
+          "http://linkedpipes.com/ontology/Template"
+        ],
+        "http://etl.linkedpipes.com/ontology/version": [
+          {
+            "@type": "http://www.w3.org/2001/XMLSchema#int",
+            "@value": "5"
+          }
+        ],
+        "http://linkedpipes.com/ontology/configurationGraph": [
+          {
+            "@id": "https://oha02.dia.gov.cz/etl/resources/components/1694778873196-0011/configuration"
+          }
+        ],
+        "http://linkedpipes.com/ontology/pluginTemplate": [
+          {
+            "@id": "http://etl.linkedpipes.com/resources/components/e-textHolder/0.0.0"
+          }
+        ],
+        "http://linkedpipes.com/ontology/template": [
+          {
+            "@id": "http://etl.linkedpipes.com/resources/components/e-textHolder/0.0.0"
+          }
+        ],
+        "http://purl.org/dc/terms/description": [
+          {
+            "@value": ""
+          }
+        ],
+        "http://www.w3.org/2004/02/skos/core#prefLabel": [
+          {
+            "@value": "Spustit 08.2"
+          }
+        ]
+      }
+    ],
+    "@id": "https://oha02.dia.gov.cz/etl/resources/components/1694778873196-0011"
+  },
+  {
+    "@graph": [
+      {
+        "@id": "https://oha02.dia.gov.cz/etl/resources/components/1694778873196-0011/configuration",
+        "@type": [
+          "http://plugins.linkedpipes.com/ontology/e-textHolder#Configuration"
+        ],
+        "http://plugins.linkedpipes.com/ontology/e-textHolder#content": [
+          {
+            "@value": "@prefix req: <http://plugins.linkedpipes.com/ontology/x-httpRequest#> .\n\n<http://localhost/query2> a req:Task ;\n  req:url \"http://localhost:8080/resources/executions?pipeline=https://oha02.dia.gov.cz/etl/resources/pipelines/1631006702175\" ;\n  req:method \"POST\" ;\n  req:content <http://localhost/query2/content> .\n\n<http://localhost/query2/content> a req:Content ;\n  req:name \"configuration\" ;\n  req:fileName \"configuration.jsonld\" ;\n  req:fileReference \"configuration.jsonld\" ."
+          }
+        ],
+        "http://plugins.linkedpipes.com/ontology/e-textHolder#contentControl": [
+          {
+            "@id": "http://plugins.linkedpipes.com/resource/configuration/Force"
+          }
+        ],
+        "http://plugins.linkedpipes.com/ontology/e-textHolder#fileName": [
+          {
+            "@value": "task3.ttl"
+          }
+        ],
+        "http://plugins.linkedpipes.com/ontology/e-textHolder#fileNameControl": [
+          {
+            "@id": "http://plugins.linkedpipes.com/resource/configuration/Force"
+          }
+        ]
+      }
+    ],
+    "@id": "https://oha02.dia.gov.cz/etl/resources/components/1694778873196-0011/configuration"
+  },
+  {
+    "@graph": [
+      {
         "@id": "https://oha02.dia.gov.cz/etl/resources/pipelines/1631006697262",
         "@type": [
           "http://linkedpipes.com/ontology/Pipeline"
@@ -644,7 +921,7 @@
         "http://linkedpipes.com/ontology/lastUpdate": [
           {
             "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
-            "@value": "2023-09-15T11:14:01.817728734"
+            "@value": "2023-09-15T13:59:14.061448211"
           }
         ],
         "http://linkedpipes.com/ontology/profile": [
@@ -898,29 +1175,24 @@
         ],
         "http://linkedpipes.com/ontology/template": [
           {
-            "@id": "http://etl.linkedpipes.com/resources/components/e-textHolder/0.0.0"
+            "@id": "https://oha02.dia.gov.cz/etl/resources/components/1694778814843-0009"
           }
         ],
         "http://linkedpipes.com/ontology/x": [
           {
             "@type": "http://www.w3.org/2001/XMLSchema#int",
-            "@value": "4406"
+            "@value": "4425"
           }
         ],
         "http://linkedpipes.com/ontology/y": [
           {
             "@type": "http://www.w3.org/2001/XMLSchema#int",
-            "@value": "269"
-          }
-        ],
-        "http://purl.org/dc/terms/description": [
-          {
-            "@value": "Kontrola dostupnosti"
+            "@value": "280"
           }
         ],
         "http://www.w3.org/2004/02/skos/core#prefLabel": [
           {
-            "@value": "Text holder"
+            "@value": "Spustit 09"
           }
         ]
       },
@@ -1203,29 +1475,24 @@
         ],
         "http://linkedpipes.com/ontology/template": [
           {
-            "@id": "http://etl.linkedpipes.com/resources/components/e-textHolder/0.0.0"
+            "@id": "https://oha02.dia.gov.cz/etl/resources/components/1694778834871-0010"
           }
         ],
         "http://linkedpipes.com/ontology/x": [
           {
             "@type": "http://www.w3.org/2001/XMLSchema#int",
-            "@value": "4431"
+            "@value": "4433"
           }
         ],
         "http://linkedpipes.com/ontology/y": [
           {
             "@type": "http://www.w3.org/2001/XMLSchema#int",
-            "@value": "173"
-          }
-        ],
-        "http://purl.org/dc/terms/description": [
-          {
-            "@value": "Kontrola CORS"
+            "@value": "184"
           }
         ],
         "http://www.w3.org/2004/02/skos/core#prefLabel": [
           {
-            "@value": "Text holder"
+            "@value": "Spustit 10"
           }
         ]
       },
@@ -1312,13 +1579,13 @@
         ],
         "http://linkedpipes.com/ontology/template": [
           {
-            "@id": "http://etl.linkedpipes.com/resources/components/e-textHolder/0.0.0"
+            "@id": "https://oha02.dia.gov.cz/etl/resources/components/1694778873196-0011"
           }
         ],
         "http://linkedpipes.com/ontology/x": [
           {
             "@type": "http://www.w3.org/2001/XMLSchema#int",
-            "@value": "4395"
+            "@value": "4427"
           }
         ],
         "http://linkedpipes.com/ontology/y": [
@@ -1327,14 +1594,9 @@
             "@value": "51"
           }
         ],
-        "http://purl.org/dc/terms/description": [
-          {
-            "@value": "Agregované indikátory"
-          }
-        ],
         "http://www.w3.org/2004/02/skos/core#prefLabel": [
           {
-            "@value": "Text holder"
+            "@value": "Spustit 08.2"
           }
         ]
       },
@@ -2172,7 +2434,7 @@
         ],
         "http://linkedpipes.com/ontology/template": [
           {
-            "@id": "http://etl.linkedpipes.com/resources/components/e-textHolder/0.0.0"
+            "@id": "https://oha02.dia.gov.cz/etl/resources/components/1694778798220-0008"
           }
         ],
         "http://linkedpipes.com/ontology/x": [
@@ -2184,17 +2446,12 @@
         "http://linkedpipes.com/ontology/y": [
           {
             "@type": "http://www.w3.org/2001/XMLSchema#int",
-            "@value": "351"
-          }
-        ],
-        "http://purl.org/dc/terms/description": [
-          {
-            "@value": "Sitemapy"
+            "@value": "361"
           }
         ],
         "http://www.w3.org/2004/02/skos/core#prefLabel": [
           {
-            "@value": "Text holder"
+            "@value": "Spustit 15"
           }
         ]
       },
