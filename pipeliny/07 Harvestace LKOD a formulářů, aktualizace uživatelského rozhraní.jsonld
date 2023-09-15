@@ -28979,7 +28979,7 @@
         "http://plugins.linkedpipes.com/ontology/t-filesToRdfChunked#commitSize": [
           {
             "@type": "http://www.w3.org/2001/XMLSchema#integer",
-            "@value": "1000"
+            "@value": "100"
           }
         ],
         "http://plugins.linkedpipes.com/ontology/t-filesToRdfChunked#commitSizeControl": [
