@@ -1,1976 +1,1171 @@
-[
-  {
-    "@graph": [
-      {
-        "@id": "https://data.gov.cz/etl/resources/components/1553527561187-383e3ed8-2e81-4e1f-9ab9-d272bb9fa0a1",
-        "@type": [
-          "http://linkedpipes.com/ontology/Template"
-        ],
-        "http://etl.linkedpipes.com/ontology/version": [
-          {
-            "@type": "http://www.w3.org/2001/XMLSchema#int",
-            "@value": "5"
-          }
-        ],
-        "http://linkedpipes.com/ontology/configurationGraph": [
-          {
-            "@id": "https://data.gov.cz/etl/resources/components/1553527561187-383e3ed8-2e81-4e1f-9ab9-d272bb9fa0a1/configuration"
-          }
-        ],
-        "http://linkedpipes.com/ontology/pluginTemplate": [
-          {
-            "@id": "http://etl.linkedpipes.com/resources/components/l-filesToScp/0.0.0"
-          }
-        ],
-        "http://linkedpipes.com/ontology/template": [
-          {
-            "@id": "http://etl.linkedpipes.com/resources/components/l-filesToScp/0.0.0"
-          }
-        ],
-        "http://www.w3.org/2002/07/owl#sameAs": [
-          {
-            "@id": "https://etl.nakit.opendata.cz/resources/components/1537449783779-3dfa98db-1e9a-4865-bce5-cb4af25247bc"
-          }
-        ],
-        "http://www.w3.org/2004/02/skos/core#prefLabel": [
-          {
-            "@value": "SCP to Frontend"
-          }
-        ]
-      }
-    ],
-    "@id": "https://data.gov.cz/etl/resources/components/1553527561187-383e3ed8-2e81-4e1f-9ab9-d272bb9fa0a1"
-  },
-  {
-    "@graph": [
-      {
-        "@id": "https://data.gov.cz/etl/resources/components/1553527561187-383e3ed8-2e81-4e1f-9ab9-d272bb9fa0a1/configuration",
-        "@type": [
-          "http://plugins.linkedpipes.com/ontology/l-filesToScp#Configuration"
-        ],
-        "http://plugins.linkedpipes.com/ontology/l-filesToScp#clearDirectory": [
-          {
-            "@type": "http://www.w3.org/2001/XMLSchema#boolean",
-            "@value": "false"
-          }
-        ],
-        "http://plugins.linkedpipes.com/ontology/l-filesToScp#clearDirectoryControl": [
-          {
-            "@id": "http://plugins.linkedpipes.com/resource/configuration/None"
-          }
-        ],
-        "http://plugins.linkedpipes.com/ontology/l-filesToScp#connectionTimeOutControl": [
-          {
-            "@id": "http://plugins.linkedpipes.com/resource/configuration/None"
-          }
-        ],
-        "http://plugins.linkedpipes.com/ontology/l-filesToScp#createDirectory": [
-          {
-            "@type": "http://www.w3.org/2001/XMLSchema#boolean",
-            "@value": "true"
-          }
-        ],
-        "http://plugins.linkedpipes.com/ontology/l-filesToScp#createDirectoryControl": [
-          {
-            "@id": "http://plugins.linkedpipes.com/resource/configuration/None"
-          }
-        ],
-        "http://plugins.linkedpipes.com/ontology/l-filesToScp#directory": [
-          {
-            "@value": "/data/soubor"
-          }
-        ],
-        "http://plugins.linkedpipes.com/ontology/l-filesToScp#directoryControl": [
-          {
-            "@id": "http://plugins.linkedpipes.com/resource/configuration/None"
-          }
-        ],
-        "http://plugins.linkedpipes.com/ontology/l-filesToScp#hostControl": [
-          {
-            "@id": "http://plugins.linkedpipes.com/resource/configuration/Force"
-          }
-        ],
-        "http://plugins.linkedpipes.com/ontology/l-filesToScp#passwordControl": [
-          {
-            "@id": "http://plugins.linkedpipes.com/resource/configuration/Force"
-          }
-        ],
-        "http://plugins.linkedpipes.com/ontology/l-filesToScp#portControl": [
-          {
-            "@id": "http://plugins.linkedpipes.com/resource/configuration/Force"
-          }
-        ],
-        "http://plugins.linkedpipes.com/ontology/l-filesToScp#userNameControl": [
-          {
-            "@id": "http://plugins.linkedpipes.com/resource/configuration/Force"
-          }
-        ]
-      }
-    ],
-    "@id": "https://data.gov.cz/etl/resources/components/1553527561187-383e3ed8-2e81-4e1f-9ab9-d272bb9fa0a1/configuration"
-  },
-  {
-    "@graph": [
-      {
-        "@id": "https://data.gov.cz/etl/resources/components/1614248421092-16bc9042-fd55-4443-9abe-6f545cf0455d",
-        "@type": [
-          "http://linkedpipes.com/ontology/Template"
-        ],
-        "http://etl.linkedpipes.com/ontology/version": [
-          {
-            "@type": "http://www.w3.org/2001/XMLSchema#int",
-            "@value": "5"
-          }
-        ],
-        "http://linkedpipes.com/ontology/configurationGraph": [
-          {
-            "@id": "https://data.gov.cz/etl/resources/components/1614248421092-16bc9042-fd55-4443-9abe-6f545cf0455d/configuration"
-          }
-        ],
-        "http://linkedpipes.com/ontology/pluginTemplate": [
-          {
-            "@id": "http://etl.linkedpipes.com/resources/components/e-sparqlEndpoint/0.0.0"
-          }
-        ],
-        "http://linkedpipes.com/ontology/template": [
-          {
-            "@id": "http://etl.linkedpipes.com/resources/components/e-sparqlEndpoint/0.0.0"
-          }
-        ],
-        "http://purl.org/dc/terms/description": [
-          {
-            "@value": ""
-          }
-        ],
-        "http://www.w3.org/2002/07/owl#sameAs": [
-          {
-            "@id": "https://dev.nkod.opendata.cz/etl/resources/components/1612443346122-de843428-cfea-436b-9b14-5178a25c84d9"
-          }
-        ],
-        "http://www.w3.org/2004/02/skos/core#prefLabel": [
-          {
-            "@value": "NKOD SPARQL endpoint"
-          }
-        ]
-      }
-    ],
-    "@id": "https://data.gov.cz/etl/resources/components/1614248421092-16bc9042-fd55-4443-9abe-6f545cf0455d"
-  },
-  {
-    "@graph": [
-      {
-        "@id": "https://data.gov.cz/etl/resources/components/1614248421092-16bc9042-fd55-4443-9abe-6f545cf0455d/configuration",
-        "@type": [
-          "http://plugins.linkedpipes.com/ontology/e-sparqlEndpoint#Configuration"
-        ],
-        "http://plugins.linkedpipes.com/ontology/e-sparqlEndpoint#defaultGraphControl": [
-          {
-            "@id": "http://plugins.linkedpipes.com/resource/configuration/None"
-          }
-        ],
-        "http://plugins.linkedpipes.com/ontology/e-sparqlEndpoint#encodeRdf": [
-          {
-            "@type": "http://www.w3.org/2001/XMLSchema#boolean",
-            "@value": "false"
-          }
-        ],
-        "http://plugins.linkedpipes.com/ontology/e-sparqlEndpoint#encodeRdfControl": [
-          {
-            "@id": "http://plugins.linkedpipes.com/resource/configuration/Force"
-          }
-        ],
-        "http://plugins.linkedpipes.com/ontology/e-sparqlEndpoint#endpoint": [
-          {
-            "@value": "http://10.32.1.30:8890/sparql"
-          }
-        ],
-        "http://plugins.linkedpipes.com/ontology/e-sparqlEndpoint#endpointControl": [
-          {
-            "@id": "http://plugins.linkedpipes.com/resource/configuration/Force"
-          }
-        ],
-        "http://plugins.linkedpipes.com/ontology/e-sparqlEndpoint#handleInvalidData": [
-          {
-            "@type": "http://www.w3.org/2001/XMLSchema#boolean",
-            "@value": "false"
-          }
-        ],
-        "http://plugins.linkedpipes.com/ontology/e-sparqlEndpoint#handleInvalidDataControl": [
-          {
-            "@id": "http://plugins.linkedpipes.com/resource/configuration/Force"
-          }
-        ],
-        "http://plugins.linkedpipes.com/ontology/e-sparqlEndpoint#headerAcceptControl": [
-          {
-            "@id": "http://plugins.linkedpipes.com/resource/configuration/Force"
-          }
-        ],
-        "http://plugins.linkedpipes.com/ontology/e-sparqlEndpoint#passwordControl": [
-          {
-            "@id": "http://plugins.linkedpipes.com/resource/configuration/Force"
-          }
-        ],
-        "http://plugins.linkedpipes.com/ontology/e-sparqlEndpoint#query": [
-          {
-            "@value": ""
-          }
-        ],
-        "http://plugins.linkedpipes.com/ontology/e-sparqlEndpoint#queryControl": [
-          {
-            "@id": "http://plugins.linkedpipes.com/resource/configuration/None"
-          }
-        ],
-        "http://plugins.linkedpipes.com/ontology/e-sparqlEndpoint#useAuthentication": [
-          {
-            "@type": "http://www.w3.org/2001/XMLSchema#boolean",
-            "@value": "false"
-          }
-        ],
-        "http://plugins.linkedpipes.com/ontology/e-sparqlEndpoint#useAuthenticationControl": [
-          {
-            "@id": "http://plugins.linkedpipes.com/resource/configuration/Force"
-          }
-        ],
-        "http://plugins.linkedpipes.com/ontology/e-sparqlEndpoint#useTolerantRepository": [
-          {
-            "@type": "http://www.w3.org/2001/XMLSchema#boolean",
-            "@value": "false"
-          }
-        ],
-        "http://plugins.linkedpipes.com/ontology/e-sparqlEndpoint#useTolerantRepositoryControl": [
-          {
-            "@id": "http://plugins.linkedpipes.com/resource/configuration/Force"
-          }
-        ],
-        "http://plugins.linkedpipes.com/ontology/e-sparqlEndpoint#userNameControl": [
-          {
-            "@id": "http://plugins.linkedpipes.com/resource/configuration/Force"
-          }
-        ]
-      }
-    ],
-    "@id": "https://data.gov.cz/etl/resources/components/1614248421092-16bc9042-fd55-4443-9abe-6f545cf0455d/configuration"
-  },
-  {
-    "@graph": [
-      {
-        "@id": "https://data.gov.cz/etl/resources/pipelines/1614849417812",
-        "@type": [
-          "http://linkedpipes.com/ontology/Pipeline"
-        ],
-        "http://etl.linkedpipes.com/ontology/tag": [
-          {
-            "@value": "NKOD"
-          }
-        ],
-        "http://etl.linkedpipes.com/ontology/version": [
-          {
-            "@type": "http://www.w3.org/2001/XMLSchema#int",
-            "@value": "5"
-          }
-        ],
-        "http://linkedpipes.com/ontology/events/created": [
-          {
-            "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
-            "@value": "2021-03-04T10:16:57.812"
-          }
-        ],
-        "http://linkedpipes.com/ontology/lastUpdate": [
-          {
-            "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
-            "@value": "2023-07-10T09:36:31.354669169"
-          }
-        ],
-        "http://linkedpipes.com/ontology/profile": [
-          {
-            "@id": "https://data.gov.cz/etl/resources/pipelines/1614849417812/profile/default"
-          }
-        ],
-        "http://www.w3.org/2004/02/skos/core#prefLabel": [
-          {
-            "@value": "15 Vytvořit NKOD sitemapy"
-          }
-        ]
-      },
-      {
-        "@id": "https://data.gov.cz/etl/resources/pipelines/1614849417812/10",
-        "@type": [
-          "http://linkedpipes.com/ontology/Component"
-        ],
-        "http://linkedpipes.com/ontology/configurationGraph": [
-          {
-            "@id": "https://data.gov.cz/etl/resources/pipelines/1614849417812/graph/40"
-          }
-        ],
-        "http://linkedpipes.com/ontology/template": [
-          {
-            "@id": "http://etl.linkedpipes.com/resources/components/t-sparqlConstruct/0.0.0"
-          }
-        ],
-        "http://linkedpipes.com/ontology/x": [
-          {
-            "@type": "http://www.w3.org/2001/XMLSchema#int",
-            "@value": "872"
-          }
-        ],
-        "http://linkedpipes.com/ontology/y": [
-          {
-            "@type": "http://www.w3.org/2001/XMLSchema#int",
-            "@value": "530"
-          }
-        ],
-        "http://www.w3.org/2004/02/skos/core#prefLabel": [
-          {
-            "@value": "SPARQL construct"
-          }
-        ]
-      },
-      {
-        "@id": "https://data.gov.cz/etl/resources/pipelines/1614849417812/11",
-        "@type": [
-          "http://linkedpipes.com/ontology/Component"
-        ],
-        "http://linkedpipes.com/ontology/configurationGraph": [
-          {
-            "@id": "https://data.gov.cz/etl/resources/pipelines/1614849417812/47"
-          }
-        ],
-        "http://linkedpipes.com/ontology/template": [
-          {
-            "@id": "https://data.gov.cz/etl/resources/components/1553527561187-383e3ed8-2e81-4e1f-9ab9-d272bb9fa0a1"
-          }
-        ],
-        "http://linkedpipes.com/ontology/x": [
-          {
-            "@type": "http://www.w3.org/2001/XMLSchema#int",
-            "@value": "1104"
-          }
-        ],
-        "http://linkedpipes.com/ontology/y": [
-          {
-            "@type": "http://www.w3.org/2001/XMLSchema#int",
-            "@value": "250"
-          }
-        ],
-        "http://www.w3.org/2004/02/skos/core#prefLabel": [
-          {
-            "@value": "SCP to Frontend"
-          }
-        ]
-      },
-      {
-        "@id": "https://data.gov.cz/etl/resources/pipelines/1614849417812/12",
-        "@type": [
-          "http://linkedpipes.com/ontology/Component"
-        ],
-        "http://linkedpipes.com/ontology/configurationGraph": [
-          {
-            "@id": "https://data.gov.cz/etl/resources/pipelines/1614849417812/graph/45"
-          }
-        ],
-        "http://linkedpipes.com/ontology/template": [
-          {
-            "@id": "http://etl.linkedpipes.com/resources/components/e-httpGetFile/0.0.0"
-          }
-        ],
-        "http://linkedpipes.com/ontology/x": [
-          {
-            "@type": "http://www.w3.org/2001/XMLSchema#int",
-            "@value": "168"
-          }
-        ],
-        "http://linkedpipes.com/ontology/y": [
-          {
-            "@type": "http://www.w3.org/2001/XMLSchema#int",
-            "@value": "542"
-          }
-        ],
-        "http://www.w3.org/2004/02/skos/core#prefLabel": [
-          {
-            "@value": "HTTP get"
-          }
-        ]
-      },
-      {
-        "@id": "https://data.gov.cz/etl/resources/pipelines/1614849417812/13",
-        "@type": [
-          "http://linkedpipes.com/ontology/Component"
-        ],
-        "http://linkedpipes.com/ontology/configurationGraph": [
-          {
-            "@id": "https://data.gov.cz/etl/resources/pipelines/1614849417812/36"
-          }
-        ],
-        "http://linkedpipes.com/ontology/template": [
-          {
-            "@id": "https://data.gov.cz/etl/resources/components/1614248421092-16bc9042-fd55-4443-9abe-6f545cf0455d"
-          }
-        ],
-        "http://linkedpipes.com/ontology/x": [
-          {
-            "@type": "http://www.w3.org/2001/XMLSchema#int",
-            "@value": "534"
-          }
-        ],
-        "http://linkedpipes.com/ontology/y": [
-          {
-            "@type": "http://www.w3.org/2001/XMLSchema#int",
-            "@value": "285"
-          }
-        ],
-        "http://purl.org/dc/terms/description": [
-          {
-            "@value": "50 000 - 100 000"
-          }
-        ],
-        "http://www.w3.org/2004/02/skos/core#prefLabel": [
-          {
-            "@value": "NKOD SPARQL endpoint"
-          }
-        ]
-      },
-      {
-        "@id": "https://data.gov.cz/etl/resources/pipelines/1614849417812/14",
-        "@type": [
-          "http://linkedpipes.com/ontology/Component"
-        ],
-        "http://linkedpipes.com/ontology/configurationGraph": [
-          {
-            "@id": "https://data.gov.cz/etl/resources/pipelines/1614849417812/48"
-          }
-        ],
-        "http://linkedpipes.com/ontology/template": [
-          {
-            "@id": "https://data.gov.cz/etl/resources/components/1614248421092-16bc9042-fd55-4443-9abe-6f545cf0455d"
-          }
-        ],
-        "http://linkedpipes.com/ontology/x": [
-          {
-            "@type": "http://www.w3.org/2001/XMLSchema#int",
-            "@value": "538"
-          }
-        ],
-        "http://linkedpipes.com/ontology/y": [
-          {
-            "@type": "http://www.w3.org/2001/XMLSchema#int",
-            "@value": "381"
-          }
-        ],
-        "http://purl.org/dc/terms/description": [
-          {
-            "@value": "100 000 - 150 000"
-          }
-        ],
-        "http://www.w3.org/2004/02/skos/core#prefLabel": [
-          {
-            "@value": "NKOD SPARQL endpoint"
-          }
-        ]
-      },
-      {
-        "@id": "https://data.gov.cz/etl/resources/pipelines/1614849417812/15",
-        "@type": [
-          "http://linkedpipes.com/ontology/Component"
-        ],
-        "http://linkedpipes.com/ontology/configurationGraph": [
-          {
-            "@id": "https://data.gov.cz/etl/resources/pipelines/1614849417812/graph/33"
-          }
-        ],
-        "http://linkedpipes.com/ontology/template": [
-          {
-            "@id": "http://etl.linkedpipes.com/resources/components/t-mustache/0.0.0"
-          }
-        ],
-        "http://linkedpipes.com/ontology/x": [
-          {
-            "@type": "http://www.w3.org/2001/XMLSchema#int",
-            "@value": "1105"
-          }
-        ],
-        "http://linkedpipes.com/ontology/y": [
-          {
-            "@type": "http://www.w3.org/2001/XMLSchema#int",
-            "@value": "525"
-          }
-        ],
-        "http://www.w3.org/2004/02/skos/core#prefLabel": [
-          {
-            "@value": "Mustache"
-          }
-        ]
-      },
-      {
-        "@id": "https://data.gov.cz/etl/resources/pipelines/1614849417812/16",
-        "@type": [
-          "http://linkedpipes.com/ontology/Component"
-        ],
-        "http://linkedpipes.com/ontology/configurationGraph": [
-          {
-            "@id": "https://data.gov.cz/etl/resources/pipelines/1614849417812/graph/38"
-          }
-        ],
-        "http://linkedpipes.com/ontology/template": [
-          {
-            "@id": "http://etl.linkedpipes.com/resources/components/t-jsonToJsonLd/0.0.0"
-          }
-        ],
-        "http://linkedpipes.com/ontology/x": [
-          {
-            "@type": "http://www.w3.org/2001/XMLSchema#int",
-            "@value": "336"
-          }
-        ],
-        "http://linkedpipes.com/ontology/y": [
-          {
-            "@type": "http://www.w3.org/2001/XMLSchema#int",
-            "@value": "537"
-          }
-        ],
-        "http://www.w3.org/2004/02/skos/core#prefLabel": [
-          {
-            "@value": "JSON to JSON-LD"
-          }
-        ]
-      },
-      {
-        "@id": "https://data.gov.cz/etl/resources/pipelines/1614849417812/17",
-        "@type": [
-          "http://linkedpipes.com/ontology/Component"
-        ],
-        "http://linkedpipes.com/ontology/configurationGraph": [
-          {
-            "@id": "https://data.gov.cz/etl/resources/pipelines/1614849417812/graph/43"
-          }
-        ],
-        "http://linkedpipes.com/ontology/template": [
-          {
-            "@id": "http://etl.linkedpipes.com/resources/components/t-filesToRdfGraph/0.0.0"
-          }
-        ],
-        "http://linkedpipes.com/ontology/x": [
-          {
-            "@type": "http://www.w3.org/2001/XMLSchema#int",
-            "@value": "586"
-          }
-        ],
-        "http://linkedpipes.com/ontology/y": [
-          {
-            "@type": "http://www.w3.org/2001/XMLSchema#int",
-            "@value": "534"
-          }
-        ],
-        "http://www.w3.org/2004/02/skos/core#prefLabel": [
-          {
-            "@value": "Files to RDF single graph"
-          }
-        ]
-      },
-      {
-        "@id": "https://data.gov.cz/etl/resources/pipelines/1614849417812/18",
-        "@type": [
-          "http://linkedpipes.com/ontology/Connection"
-        ],
-        "http://linkedpipes.com/ontology/sourceBinding": [
-          {
-            "@value": "OutputRdf"
-          }
-        ],
-        "http://linkedpipes.com/ontology/sourceComponent": [
-          {
-            "@id": "https://data.gov.cz/etl/resources/pipelines/1614849417812/17"
-          }
-        ],
-        "http://linkedpipes.com/ontology/targetBinding": [
-          {
-            "@value": "InputRdf"
-          }
-        ],
-        "http://linkedpipes.com/ontology/targetComponent": [
-          {
-            "@id": "https://data.gov.cz/etl/resources/pipelines/1614849417812/10"
-          }
-        ]
-      },
-      {
-        "@id": "https://data.gov.cz/etl/resources/pipelines/1614849417812/19",
-        "@type": [
-          "http://linkedpipes.com/ontology/Connection"
-        ],
-        "http://linkedpipes.com/ontology/sourceBinding": [
-          {
-            "@value": "OutputFiles"
-          }
-        ],
-        "http://linkedpipes.com/ontology/sourceComponent": [
-          {
-            "@id": "https://data.gov.cz/etl/resources/pipelines/1614849417812/7"
-          }
-        ],
-        "http://linkedpipes.com/ontology/targetBinding": [
-          {
-            "@value": "FilesInput"
-          }
-        ],
-        "http://linkedpipes.com/ontology/targetComponent": [
-          {
-            "@id": "https://data.gov.cz/etl/resources/pipelines/1614849417812/11"
-          }
-        ]
-      },
-      {
-        "@id": "https://data.gov.cz/etl/resources/pipelines/1614849417812/20",
-        "@type": [
-          "http://linkedpipes.com/ontology/Connection"
-        ],
-        "http://linkedpipes.com/ontology/sourceBinding": [
-          {
-            "@value": "OutputFiles"
-          }
-        ],
-        "http://linkedpipes.com/ontology/sourceComponent": [
-          {
-            "@id": "https://data.gov.cz/etl/resources/pipelines/1614849417812/6"
-          }
-        ],
-        "http://linkedpipes.com/ontology/targetBinding": [
-          {
-            "@value": "FilesInput"
-          }
-        ],
-        "http://linkedpipes.com/ontology/targetComponent": [
-          {
-            "@id": "https://data.gov.cz/etl/resources/pipelines/1614849417812/11"
-          }
-        ]
-      },
-      {
-        "@id": "https://data.gov.cz/etl/resources/pipelines/1614849417812/21",
-        "@type": [
-          "http://linkedpipes.com/ontology/Connection"
-        ],
-        "http://linkedpipes.com/ontology/sourceBinding": [
-          {
-            "@value": "FilesOutput"
-          }
-        ],
-        "http://linkedpipes.com/ontology/sourceComponent": [
-          {
-            "@id": "https://data.gov.cz/etl/resources/pipelines/1614849417812/12"
-          }
-        ],
-        "http://linkedpipes.com/ontology/targetBinding": [
-          {
-            "@value": "InputFiles"
-          }
-        ],
-        "http://linkedpipes.com/ontology/targetComponent": [
-          {
-            "@id": "https://data.gov.cz/etl/resources/pipelines/1614849417812/16"
-          }
-        ]
-      },
-      {
-        "@id": "https://data.gov.cz/etl/resources/pipelines/1614849417812/22",
-        "@type": [
-          "http://linkedpipes.com/ontology/Connection"
-        ],
-        "http://linkedpipes.com/ontology/sourceBinding": [
-          {
-            "@value": "OutputFiles"
-          }
-        ],
-        "http://linkedpipes.com/ontology/sourceComponent": [
-          {
-            "@id": "https://data.gov.cz/etl/resources/pipelines/1614849417812/16"
-          }
-        ],
-        "http://linkedpipes.com/ontology/targetBinding": [
-          {
-            "@value": "InputFiles"
-          }
-        ],
-        "http://linkedpipes.com/ontology/targetComponent": [
-          {
-            "@id": "https://data.gov.cz/etl/resources/pipelines/1614849417812/17"
-          }
-        ]
-      },
-      {
-        "@id": "https://data.gov.cz/etl/resources/pipelines/1614849417812/23",
-        "@type": [
-          "http://linkedpipes.com/ontology/Connection"
-        ],
-        "http://linkedpipes.com/ontology/sourceBinding": [
-          {
-            "@value": "OutputRdf"
-          }
-        ],
-        "http://linkedpipes.com/ontology/sourceComponent": [
-          {
-            "@id": "https://data.gov.cz/etl/resources/pipelines/1614849417812/10"
-          }
-        ],
-        "http://linkedpipes.com/ontology/targetBinding": [
-          {
-            "@value": "InputRdf"
-          }
-        ],
-        "http://linkedpipes.com/ontology/targetComponent": [
-          {
-            "@id": "https://data.gov.cz/etl/resources/pipelines/1614849417812/15"
-          }
-        ]
-      },
-      {
-        "@id": "https://data.gov.cz/etl/resources/pipelines/1614849417812/24",
-        "@type": [
-          "http://linkedpipes.com/ontology/Connection"
-        ],
-        "http://linkedpipes.com/ontology/sourceBinding": [
-          {
-            "@value": "OutputFiles"
-          }
-        ],
-        "http://linkedpipes.com/ontology/sourceComponent": [
-          {
-            "@id": "https://data.gov.cz/etl/resources/pipelines/1614849417812/15"
-          }
-        ],
-        "http://linkedpipes.com/ontology/targetBinding": [
-          {
-            "@value": "FilesInput"
-          }
-        ],
-        "http://linkedpipes.com/ontology/targetComponent": [
-          {
-            "@id": "https://data.gov.cz/etl/resources/pipelines/1614849417812/11"
-          }
-        ]
-      },
-      {
-        "@id": "https://data.gov.cz/etl/resources/pipelines/1614849417812/25",
-        "@type": [
-          "http://linkedpipes.com/ontology/Connection"
-        ],
-        "http://linkedpipes.com/ontology/sourceBinding": [
-          {
-            "@value": "OutputRdf"
-          }
-        ],
-        "http://linkedpipes.com/ontology/sourceComponent": [
-          {
-            "@id": "https://data.gov.cz/etl/resources/pipelines/1614849417812/13"
-          }
-        ],
-        "http://linkedpipes.com/ontology/targetBinding": [
-          {
-            "@value": "InputRdf"
-          }
-        ],
-        "http://linkedpipes.com/ontology/targetComponent": [
-          {
-            "@id": "https://data.gov.cz/etl/resources/pipelines/1614849417812/8"
-          }
-        ]
-      },
-      {
-        "@id": "https://data.gov.cz/etl/resources/pipelines/1614849417812/26",
-        "@type": [
-          "http://linkedpipes.com/ontology/Connection"
-        ],
-        "http://linkedpipes.com/ontology/sourceBinding": [
-          {
-            "@value": "OutputFiles"
-          }
-        ],
-        "http://linkedpipes.com/ontology/sourceComponent": [
-          {
-            "@id": "https://data.gov.cz/etl/resources/pipelines/1614849417812/3"
-          }
-        ],
-        "http://linkedpipes.com/ontology/targetBinding": [
-          {
-            "@value": "FilesInput"
-          }
-        ],
-        "http://linkedpipes.com/ontology/targetComponent": [
-          {
-            "@id": "https://data.gov.cz/etl/resources/pipelines/1614849417812/11"
-          }
-        ]
-      },
-      {
-        "@id": "https://data.gov.cz/etl/resources/pipelines/1614849417812/27",
-        "@type": [
-          "http://linkedpipes.com/ontology/Connection"
-        ],
-        "http://linkedpipes.com/ontology/sourceBinding": [
-          {
-            "@value": "OutputRdf"
-          }
-        ],
-        "http://linkedpipes.com/ontology/sourceComponent": [
-          {
-            "@id": "https://data.gov.cz/etl/resources/pipelines/1614849417812/9"
-          }
-        ],
-        "http://linkedpipes.com/ontology/targetBinding": [
-          {
-            "@value": "InputRdf"
-          }
-        ],
-        "http://linkedpipes.com/ontology/targetComponent": [
-          {
-            "@id": "https://data.gov.cz/etl/resources/pipelines/1614849417812/7"
-          }
-        ]
-      },
-      {
-        "@id": "https://data.gov.cz/etl/resources/pipelines/1614849417812/28",
-        "@type": [
-          "http://linkedpipes.com/ontology/Connection"
-        ],
-        "http://linkedpipes.com/ontology/sourceBinding": [
-          {
-            "@value": "OutputRdf"
-          }
-        ],
-        "http://linkedpipes.com/ontology/sourceComponent": [
-          {
-            "@id": "https://data.gov.cz/etl/resources/pipelines/1614849417812/14"
-          }
-        ],
-        "http://linkedpipes.com/ontology/targetBinding": [
-          {
-            "@value": "InputRdf"
-          }
-        ],
-        "http://linkedpipes.com/ontology/targetComponent": [
-          {
-            "@id": "https://data.gov.cz/etl/resources/pipelines/1614849417812/3"
-          }
-        ]
-      },
-      {
-        "@id": "https://data.gov.cz/etl/resources/pipelines/1614849417812/29",
-        "@type": [
-          "http://linkedpipes.com/ontology/Connection"
-        ],
-        "http://linkedpipes.com/ontology/sourceBinding": [
-          {
-            "@value": "OutputFiles"
-          }
-        ],
-        "http://linkedpipes.com/ontology/sourceComponent": [
-          {
-            "@id": "https://data.gov.cz/etl/resources/pipelines/1614849417812/8"
-          }
-        ],
-        "http://linkedpipes.com/ontology/targetBinding": [
-          {
-            "@value": "FilesInput"
-          }
-        ],
-        "http://linkedpipes.com/ontology/targetComponent": [
-          {
-            "@id": "https://data.gov.cz/etl/resources/pipelines/1614849417812/11"
-          }
-        ]
-      },
-      {
-        "@id": "https://data.gov.cz/etl/resources/pipelines/1614849417812/3",
-        "@type": [
-          "http://linkedpipes.com/ontology/Component"
-        ],
-        "http://linkedpipes.com/ontology/configurationGraph": [
-          {
-            "@id": "https://data.gov.cz/etl/resources/pipelines/1614849417812/graph/34"
-          }
-        ],
-        "http://linkedpipes.com/ontology/template": [
-          {
-            "@id": "http://etl.linkedpipes.com/resources/components/t-mustache/0.0.0"
-          }
-        ],
-        "http://linkedpipes.com/ontology/x": [
-          {
-            "@type": "http://www.w3.org/2001/XMLSchema#int",
-            "@value": "860"
-          }
-        ],
-        "http://linkedpipes.com/ontology/y": [
-          {
-            "@type": "http://www.w3.org/2001/XMLSchema#int",
-            "@value": "400"
-          }
-        ],
-        "http://www.w3.org/2004/02/skos/core#prefLabel": [
-          {
-            "@value": "Mustache"
-          }
-        ]
-      },
-      {
-        "@id": "https://data.gov.cz/etl/resources/pipelines/1614849417812/4",
-        "@type": [
-          "http://linkedpipes.com/ontology/Connection"
-        ],
-        "http://linkedpipes.com/ontology/sourceBinding": [
-          {
-            "@value": "OutputRdf"
-          }
-        ],
-        "http://linkedpipes.com/ontology/sourceComponent": [
-          {
-            "@id": "https://data.gov.cz/etl/resources/pipelines/1614849417812/5"
-          }
-        ],
-        "http://linkedpipes.com/ontology/targetBinding": [
-          {
-            "@value": "InputRdf"
-          }
-        ],
-        "http://linkedpipes.com/ontology/targetComponent": [
-          {
-            "@id": "https://data.gov.cz/etl/resources/pipelines/1614849417812/6"
-          }
-        ]
-      },
-      {
-        "@id": "https://data.gov.cz/etl/resources/pipelines/1614849417812/5",
-        "@type": [
-          "http://linkedpipes.com/ontology/Component"
-        ],
-        "http://linkedpipes.com/ontology/configurationGraph": [
-          {
-            "@id": "https://data.gov.cz/etl/resources/pipelines/1614849417812/46"
-          }
-        ],
-        "http://linkedpipes.com/ontology/template": [
-          {
-            "@id": "http://etl.linkedpipes.com/resources/components/t-sparqlConstruct/0.0.0"
-          }
-        ],
-        "http://linkedpipes.com/ontology/x": [
-          {
-            "@type": "http://www.w3.org/2001/XMLSchema#int",
-            "@value": "580"
-          }
-        ],
-        "http://linkedpipes.com/ontology/y": [
-          {
-            "@type": "http://www.w3.org/2001/XMLSchema#int",
-            "@value": "100"
-          }
-        ],
-        "http://purl.org/dc/terms/description": [
-          {
-            "@value": "Sitemap index"
-          }
-        ],
-        "http://www.w3.org/2004/02/skos/core#prefLabel": [
-          {
-            "@value": "SPARQL construct"
-          }
-        ]
-      },
-      {
-        "@id": "https://data.gov.cz/etl/resources/pipelines/1614849417812/6",
-        "@type": [
-          "http://linkedpipes.com/ontology/Component"
-        ],
-        "http://linkedpipes.com/ontology/configurationGraph": [
-          {
-            "@id": "https://data.gov.cz/etl/resources/pipelines/1614849417812/41"
-          }
-        ],
-        "http://linkedpipes.com/ontology/template": [
-          {
-            "@id": "http://etl.linkedpipes.com/resources/components/t-mustache/0.0.0"
-          }
-        ],
-        "http://linkedpipes.com/ontology/x": [
-          {
-            "@type": "http://www.w3.org/2001/XMLSchema#int",
-            "@value": "860"
-          }
-        ],
-        "http://linkedpipes.com/ontology/y": [
-          {
-            "@type": "http://www.w3.org/2001/XMLSchema#int",
-            "@value": "100"
-          }
-        ],
-        "http://www.w3.org/2004/02/skos/core#prefLabel": [
-          {
-            "@value": "Mustache"
-          }
-        ]
-      },
-      {
-        "@id": "https://data.gov.cz/etl/resources/pipelines/1614849417812/7",
-        "@type": [
-          "http://linkedpipes.com/ontology/Component"
-        ],
-        "http://linkedpipes.com/ontology/configurationGraph": [
-          {
-            "@id": "https://data.gov.cz/etl/resources/pipelines/1614849417812/30"
-          }
-        ],
-        "http://linkedpipes.com/ontology/template": [
-          {
-            "@id": "http://etl.linkedpipes.com/resources/components/t-mustache/0.0.0"
-          }
-        ],
-        "http://linkedpipes.com/ontology/x": [
-          {
-            "@type": "http://www.w3.org/2001/XMLSchema#int",
-            "@value": "860"
-          }
-        ],
-        "http://linkedpipes.com/ontology/y": [
-          {
-            "@type": "http://www.w3.org/2001/XMLSchema#int",
-            "@value": "200"
-          }
-        ],
-        "http://www.w3.org/2004/02/skos/core#prefLabel": [
-          {
-            "@value": "Mustache"
-          }
-        ]
-      },
-      {
-        "@id": "https://data.gov.cz/etl/resources/pipelines/1614849417812/8",
-        "@type": [
-          "http://linkedpipes.com/ontology/Component"
-        ],
-        "http://linkedpipes.com/ontology/configurationGraph": [
-          {
-            "@id": "https://data.gov.cz/etl/resources/pipelines/1614849417812/graph/31"
-          }
-        ],
-        "http://linkedpipes.com/ontology/template": [
-          {
-            "@id": "http://etl.linkedpipes.com/resources/components/t-mustache/0.0.0"
-          }
-        ],
-        "http://linkedpipes.com/ontology/x": [
-          {
-            "@type": "http://www.w3.org/2001/XMLSchema#int",
-            "@value": "860"
-          }
-        ],
-        "http://linkedpipes.com/ontology/y": [
-          {
-            "@type": "http://www.w3.org/2001/XMLSchema#int",
-            "@value": "300"
-          }
-        ],
-        "http://www.w3.org/2004/02/skos/core#prefLabel": [
-          {
-            "@value": "Mustache"
-          }
-        ]
-      },
-      {
-        "@id": "https://data.gov.cz/etl/resources/pipelines/1614849417812/9",
-        "@type": [
-          "http://linkedpipes.com/ontology/Component"
-        ],
-        "http://linkedpipes.com/ontology/configurationGraph": [
-          {
-            "@id": "https://data.gov.cz/etl/resources/pipelines/1614849417812/35"
-          }
-        ],
-        "http://linkedpipes.com/ontology/template": [
-          {
-            "@id": "https://data.gov.cz/etl/resources/components/1614248421092-16bc9042-fd55-4443-9abe-6f545cf0455d"
-          }
-        ],
-        "http://linkedpipes.com/ontology/x": [
-          {
-            "@type": "http://www.w3.org/2001/XMLSchema#int",
-            "@value": "533"
-          }
-        ],
-        "http://linkedpipes.com/ontology/y": [
-          {
-            "@type": "http://www.w3.org/2001/XMLSchema#int",
-            "@value": "196"
-          }
-        ],
-        "http://purl.org/dc/terms/description": [
-          {
-            "@value": "0 - 50 000"
-          }
-        ],
-        "http://www.w3.org/2004/02/skos/core#prefLabel": [
-          {
-            "@value": "NKOD SPARQL endpoint"
-          }
-        ]
-      },
-      {
-        "@id": "https://data.gov.cz/etl/resources/pipelines/1614849417812/profile/default",
-        "@type": [
-          "http://linkedpipes.com/ontology/ExecutionProfile"
-        ],
-        "http://etl.linkedpipes.com/ontology/logRetentionPolicy": [
-          {
-            "@id": "http://linkedpipes.com/resources/Keep"
-          }
-        ],
-        "http://linkedpipes.com/ontology/rdfRepositoryPolicy": [
-          {
-            "@id": "http://linkedpipes.com/ontology/repository/SingleRepository"
-          }
-        ],
-        "http://linkedpipes.com/ontology/rdfRepositoryType": [
-          {
-            "@id": "http://linkedpipes.com/ontology/repository/NativeStore"
-          }
-        ]
-      }
-    ],
-    "@id": "https://data.gov.cz/etl/resources/pipelines/1614849417812"
-  },
-  {
-    "@graph": [
-      {
-        "@id": "https://data.gov.cz/etl/resources/pipelines/1614849417812/30",
-        "@type": [
-          "http://plugins.linkedpipes.com/ontology/t-mustache#Configuration"
-        ],
-        "http://plugins.linkedpipes.com/ontology/t-mustache#addFirstFlag": [
-          {
-            "@type": "http://www.w3.org/2001/XMLSchema#boolean",
-            "@value": "false"
-          }
-        ],
-        "http://plugins.linkedpipes.com/ontology/t-mustache#addFirstFlagControl": [
-          {
-            "@id": "http://plugins.linkedpipes.com/resource/configuration/None"
-          }
-        ],
-        "http://plugins.linkedpipes.com/ontology/t-mustache#class": [
-          {
-            "@value": "http://www.w3.org/ns/dcat#Catalog"
-          }
-        ],
-        "http://plugins.linkedpipes.com/ontology/t-mustache#classControl": [
-          {
-            "@id": "http://plugins.linkedpipes.com/resource/configuration/None"
-          }
-        ],
-        "http://plugins.linkedpipes.com/ontology/t-mustache#template": [
-          {
-            "@value": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<urlset xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n{{#http://www.w3.org/ns/dcat#dataset}}\n   <url>\n      <loc>{{{http://purl.org/dc/terms/identifier}}}</loc>\n      <changefreq>daily</changefreq>\n   </url>\n{{/http://www.w3.org/ns/dcat#dataset}}\n</urlset>"
-          }
-        ],
-        "http://plugins.linkedpipes.com/ontology/t-mustache#templateControl": [
-          {
-            "@id": "http://plugins.linkedpipes.com/resource/configuration/None"
-          }
-        ]
-      }
-    ],
-    "@id": "https://data.gov.cz/etl/resources/pipelines/1614849417812/30"
-  },
-  {
-    "@graph": [
-      {
-        "@id": "https://data.gov.cz/etl/resources/pipelines/1614849417812/35",
-        "@type": [
-          "http://plugins.linkedpipes.com/ontology/e-sparqlEndpoint#Configuration"
-        ],
-        "http://plugins.linkedpipes.com/ontology/e-sparqlEndpoint#defaultGraphControl": [
-          {
-            "@id": "http://plugins.linkedpipes.com/resource/configuration/Inherit"
-          }
-        ],
-        "http://plugins.linkedpipes.com/ontology/e-sparqlEndpoint#encodeRdf": [
-          {
-            "@type": "http://www.w3.org/2001/XMLSchema#boolean",
-            "@value": "false"
-          }
-        ],
-        "http://plugins.linkedpipes.com/ontology/e-sparqlEndpoint#encodeRdfControl": [
-          {
-            "@id": "http://plugins.linkedpipes.com/resource/configuration/Inherit"
-          }
-        ],
-        "http://plugins.linkedpipes.com/ontology/e-sparqlEndpoint#endpoint": [
-          {
-            "@value": "http://localhost:8890/sparql"
-          }
-        ],
-        "http://plugins.linkedpipes.com/ontology/e-sparqlEndpoint#endpointControl": [
-          {
-            "@id": "http://plugins.linkedpipes.com/resource/configuration/Inherit"
-          }
-        ],
-        "http://plugins.linkedpipes.com/ontology/e-sparqlEndpoint#handleInvalidData": [
-          {
-            "@type": "http://www.w3.org/2001/XMLSchema#boolean",
-            "@value": "false"
-          }
-        ],
-        "http://plugins.linkedpipes.com/ontology/e-sparqlEndpoint#handleInvalidDataControl": [
-          {
-            "@id": "http://plugins.linkedpipes.com/resource/configuration/Inherit"
-          }
-        ],
-        "http://plugins.linkedpipes.com/ontology/e-sparqlEndpoint#headerAcceptControl": [
-          {
-            "@id": "http://plugins.linkedpipes.com/resource/configuration/Inherit"
-          }
-        ],
-        "http://plugins.linkedpipes.com/ontology/e-sparqlEndpoint#passwordControl": [
-          {
-            "@id": "http://plugins.linkedpipes.com/resource/configuration/Inherit"
-          }
-        ],
-        "http://plugins.linkedpipes.com/ontology/e-sparqlEndpoint#query": [
-          {
-            "@value": "PREFIX dcat: <http://www.w3.org/ns/dcat#>\nPREFIX dcterms: <http://purl.org/dc/terms/>\n\nPREFIX mustache: <http://plugins.linkedpipes.com/ontology/t-mustache#>\n\nCONSTRUCT { \n  <http://localhost/catalog> a dcat:Catalog ;\n    mustache:fileName \"smap1.xml\" ;\n    dcat:dataset ?dataset .\n  \n  ?dataset a dcat:Dataset ;\n    dcterms:identifier ?newid .\n}\nWHERE {\n  GRAPH ?dataset { ?dataset a dcat:Dataset}\n  BIND(CONCAT(\"https://data.gov.cz/datov%C3%A1-sada?iri=\",STR(ENCODE_FOR_URI(?dataset))) AS ?newid)\n}\nLIMIT 50000\nOFFSET 0"
-          }
-        ],
-        "http://plugins.linkedpipes.com/ontology/e-sparqlEndpoint#queryControl": [
-          {
-            "@id": "http://plugins.linkedpipes.com/resource/configuration/None"
-          }
-        ],
-        "http://plugins.linkedpipes.com/ontology/e-sparqlEndpoint#useAuthentication": [
-          {
-            "@type": "http://www.w3.org/2001/XMLSchema#boolean",
-            "@value": "false"
-          }
-        ],
-        "http://plugins.linkedpipes.com/ontology/e-sparqlEndpoint#useAuthenticationControl": [
-          {
-            "@id": "http://plugins.linkedpipes.com/resource/configuration/Inherit"
-          }
-        ],
-        "http://plugins.linkedpipes.com/ontology/e-sparqlEndpoint#useTolerantRepository": [
-          {
-            "@type": "http://www.w3.org/2001/XMLSchema#boolean",
-            "@value": "false"
-          }
-        ],
-        "http://plugins.linkedpipes.com/ontology/e-sparqlEndpoint#useTolerantRepositoryControl": [
-          {
-            "@id": "http://plugins.linkedpipes.com/resource/configuration/Inherit"
-          }
-        ],
-        "http://plugins.linkedpipes.com/ontology/e-sparqlEndpoint#userNameControl": [
-          {
-            "@id": "http://plugins.linkedpipes.com/resource/configuration/Inherit"
-          }
-        ]
-      }
-    ],
-    "@id": "https://data.gov.cz/etl/resources/pipelines/1614849417812/35"
-  },
-  {
-    "@graph": [
-      {
-        "@id": "https://data.gov.cz/etl/resources/pipelines/1614849417812/36",
-        "@type": [
-          "http://plugins.linkedpipes.com/ontology/e-sparqlEndpoint#Configuration"
-        ],
-        "http://plugins.linkedpipes.com/ontology/e-sparqlEndpoint#defaultGraphControl": [
-          {
-            "@id": "http://plugins.linkedpipes.com/resource/configuration/Inherit"
-          }
-        ],
-        "http://plugins.linkedpipes.com/ontology/e-sparqlEndpoint#encodeRdf": [
-          {
-            "@type": "http://www.w3.org/2001/XMLSchema#boolean",
-            "@value": "false"
-          }
-        ],
-        "http://plugins.linkedpipes.com/ontology/e-sparqlEndpoint#encodeRdfControl": [
-          {
-            "@id": "http://plugins.linkedpipes.com/resource/configuration/Inherit"
-          }
-        ],
-        "http://plugins.linkedpipes.com/ontology/e-sparqlEndpoint#endpoint": [
-          {
-            "@value": "http://localhost:8890/sparql"
-          }
-        ],
-        "http://plugins.linkedpipes.com/ontology/e-sparqlEndpoint#endpointControl": [
-          {
-            "@id": "http://plugins.linkedpipes.com/resource/configuration/Inherit"
-          }
-        ],
-        "http://plugins.linkedpipes.com/ontology/e-sparqlEndpoint#handleInvalidData": [
-          {
-            "@type": "http://www.w3.org/2001/XMLSchema#boolean",
-            "@value": "false"
-          }
-        ],
-        "http://plugins.linkedpipes.com/ontology/e-sparqlEndpoint#handleInvalidDataControl": [
-          {
-            "@id": "http://plugins.linkedpipes.com/resource/configuration/Inherit"
-          }
-        ],
-        "http://plugins.linkedpipes.com/ontology/e-sparqlEndpoint#headerAcceptControl": [
-          {
-            "@id": "http://plugins.linkedpipes.com/resource/configuration/Inherit"
-          }
-        ],
-        "http://plugins.linkedpipes.com/ontology/e-sparqlEndpoint#passwordControl": [
-          {
-            "@id": "http://plugins.linkedpipes.com/resource/configuration/Inherit"
-          }
-        ],
-        "http://plugins.linkedpipes.com/ontology/e-sparqlEndpoint#query": [
-          {
-            "@value": "PREFIX dcat: <http://www.w3.org/ns/dcat#>\nPREFIX dcterms: <http://purl.org/dc/terms/>\n\nPREFIX mustache: <http://plugins.linkedpipes.com/ontology/t-mustache#>\n\nCONSTRUCT { \n  <http://localhost/catalog> a dcat:Catalog ;\n    mustache:fileName \"smap2.xml\" ;\n    dcat:dataset ?dataset .\n  \n  ?dataset a dcat:Dataset ;\n    dcterms:identifier ?newid .\n}\nWHERE {\n  GRAPH ?dataset { ?dataset a dcat:Dataset}\n  BIND(CONCAT(\"https://data.gov.cz/datov%C3%A1-sada?iri=\",STR(ENCODE_FOR_URI(?dataset))) AS ?newid)\n}\nLIMIT 50000\nOFFSET 50000"
-          }
-        ],
-        "http://plugins.linkedpipes.com/ontology/e-sparqlEndpoint#queryControl": [
-          {
-            "@id": "http://plugins.linkedpipes.com/resource/configuration/None"
-          }
-        ],
-        "http://plugins.linkedpipes.com/ontology/e-sparqlEndpoint#useAuthentication": [
-          {
-            "@type": "http://www.w3.org/2001/XMLSchema#boolean",
-            "@value": "false"
-          }
-        ],
-        "http://plugins.linkedpipes.com/ontology/e-sparqlEndpoint#useAuthenticationControl": [
-          {
-            "@id": "http://plugins.linkedpipes.com/resource/configuration/Inherit"
-          }
-        ],
-        "http://plugins.linkedpipes.com/ontology/e-sparqlEndpoint#useTolerantRepository": [
-          {
-            "@type": "http://www.w3.org/2001/XMLSchema#boolean",
-            "@value": "false"
-          }
-        ],
-        "http://plugins.linkedpipes.com/ontology/e-sparqlEndpoint#useTolerantRepositoryControl": [
-          {
-            "@id": "http://plugins.linkedpipes.com/resource/configuration/Inherit"
-          }
-        ],
-        "http://plugins.linkedpipes.com/ontology/e-sparqlEndpoint#userNameControl": [
-          {
-            "@id": "http://plugins.linkedpipes.com/resource/configuration/Inherit"
-          }
-        ]
-      }
-    ],
-    "@id": "https://data.gov.cz/etl/resources/pipelines/1614849417812/36"
-  },
-  {
-    "@graph": [
-      {
-        "@id": "https://data.gov.cz/etl/resources/pipelines/1614849417812/6/configuration",
-        "@type": [
-          "http://plugins.linkedpipes.com/ontology/t-mustache#Configuration"
-        ],
-        "http://plugins.linkedpipes.com/ontology/t-mustache#addFirstFlag": [
-          {
-            "@type": "http://www.w3.org/2001/XMLSchema#boolean",
-            "@value": "false"
-          }
-        ],
-        "http://plugins.linkedpipes.com/ontology/t-mustache#addFirstFlagControl": [
-          {
-            "@id": "http://plugins.linkedpipes.com/resource/configuration/None"
-          }
-        ],
-        "http://plugins.linkedpipes.com/ontology/t-mustache#class": [
-          {
-            "@value": "http://localhost/Configuration"
-          }
-        ],
-        "http://plugins.linkedpipes.com/ontology/t-mustache#classControl": [
-          {
-            "@id": "http://plugins.linkedpipes.com/resource/configuration/None"
-          }
-        ],
-        "http://plugins.linkedpipes.com/ontology/t-mustache#escapeForJson": [
-          {
-            "@type": "http://www.w3.org/2001/XMLSchema#boolean",
-            "@value": "false"
-          }
-        ],
-        "http://plugins.linkedpipes.com/ontology/t-mustache#escapeForJsonControl": [
-          {
-            "@id": "http://plugins.linkedpipes.com/resource/configuration/None"
-          }
-        ],
-        "http://plugins.linkedpipes.com/ontology/t-mustache#template": [
-          {
-            "@value": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n   <sitemap>\n      <loc>https://data.gov.cz/smap-pages.xml</loc>\n      <lastmod>{{http://localhost/now}}</lastmod>\n   </sitemap>\n   <sitemap>\n      <loc>https://data.gov.cz/smap1.xml</loc>\n      <lastmod>{{http://localhost/now}}</lastmod>\n   </sitemap>\n   <sitemap>\n      <loc>https://data.gov.cz/smap2.xml</loc>\n      <lastmod>{{http://localhost/now}}</lastmod>\n   </sitemap>\n   <sitemap>\n      <loc>https://data.gov.cz/smap3.xml</loc>\n      <lastmod>{{http://localhost/now}}</lastmod>\n   </sitemap>\n</sitemapindex>"
-          }
-        ],
-        "http://plugins.linkedpipes.com/ontology/t-mustache#templateControl": [
-          {
-            "@id": "http://plugins.linkedpipes.com/resource/configuration/None"
-          }
-        ]
-      }
-    ],
-    "@id": "https://data.gov.cz/etl/resources/pipelines/1614849417812/41"
-  },
-  {
-    "@graph": [
-      {
-        "@id": "https://data.gov.cz/etl/resources/pipelines/1614849417812/46",
-        "@type": [
-          "http://plugins.linkedpipes.com/ontology/t-sparqlConstruct#Configuration"
-        ],
-        "http://plugins.linkedpipes.com/ontology/t-sparqlConstruct#query": [
-          {
-            "@value": "PREFIX temp: <http://localhost/>\nPREFIX mustache: <http://plugins.linkedpipes.com/ontology/t-mustache#>\n\nCONSTRUCT { \n<http://localhost/config> a temp:Configuration ;\n    mustache:fileName \"index.xml\" ;\n    temp:now ?now .\n} \nWHERE { \nBIND(NOW() as ?now)\n}"
-          }
-        ],
-        "http://plugins.linkedpipes.com/ontology/t-sparqlConstruct#queryControl": [
-          {
-            "@id": "http://plugins.linkedpipes.com/resource/configuration/None"
-          }
-        ]
-      }
-    ],
-    "@id": "https://data.gov.cz/etl/resources/pipelines/1614849417812/46"
-  },
-  {
-    "@graph": [
-      {
-        "@id": "https://data.gov.cz/etl/resources/pipelines/1614849417812/47",
-        "@type": [
-          "http://plugins.linkedpipes.com/ontology/l-filesToScp#Configuration"
-        ],
-        "http://plugins.linkedpipes.com/ontology/l-filesToScp#clearDirectory": [
-          {
-            "@type": "http://www.w3.org/2001/XMLSchema#boolean",
-            "@value": "true"
-          }
-        ],
-        "http://plugins.linkedpipes.com/ontology/l-filesToScp#clearDirectoryControl": [
-          {
-            "@id": "http://plugins.linkedpipes.com/resource/configuration/None"
-          }
-        ],
-        "http://plugins.linkedpipes.com/ontology/l-filesToScp#connectionTimeOutControl": [
-          {
-            "@id": "http://plugins.linkedpipes.com/resource/configuration/Inherit"
-          }
-        ],
-        "http://plugins.linkedpipes.com/ontology/l-filesToScp#createDirectory": [
-          {
-            "@type": "http://www.w3.org/2001/XMLSchema#boolean",
-            "@value": "true"
-          }
-        ],
-        "http://plugins.linkedpipes.com/ontology/l-filesToScp#createDirectoryControl": [
-          {
-            "@id": "http://plugins.linkedpipes.com/resource/configuration/None"
-          }
-        ],
-        "http://plugins.linkedpipes.com/ontology/l-filesToScp#directory": [
-          {
-            "@value": "/data/sitemaps"
-          }
-        ],
-        "http://plugins.linkedpipes.com/ontology/l-filesToScp#directoryControl": [
-          {
-            "@id": "http://plugins.linkedpipes.com/resource/configuration/None"
-          }
-        ],
-        "http://plugins.linkedpipes.com/ontology/l-filesToScp#host": [
-          {
-            "@value": "localhost"
-          }
-        ],
-        "http://plugins.linkedpipes.com/ontology/l-filesToScp#hostControl": [
-          {
-            "@id": "http://plugins.linkedpipes.com/resource/configuration/Inherit"
-          }
-        ],
-        "http://plugins.linkedpipes.com/ontology/l-filesToScp#password": [
-          {
-            "@value": "nejlepsipaper"
-          }
-        ],
-        "http://plugins.linkedpipes.com/ontology/l-filesToScp#passwordControl": [
-          {
-            "@id": "http://plugins.linkedpipes.com/resource/configuration/Inherit"
-          }
-        ],
-        "http://plugins.linkedpipes.com/ontology/l-filesToScp#port": [
-          {
-            "@type": "http://www.w3.org/2001/XMLSchema#integer",
-            "@value": "22"
-          }
-        ],
-        "http://plugins.linkedpipes.com/ontology/l-filesToScp#portControl": [
-          {
-            "@id": "http://plugins.linkedpipes.com/resource/configuration/Inherit"
-          }
-        ],
-        "http://plugins.linkedpipes.com/ontology/l-filesToScp#userName": [
-          {
-            "@value": "uploader"
-          }
-        ],
-        "http://plugins.linkedpipes.com/ontology/l-filesToScp#userNameControl": [
-          {
-            "@id": "http://plugins.linkedpipes.com/resource/configuration/Inherit"
-          }
-        ]
-      }
-    ],
-    "@id": "https://data.gov.cz/etl/resources/pipelines/1614849417812/47"
-  },
-  {
-    "@graph": [
-      {
-        "@id": "https://data.gov.cz/etl/resources/pipelines/1614849417812/48",
-        "@type": [
-          "http://plugins.linkedpipes.com/ontology/e-sparqlEndpoint#Configuration"
-        ],
-        "http://plugins.linkedpipes.com/ontology/e-sparqlEndpoint#defaultGraphControl": [
-          {
-            "@id": "http://plugins.linkedpipes.com/resource/configuration/Inherit"
-          }
-        ],
-        "http://plugins.linkedpipes.com/ontology/e-sparqlEndpoint#encodeRdf": [
-          {
-            "@type": "http://www.w3.org/2001/XMLSchema#boolean",
-            "@value": "false"
-          }
-        ],
-        "http://plugins.linkedpipes.com/ontology/e-sparqlEndpoint#encodeRdfControl": [
-          {
-            "@id": "http://plugins.linkedpipes.com/resource/configuration/Inherit"
-          }
-        ],
-        "http://plugins.linkedpipes.com/ontology/e-sparqlEndpoint#endpoint": [
-          {
-            "@value": "http://localhost:8890/sparql"
-          }
-        ],
-        "http://plugins.linkedpipes.com/ontology/e-sparqlEndpoint#endpointControl": [
-          {
-            "@id": "http://plugins.linkedpipes.com/resource/configuration/Inherit"
-          }
-        ],
-        "http://plugins.linkedpipes.com/ontology/e-sparqlEndpoint#handleInvalidData": [
-          {
-            "@type": "http://www.w3.org/2001/XMLSchema#boolean",
-            "@value": "false"
-          }
-        ],
-        "http://plugins.linkedpipes.com/ontology/e-sparqlEndpoint#handleInvalidDataControl": [
-          {
-            "@id": "http://plugins.linkedpipes.com/resource/configuration/Inherit"
-          }
-        ],
-        "http://plugins.linkedpipes.com/ontology/e-sparqlEndpoint#headerAcceptControl": [
-          {
-            "@id": "http://plugins.linkedpipes.com/resource/configuration/Inherit"
-          }
-        ],
-        "http://plugins.linkedpipes.com/ontology/e-sparqlEndpoint#passwordControl": [
-          {
-            "@id": "http://plugins.linkedpipes.com/resource/configuration/Inherit"
-          }
-        ],
-        "http://plugins.linkedpipes.com/ontology/e-sparqlEndpoint#query": [
-          {
-            "@value": "PREFIX dcat: <http://www.w3.org/ns/dcat#>\nPREFIX dcterms: <http://purl.org/dc/terms/>\n\nPREFIX mustache: <http://plugins.linkedpipes.com/ontology/t-mustache#>\n\nCONSTRUCT { \n  <http://localhost/catalog> a dcat:Catalog ;\n    mustache:fileName \"smap3.xml\" ;\n    dcat:dataset ?dataset .\n  \n  ?dataset a dcat:Dataset ;\n    dcterms:identifier ?newid .\n}\nWHERE {\n  GRAPH ?dataset { ?dataset a dcat:Dataset}\n  BIND(CONCAT(\"https://data.gov.cz/datov%C3%A1-sada?iri=\",STR(ENCODE_FOR_URI(?dataset))) AS ?newid)\n}\nLIMIT 50000\nOFFSET 100000"
-          }
-        ],
-        "http://plugins.linkedpipes.com/ontology/e-sparqlEndpoint#queryControl": [
-          {
-            "@id": "http://plugins.linkedpipes.com/resource/configuration/None"
-          }
-        ],
-        "http://plugins.linkedpipes.com/ontology/e-sparqlEndpoint#useAuthentication": [
-          {
-            "@type": "http://www.w3.org/2001/XMLSchema#boolean",
-            "@value": "false"
-          }
-        ],
-        "http://plugins.linkedpipes.com/ontology/e-sparqlEndpoint#useAuthenticationControl": [
-          {
-            "@id": "http://plugins.linkedpipes.com/resource/configuration/Inherit"
-          }
-        ],
-        "http://plugins.linkedpipes.com/ontology/e-sparqlEndpoint#useTolerantRepository": [
-          {
-            "@type": "http://www.w3.org/2001/XMLSchema#boolean",
-            "@value": "false"
-          }
-        ],
-        "http://plugins.linkedpipes.com/ontology/e-sparqlEndpoint#useTolerantRepositoryControl": [
-          {
-            "@id": "http://plugins.linkedpipes.com/resource/configuration/Inherit"
-          }
-        ],
-        "http://plugins.linkedpipes.com/ontology/e-sparqlEndpoint#userNameControl": [
-          {
-            "@id": "http://plugins.linkedpipes.com/resource/configuration/Inherit"
-          }
-        ]
-      }
-    ],
-    "@id": "https://data.gov.cz/etl/resources/pipelines/1614849417812/48"
-  },
-  {
-    "@graph": [
-      {
-        "@id": "https://data.gov.cz/etl/resources/pipelines/1614849417812/30",
-        "@type": [
-          "http://plugins.linkedpipes.com/ontology/t-mustache#Configuration"
-        ],
-        "http://plugins.linkedpipes.com/ontology/t-mustache#addFirstFlag": [
-          {
-            "@type": "http://www.w3.org/2001/XMLSchema#boolean",
-            "@value": "false"
-          }
-        ],
-        "http://plugins.linkedpipes.com/ontology/t-mustache#addFirstFlagControl": [
-          {
-            "@id": "http://plugins.linkedpipes.com/resource/configuration/None"
-          }
-        ],
-        "http://plugins.linkedpipes.com/ontology/t-mustache#class": [
-          {
-            "@value": "http://www.w3.org/ns/dcat#Catalog"
-          }
-        ],
-        "http://plugins.linkedpipes.com/ontology/t-mustache#classControl": [
-          {
-            "@id": "http://plugins.linkedpipes.com/resource/configuration/None"
-          }
-        ],
-        "http://plugins.linkedpipes.com/ontology/t-mustache#template": [
-          {
-            "@value": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<urlset xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n{{#http://www.w3.org/ns/dcat#dataset}}\n   <url>\n      <loc>{{{http://purl.org/dc/terms/identifier}}}</loc>\n      <changefreq>daily</changefreq>\n   </url>\n{{/http://www.w3.org/ns/dcat#dataset}}\n</urlset>"
-          }
-        ],
-        "http://plugins.linkedpipes.com/ontology/t-mustache#templateControl": [
-          {
-            "@id": "http://plugins.linkedpipes.com/resource/configuration/None"
-          }
-        ]
-      }
-    ],
-    "@id": "https://data.gov.cz/etl/resources/pipelines/1614849417812/graph/31"
-  },
-  {
-    "@graph": [
-      {
-        "@id": "https://data.gov.cz/etl/resources/pipelines/1614849417812/32",
-        "@type": [
-          "http://plugins.linkedpipes.com/ontology/t-mustache#Configuration"
-        ],
-        "http://plugins.linkedpipes.com/ontology/t-mustache#addFirstFlag": [
-          {
-            "@type": "http://www.w3.org/2001/XMLSchema#boolean",
-            "@value": "false"
-          }
-        ],
-        "http://plugins.linkedpipes.com/ontology/t-mustache#addFirstFlagControl": [
-          {
-            "@id": "http://plugins.linkedpipes.com/resource/configuration/None"
-          }
-        ],
-        "http://plugins.linkedpipes.com/ontology/t-mustache#class": [
-          {
-            "@value": "http://localhost/ontology/Data"
-          }
-        ],
-        "http://plugins.linkedpipes.com/ontology/t-mustache#classControl": [
-          {
-            "@id": "http://plugins.linkedpipes.com/resource/configuration/None"
-          }
-        ],
-        "http://plugins.linkedpipes.com/ontology/t-mustache#escapeForJson": [
-          {
-            "@type": "http://www.w3.org/2001/XMLSchema#boolean",
-            "@value": "false"
-          }
-        ],
-        "http://plugins.linkedpipes.com/ontology/t-mustache#escapeForJsonControl": [
-          {
-            "@id": "http://plugins.linkedpipes.com/resource/configuration/None"
-          }
-        ],
-        "http://plugins.linkedpipes.com/ontology/t-mustache#template": [
-          {
-            "@value": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<urlset xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xsi:schemaLocation=\"http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd\">\n{{#http://localhost/ontology/data}}\n<url><loc>{{{.}}}</loc></url>\n{{/http://localhost/ontology/data}}\n</urlset>"
-          }
-        ],
-        "http://plugins.linkedpipes.com/ontology/t-mustache#templateControl": [
-          {
-            "@id": "http://plugins.linkedpipes.com/resource/configuration/None"
-          }
-        ]
-      }
-    ],
-    "@id": "https://data.gov.cz/etl/resources/pipelines/1614849417812/graph/33"
-  },
-  {
-    "@graph": [
-      {
-        "@id": "https://data.gov.cz/etl/resources/pipelines/1614849417812/30",
-        "@type": [
-          "http://plugins.linkedpipes.com/ontology/t-mustache#Configuration"
-        ],
-        "http://plugins.linkedpipes.com/ontology/t-mustache#addFirstFlag": [
-          {
-            "@type": "http://www.w3.org/2001/XMLSchema#boolean",
-            "@value": "false"
-          }
-        ],
-        "http://plugins.linkedpipes.com/ontology/t-mustache#addFirstFlagControl": [
-          {
-            "@id": "http://plugins.linkedpipes.com/resource/configuration/None"
-          }
-        ],
-        "http://plugins.linkedpipes.com/ontology/t-mustache#class": [
-          {
-            "@value": "http://www.w3.org/ns/dcat#Catalog"
-          }
-        ],
-        "http://plugins.linkedpipes.com/ontology/t-mustache#classControl": [
-          {
-            "@id": "http://plugins.linkedpipes.com/resource/configuration/None"
-          }
-        ],
-        "http://plugins.linkedpipes.com/ontology/t-mustache#template": [
-          {
-            "@value": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<urlset xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n{{#http://www.w3.org/ns/dcat#dataset}}\n   <url>\n      <loc>{{{http://purl.org/dc/terms/identifier}}}</loc>\n      <changefreq>daily</changefreq>\n   </url>\n{{/http://www.w3.org/ns/dcat#dataset}}\n</urlset>"
-          }
-        ],
-        "http://plugins.linkedpipes.com/ontology/t-mustache#templateControl": [
-          {
-            "@id": "http://plugins.linkedpipes.com/resource/configuration/None"
-          }
-        ]
-      }
-    ],
-    "@id": "https://data.gov.cz/etl/resources/pipelines/1614849417812/graph/34"
-  },
-  {
-    "@graph": [
-      {
-        "@id": "https://data.gov.cz/etl/resources/pipelines/1614849417812/37",
-        "@type": [
-          "http://plugins.linkedpipes.com/ontology/t-jsonToJsonLd#Configuration"
-        ],
-        "http://plugins.linkedpipes.com/ontology/t-jsonToJsonLd#context": [
-          {
-            "@value": "{\"@vocab\":\"http://localhost/ontology/\"}"
-          }
-        ],
-        "http://plugins.linkedpipes.com/ontology/t-jsonToJsonLd#contextControl": [
-          {
-            "@id": "http://plugins.linkedpipes.com/resource/configuration/None"
-          }
-        ],
-        "http://plugins.linkedpipes.com/ontology/t-jsonToJsonLd#dataPredicate": [
-          {
-            "@id": "http://localhost/ontology/data"
-          }
-        ],
-        "http://plugins.linkedpipes.com/ontology/t-jsonToJsonLd#dataPredicateControl": [
-          {
-            "@id": "http://plugins.linkedpipes.com/resource/configuration/None"
-          }
-        ],
-        "http://plugins.linkedpipes.com/ontology/t-jsonToJsonLd#encoding": [
-          {
-            "@value": "UTF-8"
-          }
-        ],
-        "http://plugins.linkedpipes.com/ontology/t-jsonToJsonLd#encodingControl": [
-          {
-            "@id": "http://plugins.linkedpipes.com/resource/configuration/None"
-          }
-        ],
-        "http://plugins.linkedpipes.com/ontology/t-jsonToJsonLd#filePredicate": [
-          {
-            "@id": "http://localhost/ontology/filePredicate"
-          }
-        ],
-        "http://plugins.linkedpipes.com/ontology/t-jsonToJsonLd#filePredicateControl": [
-          {
-            "@id": "http://plugins.linkedpipes.com/resource/configuration/None"
-          }
-        ],
-        "http://plugins.linkedpipes.com/ontology/t-jsonToJsonLd#fileReference": [
-          {
-            "@type": "http://www.w3.org/2001/XMLSchema#boolean",
-            "@value": "true"
-          }
-        ],
-        "http://plugins.linkedpipes.com/ontology/t-jsonToJsonLd#fileReferenceControl": [
-          {
-            "@id": "http://plugins.linkedpipes.com/resource/configuration/None"
-          }
-        ],
-        "http://plugins.linkedpipes.com/ontology/t-jsonToJsonLd#type": [
-          {
-            "@id": "http://localhost/ontology/Data"
-          }
-        ],
-        "http://plugins.linkedpipes.com/ontology/t-jsonToJsonLd#typeControl": [
-          {
-            "@id": "http://plugins.linkedpipes.com/resource/configuration/None"
-          }
-        ]
-      }
-    ],
-    "@id": "https://data.gov.cz/etl/resources/pipelines/1614849417812/graph/38"
-  },
-  {
-    "@graph": [
-      {
-        "@id": "https://data.gov.cz/etl/resources/pipelines/1614849417812/39",
-        "@type": [
-          "http://plugins.linkedpipes.com/ontology/t-sparqlConstruct#Configuration"
-        ],
-        "http://plugins.linkedpipes.com/ontology/t-sparqlConstruct#query": [
-          {
-            "@value": "PREFIX : <http://localhost/ontology/>\n\nCONSTRUCT { \n  <http://localhost/root> a :Data ;\n    :data ?encPath ;\n    <http://plugins.linkedpipes.com/ontology/t-mustache#fileName> \"smap-ofn.xml\" .\n} \nWHERE { \n  [] a :Data ;\n     :data/:tree ?tree .\n  ?tree :type \"tree\" ;\n        :path ?path .\n  \n  FILTER(REGEX(?path, \"^((registr-práv-a-povinností/[^/]+/((draft)|([0-9]{4}-[0-9]{2}-[0-9]{2})))|([^/]+/((draft)|([0-9]{4}-[0-9]{2}-[0-9]{2}))))$\"))\n  BIND(CONCAT(\"https://ofn.gov.cz/\", REPLACE(ENCODE_FOR_URI(?path), \"%2F\", \"/\"), \"/\") AS ?encPath)\n}"
-          }
-        ],
-        "http://plugins.linkedpipes.com/ontology/t-sparqlConstruct#queryControl": [
-          {
-            "@id": "http://plugins.linkedpipes.com/resource/configuration/None"
-          }
-        ]
-      }
-    ],
-    "@id": "https://data.gov.cz/etl/resources/pipelines/1614849417812/graph/40"
-  },
-  {
-    "@graph": [
-      {
-        "@id": "https://data.gov.cz/etl/resources/pipelines/1614849417812/42",
-        "@type": [
-          "http://plugins.linkedpipes.com/ontology/t-filesToRdfGraph#Configuration"
-        ],
-        "http://plugins.linkedpipes.com/ontology/t-filesToRdfGraph#commitSize": [
-          {
-            "@type": "http://www.w3.org/2001/XMLSchema#integer",
-            "@value": "50000"
-          }
-        ],
-        "http://plugins.linkedpipes.com/ontology/t-filesToRdfGraph#commitSizeControl": [
-          {
-            "@id": "http://plugins.linkedpipes.com/resource/configuration/None"
-          }
-        ],
-        "http://plugins.linkedpipes.com/ontology/t-filesToRdfGraph#mimeType": [
-          {
-            "@value": ""
-          }
-        ],
-        "http://plugins.linkedpipes.com/ontology/t-filesToRdfGraph#mimeTypeControl": [
-          {
-            "@id": "http://plugins.linkedpipes.com/resource/configuration/None"
-          }
-        ],
-        "http://plugins.linkedpipes.com/ontology/t-filesToRdfGraph#softFail": [
-          {
-            "@type": "http://www.w3.org/2001/XMLSchema#boolean",
-            "@value": "false"
-          }
-        ],
-        "http://plugins.linkedpipes.com/ontology/t-filesToRdfGraph#softFailControl": [
-          {
-            "@id": "http://plugins.linkedpipes.com/resource/configuration/None"
-          }
-        ]
-      }
-    ],
-    "@id": "https://data.gov.cz/etl/resources/pipelines/1614849417812/graph/43"
-  },
-  {
-    "@graph": [
-      {
-        "@id": "https://data.gov.cz/etl/resources/pipelines/1614849417812/44",
-        "@type": [
-          "http://plugins.linkedpipes.com/ontology/e-httpGetFile#Configuration"
-        ],
-        "http://plugins.linkedpipes.com/ontology/e-httpGetFile#encodeUrl": [
-          {
-            "@type": "http://www.w3.org/2001/XMLSchema#boolean",
-            "@value": "false"
-          }
-        ],
-        "http://plugins.linkedpipes.com/ontology/e-httpGetFile#encodeUrlControl": [
-          {
-            "@id": "http://plugins.linkedpipes.com/resource/configuration/None"
-          }
-        ],
-        "http://plugins.linkedpipes.com/ontology/e-httpGetFile#fileName": [
-          {
-            "@value": "tree.json"
-          }
-        ],
-        "http://plugins.linkedpipes.com/ontology/e-httpGetFile#fileNameControl": [
-          {
-            "@id": "http://plugins.linkedpipes.com/resource/configuration/None"
-          }
-        ],
-        "http://plugins.linkedpipes.com/ontology/e-httpGetFile#fileUri": [
-          {
-            "@value": "https://api.github.com/repos/opendata-mvcr/otevrene-formalni-normy/git/trees/master?recursive=1"
-          }
-        ],
-        "http://plugins.linkedpipes.com/ontology/e-httpGetFile#fileUriControl": [
-          {
-            "@id": "http://plugins.linkedpipes.com/resource/configuration/None"
-          }
-        ],
-        "http://plugins.linkedpipes.com/ontology/e-httpGetFile#hardRedirect": [
-          {
-            "@type": "http://www.w3.org/2001/XMLSchema#boolean",
-            "@value": "false"
-          }
-        ],
-        "http://plugins.linkedpipes.com/ontology/e-httpGetFile#hardRedirectControl": [
-          {
-            "@id": "http://plugins.linkedpipes.com/resource/configuration/None"
-          }
-        ],
-        "http://plugins.linkedpipes.com/ontology/e-httpGetFile#userAgent": [
-          {
-            "@value": ""
-          }
-        ],
-        "http://plugins.linkedpipes.com/ontology/e-httpGetFile#userAgentControl": [
-          {
-            "@id": "http://plugins.linkedpipes.com/resource/configuration/None"
-          }
-        ],
-        "http://plugins.linkedpipes.com/ontology/e-httpGetFile#utf8Redirect": [
-          {
-            "@type": "http://www.w3.org/2001/XMLSchema#boolean",
-            "@value": "false"
-          }
-        ],
-        "http://plugins.linkedpipes.com/ontology/e-httpGetFile#utf8RedirectControl": [
-          {
-            "@id": "http://plugins.linkedpipes.com/resource/configuration/None"
-          }
-        ]
-      }
-    ],
-    "@id": "https://data.gov.cz/etl/resources/pipelines/1614849417812/graph/45"
-  }
-]
+[ {
+  "@graph" : [ {
+    "@id" : "https://oha02.dia.gov.cz/etl/resources/components/1693826025360-0008",
+    "@type" : [ "http://linkedpipes.com/ontology/Template" ],
+    "http://etl.linkedpipes.com/ontology/version" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#int",
+      "@value" : "5"
+    } ],
+    "http://linkedpipes.com/ontology/configurationGraph" : [ {
+      "@id" : "https://oha02.dia.gov.cz/etl/resources/components/1693826025360-0008/configuration"
+    } ],
+    "http://linkedpipes.com/ontology/pluginTemplate" : [ {
+      "@id" : "http://etl.linkedpipes.com/resources/components/l-filesToScp/0.0.0"
+    } ],
+    "http://linkedpipes.com/ontology/template" : [ {
+      "@id" : "http://etl.linkedpipes.com/resources/components/l-filesToScp/0.0.0"
+    } ],
+    "http://www.w3.org/2002/07/owl#sameAs" : [ {
+      "@id" : "https://etl.nakit.opendata.cz/resources/components/1537449783779-3dfa98db-1e9a-4865-bce5-cb4af25247bc"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+      "@value" : "SCP to Frontend"
+    } ]
+  } ],
+  "@id" : "https://oha02.dia.gov.cz/etl/resources/components/1693826025360-0008"
+}, {
+  "@graph" : [ {
+    "@id" : "https://oha02.dia.gov.cz/etl/resources/components/1693826025360-0008/configuration",
+    "@type" : [ "http://plugins.linkedpipes.com/ontology/l-filesToScp#Configuration" ],
+    "http://plugins.linkedpipes.com/ontology/l-filesToScp#clearDirectory" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+      "@value" : "false"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/l-filesToScp#clearDirectoryControl" : [ {
+      "@id" : "http://plugins.linkedpipes.com/resource/configuration/None"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/l-filesToScp#connectionTimeOutControl" : [ {
+      "@id" : "http://plugins.linkedpipes.com/resource/configuration/None"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/l-filesToScp#createDirectory" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+      "@value" : "true"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/l-filesToScp#createDirectoryControl" : [ {
+      "@id" : "http://plugins.linkedpipes.com/resource/configuration/None"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/l-filesToScp#directory" : [ {
+      "@value" : "/data/soubor"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/l-filesToScp#directoryControl" : [ {
+      "@id" : "http://plugins.linkedpipes.com/resource/configuration/None"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/l-filesToScp#hostControl" : [ {
+      "@id" : "http://plugins.linkedpipes.com/resource/configuration/Force"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/l-filesToScp#passwordControl" : [ {
+      "@id" : "http://plugins.linkedpipes.com/resource/configuration/Force"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/l-filesToScp#portControl" : [ {
+      "@id" : "http://plugins.linkedpipes.com/resource/configuration/Force"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/l-filesToScp#userNameControl" : [ {
+      "@id" : "http://plugins.linkedpipes.com/resource/configuration/Force"
+    } ]
+  } ],
+  "@id" : "https://oha02.dia.gov.cz/etl/resources/components/1693826025360-0008/configuration"
+}, {
+  "@graph" : [ {
+    "@id" : "https://oha02.dia.gov.cz/etl/resources/components/1693827583462-0040",
+    "@type" : [ "http://linkedpipes.com/ontology/Template" ],
+    "http://etl.linkedpipes.com/ontology/version" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#int",
+      "@value" : "5"
+    } ],
+    "http://linkedpipes.com/ontology/configurationGraph" : [ {
+      "@id" : "https://oha02.dia.gov.cz/etl/resources/components/1693827583462-0040/configuration"
+    } ],
+    "http://linkedpipes.com/ontology/pluginTemplate" : [ {
+      "@id" : "http://etl.linkedpipes.com/resources/components/e-sparqlEndpoint/0.0.0"
+    } ],
+    "http://linkedpipes.com/ontology/template" : [ {
+      "@id" : "http://etl.linkedpipes.com/resources/components/e-sparqlEndpoint/0.0.0"
+    } ],
+    "http://purl.org/dc/terms/description" : [ {
+      "@value" : ""
+    } ],
+    "http://www.w3.org/2002/07/owl#sameAs" : [ {
+      "@id" : "https://dev.nkod.opendata.cz/etl/resources/components/1612443346122-de843428-cfea-436b-9b14-5178a25c84d9"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+      "@value" : "NKOD SPARQL endpoint"
+    } ]
+  } ],
+  "@id" : "https://oha02.dia.gov.cz/etl/resources/components/1693827583462-0040"
+}, {
+  "@graph" : [ {
+    "@id" : "https://oha02.dia.gov.cz/etl/resources/components/1693827583462-0040/configuration",
+    "@type" : [ "http://plugins.linkedpipes.com/ontology/e-sparqlEndpoint#Configuration" ],
+    "http://plugins.linkedpipes.com/ontology/e-sparqlEndpoint#defaultGraphControl" : [ {
+      "@id" : "http://plugins.linkedpipes.com/resource/configuration/None"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/e-sparqlEndpoint#encodeRdf" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+      "@value" : "false"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/e-sparqlEndpoint#encodeRdfControl" : [ {
+      "@id" : "http://plugins.linkedpipes.com/resource/configuration/Force"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/e-sparqlEndpoint#endpoint" : [ {
+      "@value" : "http://localhost:8890/sparql"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/e-sparqlEndpoint#endpointControl" : [ {
+      "@id" : "http://plugins.linkedpipes.com/resource/configuration/Force"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/e-sparqlEndpoint#handleInvalidData" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+      "@value" : "false"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/e-sparqlEndpoint#handleInvalidDataControl" : [ {
+      "@id" : "http://plugins.linkedpipes.com/resource/configuration/Force"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/e-sparqlEndpoint#headerAcceptControl" : [ {
+      "@id" : "http://plugins.linkedpipes.com/resource/configuration/Force"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/e-sparqlEndpoint#passwordControl" : [ {
+      "@id" : "http://plugins.linkedpipes.com/resource/configuration/Force"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/e-sparqlEndpoint#query" : [ {
+      "@value" : ""
+    } ],
+    "http://plugins.linkedpipes.com/ontology/e-sparqlEndpoint#queryControl" : [ {
+      "@id" : "http://plugins.linkedpipes.com/resource/configuration/None"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/e-sparqlEndpoint#useAuthentication" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+      "@value" : "false"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/e-sparqlEndpoint#useAuthenticationControl" : [ {
+      "@id" : "http://plugins.linkedpipes.com/resource/configuration/Force"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/e-sparqlEndpoint#useTolerantRepository" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+      "@value" : "false"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/e-sparqlEndpoint#useTolerantRepositoryControl" : [ {
+      "@id" : "http://plugins.linkedpipes.com/resource/configuration/Force"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/e-sparqlEndpoint#userNameControl" : [ {
+      "@id" : "http://plugins.linkedpipes.com/resource/configuration/Force"
+    } ]
+  } ],
+  "@id" : "https://oha02.dia.gov.cz/etl/resources/components/1693827583462-0040/configuration"
+}, {
+  "@graph" : [ {
+    "@id" : "https://oha02.dia.gov.cz/etl/resources/pipelines/1614849417812",
+    "@type" : [ "http://linkedpipes.com/ontology/Pipeline" ],
+    "http://etl.linkedpipes.com/ontology/tag" : [ {
+      "@value" : "NKOD"
+    } ],
+    "http://etl.linkedpipes.com/ontology/version" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#int",
+      "@value" : "5"
+    } ],
+    "http://linkedpipes.com/ontology/events/created" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+      "@value" : "2021-03-04T10:16:57.812"
+    } ],
+    "http://linkedpipes.com/ontology/lastUpdate" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+      "@value" : "2023-09-15T10:44:48.687917807"
+    } ],
+    "http://linkedpipes.com/ontology/profile" : [ {
+      "@id" : "https://oha02.dia.gov.cz/etl/resources/pipelines/1614849417812/profile/default"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+      "@value" : "15 Vytvořit NKOD sitemapy"
+    } ]
+  }, {
+    "@id" : "https://oha02.dia.gov.cz/etl/resources/pipelines/1614849417812/profile/default",
+    "@type" : [ "http://linkedpipes.com/ontology/ExecutionProfile" ],
+    "http://etl.linkedpipes.com/ontology/logRetentionPolicy" : [ {
+      "@id" : "http://linkedpipes.com/resources/Keep"
+    } ],
+    "http://linkedpipes.com/ontology/rdfRepositoryPolicy" : [ {
+      "@id" : "http://linkedpipes.com/ontology/repository/SingleRepository"
+    } ],
+    "http://linkedpipes.com/ontology/rdfRepositoryType" : [ {
+      "@id" : "http://linkedpipes.com/ontology/repository/NativeStore"
+    } ]
+  }, {
+    "@id" : "https://oha02.dia.gov.cz/etl/resources/pipelines/1614849417812161484941781210",
+    "@type" : [ "http://linkedpipes.com/ontology/Component" ],
+    "http://linkedpipes.com/ontology/configurationGraph" : [ {
+      "@id" : "https://oha02.dia.gov.cz/etl/resources/pipelines/1614849417812161484941781210/configuration"
+    } ],
+    "http://linkedpipes.com/ontology/template" : [ {
+      "@id" : "http://etl.linkedpipes.com/resources/components/t-sparqlConstruct/0.0.0"
+    } ],
+    "http://linkedpipes.com/ontology/x" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#int",
+      "@value" : "872"
+    } ],
+    "http://linkedpipes.com/ontology/y" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#int",
+      "@value" : "530"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+      "@value" : "SPARQL construct"
+    } ]
+  }, {
+    "@id" : "https://oha02.dia.gov.cz/etl/resources/pipelines/1614849417812161484941781211",
+    "@type" : [ "http://linkedpipes.com/ontology/Component" ],
+    "http://linkedpipes.com/ontology/configurationGraph" : [ {
+      "@id" : "https://oha02.dia.gov.cz/etl/resources/pipelines/1614849417812161484941781211/configuration"
+    } ],
+    "http://linkedpipes.com/ontology/template" : [ {
+      "@id" : "https://oha02.dia.gov.cz/etl/resources/components/1693826025360-0008"
+    } ],
+    "http://linkedpipes.com/ontology/x" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#int",
+      "@value" : "1104"
+    } ],
+    "http://linkedpipes.com/ontology/y" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#int",
+      "@value" : "250"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+      "@value" : "SCP to Frontend"
+    } ]
+  }, {
+    "@id" : "https://oha02.dia.gov.cz/etl/resources/pipelines/1614849417812161484941781212",
+    "@type" : [ "http://linkedpipes.com/ontology/Component" ],
+    "http://linkedpipes.com/ontology/configurationGraph" : [ {
+      "@id" : "https://oha02.dia.gov.cz/etl/resources/pipelines/1614849417812161484941781212/configuration"
+    } ],
+    "http://linkedpipes.com/ontology/template" : [ {
+      "@id" : "http://etl.linkedpipes.com/resources/components/e-httpGetFile/0.0.0"
+    } ],
+    "http://linkedpipes.com/ontology/x" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#int",
+      "@value" : "168"
+    } ],
+    "http://linkedpipes.com/ontology/y" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#int",
+      "@value" : "542"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+      "@value" : "HTTP get"
+    } ]
+  }, {
+    "@id" : "https://oha02.dia.gov.cz/etl/resources/pipelines/1614849417812161484941781213",
+    "@type" : [ "http://linkedpipes.com/ontology/Component" ],
+    "http://linkedpipes.com/ontology/configurationGraph" : [ {
+      "@id" : "https://oha02.dia.gov.cz/etl/resources/pipelines/1614849417812161484941781213/configuration"
+    } ],
+    "http://linkedpipes.com/ontology/template" : [ {
+      "@id" : "https://oha02.dia.gov.cz/etl/resources/components/1693827583462-0040"
+    } ],
+    "http://linkedpipes.com/ontology/x" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#int",
+      "@value" : "534"
+    } ],
+    "http://linkedpipes.com/ontology/y" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#int",
+      "@value" : "285"
+    } ],
+    "http://purl.org/dc/terms/description" : [ {
+      "@value" : "50 000 - 100 000"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+      "@value" : "NKOD SPARQL endpoint"
+    } ]
+  }, {
+    "@id" : "https://oha02.dia.gov.cz/etl/resources/pipelines/1614849417812161484941781214",
+    "@type" : [ "http://linkedpipes.com/ontology/Component" ],
+    "http://linkedpipes.com/ontology/configurationGraph" : [ {
+      "@id" : "https://oha02.dia.gov.cz/etl/resources/pipelines/1614849417812161484941781214/configuration"
+    } ],
+    "http://linkedpipes.com/ontology/template" : [ {
+      "@id" : "https://oha02.dia.gov.cz/etl/resources/components/1693827583462-0040"
+    } ],
+    "http://linkedpipes.com/ontology/x" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#int",
+      "@value" : "538"
+    } ],
+    "http://linkedpipes.com/ontology/y" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#int",
+      "@value" : "381"
+    } ],
+    "http://purl.org/dc/terms/description" : [ {
+      "@value" : "100 000 - 150 000"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+      "@value" : "NKOD SPARQL endpoint"
+    } ]
+  }, {
+    "@id" : "https://oha02.dia.gov.cz/etl/resources/pipelines/1614849417812161484941781215",
+    "@type" : [ "http://linkedpipes.com/ontology/Component" ],
+    "http://linkedpipes.com/ontology/configurationGraph" : [ {
+      "@id" : "https://oha02.dia.gov.cz/etl/resources/pipelines/1614849417812161484941781215/configuration"
+    } ],
+    "http://linkedpipes.com/ontology/template" : [ {
+      "@id" : "http://etl.linkedpipes.com/resources/components/t-mustache/0.0.0"
+    } ],
+    "http://linkedpipes.com/ontology/x" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#int",
+      "@value" : "1105"
+    } ],
+    "http://linkedpipes.com/ontology/y" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#int",
+      "@value" : "525"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+      "@value" : "Mustache"
+    } ]
+  }, {
+    "@id" : "https://oha02.dia.gov.cz/etl/resources/pipelines/1614849417812161484941781216",
+    "@type" : [ "http://linkedpipes.com/ontology/Component" ],
+    "http://linkedpipes.com/ontology/configurationGraph" : [ {
+      "@id" : "https://oha02.dia.gov.cz/etl/resources/pipelines/1614849417812161484941781216/configuration"
+    } ],
+    "http://linkedpipes.com/ontology/template" : [ {
+      "@id" : "http://etl.linkedpipes.com/resources/components/t-jsonToJsonLd/0.0.0"
+    } ],
+    "http://linkedpipes.com/ontology/x" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#int",
+      "@value" : "336"
+    } ],
+    "http://linkedpipes.com/ontology/y" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#int",
+      "@value" : "537"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+      "@value" : "JSON to JSON-LD"
+    } ]
+  }, {
+    "@id" : "https://oha02.dia.gov.cz/etl/resources/pipelines/1614849417812161484941781217",
+    "@type" : [ "http://linkedpipes.com/ontology/Component" ],
+    "http://linkedpipes.com/ontology/configurationGraph" : [ {
+      "@id" : "https://oha02.dia.gov.cz/etl/resources/pipelines/1614849417812161484941781217/configuration"
+    } ],
+    "http://linkedpipes.com/ontology/template" : [ {
+      "@id" : "http://etl.linkedpipes.com/resources/components/t-filesToRdfGraph/0.0.0"
+    } ],
+    "http://linkedpipes.com/ontology/x" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#int",
+      "@value" : "586"
+    } ],
+    "http://linkedpipes.com/ontology/y" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#int",
+      "@value" : "534"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+      "@value" : "Files to RDF single graph"
+    } ]
+  }, {
+    "@id" : "https://oha02.dia.gov.cz/etl/resources/pipelines/1614849417812161484941781218",
+    "@type" : [ "http://linkedpipes.com/ontology/Connection" ],
+    "http://linkedpipes.com/ontology/sourceBinding" : [ {
+      "@value" : "OutputRdf"
+    } ],
+    "http://linkedpipes.com/ontology/sourceComponent" : [ {
+      "@id" : "https://oha02.dia.gov.cz/etl/resources/pipelines/1614849417812161484941781217"
+    } ],
+    "http://linkedpipes.com/ontology/targetBinding" : [ {
+      "@value" : "InputRdf"
+    } ],
+    "http://linkedpipes.com/ontology/targetComponent" : [ {
+      "@id" : "https://oha02.dia.gov.cz/etl/resources/pipelines/1614849417812161484941781210"
+    } ]
+  }, {
+    "@id" : "https://oha02.dia.gov.cz/etl/resources/pipelines/1614849417812161484941781219",
+    "@type" : [ "http://linkedpipes.com/ontology/Connection" ],
+    "http://linkedpipes.com/ontology/sourceBinding" : [ {
+      "@value" : "OutputFiles"
+    } ],
+    "http://linkedpipes.com/ontology/sourceComponent" : [ {
+      "@id" : "https://oha02.dia.gov.cz/etl/resources/pipelines/161484941781216148494178127"
+    } ],
+    "http://linkedpipes.com/ontology/targetBinding" : [ {
+      "@value" : "FilesInput"
+    } ],
+    "http://linkedpipes.com/ontology/targetComponent" : [ {
+      "@id" : "https://oha02.dia.gov.cz/etl/resources/pipelines/1614849417812161484941781211"
+    } ]
+  }, {
+    "@id" : "https://oha02.dia.gov.cz/etl/resources/pipelines/1614849417812161484941781220",
+    "@type" : [ "http://linkedpipes.com/ontology/Connection" ],
+    "http://linkedpipes.com/ontology/sourceBinding" : [ {
+      "@value" : "OutputFiles"
+    } ],
+    "http://linkedpipes.com/ontology/sourceComponent" : [ {
+      "@id" : "https://oha02.dia.gov.cz/etl/resources/pipelines/161484941781216148494178126"
+    } ],
+    "http://linkedpipes.com/ontology/targetBinding" : [ {
+      "@value" : "FilesInput"
+    } ],
+    "http://linkedpipes.com/ontology/targetComponent" : [ {
+      "@id" : "https://oha02.dia.gov.cz/etl/resources/pipelines/1614849417812161484941781211"
+    } ]
+  }, {
+    "@id" : "https://oha02.dia.gov.cz/etl/resources/pipelines/1614849417812161484941781221",
+    "@type" : [ "http://linkedpipes.com/ontology/Connection" ],
+    "http://linkedpipes.com/ontology/sourceBinding" : [ {
+      "@value" : "FilesOutput"
+    } ],
+    "http://linkedpipes.com/ontology/sourceComponent" : [ {
+      "@id" : "https://oha02.dia.gov.cz/etl/resources/pipelines/1614849417812161484941781212"
+    } ],
+    "http://linkedpipes.com/ontology/targetBinding" : [ {
+      "@value" : "InputFiles"
+    } ],
+    "http://linkedpipes.com/ontology/targetComponent" : [ {
+      "@id" : "https://oha02.dia.gov.cz/etl/resources/pipelines/1614849417812161484941781216"
+    } ]
+  }, {
+    "@id" : "https://oha02.dia.gov.cz/etl/resources/pipelines/1614849417812161484941781222",
+    "@type" : [ "http://linkedpipes.com/ontology/Connection" ],
+    "http://linkedpipes.com/ontology/sourceBinding" : [ {
+      "@value" : "OutputFiles"
+    } ],
+    "http://linkedpipes.com/ontology/sourceComponent" : [ {
+      "@id" : "https://oha02.dia.gov.cz/etl/resources/pipelines/1614849417812161484941781216"
+    } ],
+    "http://linkedpipes.com/ontology/targetBinding" : [ {
+      "@value" : "InputFiles"
+    } ],
+    "http://linkedpipes.com/ontology/targetComponent" : [ {
+      "@id" : "https://oha02.dia.gov.cz/etl/resources/pipelines/1614849417812161484941781217"
+    } ]
+  }, {
+    "@id" : "https://oha02.dia.gov.cz/etl/resources/pipelines/1614849417812161484941781223",
+    "@type" : [ "http://linkedpipes.com/ontology/Connection" ],
+    "http://linkedpipes.com/ontology/sourceBinding" : [ {
+      "@value" : "OutputRdf"
+    } ],
+    "http://linkedpipes.com/ontology/sourceComponent" : [ {
+      "@id" : "https://oha02.dia.gov.cz/etl/resources/pipelines/1614849417812161484941781210"
+    } ],
+    "http://linkedpipes.com/ontology/targetBinding" : [ {
+      "@value" : "InputRdf"
+    } ],
+    "http://linkedpipes.com/ontology/targetComponent" : [ {
+      "@id" : "https://oha02.dia.gov.cz/etl/resources/pipelines/1614849417812161484941781215"
+    } ]
+  }, {
+    "@id" : "https://oha02.dia.gov.cz/etl/resources/pipelines/1614849417812161484941781224",
+    "@type" : [ "http://linkedpipes.com/ontology/Connection" ],
+    "http://linkedpipes.com/ontology/sourceBinding" : [ {
+      "@value" : "OutputFiles"
+    } ],
+    "http://linkedpipes.com/ontology/sourceComponent" : [ {
+      "@id" : "https://oha02.dia.gov.cz/etl/resources/pipelines/1614849417812161484941781215"
+    } ],
+    "http://linkedpipes.com/ontology/targetBinding" : [ {
+      "@value" : "FilesInput"
+    } ],
+    "http://linkedpipes.com/ontology/targetComponent" : [ {
+      "@id" : "https://oha02.dia.gov.cz/etl/resources/pipelines/1614849417812161484941781211"
+    } ]
+  }, {
+    "@id" : "https://oha02.dia.gov.cz/etl/resources/pipelines/1614849417812161484941781225",
+    "@type" : [ "http://linkedpipes.com/ontology/Connection" ],
+    "http://linkedpipes.com/ontology/sourceBinding" : [ {
+      "@value" : "OutputRdf"
+    } ],
+    "http://linkedpipes.com/ontology/sourceComponent" : [ {
+      "@id" : "https://oha02.dia.gov.cz/etl/resources/pipelines/1614849417812161484941781213"
+    } ],
+    "http://linkedpipes.com/ontology/targetBinding" : [ {
+      "@value" : "InputRdf"
+    } ],
+    "http://linkedpipes.com/ontology/targetComponent" : [ {
+      "@id" : "https://oha02.dia.gov.cz/etl/resources/pipelines/161484941781216148494178128"
+    } ]
+  }, {
+    "@id" : "https://oha02.dia.gov.cz/etl/resources/pipelines/1614849417812161484941781226",
+    "@type" : [ "http://linkedpipes.com/ontology/Connection" ],
+    "http://linkedpipes.com/ontology/sourceBinding" : [ {
+      "@value" : "OutputFiles"
+    } ],
+    "http://linkedpipes.com/ontology/sourceComponent" : [ {
+      "@id" : "https://oha02.dia.gov.cz/etl/resources/pipelines/161484941781216148494178123"
+    } ],
+    "http://linkedpipes.com/ontology/targetBinding" : [ {
+      "@value" : "FilesInput"
+    } ],
+    "http://linkedpipes.com/ontology/targetComponent" : [ {
+      "@id" : "https://oha02.dia.gov.cz/etl/resources/pipelines/1614849417812161484941781211"
+    } ]
+  }, {
+    "@id" : "https://oha02.dia.gov.cz/etl/resources/pipelines/1614849417812161484941781227",
+    "@type" : [ "http://linkedpipes.com/ontology/Connection" ],
+    "http://linkedpipes.com/ontology/sourceBinding" : [ {
+      "@value" : "OutputRdf"
+    } ],
+    "http://linkedpipes.com/ontology/sourceComponent" : [ {
+      "@id" : "https://oha02.dia.gov.cz/etl/resources/pipelines/161484941781216148494178129"
+    } ],
+    "http://linkedpipes.com/ontology/targetBinding" : [ {
+      "@value" : "InputRdf"
+    } ],
+    "http://linkedpipes.com/ontology/targetComponent" : [ {
+      "@id" : "https://oha02.dia.gov.cz/etl/resources/pipelines/161484941781216148494178127"
+    } ]
+  }, {
+    "@id" : "https://oha02.dia.gov.cz/etl/resources/pipelines/1614849417812161484941781228",
+    "@type" : [ "http://linkedpipes.com/ontology/Connection" ],
+    "http://linkedpipes.com/ontology/sourceBinding" : [ {
+      "@value" : "OutputRdf"
+    } ],
+    "http://linkedpipes.com/ontology/sourceComponent" : [ {
+      "@id" : "https://oha02.dia.gov.cz/etl/resources/pipelines/1614849417812161484941781214"
+    } ],
+    "http://linkedpipes.com/ontology/targetBinding" : [ {
+      "@value" : "InputRdf"
+    } ],
+    "http://linkedpipes.com/ontology/targetComponent" : [ {
+      "@id" : "https://oha02.dia.gov.cz/etl/resources/pipelines/161484941781216148494178123"
+    } ]
+  }, {
+    "@id" : "https://oha02.dia.gov.cz/etl/resources/pipelines/1614849417812161484941781229",
+    "@type" : [ "http://linkedpipes.com/ontology/Connection" ],
+    "http://linkedpipes.com/ontology/sourceBinding" : [ {
+      "@value" : "OutputFiles"
+    } ],
+    "http://linkedpipes.com/ontology/sourceComponent" : [ {
+      "@id" : "https://oha02.dia.gov.cz/etl/resources/pipelines/161484941781216148494178128"
+    } ],
+    "http://linkedpipes.com/ontology/targetBinding" : [ {
+      "@value" : "FilesInput"
+    } ],
+    "http://linkedpipes.com/ontology/targetComponent" : [ {
+      "@id" : "https://oha02.dia.gov.cz/etl/resources/pipelines/1614849417812161484941781211"
+    } ]
+  }, {
+    "@id" : "https://oha02.dia.gov.cz/etl/resources/pipelines/161484941781216148494178123",
+    "@type" : [ "http://linkedpipes.com/ontology/Component" ],
+    "http://linkedpipes.com/ontology/configurationGraph" : [ {
+      "@id" : "https://oha02.dia.gov.cz/etl/resources/pipelines/161484941781216148494178123/configuration"
+    } ],
+    "http://linkedpipes.com/ontology/template" : [ {
+      "@id" : "http://etl.linkedpipes.com/resources/components/t-mustache/0.0.0"
+    } ],
+    "http://linkedpipes.com/ontology/x" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#int",
+      "@value" : "860"
+    } ],
+    "http://linkedpipes.com/ontology/y" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#int",
+      "@value" : "400"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+      "@value" : "Mustache"
+    } ]
+  }, {
+    "@id" : "https://oha02.dia.gov.cz/etl/resources/pipelines/161484941781216148494178124",
+    "@type" : [ "http://linkedpipes.com/ontology/Connection" ],
+    "http://linkedpipes.com/ontology/sourceBinding" : [ {
+      "@value" : "OutputRdf"
+    } ],
+    "http://linkedpipes.com/ontology/sourceComponent" : [ {
+      "@id" : "https://oha02.dia.gov.cz/etl/resources/pipelines/161484941781216148494178125"
+    } ],
+    "http://linkedpipes.com/ontology/targetBinding" : [ {
+      "@value" : "InputRdf"
+    } ],
+    "http://linkedpipes.com/ontology/targetComponent" : [ {
+      "@id" : "https://oha02.dia.gov.cz/etl/resources/pipelines/161484941781216148494178126"
+    } ]
+  }, {
+    "@id" : "https://oha02.dia.gov.cz/etl/resources/pipelines/161484941781216148494178125",
+    "@type" : [ "http://linkedpipes.com/ontology/Component" ],
+    "http://linkedpipes.com/ontology/configurationGraph" : [ {
+      "@id" : "https://oha02.dia.gov.cz/etl/resources/pipelines/161484941781216148494178125/configuration"
+    } ],
+    "http://linkedpipes.com/ontology/template" : [ {
+      "@id" : "http://etl.linkedpipes.com/resources/components/t-sparqlConstruct/0.0.0"
+    } ],
+    "http://linkedpipes.com/ontology/x" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#int",
+      "@value" : "580"
+    } ],
+    "http://linkedpipes.com/ontology/y" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#int",
+      "@value" : "100"
+    } ],
+    "http://purl.org/dc/terms/description" : [ {
+      "@value" : "Sitemap index"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+      "@value" : "SPARQL construct"
+    } ]
+  }, {
+    "@id" : "https://oha02.dia.gov.cz/etl/resources/pipelines/161484941781216148494178126",
+    "@type" : [ "http://linkedpipes.com/ontology/Component" ],
+    "http://linkedpipes.com/ontology/configurationGraph" : [ {
+      "@id" : "https://oha02.dia.gov.cz/etl/resources/pipelines/161484941781216148494178126/configuration"
+    } ],
+    "http://linkedpipes.com/ontology/template" : [ {
+      "@id" : "http://etl.linkedpipes.com/resources/components/t-mustache/0.0.0"
+    } ],
+    "http://linkedpipes.com/ontology/x" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#int",
+      "@value" : "860"
+    } ],
+    "http://linkedpipes.com/ontology/y" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#int",
+      "@value" : "100"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+      "@value" : "Mustache"
+    } ]
+  }, {
+    "@id" : "https://oha02.dia.gov.cz/etl/resources/pipelines/161484941781216148494178127",
+    "@type" : [ "http://linkedpipes.com/ontology/Component" ],
+    "http://linkedpipes.com/ontology/configurationGraph" : [ {
+      "@id" : "https://oha02.dia.gov.cz/etl/resources/pipelines/161484941781216148494178127/configuration"
+    } ],
+    "http://linkedpipes.com/ontology/template" : [ {
+      "@id" : "http://etl.linkedpipes.com/resources/components/t-mustache/0.0.0"
+    } ],
+    "http://linkedpipes.com/ontology/x" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#int",
+      "@value" : "860"
+    } ],
+    "http://linkedpipes.com/ontology/y" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#int",
+      "@value" : "200"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+      "@value" : "Mustache"
+    } ]
+  }, {
+    "@id" : "https://oha02.dia.gov.cz/etl/resources/pipelines/161484941781216148494178128",
+    "@type" : [ "http://linkedpipes.com/ontology/Component" ],
+    "http://linkedpipes.com/ontology/configurationGraph" : [ {
+      "@id" : "https://oha02.dia.gov.cz/etl/resources/pipelines/161484941781216148494178128/configuration"
+    } ],
+    "http://linkedpipes.com/ontology/template" : [ {
+      "@id" : "http://etl.linkedpipes.com/resources/components/t-mustache/0.0.0"
+    } ],
+    "http://linkedpipes.com/ontology/x" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#int",
+      "@value" : "860"
+    } ],
+    "http://linkedpipes.com/ontology/y" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#int",
+      "@value" : "300"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+      "@value" : "Mustache"
+    } ]
+  }, {
+    "@id" : "https://oha02.dia.gov.cz/etl/resources/pipelines/161484941781216148494178129",
+    "@type" : [ "http://linkedpipes.com/ontology/Component" ],
+    "http://linkedpipes.com/ontology/configurationGraph" : [ {
+      "@id" : "https://oha02.dia.gov.cz/etl/resources/pipelines/161484941781216148494178129/configuration"
+    } ],
+    "http://linkedpipes.com/ontology/template" : [ {
+      "@id" : "https://oha02.dia.gov.cz/etl/resources/components/1693827583462-0040"
+    } ],
+    "http://linkedpipes.com/ontology/x" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#int",
+      "@value" : "533"
+    } ],
+    "http://linkedpipes.com/ontology/y" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#int",
+      "@value" : "196"
+    } ],
+    "http://purl.org/dc/terms/description" : [ {
+      "@value" : "0 - 50 000"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+      "@value" : "NKOD SPARQL endpoint"
+    } ]
+  } ],
+  "@id" : "https://oha02.dia.gov.cz/etl/resources/pipelines/1614849417812"
+}, {
+  "@graph" : [ {
+    "@id" : "https://oha02.dia.gov.cz/etl/resources/pipelines/1614849417812161484941781210/1",
+    "@type" : [ "http://plugins.linkedpipes.com/ontology/t-sparqlConstruct#Configuration" ],
+    "http://plugins.linkedpipes.com/ontology/t-sparqlConstruct#query" : [ {
+      "@value" : "PREFIX : <http://localhost/ontology/>\n\nCONSTRUCT { \n  <http://localhost/root> a :Data ;\n    :data ?encPath ;\n    <http://plugins.linkedpipes.com/ontology/t-mustache#fileName> \"smap-ofn.xml\" .\n} \nWHERE { \n  [] a :Data ;\n     :data/:tree ?tree .\n  ?tree :type \"tree\" ;\n        :path ?path .\n  \n  FILTER(REGEX(?path, \"^((registr-práv-a-povinností/[^/]+/((draft)|([0-9]{4}-[0-9]{2}-[0-9]{2})))|([^/]+/((draft)|([0-9]{4}-[0-9]{2}-[0-9]{2}))))$\"))\n  BIND(CONCAT(\"https://ofn.gov.cz/\", REPLACE(ENCODE_FOR_URI(?path), \"%2F\", \"/\"), \"/\") AS ?encPath)\n}"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/t-sparqlConstruct#queryControl" : [ {
+      "@id" : "http://plugins.linkedpipes.com/resource/configuration/None"
+    } ]
+  } ],
+  "@id" : "https://oha02.dia.gov.cz/etl/resources/pipelines/1614849417812161484941781210/configuration"
+}, {
+  "@graph" : [ {
+    "@id" : "https://oha02.dia.gov.cz/etl/resources/pipelines/1614849417812161484941781211/1",
+    "@type" : [ "http://plugins.linkedpipes.com/ontology/l-filesToScp#Configuration" ],
+    "http://plugins.linkedpipes.com/ontology/l-filesToScp#clearDirectory" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+      "@value" : "true"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/l-filesToScp#clearDirectoryControl" : [ {
+      "@id" : "http://plugins.linkedpipes.com/resource/configuration/None"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/l-filesToScp#connectionTimeOutControl" : [ {
+      "@id" : "http://plugins.linkedpipes.com/resource/configuration/Inherit"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/l-filesToScp#createDirectory" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+      "@value" : "true"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/l-filesToScp#createDirectoryControl" : [ {
+      "@id" : "http://plugins.linkedpipes.com/resource/configuration/None"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/l-filesToScp#directory" : [ {
+      "@value" : "/data/sitemaps"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/l-filesToScp#directoryControl" : [ {
+      "@id" : "http://plugins.linkedpipes.com/resource/configuration/None"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/l-filesToScp#hostControl" : [ {
+      "@id" : "http://plugins.linkedpipes.com/resource/configuration/Inherit"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/l-filesToScp#passwordControl" : [ {
+      "@id" : "http://plugins.linkedpipes.com/resource/configuration/Inherit"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/l-filesToScp#portControl" : [ {
+      "@id" : "http://plugins.linkedpipes.com/resource/configuration/Inherit"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/l-filesToScp#userNameControl" : [ {
+      "@id" : "http://plugins.linkedpipes.com/resource/configuration/Inherit"
+    } ]
+  } ],
+  "@id" : "https://oha02.dia.gov.cz/etl/resources/pipelines/1614849417812161484941781211/configuration"
+}, {
+  "@graph" : [ {
+    "@id" : "https://oha02.dia.gov.cz/etl/resources/pipelines/1614849417812161484941781212/1",
+    "@type" : [ "http://plugins.linkedpipes.com/ontology/e-httpGetFile#Configuration" ],
+    "http://plugins.linkedpipes.com/ontology/e-httpGetFile#encodeUrl" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+      "@value" : "false"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/e-httpGetFile#encodeUrlControl" : [ {
+      "@id" : "http://plugins.linkedpipes.com/resource/configuration/None"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/e-httpGetFile#fileName" : [ {
+      "@value" : "tree.json"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/e-httpGetFile#fileNameControl" : [ {
+      "@id" : "http://plugins.linkedpipes.com/resource/configuration/None"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/e-httpGetFile#fileUri" : [ {
+      "@value" : "https://api.github.com/repos/opendata-mvcr/otevrene-formalni-normy/git/trees/master?recursive=1"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/e-httpGetFile#fileUriControl" : [ {
+      "@id" : "http://plugins.linkedpipes.com/resource/configuration/None"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/e-httpGetFile#hardRedirect" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+      "@value" : "false"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/e-httpGetFile#hardRedirectControl" : [ {
+      "@id" : "http://plugins.linkedpipes.com/resource/configuration/None"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/e-httpGetFile#userAgent" : [ {
+      "@value" : ""
+    } ],
+    "http://plugins.linkedpipes.com/ontology/e-httpGetFile#userAgentControl" : [ {
+      "@id" : "http://plugins.linkedpipes.com/resource/configuration/None"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/e-httpGetFile#utf8Redirect" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+      "@value" : "false"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/e-httpGetFile#utf8RedirectControl" : [ {
+      "@id" : "http://plugins.linkedpipes.com/resource/configuration/None"
+    } ]
+  } ],
+  "@id" : "https://oha02.dia.gov.cz/etl/resources/pipelines/1614849417812161484941781212/configuration"
+}, {
+  "@graph" : [ {
+    "@id" : "https://oha02.dia.gov.cz/etl/resources/pipelines/1614849417812161484941781213/1",
+    "@type" : [ "http://plugins.linkedpipes.com/ontology/e-sparqlEndpoint#Configuration" ],
+    "http://plugins.linkedpipes.com/ontology/e-sparqlEndpoint#defaultGraphControl" : [ {
+      "@id" : "http://plugins.linkedpipes.com/resource/configuration/Inherit"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/e-sparqlEndpoint#encodeRdf" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+      "@value" : "false"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/e-sparqlEndpoint#encodeRdfControl" : [ {
+      "@id" : "http://plugins.linkedpipes.com/resource/configuration/Inherit"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/e-sparqlEndpoint#endpoint" : [ {
+      "@value" : "http://localhost:8890/sparql"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/e-sparqlEndpoint#endpointControl" : [ {
+      "@id" : "http://plugins.linkedpipes.com/resource/configuration/Inherit"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/e-sparqlEndpoint#handleInvalidData" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+      "@value" : "false"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/e-sparqlEndpoint#handleInvalidDataControl" : [ {
+      "@id" : "http://plugins.linkedpipes.com/resource/configuration/Inherit"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/e-sparqlEndpoint#headerAcceptControl" : [ {
+      "@id" : "http://plugins.linkedpipes.com/resource/configuration/Inherit"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/e-sparqlEndpoint#passwordControl" : [ {
+      "@id" : "http://plugins.linkedpipes.com/resource/configuration/Inherit"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/e-sparqlEndpoint#query" : [ {
+      "@value" : "PREFIX dcat: <http://www.w3.org/ns/dcat#>\nPREFIX dcterms: <http://purl.org/dc/terms/>\n\nPREFIX mustache: <http://plugins.linkedpipes.com/ontology/t-mustache#>\n\nCONSTRUCT { \n  <http://localhost/catalog> a dcat:Catalog ;\n    mustache:fileName \"smap2.xml\" ;\n    dcat:dataset ?dataset .\n  \n  ?dataset a dcat:Dataset ;\n    dcterms:identifier ?newid .\n}\nWHERE {\n  GRAPH ?dataset { ?dataset a dcat:Dataset}\n  BIND(CONCAT(\"https://data.gov.cz/datov%C3%A1-sada?iri=\",STR(ENCODE_FOR_URI(?dataset))) AS ?newid)\n}\nLIMIT 50000\nOFFSET 50000"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/e-sparqlEndpoint#queryControl" : [ {
+      "@id" : "http://plugins.linkedpipes.com/resource/configuration/None"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/e-sparqlEndpoint#useAuthentication" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+      "@value" : "false"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/e-sparqlEndpoint#useAuthenticationControl" : [ {
+      "@id" : "http://plugins.linkedpipes.com/resource/configuration/Inherit"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/e-sparqlEndpoint#useTolerantRepository" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+      "@value" : "false"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/e-sparqlEndpoint#useTolerantRepositoryControl" : [ {
+      "@id" : "http://plugins.linkedpipes.com/resource/configuration/Inherit"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/e-sparqlEndpoint#userNameControl" : [ {
+      "@id" : "http://plugins.linkedpipes.com/resource/configuration/Inherit"
+    } ]
+  } ],
+  "@id" : "https://oha02.dia.gov.cz/etl/resources/pipelines/1614849417812161484941781213/configuration"
+}, {
+  "@graph" : [ {
+    "@id" : "https://oha02.dia.gov.cz/etl/resources/pipelines/1614849417812161484941781214/1",
+    "@type" : [ "http://plugins.linkedpipes.com/ontology/e-sparqlEndpoint#Configuration" ],
+    "http://plugins.linkedpipes.com/ontology/e-sparqlEndpoint#defaultGraphControl" : [ {
+      "@id" : "http://plugins.linkedpipes.com/resource/configuration/Inherit"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/e-sparqlEndpoint#encodeRdf" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+      "@value" : "false"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/e-sparqlEndpoint#encodeRdfControl" : [ {
+      "@id" : "http://plugins.linkedpipes.com/resource/configuration/Inherit"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/e-sparqlEndpoint#endpoint" : [ {
+      "@value" : "http://localhost:8890/sparql"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/e-sparqlEndpoint#endpointControl" : [ {
+      "@id" : "http://plugins.linkedpipes.com/resource/configuration/Inherit"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/e-sparqlEndpoint#handleInvalidData" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+      "@value" : "false"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/e-sparqlEndpoint#handleInvalidDataControl" : [ {
+      "@id" : "http://plugins.linkedpipes.com/resource/configuration/Inherit"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/e-sparqlEndpoint#headerAcceptControl" : [ {
+      "@id" : "http://plugins.linkedpipes.com/resource/configuration/Inherit"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/e-sparqlEndpoint#passwordControl" : [ {
+      "@id" : "http://plugins.linkedpipes.com/resource/configuration/Inherit"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/e-sparqlEndpoint#query" : [ {
+      "@value" : "PREFIX dcat: <http://www.w3.org/ns/dcat#>\nPREFIX dcterms: <http://purl.org/dc/terms/>\n\nPREFIX mustache: <http://plugins.linkedpipes.com/ontology/t-mustache#>\n\nCONSTRUCT { \n  <http://localhost/catalog> a dcat:Catalog ;\n    mustache:fileName \"smap3.xml\" ;\n    dcat:dataset ?dataset .\n  \n  ?dataset a dcat:Dataset ;\n    dcterms:identifier ?newid .\n}\nWHERE {\n  GRAPH ?dataset { ?dataset a dcat:Dataset}\n  BIND(CONCAT(\"https://data.gov.cz/datov%C3%A1-sada?iri=\",STR(ENCODE_FOR_URI(?dataset))) AS ?newid)\n}\nLIMIT 50000\nOFFSET 100000"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/e-sparqlEndpoint#queryControl" : [ {
+      "@id" : "http://plugins.linkedpipes.com/resource/configuration/None"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/e-sparqlEndpoint#useAuthentication" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+      "@value" : "false"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/e-sparqlEndpoint#useAuthenticationControl" : [ {
+      "@id" : "http://plugins.linkedpipes.com/resource/configuration/Inherit"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/e-sparqlEndpoint#useTolerantRepository" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+      "@value" : "false"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/e-sparqlEndpoint#useTolerantRepositoryControl" : [ {
+      "@id" : "http://plugins.linkedpipes.com/resource/configuration/Inherit"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/e-sparqlEndpoint#userNameControl" : [ {
+      "@id" : "http://plugins.linkedpipes.com/resource/configuration/Inherit"
+    } ]
+  } ],
+  "@id" : "https://oha02.dia.gov.cz/etl/resources/pipelines/1614849417812161484941781214/configuration"
+}, {
+  "@graph" : [ {
+    "@id" : "https://oha02.dia.gov.cz/etl/resources/pipelines/1614849417812161484941781215/1",
+    "@type" : [ "http://plugins.linkedpipes.com/ontology/t-mustache#Configuration" ],
+    "http://plugins.linkedpipes.com/ontology/t-mustache#addFirstFlag" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+      "@value" : "false"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/t-mustache#addFirstFlagControl" : [ {
+      "@id" : "http://plugins.linkedpipes.com/resource/configuration/None"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/t-mustache#class" : [ {
+      "@value" : "http://localhost/ontology/Data"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/t-mustache#classControl" : [ {
+      "@id" : "http://plugins.linkedpipes.com/resource/configuration/None"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/t-mustache#escapeForJson" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+      "@value" : "false"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/t-mustache#escapeForJsonControl" : [ {
+      "@id" : "http://plugins.linkedpipes.com/resource/configuration/None"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/t-mustache#template" : [ {
+      "@value" : "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<urlset xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xsi:schemaLocation=\"http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd\">\n{{#http://localhost/ontology/data}}\n<url><loc>{{{.}}}</loc></url>\n{{/http://localhost/ontology/data}}\n</urlset>"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/t-mustache#templateControl" : [ {
+      "@id" : "http://plugins.linkedpipes.com/resource/configuration/None"
+    } ]
+  } ],
+  "@id" : "https://oha02.dia.gov.cz/etl/resources/pipelines/1614849417812161484941781215/configuration"
+}, {
+  "@graph" : [ {
+    "@id" : "https://oha02.dia.gov.cz/etl/resources/pipelines/1614849417812161484941781216/1",
+    "@type" : [ "http://plugins.linkedpipes.com/ontology/t-jsonToJsonLd#Configuration" ],
+    "http://plugins.linkedpipes.com/ontology/t-jsonToJsonLd#context" : [ {
+      "@value" : "{\"@vocab\":\"http://localhost/ontology/\"}"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/t-jsonToJsonLd#contextControl" : [ {
+      "@id" : "http://plugins.linkedpipes.com/resource/configuration/None"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/t-jsonToJsonLd#dataPredicate" : [ {
+      "@id" : "http://localhost/ontology/data"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/t-jsonToJsonLd#dataPredicateControl" : [ {
+      "@id" : "http://plugins.linkedpipes.com/resource/configuration/None"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/t-jsonToJsonLd#encoding" : [ {
+      "@value" : "UTF-8"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/t-jsonToJsonLd#encodingControl" : [ {
+      "@id" : "http://plugins.linkedpipes.com/resource/configuration/None"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/t-jsonToJsonLd#filePredicate" : [ {
+      "@id" : "http://localhost/ontology/filePredicate"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/t-jsonToJsonLd#filePredicateControl" : [ {
+      "@id" : "http://plugins.linkedpipes.com/resource/configuration/None"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/t-jsonToJsonLd#fileReference" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+      "@value" : "true"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/t-jsonToJsonLd#fileReferenceControl" : [ {
+      "@id" : "http://plugins.linkedpipes.com/resource/configuration/None"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/t-jsonToJsonLd#type" : [ {
+      "@id" : "http://localhost/ontology/Data"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/t-jsonToJsonLd#typeControl" : [ {
+      "@id" : "http://plugins.linkedpipes.com/resource/configuration/None"
+    } ]
+  } ],
+  "@id" : "https://oha02.dia.gov.cz/etl/resources/pipelines/1614849417812161484941781216/configuration"
+}, {
+  "@graph" : [ {
+    "@id" : "https://oha02.dia.gov.cz/etl/resources/pipelines/1614849417812161484941781217/1",
+    "@type" : [ "http://plugins.linkedpipes.com/ontology/t-filesToRdfGraph#Configuration" ],
+    "http://plugins.linkedpipes.com/ontology/t-filesToRdfGraph#commitSize" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+      "@value" : "50000"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/t-filesToRdfGraph#commitSizeControl" : [ {
+      "@id" : "http://plugins.linkedpipes.com/resource/configuration/None"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/t-filesToRdfGraph#mimeType" : [ {
+      "@value" : ""
+    } ],
+    "http://plugins.linkedpipes.com/ontology/t-filesToRdfGraph#mimeTypeControl" : [ {
+      "@id" : "http://plugins.linkedpipes.com/resource/configuration/None"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/t-filesToRdfGraph#softFail" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+      "@value" : "false"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/t-filesToRdfGraph#softFailControl" : [ {
+      "@id" : "http://plugins.linkedpipes.com/resource/configuration/None"
+    } ]
+  } ],
+  "@id" : "https://oha02.dia.gov.cz/etl/resources/pipelines/1614849417812161484941781217/configuration"
+}, {
+  "@graph" : [ {
+    "@id" : "https://oha02.dia.gov.cz/etl/resources/pipelines/161484941781216148494178123/1",
+    "@type" : [ "http://plugins.linkedpipes.com/ontology/t-mustache#Configuration" ],
+    "http://plugins.linkedpipes.com/ontology/t-mustache#addFirstFlag" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+      "@value" : "false"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/t-mustache#addFirstFlagControl" : [ {
+      "@id" : "http://plugins.linkedpipes.com/resource/configuration/None"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/t-mustache#class" : [ {
+      "@value" : "http://www.w3.org/ns/dcat#Catalog"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/t-mustache#classControl" : [ {
+      "@id" : "http://plugins.linkedpipes.com/resource/configuration/None"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/t-mustache#template" : [ {
+      "@value" : "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<urlset xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n{{#http://www.w3.org/ns/dcat#dataset}}\n   <url>\n      <loc>{{{http://purl.org/dc/terms/identifier}}}</loc>\n      <changefreq>daily</changefreq>\n   </url>\n{{/http://www.w3.org/ns/dcat#dataset}}\n</urlset>"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/t-mustache#templateControl" : [ {
+      "@id" : "http://plugins.linkedpipes.com/resource/configuration/None"
+    } ]
+  } ],
+  "@id" : "https://oha02.dia.gov.cz/etl/resources/pipelines/161484941781216148494178123/configuration"
+}, {
+  "@graph" : [ {
+    "@id" : "https://oha02.dia.gov.cz/etl/resources/pipelines/161484941781216148494178125/1",
+    "@type" : [ "http://plugins.linkedpipes.com/ontology/t-sparqlConstruct#Configuration" ],
+    "http://plugins.linkedpipes.com/ontology/t-sparqlConstruct#query" : [ {
+      "@value" : "PREFIX temp: <http://localhost/>\nPREFIX mustache: <http://plugins.linkedpipes.com/ontology/t-mustache#>\n\nCONSTRUCT { \n<http://localhost/config> a temp:Configuration ;\n    mustache:fileName \"index.xml\" ;\n    temp:now ?now .\n} \nWHERE { \nBIND(NOW() as ?now)\n}"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/t-sparqlConstruct#queryControl" : [ {
+      "@id" : "http://plugins.linkedpipes.com/resource/configuration/None"
+    } ]
+  } ],
+  "@id" : "https://oha02.dia.gov.cz/etl/resources/pipelines/161484941781216148494178125/configuration"
+}, {
+  "@graph" : [ {
+    "@id" : "https://oha02.dia.gov.cz/etl/resources/pipelines/161484941781216148494178126/1",
+    "@type" : [ "http://plugins.linkedpipes.com/ontology/t-mustache#Configuration" ],
+    "http://plugins.linkedpipes.com/ontology/t-mustache#addFirstFlag" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+      "@value" : "false"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/t-mustache#addFirstFlagControl" : [ {
+      "@id" : "http://plugins.linkedpipes.com/resource/configuration/None"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/t-mustache#class" : [ {
+      "@value" : "http://localhost/Configuration"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/t-mustache#classControl" : [ {
+      "@id" : "http://plugins.linkedpipes.com/resource/configuration/None"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/t-mustache#escapeForJson" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+      "@value" : "false"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/t-mustache#escapeForJsonControl" : [ {
+      "@id" : "http://plugins.linkedpipes.com/resource/configuration/None"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/t-mustache#template" : [ {
+      "@value" : "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n   <sitemap>\n      <loc>https://data.gov.cz/smap-pages.xml</loc>\n      <lastmod>{{http://localhost/now}}</lastmod>\n   </sitemap>\n   <sitemap>\n      <loc>https://data.gov.cz/smap1.xml</loc>\n      <lastmod>{{http://localhost/now}}</lastmod>\n   </sitemap>\n   <sitemap>\n      <loc>https://data.gov.cz/smap2.xml</loc>\n      <lastmod>{{http://localhost/now}}</lastmod>\n   </sitemap>\n   <sitemap>\n      <loc>https://data.gov.cz/smap3.xml</loc>\n      <lastmod>{{http://localhost/now}}</lastmod>\n   </sitemap>\n</sitemapindex>"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/t-mustache#templateControl" : [ {
+      "@id" : "http://plugins.linkedpipes.com/resource/configuration/None"
+    } ]
+  } ],
+  "@id" : "https://oha02.dia.gov.cz/etl/resources/pipelines/161484941781216148494178126/configuration"
+}, {
+  "@graph" : [ {
+    "@id" : "https://oha02.dia.gov.cz/etl/resources/pipelines/161484941781216148494178127/1",
+    "@type" : [ "http://plugins.linkedpipes.com/ontology/t-mustache#Configuration" ],
+    "http://plugins.linkedpipes.com/ontology/t-mustache#addFirstFlag" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+      "@value" : "false"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/t-mustache#addFirstFlagControl" : [ {
+      "@id" : "http://plugins.linkedpipes.com/resource/configuration/None"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/t-mustache#class" : [ {
+      "@value" : "http://www.w3.org/ns/dcat#Catalog"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/t-mustache#classControl" : [ {
+      "@id" : "http://plugins.linkedpipes.com/resource/configuration/None"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/t-mustache#template" : [ {
+      "@value" : "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<urlset xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n{{#http://www.w3.org/ns/dcat#dataset}}\n   <url>\n      <loc>{{{http://purl.org/dc/terms/identifier}}}</loc>\n      <changefreq>daily</changefreq>\n   </url>\n{{/http://www.w3.org/ns/dcat#dataset}}\n</urlset>"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/t-mustache#templateControl" : [ {
+      "@id" : "http://plugins.linkedpipes.com/resource/configuration/None"
+    } ]
+  } ],
+  "@id" : "https://oha02.dia.gov.cz/etl/resources/pipelines/161484941781216148494178127/configuration"
+}, {
+  "@graph" : [ {
+    "@id" : "https://oha02.dia.gov.cz/etl/resources/pipelines/161484941781216148494178128/1",
+    "@type" : [ "http://plugins.linkedpipes.com/ontology/t-mustache#Configuration" ],
+    "http://plugins.linkedpipes.com/ontology/t-mustache#addFirstFlag" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+      "@value" : "false"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/t-mustache#addFirstFlagControl" : [ {
+      "@id" : "http://plugins.linkedpipes.com/resource/configuration/None"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/t-mustache#class" : [ {
+      "@value" : "http://www.w3.org/ns/dcat#Catalog"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/t-mustache#classControl" : [ {
+      "@id" : "http://plugins.linkedpipes.com/resource/configuration/None"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/t-mustache#template" : [ {
+      "@value" : "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<urlset xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n{{#http://www.w3.org/ns/dcat#dataset}}\n   <url>\n      <loc>{{{http://purl.org/dc/terms/identifier}}}</loc>\n      <changefreq>daily</changefreq>\n   </url>\n{{/http://www.w3.org/ns/dcat#dataset}}\n</urlset>"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/t-mustache#templateControl" : [ {
+      "@id" : "http://plugins.linkedpipes.com/resource/configuration/None"
+    } ]
+  } ],
+  "@id" : "https://oha02.dia.gov.cz/etl/resources/pipelines/161484941781216148494178128/configuration"
+}, {
+  "@graph" : [ {
+    "@id" : "https://oha02.dia.gov.cz/etl/resources/pipelines/161484941781216148494178129/1",
+    "@type" : [ "http://plugins.linkedpipes.com/ontology/e-sparqlEndpoint#Configuration" ],
+    "http://plugins.linkedpipes.com/ontology/e-sparqlEndpoint#defaultGraphControl" : [ {
+      "@id" : "http://plugins.linkedpipes.com/resource/configuration/Inherit"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/e-sparqlEndpoint#encodeRdf" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+      "@value" : "false"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/e-sparqlEndpoint#encodeRdfControl" : [ {
+      "@id" : "http://plugins.linkedpipes.com/resource/configuration/Inherit"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/e-sparqlEndpoint#endpoint" : [ {
+      "@value" : "http://localhost:8890/sparql"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/e-sparqlEndpoint#endpointControl" : [ {
+      "@id" : "http://plugins.linkedpipes.com/resource/configuration/Inherit"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/e-sparqlEndpoint#handleInvalidData" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+      "@value" : "false"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/e-sparqlEndpoint#handleInvalidDataControl" : [ {
+      "@id" : "http://plugins.linkedpipes.com/resource/configuration/Inherit"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/e-sparqlEndpoint#headerAcceptControl" : [ {
+      "@id" : "http://plugins.linkedpipes.com/resource/configuration/Inherit"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/e-sparqlEndpoint#passwordControl" : [ {
+      "@id" : "http://plugins.linkedpipes.com/resource/configuration/Inherit"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/e-sparqlEndpoint#query" : [ {
+      "@value" : "PREFIX dcat: <http://www.w3.org/ns/dcat#>\nPREFIX dcterms: <http://purl.org/dc/terms/>\n\nPREFIX mustache: <http://plugins.linkedpipes.com/ontology/t-mustache#>\n\nCONSTRUCT { \n  <http://localhost/catalog> a dcat:Catalog ;\n    mustache:fileName \"smap1.xml\" ;\n    dcat:dataset ?dataset .\n  \n  ?dataset a dcat:Dataset ;\n    dcterms:identifier ?newid .\n}\nWHERE {\n  GRAPH ?dataset { ?dataset a dcat:Dataset}\n  BIND(CONCAT(\"https://data.gov.cz/datov%C3%A1-sada?iri=\",STR(ENCODE_FOR_URI(?dataset))) AS ?newid)\n}\nLIMIT 50000\nOFFSET 0"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/e-sparqlEndpoint#queryControl" : [ {
+      "@id" : "http://plugins.linkedpipes.com/resource/configuration/None"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/e-sparqlEndpoint#useAuthentication" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+      "@value" : "false"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/e-sparqlEndpoint#useAuthenticationControl" : [ {
+      "@id" : "http://plugins.linkedpipes.com/resource/configuration/Inherit"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/e-sparqlEndpoint#useTolerantRepository" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+      "@value" : "false"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/e-sparqlEndpoint#useTolerantRepositoryControl" : [ {
+      "@id" : "http://plugins.linkedpipes.com/resource/configuration/Inherit"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/e-sparqlEndpoint#userNameControl" : [ {
+      "@id" : "http://plugins.linkedpipes.com/resource/configuration/Inherit"
+    } ]
+  } ],
+  "@id" : "https://oha02.dia.gov.cz/etl/resources/pipelines/161484941781216148494178129/configuration"
+} ]
