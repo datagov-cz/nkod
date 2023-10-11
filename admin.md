@@ -158,14 +158,14 @@ V této sekci je popsán doporučený postup instalace stroje **NKOD-FRONTEND** 
 - [node.js](https://nodejs.org) 20.5.1 (17.x pro DCAT-AP Forms)
 - [nginx](http://nginx.org/) 1.25.2
 - certbot (letsencrypt.org) - pokud nebude jiný certifikát
-- [Apache CouchDB](https://couchdb.apache.org/) 2.2.0
-- [Apache Solr](http://lucene.apache.org/solr/) 8.11.1
+- [Apache CouchDB](https://couchdb.apache.org/) 3.2.0
+- [Apache Solr](http://lucene.apache.org/solr/) 8.11.1 nebo [docker](https://github.com/datagov-cz/nkod-deployment/tree/main/solr)
 - [LinkedPipes DCAT-AP Viewer]
 - [LinkedPipes DCAT-AP Forms]
 
 ### Postup instalace
 1. Běžným způsobem nainstalována Apache CouchDB, Apache Solr, OpenJDK, Node.js, nginx
-2. Pro Apache Solr lze použít [návod pro zprovoznění](https://solr.apache.org/guide/8_11/taking-solr-to-production.html)
+2. Pro Apache Solr lze použít [návod pro zprovoznění](https://solr.apache.org/guide/8_11/taking-solr-to-production.html) a nebo předpřipravený [docker image](https://github.com/datagov-cz/nkod-deployment/tree/main/solr), který zařídí i inicializaci pro DCAT-AP Forms a DCAT-AP Viewer
 3. Instalace LinkedPipes DCAT-AP Forms
    1. zřídit uživatele `lpdaf`
    2. v `/opt/lp`: `git clone https://github.com/datagov-cz/dcat-ap-forms.git`
