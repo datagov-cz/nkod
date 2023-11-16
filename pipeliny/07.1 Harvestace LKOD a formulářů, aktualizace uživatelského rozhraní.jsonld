@@ -1733,7 +1733,7 @@
     "@id" : "https://oha02.dia.gov.cz/etl/resources/pipelines/1611038931779/vertex/4eaf-8a89",
     "http://linkedpipes.com/ontology/order" : [ {
       "@type" : "http://www.w3.org/2001/XMLSchema#int",
-      "@value" : "1"
+      "@value" : "2"
     } ],
     "http://linkedpipes.com/ontology/x" : [ {
       "@type" : "http://www.w3.org/2001/XMLSchema#int",
@@ -1803,7 +1803,7 @@
     "@id" : "https://oha02.dia.gov.cz/etl/resources/pipelines/1611038931779/vertex/74ee-85a2",
     "http://linkedpipes.com/ontology/order" : [ {
       "@type" : "http://www.w3.org/2001/XMLSchema#int",
-      "@value" : "2"
+      "@value" : "1"
     } ],
     "http://linkedpipes.com/ontology/x" : [ {
       "@type" : "http://www.w3.org/2001/XMLSchema#int",
@@ -1845,7 +1845,7 @@
     "@id" : "https://oha02.dia.gov.cz/etl/resources/pipelines/1611038931779/vertex/7a6a-b678",
     "http://linkedpipes.com/ontology/order" : [ {
       "@type" : "http://www.w3.org/2001/XMLSchema#int",
-      "@value" : "1"
+      "@value" : "2"
     } ],
     "http://linkedpipes.com/ontology/x" : [ {
       "@type" : "http://www.w3.org/2001/XMLSchema#int",
@@ -1873,7 +1873,7 @@
     "@id" : "https://oha02.dia.gov.cz/etl/resources/pipelines/1611038931779/vertex/8100-bcbe",
     "http://linkedpipes.com/ontology/order" : [ {
       "@type" : "http://www.w3.org/2001/XMLSchema#int",
-      "@value" : "1"
+      "@value" : "3"
     } ],
     "http://linkedpipes.com/ontology/x" : [ {
       "@type" : "http://www.w3.org/2001/XMLSchema#int",
@@ -1887,7 +1887,7 @@
     "@id" : "https://oha02.dia.gov.cz/etl/resources/pipelines/1611038931779/vertex/86ee-b834",
     "http://linkedpipes.com/ontology/order" : [ {
       "@type" : "http://www.w3.org/2001/XMLSchema#int",
-      "@value" : "1"
+      "@value" : "2"
     } ],
     "http://linkedpipes.com/ontology/x" : [ {
       "@type" : "http://www.w3.org/2001/XMLSchema#int",
@@ -2041,7 +2041,7 @@
     "@id" : "https://oha02.dia.gov.cz/etl/resources/pipelines/1611038931779/vertex/afd0-b568",
     "http://linkedpipes.com/ontology/order" : [ {
       "@type" : "http://www.w3.org/2001/XMLSchema#int",
-      "@value" : "1"
+      "@value" : "3"
     } ],
     "http://linkedpipes.com/ontology/x" : [ {
       "@type" : "http://www.w3.org/2001/XMLSchema#int",
@@ -2069,7 +2069,7 @@
     "@id" : "https://oha02.dia.gov.cz/etl/resources/pipelines/1611038931779/vertex/b07f-b4f5",
     "http://linkedpipes.com/ontology/order" : [ {
       "@type" : "http://www.w3.org/2001/XMLSchema#int",
-      "@value" : "2"
+      "@value" : "1"
     } ],
     "http://linkedpipes.com/ontology/x" : [ {
       "@type" : "http://www.w3.org/2001/XMLSchema#int",
@@ -2279,7 +2279,7 @@
     "@id" : "https://oha02.dia.gov.cz/etl/resources/pipelines/1611038931779/vertex/f24a-9d6b",
     "http://linkedpipes.com/ontology/order" : [ {
       "@type" : "http://www.w3.org/2001/XMLSchema#int",
-      "@value" : "1"
+      "@value" : "2"
     } ],
     "http://linkedpipes.com/ontology/x" : [ {
       "@type" : "http://www.w3.org/2001/XMLSchema#int",
