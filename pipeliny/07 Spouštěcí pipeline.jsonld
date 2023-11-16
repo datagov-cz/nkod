@@ -63,16 +63,12 @@
   "@id" : "https://oha02.dia.gov.cz/etl/resources/components/1700141340878-0004/configuration"
 }, {
   "@graph" : [ {
-    "@id" : "https://oha02.dia.gov.cz/etl/resources/pipelines/1631006702175",
+    "@id" : "https://oha02.dia.gov.cz/etl/resources/pipelines/1700141419091-0002",
     "@type" : [ "http://linkedpipes.com/ontology/Pipeline" ],
     "http://etl.linkedpipes.com/ontology/tag" : [ {
-      "@value" : "NKOD"
-    }, {
       "@value" : "RUNEXTERNALLY"
     }, {
-      "@value" : "RUNSOTHERS"
-    }, {
-      "@value" : "4"
+      "@value" : "3"
     } ],
     "http://etl.linkedpipes.com/ontology/version" : [ {
       "@type" : "http://www.w3.org/2001/XMLSchema#int",
@@ -80,154 +76,154 @@
     } ],
     "http://linkedpipes.com/ontology/events/created" : [ {
       "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
-      "@value" : "2021-09-07T11:25:02.175"
+      "@value" : "2023-11-16T14:30:19.091123874"
     } ],
     "http://linkedpipes.com/ontology/lastUpdate" : [ {
       "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
-      "@value" : "2023-11-16T14:40:26.685880077"
+      "@value" : "2023-11-16T14:34:25.976976117"
     } ],
     "http://linkedpipes.com/ontology/profile" : [ {
-      "@id" : "https://oha02.dia.gov.cz/etl/resources/pipelines/1631006702175/profile/default"
+      "@id" : "https://oha02.dia.gov.cz/etl/resources/pipelines/1700141419091-0002/profile/default"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
-      "@value" : "08.2 Spustit pipeliny pro agregované indikátory"
+      "@value" : "07 Spouštěcí pipeline"
     } ]
   }, {
-    "@id" : "https://oha02.dia.gov.cz/etl/resources/pipelines/1631006702175/component/7366-b3ff",
+    "@id" : "https://oha02.dia.gov.cz/etl/resources/pipelines/1700141419091-0002/component/2b12-a1d7",
     "@type" : [ "http://linkedpipes.com/ontology/Component" ],
     "http://linkedpipes.com/ontology/configurationGraph" : [ {
-      "@id" : "https://oha02.dia.gov.cz/etl/resources/pipelines/1631006702175/component/7366-b3ff/configuration"
+      "@id" : "https://oha02.dia.gov.cz/etl/resources/pipelines/1700141419091-0002/component/2b12-a1d7/configuration"
     } ],
     "http://linkedpipes.com/ontology/template" : [ {
       "@id" : "https://oha02.dia.gov.cz/etl/resources/components/1700141340878-0004"
     } ],
     "http://linkedpipes.com/ontology/x" : [ {
       "@type" : "http://www.w3.org/2001/XMLSchema#int",
-      "@value" : "5482"
+      "@value" : "640"
     } ],
     "http://linkedpipes.com/ontology/y" : [ {
       "@type" : "http://www.w3.org/2001/XMLSchema#int",
-      "@value" : "150"
+      "@value" : "162"
     } ],
     "http://purl.org/dc/terms/description" : [ {
-      "@value" : "11"
+      "@value" : "07.1"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
       "@value" : "Pipeline Executor NKOD"
     } ]
   }, {
-    "@id" : "https://oha02.dia.gov.cz/etl/resources/pipelines/1631006702175/component/c9f8-8ac4",
+    "@id" : "https://oha02.dia.gov.cz/etl/resources/pipelines/1700141419091-0002/component/5e3a-95c9",
     "@type" : [ "http://linkedpipes.com/ontology/Component" ],
     "http://linkedpipes.com/ontology/configurationGraph" : [ {
-      "@id" : "https://oha02.dia.gov.cz/etl/resources/pipelines/1631006702175/component/c9f8-8ac4/configuration"
+      "@id" : "https://oha02.dia.gov.cz/etl/resources/pipelines/1700141419091-0002/component/5e3a-95c9/configuration"
     } ],
     "http://linkedpipes.com/ontology/template" : [ {
       "@id" : "https://oha02.dia.gov.cz/etl/resources/components/1700141340878-0004"
     } ],
     "http://linkedpipes.com/ontology/x" : [ {
       "@type" : "http://www.w3.org/2001/XMLSchema#int",
-      "@value" : "5482"
+      "@value" : "638"
     } ],
     "http://linkedpipes.com/ontology/y" : [ {
       "@type" : "http://www.w3.org/2001/XMLSchema#int",
-      "@value" : "-101"
+      "@value" : "251"
     } ],
     "http://purl.org/dc/terms/description" : [ {
-      "@value" : "14"
+      "@value" : "07.2"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
       "@value" : "Pipeline Executor NKOD"
     } ]
   }, {
-    "@id" : "https://oha02.dia.gov.cz/etl/resources/pipelines/1631006702175/component/dff4-9860",
+    "@id" : "https://oha02.dia.gov.cz/etl/resources/pipelines/1700141419091-0002/component/c170-8f33",
     "@type" : [ "http://linkedpipes.com/ontology/Component" ],
     "http://linkedpipes.com/ontology/configurationGraph" : [ {
-      "@id" : "https://oha02.dia.gov.cz/etl/resources/pipelines/1631006702175/component/dff4-9860/configuration"
+      "@id" : "https://oha02.dia.gov.cz/etl/resources/pipelines/1700141419091-0002/component/c170-8f33/configuration"
     } ],
     "http://linkedpipes.com/ontology/template" : [ {
       "@id" : "https://oha02.dia.gov.cz/etl/resources/components/1700141340878-0004"
     } ],
     "http://linkedpipes.com/ontology/x" : [ {
       "@type" : "http://www.w3.org/2001/XMLSchema#int",
-      "@value" : "5481"
+      "@value" : "638"
     } ],
     "http://linkedpipes.com/ontology/y" : [ {
       "@type" : "http://www.w3.org/2001/XMLSchema#int",
-      "@value" : "74"
+      "@value" : "335"
     } ],
     "http://purl.org/dc/terms/description" : [ {
-      "@value" : "12"
+      "@value" : "07.3"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
       "@value" : "Pipeline Executor NKOD"
     } ]
   }, {
-    "@id" : "https://oha02.dia.gov.cz/etl/resources/pipelines/1631006702175/component/fee9-8034",
+    "@id" : "https://oha02.dia.gov.cz/etl/resources/pipelines/1700141419091-0002/component/c4c2-9219",
     "@type" : [ "http://linkedpipes.com/ontology/Component" ],
     "http://linkedpipes.com/ontology/configurationGraph" : [ {
-      "@id" : "https://oha02.dia.gov.cz/etl/resources/pipelines/1631006702175/component/fee9-8034/configuration"
+      "@id" : "https://oha02.dia.gov.cz/etl/resources/pipelines/1700141419091-0002/component/c4c2-9219/configuration"
     } ],
     "http://linkedpipes.com/ontology/template" : [ {
       "@id" : "https://oha02.dia.gov.cz/etl/resources/components/1700141340878-0004"
     } ],
     "http://linkedpipes.com/ontology/x" : [ {
       "@type" : "http://www.w3.org/2001/XMLSchema#int",
-      "@value" : "5485"
+      "@value" : "638"
     } ],
     "http://linkedpipes.com/ontology/y" : [ {
       "@type" : "http://www.w3.org/2001/XMLSchema#int",
-      "@value" : "-10"
+      "@value" : "417"
     } ],
     "http://purl.org/dc/terms/description" : [ {
-      "@value" : "13"
+      "@value" : "08.1"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
       "@value" : "Pipeline Executor NKOD"
     } ]
   }, {
-    "@id" : "https://oha02.dia.gov.cz/etl/resources/pipelines/1631006702175/connection/86fb-84a1",
+    "@id" : "https://oha02.dia.gov.cz/etl/resources/pipelines/1700141419091-0002/connection/9572-bbf6",
     "@type" : [ "http://linkedpipes.com/ontology/RunAfter" ],
     "http://linkedpipes.com/ontology/sourceComponent" : [ {
-      "@id" : "https://oha02.dia.gov.cz/etl/resources/pipelines/1631006702175/component/fee9-8034"
+      "@id" : "https://oha02.dia.gov.cz/etl/resources/pipelines/1700141419091-0002/component/5e3a-95c9"
     } ],
     "http://linkedpipes.com/ontology/targetComponent" : [ {
-      "@id" : "https://oha02.dia.gov.cz/etl/resources/pipelines/1631006702175/component/c9f8-8ac4"
+      "@id" : "https://oha02.dia.gov.cz/etl/resources/pipelines/1700141419091-0002/component/c170-8f33"
     } ]
   }, {
-    "@id" : "https://oha02.dia.gov.cz/etl/resources/pipelines/1631006702175/connection/c872-8cba",
+    "@id" : "https://oha02.dia.gov.cz/etl/resources/pipelines/1700141419091-0002/connection/a23b-a293",
     "@type" : [ "http://linkedpipes.com/ontology/RunAfter" ],
     "http://linkedpipes.com/ontology/sourceComponent" : [ {
-      "@id" : "https://oha02.dia.gov.cz/etl/resources/pipelines/1631006702175/component/7366-b3ff"
+      "@id" : "https://oha02.dia.gov.cz/etl/resources/pipelines/1700141419091-0002/component/2b12-a1d7"
     } ],
     "http://linkedpipes.com/ontology/targetComponent" : [ {
-      "@id" : "https://oha02.dia.gov.cz/etl/resources/pipelines/1631006702175/component/dff4-9860"
+      "@id" : "https://oha02.dia.gov.cz/etl/resources/pipelines/1700141419091-0002/component/5e3a-95c9"
     } ]
   }, {
-    "@id" : "https://oha02.dia.gov.cz/etl/resources/pipelines/1631006702175/connection/d3c5-8615",
+    "@id" : "https://oha02.dia.gov.cz/etl/resources/pipelines/1700141419091-0002/connection/ed5a-b534",
     "@type" : [ "http://linkedpipes.com/ontology/RunAfter" ],
     "http://linkedpipes.com/ontology/sourceComponent" : [ {
-      "@id" : "https://oha02.dia.gov.cz/etl/resources/pipelines/1631006702175/component/dff4-9860"
+      "@id" : "https://oha02.dia.gov.cz/etl/resources/pipelines/1700141419091-0002/component/c170-8f33"
     } ],
     "http://linkedpipes.com/ontology/targetComponent" : [ {
-      "@id" : "https://oha02.dia.gov.cz/etl/resources/pipelines/1631006702175/component/fee9-8034"
+      "@id" : "https://oha02.dia.gov.cz/etl/resources/pipelines/1700141419091-0002/component/c4c2-9219"
     } ]
   }, {
-    "@id" : "https://oha02.dia.gov.cz/etl/resources/pipelines/1631006702175/profile/default",
+    "@id" : "https://oha02.dia.gov.cz/etl/resources/pipelines/1700141419091-0002/profile/default",
     "@type" : [ "http://linkedpipes.com/ontology/ExecutionProfile" ],
     "http://etl.linkedpipes.com/ontology/logRetentionPolicy" : [ {
       "@id" : "http://linkedpipes.com/resources/Keep"
     } ],
     "http://linkedpipes.com/ontology/rdfRepositoryPolicy" : [ {
-      "@id" : "http://linkedpipes.com/ontology/repository/PerInputRepository"
+      "@id" : "http://linkedpipes.com/ontology/repository/SingleRepository"
     } ],
     "http://linkedpipes.com/ontology/rdfRepositoryType" : [ {
-      "@id" : "http://linkedpipes.com/ontology/repository/NativeStore"
+      "@id" : "http://linkedpipes.com/ontologyrepository/NativeStore"
     } ]
   } ],
-  "@id" : "https://oha02.dia.gov.cz/etl/resources/pipelines/1631006702175"
+  "@id" : "https://oha02.dia.gov.cz/etl/resources/pipelines/1700141419091-0002"
 }, {
   "@graph" : [ {
-    "@id" : "https://oha02.dia.gov.cz/etl/resources/pipelines/1631006702175/component/7366-b3ff/configuration",
+    "@id" : "https://oha02.dia.gov.cz/etl/resources/pipelines/1700141419091-0002/component/2b12-a1d7/configuration",
     "@type" : [ "http://plugins.linkedpipes.com/ontology/x-pipeline#Configuration" ],
     "http://plugins.linkedpipes.com/ontology/x-pipeline#deleteWorkingData" : [ {
       "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
@@ -255,7 +251,7 @@
       "@id" : "http://plugins.linkedpipes.com/resource/configuration/None"
     } ],
     "http://plugins.linkedpipes.com/ontology/x-pipeline#pipeline" : [ {
-      "@id" : "https://oha02.dia.gov.cz/etl/resources/pipelines/1646835636432"
+      "@id" : "https://oha02.dia.gov.cz/etl/resources/pipelines/1611038931779"
     } ],
     "http://plugins.linkedpipes.com/ontology/x-pipeline#pipelineControl" : [ {
       "@id" : "http://plugins.linkedpipes.com/resource/configuration/None"
@@ -268,10 +264,10 @@
       "@id" : "http://plugins.linkedpipes.com/resource/configuration/None"
     } ]
   } ],
-  "@id" : "https://oha02.dia.gov.cz/etl/resources/pipelines/1631006702175/component/7366-b3ff/configuration"
+  "@id" : "https://oha02.dia.gov.cz/etl/resources/pipelines/1700141419091-0002/component/2b12-a1d7/configuration"
 }, {
   "@graph" : [ {
-    "@id" : "https://oha02.dia.gov.cz/etl/resources/pipelines/1631006702175/component/c9f8-8ac4/configuration",
+    "@id" : "https://oha02.dia.gov.cz/etl/resources/pipelines/1700141419091-0002/component/5e3a-95c9/configuration",
     "@type" : [ "http://plugins.linkedpipes.com/ontology/x-pipeline#Configuration" ],
     "http://plugins.linkedpipes.com/ontology/x-pipeline#deleteWorkingData" : [ {
       "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
@@ -299,7 +295,7 @@
       "@id" : "http://plugins.linkedpipes.com/resource/configuration/None"
     } ],
     "http://plugins.linkedpipes.com/ontology/x-pipeline#pipeline" : [ {
-      "@id" : "https://oha02.dia.gov.cz/etl/resources/pipelines/1631006737957"
+      "@id" : "https://oha02.dia.gov.cz/etl/resources/pipelines/1693834852539-0001"
     } ],
     "http://plugins.linkedpipes.com/ontology/x-pipeline#pipelineControl" : [ {
       "@id" : "http://plugins.linkedpipes.com/resource/configuration/None"
@@ -312,10 +308,10 @@
       "@id" : "http://plugins.linkedpipes.com/resource/configuration/None"
     } ]
   } ],
-  "@id" : "https://oha02.dia.gov.cz/etl/resources/pipelines/1631006702175/component/c9f8-8ac4/configuration"
+  "@id" : "https://oha02.dia.gov.cz/etl/resources/pipelines/1700141419091-0002/component/5e3a-95c9/configuration"
 }, {
   "@graph" : [ {
-    "@id" : "https://oha02.dia.gov.cz/etl/resources/pipelines/1631006702175/component/dff4-9860/configuration",
+    "@id" : "https://oha02.dia.gov.cz/etl/resources/pipelines/1700141419091-0002/component/c170-8f33/configuration",
     "@type" : [ "http://plugins.linkedpipes.com/ontology/x-pipeline#Configuration" ],
     "http://plugins.linkedpipes.com/ontology/x-pipeline#deleteWorkingData" : [ {
       "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
@@ -343,7 +339,7 @@
       "@id" : "http://plugins.linkedpipes.com/resource/configuration/None"
     } ],
     "http://plugins.linkedpipes.com/ontology/x-pipeline#pipeline" : [ {
-      "@id" : "https://oha02.dia.gov.cz/etl/resources/pipelines/1631006725711"
+      "@id" : "https://oha02.dia.gov.cz/etl/resources/pipelines/1698920018544-0001"
     } ],
     "http://plugins.linkedpipes.com/ontology/x-pipeline#pipelineControl" : [ {
       "@id" : "http://plugins.linkedpipes.com/resource/configuration/None"
@@ -356,10 +352,10 @@
       "@id" : "http://plugins.linkedpipes.com/resource/configuration/None"
     } ]
   } ],
-  "@id" : "https://oha02.dia.gov.cz/etl/resources/pipelines/1631006702175/component/dff4-9860/configuration"
+  "@id" : "https://oha02.dia.gov.cz/etl/resources/pipelines/1700141419091-0002/component/c170-8f33/configuration"
 }, {
   "@graph" : [ {
-    "@id" : "https://oha02.dia.gov.cz/etl/resources/pipelines/1631006702175/component/fee9-8034/configuration",
+    "@id" : "https://oha02.dia.gov.cz/etl/resources/pipelines/1700141419091-0002/component/c4c2-9219/configuration",
     "@type" : [ "http://plugins.linkedpipes.com/ontology/x-pipeline#Configuration" ],
     "http://plugins.linkedpipes.com/ontology/x-pipeline#deleteWorkingData" : [ {
       "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
@@ -387,7 +383,7 @@
       "@id" : "http://plugins.linkedpipes.com/resource/configuration/None"
     } ],
     "http://plugins.linkedpipes.com/ontology/x-pipeline#pipeline" : [ {
-      "@id" : "https://oha02.dia.gov.cz/etl/resources/pipelines/1643873006338"
+      "@id" : "https://oha02.dia.gov.cz/etl/resources/pipelines/1631006697262"
     } ],
     "http://plugins.linkedpipes.com/ontology/x-pipeline#pipelineControl" : [ {
       "@id" : "http://plugins.linkedpipes.com/resource/configuration/None"
@@ -400,5 +396,5 @@
       "@id" : "http://plugins.linkedpipes.com/resource/configuration/None"
     } ]
   } ],
-  "@id" : "https://oha02.dia.gov.cz/etl/resources/pipelines/1631006702175/component/fee9-8034/configuration"
+  "@id" : "https://oha02.dia.gov.cz/etl/resources/pipelines/1700141419091-0002/component/c4c2-9219/configuration"
 } ]
