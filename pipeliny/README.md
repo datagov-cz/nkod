@@ -38,13 +38,22 @@ U novějších registrací je jako základ IRI poskytovatelů použito jejich I�
 ## Pravidelně spouštěné pipeline
 
 Tyto pipeline běží v pravidelných intervalech a zajišťují aktualizaci obsahu NKOD.
-`07 Harvestace LKOD a formulářů, aktualizace uživatelského rozhraní` se spouští externě pomocí API LinkedPipes ETL z plánovače `cron`.
+`07 Spouštěcí pipeline` se spouští externě pomocí API LinkedPipes ETL z plánovače `cron`.
 
-### 07 Harvestace LKOD a formulářů, aktualizace uživatelského rozhraní
-[07 Harvestace LKOD a formulářů, aktualizace uživatelského rozhraní](07%20Harvestace%20LKOD%20a%20formulářů,%20aktualizace%20uživatelského%20rozhraní.jsonld) - Hlavní pipeline zajišťující zpracování záznamů z registračních formulářů a harvestaci lokálních katalogů otevřených dat (LKODů), aktuálně ve 3 provedeních dle [Otevřené formální normy Rozhraní katalogů otevřených dat: DCAT-AP-CZ](https://ofn.gov.cz/rozhraní-katalogů-otevřených-dat/2021-01-11/), tj. CKAN API, DCAT-AP SPARQL Endpoint a DCAT-AP Dokumenty.
+### 07 Spouštěcí pipeline
+[07 Spouštěcí pipeline](<07 Spouštěcí pipeline.jsonld>) - Spouští hlavní pipeliny - harvestování lokálních katalogů, vytvoření inventárního seznamu a zpracování registrovaných aplikací. Následně spouští následující pipeline (`08.1 Nahrát NKOD do SPARQL endpointu a spustit pipeliny pro kvalitu`)
+
+### 07.1 Harvestace LKOD a formulářů, aktualizace uživatelského rozhraní
+[07.1 Harvestace LKOD a formulářů, aktualizace uživatelského rozhraní](07.1%20Harvestace%20LKOD%20a%20formulářů,%20aktualizace%20uživatelského%20rozhraní.jsonld) - Hlavní pipeline zajišťující zpracování záznamů z registračních formulářů a harvestaci lokálních katalogů otevřených dat (LKODů), aktuálně ve 3 provedeních dle [Otevřené formální normy Rozhraní katalogů otevřených dat: DCAT-AP-CZ](https://ofn.gov.cz/rozhraní-katalogů-otevřených-dat/2021-01-11/), tj. CKAN API, DCAT-AP SPARQL Endpoint a DCAT-AP Dokumenty.
 Má také režim pro spuštění v prostředí testovacích datových schránek.
-Po dokončení harvestace a transformace dat data nahrává do Apache CouchDB a Apache Solr pro LP-DAV, přidává metadata pro samotný NKOD, generuje RDF, CSV, [JSON](https://data.gov.cz/soubor/nkod.json) a [HDT](https://data.gov.cz/soubor/nkod.hdt) dumpy, spouští znovunahrání HDT dumpu do [Linked Data Fragments endpointu](https://data.gov.cz/ldf/nkod-ldf) a JSON dumpu do [GraphQL endpointu](https://data.gov.cz/graphql), zasílá základní informace na Slack MV ČR a spouští následující pipeline (`08.1`).
-![Screenshot: 07 Harvestace LKOD a formulářů, aktualizace uživatelského rozhraní](screenshoty/07%20Harvestace%20LKOD%20a%20formulářů,%20aktualizace%20uživatelského%20rozhraní.webp)
+Po dokončení harvestace a transformace dat data nahrává do Apache CouchDB a Apache Solr pro LP-DAV, přidává metadata pro samotný NKOD, generuje RDF, CSV, [JSON](https://data.gov.cz/soubor/nkod.json) a [HDT](https://data.gov.cz/soubor/nkod.hdt) dumpy, spouští znovunahrání HDT dumpu do [Linked Data Fragments endpointu](https://data.gov.cz/ldf/nkod-ldf) a JSON dumpu do [GraphQL endpointu](https://data.gov.cz/graphql), zasílá základní informace na Slack MV ČR.
+![Screenshot: 07.1 Harvestace LKOD a formulářů, aktualizace uživatelského rozhraní](screenshoty/07.1%20Harvestace%20LKOD%20a%20formulářů,%20aktualizace%20uživatelského%20rozhraní.webp)
+
+### 07.2 RPP => NSIP (DGA)
+<07.2 RPP =_ NSIP (DGA).jsonld> Na základě dat z Registru práv a povinností (RPP) tvoří český National Single Information Point (NSIP) dle Data Governance Act (DGA)
+
+### 07.3 Zpracování aplikací
+<07.3 Zpracování aplikací.jsonld> Zpracovává a publikuje informace o registrovaných aplikacích využívajících otevřená data.
 
 ### 08.1 Nahrát NKOD do SPARQL endpointu a spustit pipeliny pro kvalitu
 [08.1 Nahrát NKOD do SPARQL endpointu a spustit pipeliny pro kvalitu](08.1%20Nahrát%20NKOD%20do%20SPARQL%20endpointu%20a%20spustit%20pipeliny%20pro%20kvalitu.jsonld) - Restartuje Virtuoso SPARQL endpoint, vyčistí ho, nahraje čerstvé RDF dumpy a spustí 3 navazující pipeline (`09`, `10`, `11`) pro měření datové kvality a jednu (`08.2`) spouštějící další návazné pipeline.
