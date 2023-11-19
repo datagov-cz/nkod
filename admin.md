@@ -1,12 +1,13 @@
 # Administrátorská dokumentace Národního katalogu otevřených dat
-Národní katalog otevřených dat se skládá ze 7 propojených hlavních částí:
+Národní katalog otevřených dat se skládá ze 8 propojených hlavních částí:
 1. Prohlížeč datových sad ([LinkedPipes DCAT-AP Viewer])
-2. Zadávací formuláře pro registraci datových sad a lokálních katalogů ([LinkedPipes DCAT-AP Forms])
-3. Část zpracování dat z formulářů a harvestace lokálních katalogů ([LinkedPipes ETL])
-4. Vyzvedávač datových zpráv z ISDS ([NKOD-ISDS])
-5. Databáze pro dotazování nad metadaty a poskytování metadat Evropskému datovému portálu ([OpenLink Virtuoso Open-Source])
-6. [Linked Data Fragments server]
-7. [GraphQL server NKOD]
+2. Prohlížeč registrovaných aplikací ([Aplikace])
+3. Zadávací formuláře pro registraci datových sad a lokálních katalogů ([LinkedPipes DCAT-AP Forms])
+4. Část zpracování dat z formulářů a harvestace lokálních katalogů ([LinkedPipes ETL])
+5. Vyzvedávač datových zpráv z ISDS ([NKOD-ISDS])
+6. Databáze pro dotazování nad metadaty a poskytování metadat Oficiálnímu portálu evropských dat ([OpenLink Virtuoso Open-Source])
+7. [Linked Data Fragments server]
+8. [GraphQL server NKOD]
 
 NKOD očekává, že jednotlivé harvestované lokální katalogy otevřených dat (LKODy) dodržují Otevřenou formální normu [Rozhraní katalogů otevřených dat: DCAT-AP-CZ].
 Na [Portálu otevřených dat][POD] je dále popsána [Správa záznamů lokálních katalogů](https://opendata.gov.cz/cinnost:registrace-vlastniho-katalogu-v-nkod) a [Správa záznamů jednotlivých datových sad](https://opendata.gov.cz/cinnost:sprava-katalogizacniho-zaznamu-v-nkod).
@@ -22,10 +23,10 @@ Komunikace jednotlivých částí je ilustrována v diagramu komunikace a popsá
 6. Přístup k Linked Data Fragments API NKOD.
 7. Přístup k GraphQL API NKOD.
 8. Zabezpečené přihlášení k frontendu LinkedPipes ETL (LP-ETL) pro monitorování běhu pipeline (přístup na nginx).
-9. Zabezpečené přihlášení k frontendu LinkedPipes ETL (LP-ETL) pro monitorování běhu pipeline (komunikace s LP-ETL).
+9.  Zabezpečené přihlášení k frontendu LinkedPipes ETL (LP-ETL) pro monitorování běhu pipeline (komunikace s LP-ETL).
 10. LinkedPipes DCAT-AP Forms používá Apache Solr pro autocomplete číselníků.
 11. LinkedPipes ETL nahrávají do CouchDB číselníky pro LP-DAV a LP-DAF a záznamy pro jednotlivé datové sady pro LP-DAV.
-12. LP-DAV načítá záznamy o detailech datových sad z Apache CouchDB.
+12. LP-DAV načítá záznamy o detailech datových sad a názvy číselníkových položek z Apache CouchDB
 13. LP-DAV využívá Apache Solr pro vyhledvání datových sad.
 14. LP-ETL nahrává index a číselníky do Apache Solr.
 15. LP-ETL nahrává přes SSH/SCP dumpy ke stažení (komunikace s SSH), navazuje 27 - uložení do filesystému.
@@ -46,6 +47,9 @@ Komunikace jednotlivých částí je ilustrována v diagramu komunikace a popsá
 30. LP-ETL spouští v nginx webhook pro signalizaci potřeby znovu nahrát data do Linked Data Fragments serveru.
 31. Webhook v nginx signalizuje Linked Data Fragments serveru potřebu znovu nahrát data.
 32. Linked Data Fragments server nahrává data.
+33. Přístup k prohlížeči aplikací
+34. Prohlížení aplikací používá Apache Solr pro vyhledávání v aplikacích
+35. Prohlížení aplikací používá CouchDB pro čtení názvů číselníkových položek
 
 # Nasazení
 Doporučený způsob nasazení vzhledem k minimalizaci vzájemného ovlivňování výkonu je na 3 oddělené stroje, pokud nepočítáme load-balancing a high-availability, což u NKOD zatím není potřeba:
@@ -120,7 +124,7 @@ V této sekci je popsán doporučený postup instalace stroje **NKOD-ETL** s OS 
 - [OpenJDK](https://jdk.java.net/17/) 17.0.8.1
 - [Apache Maven](https://maven.apache.org/)
 - [Git](https://git-scm.com/)
-- [node.js](https://nodejs.org) 20.5.1
+- [node.js](https://nodejs.org) 21.2.0
 - [nginx](http://nginx.org/)
 - [LinkedPipes ETL]
 - Vyzvedávátko zpráv z ISDS [NKOD-ISDS]
@@ -142,7 +146,7 @@ V této sekci je popsán doporučený postup instalace stroje **NKOD-ETL** s OS 
    2. [`/etc/systemd/system/lpetl-executor-monitor.service`](skripty/nkod-etl/service/lpetl-executor-monitor.service)
    3. [`/etc/systemd/system/lpetl-storage.service`](skripty/nkod-etl/service/lpetl-storage.service)
    4. [`/etc/systemd/system/lpetl-frontend.service`](skripty/nkod-etl/service/lpetl-frontend.service)
-4. Nahrání [16x LP-ETL pipeline](pipeliny/README.md) a nastavení přístupových údajů v příslušných šablonách
+4. Nahrání [20x LP-ETL pipeline](pipeliny/README.md) a nastavení přístupových údajů v příslušných šablonách
 5. nginx [zpřístupňuje](skripty/nkod-etl/nginx/localhost.conf) `/data/cache` pro přístup z `localhost`
 6. Instalace NKOD-ISDS
    1. v `/opt`: `git clone https://github.com/datagov-cz/nkod-isds.git`
@@ -150,18 +154,19 @@ V této sekci je popsán doporučený postup instalace stroje **NKOD-ETL** s OS 
    3. konfigurační soubor v `/opt/nkod-isds/dist/configuration.properties`
 
 ##  Frontend
-V této sekci je popsán doporučený postup instalace stroje **NKOD-FRONTEND** s OS [Ubuntu](https://www.ubuntu.com/) 21.10.
+V této sekci je popsán doporučený postup instalace stroje **NKOD-FRONTEND** s OS [Ubuntu](https://www.ubuntu.com/) 22.04.
 
 ### Prerekvizity
 - [OpenJDK](https://jdk.java.net/17/) 17.0.8.1
 - [Git](https://git-scm.com/)
-- [node.js](https://nodejs.org) 20.5.1 (17.x pro DCAT-AP Forms)
+- [node.js](https://nodejs.org) 21.2.0
 - [nginx](http://nginx.org/) 1.25.2
 - certbot (letsencrypt.org) - pokud nebude jiný certifikát
 - [Apache CouchDB](https://couchdb.apache.org/) 3.2.0
 - [Apache Solr](http://lucene.apache.org/solr/) 8.11.1 nebo [docker](https://github.com/datagov-cz/nkod-deployment/tree/main/solr)
 - [LinkedPipes DCAT-AP Viewer]
 - [LinkedPipes DCAT-AP Forms]
+- [Aplikace]
 
 ### Postup instalace
 1. Běžným způsobem nainstalována Apache CouchDB, Apache Solr, OpenJDK, Node.js, nginx
@@ -173,11 +178,13 @@ V této sekci je popsán doporučený postup instalace stroje **NKOD-FRONTEND** 
    4. Instalováno [jako služba](skripty/nkod-frontend/service/dcat-ap-forms.service) v `/etc/systemd/system/dcat-ap-forms.service`
 4. Instalace LinkedPipes DCAT-AP Viewer
    1. zřídit uživatele lpdav
-   2. v `/opt/lp`: `git clone https://github.com/datagov-cz/dcat-ap-viewer.git`
-   3. Dále dle [návodu](https://github.com/datagov-cz/dcat-ap-viewer)
-   4. Instalováno [jako služba](skripty/nkod-frontend/service/dcat-ap-viewer.service) v `/etc/systemd/system/dcat-ap-viewer.service`
-5. Je potřeba vytvořit uživatele `uploader`, který bude moci do `/data/soubor` nahrávat data přes SSH/SCP
-6. nginx [reverse proxy na jednolivé části NKOD](skripty/nkod-frontend/nginx)
+   2. v `/opt/lp`: `git clone https://github.com/datagov-cz/nkod-registrovane-aplikace`
+   3. Dále dle [návodu](https://github.com/datagov-cz/nkod-registrovane-aplikace)
+   4. Instalováno [jako služba](skripty/nkod-frontend/service/registrovane-aplikace.service) v `/etc/systemd/system/registrovane-aplikace.service`
+5. Instalace Prohlížeče aplikací
+   1. v `/opt/lp`: `git clone https://github.com/datagov-cz/dcat-ap-viewer.git`
+6. Je potřeba vytvořit uživatele `uploader`, který bude moci do `/data/soubor` nahrávat data přes SSH/SCP
+7. nginx [reverse proxy na jednolivé části NKOD](skripty/nkod-frontend/nginx)
    1. Konfigurace v `/etc/nginx`
    2. Reverse-proxy na SPARQL endpoint NKOD-DB
    3. Reverse-proxy na GraphQL endpoint NKOD-DB
@@ -208,6 +215,7 @@ Dále může proces harvestace NKOD selhat z následujících očekávatelných 
 3. Selže pipeline `07 Harvestace LKOD a formulářů, aktualizace uživatelského rozhraní` a `08.1 Nahrát NKOD do SPARQL endpointu a spustit pipeliny pro kvalitu` na chybu `502 Bad Gateway` při aktualizaci LDF serveru nebo restartu Virtuosa. Zřejmě spadla databáze Virtuoso a s ní i PHP server obsluhující webhooky. Je třeba restartovat **NKOD-DB** a znovu spustit pipeline `07 Harvestace LKOD a formulářů, aktualizace uživatelského rozhraní` nebo počkat na další den harvestace.
 
 [LinkedPipes DCAT-AP Viewer]: https://github.com/datagov-cz/dcat-ap-viewer "LinkedPipes DCAT-AP Viewer"
+[Aplikace]: https://github.com/datagov-cz/nkod-registrovane-aplikace "NKOD registrované aplikace"
 [LinkedPipes DCAT-AP Forms]: https://github.com/datagov-cz/dcat-ap-forms "LinkedPipes DCAT-AP Forms"
 [LinkedPipes ETL]: https://github.com/datagov-cz/etl "LinkedPipes ETL"
 [NKOD-ISDS]: https://github.com/datagov-cz/nkod-isds "NKOD-ISDS"

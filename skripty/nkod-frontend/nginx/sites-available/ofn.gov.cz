@@ -6,6 +6,7 @@ server {
         listen [::]:443 quic ;
 
         http2 on;
+        keepalive_requests 1000;
 
         proxy_buffer_size   128k;
         proxy_buffers   4 256k;

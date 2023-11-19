@@ -1,0 +1,13 @@
+[Unit]
+Description=Registrované aplikace
+After=network.target
+
+[Service]
+Type=simple
+User=lpdav
+WorkingDirectory=/opt/nkod-registrovane-aplikace
+ExecStart=/usr/bin/npm run start 2>> /data/registrovane-aplikace.log &
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
