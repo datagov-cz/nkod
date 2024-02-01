@@ -58,6 +58,9 @@ Obě další části se stahují na základě obsluhy GitHub webhooku.
 Je třeba zejména na **NKOD-ETL** monitorovat místo na disku, které může dojít kvůli velikosti logů.
 Je tedy třeba např. jednou za měsíc promazat záznamy o proběhlých procesech, tj. adresář `/data/lp/etl/storage/working` a server restartovat.
 
+## Administrátorský přístup k LinkedPipes ETL
+[LinkedPipes ETL], ve kterém běží hlavní datové procesy NKOD má uživatelské rozhraní přístupné buďto přes SSH tunel na **NKOD-ETL** na `http://localhost:8080`, nebo volitelně/dočasně přes HTTP endpoint `/etl` zabezpečený pomocí `HTTP Basic Authentication`.
+
 ## Možné chybové stavy a jejich řešení
 Může proces harvestace NKOD selhat z následujících očekávatelných důvodů:
 1. Selže pipeline `07.1 Harvestace LKOD a formulářů, aktualizace uživatelského rozhraní`, protože systém datových schránek má výpadek. Ten obvykle trvá jeden den, tedy ten den nebude NKOD harvestován. Není nutný další zásah.
