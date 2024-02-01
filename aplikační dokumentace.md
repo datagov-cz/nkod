@@ -96,6 +96,9 @@ Komunikace jednotlivých částí je ilustrována v diagramu komunikace a popsá
 34. Prohlížení aplikací používá Apache Solr pro vyhledávání v aplikacích
 35. Prohlížení aplikací používá CouchDB pro čtení názvů číselníkových položek
 
+## Pravidelný běh NKOD
+Pravidelný běh NKOD je zajištěn zejména pravidelně spouštěnými [datovými procesy (pipelinami)](pipeliny/README.md) implementovanými v nástroji [LinkedPipes ETL].
+
 ## Datový model
 Data NKOD jsou uchovávána v datovém modelu [Resource Description Framework (RDF)] a skládají se z metadat datových sad registrovaných do NKOD či harvestovaných z LKOD.
 Jejich struktura se řídí specifikací [DCAT-AP-CZ].
