@@ -85,7 +85,7 @@
     } ],
     "http://linkedpipes.com/ontology/lastUpdate" : [ {
       "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
-      "@value" : "2024-02-06T17:17:25.025265486"
+      "@value" : "2024-02-06T17:40:19.909322055"
     } ],
     "http://linkedpipes.com/ontology/profile" : [ {
       "@id" : "https://oha02.dia.gov.cz/etl/resources/pipelines/1631006650983/profile/default"
@@ -2286,7 +2286,7 @@
   "@id" : "https://oha02.dia.gov.cz/etl/resources/pipelines/163100665098318/configuration"
 }, {
   "@graph" : [ {
-    "@id" : "https://oha02.dia.gov.cz/etl/resources/pipelines/163100665098319/1",
+    "@id" : "https://oha02.dia.gov.cz/etl/resources/pipelines/163100665098319/configuration",
     "@type" : [ "http://plugins.linkedpipes.com/ontology/e-httpGetFile#Configuration" ],
     "http://plugins.linkedpipes.com/ontology/e-httpGetFile#encodeUrl" : [ {
       "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
@@ -2302,7 +2302,7 @@
       "@id" : "http://plugins.linkedpipes.com/resource/configuration/None"
     } ],
     "http://plugins.linkedpipes.com/ontology/e-httpGetFile#fileUri" : [ {
-      "@value" : "https://github.com/opendata-mvcr/nkod/raw/master/data/rdz-data-2017-12-29.zip"
+      "@value" : "https://github.com/datagov-cz/nkod/raw/master/data/rdz-data-2017-12-29.zip"
     } ],
     "http://plugins.linkedpipes.com/ontology/e-httpGetFile#fileUriControl" : [ {
       "@id" : "http://plugins.linkedpipes.com/resource/configuration/None"
@@ -2318,6 +2318,13 @@
       "@value" : ""
     } ],
     "http://plugins.linkedpipes.com/ontology/e-httpGetFile#userAgentControl" : [ {
+      "@id" : "http://plugins.linkedpipes.com/resource/configuration/None"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/e-httpGetFile#utf8Redirect" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+      "@value" : "false"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/e-httpGetFile#utf8RedirectControl" : [ {
       "@id" : "http://plugins.linkedpipes.com/resource/configuration/None"
     } ]
   } ],
