@@ -355,16 +355,16 @@
       "@id" : "https://oha02.dia.gov.cz/etl/resources/components/1700141340878-0004"
     } ],
     "http://purl.org/dc/terms/description" : [ {
-      "@value" : "07.4"
+      "@value" : ""
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
-      "@value" : "Pipeline Executor NKOD"
+      "@value" : "07.4"
     } ]
   } ],
   "@id" : "https://oha02.dia.gov.cz/etl/resources/components/1705577005458-0001"
 }, {
   "@graph" : [ {
-    "@id" : "https://oha02.dia.gov.cz/etl/resources/components/1705577005458-0001/1",
+    "@id" : "https://oha02.dia.gov.cz/etl/resources/components/1705577005458-0001/configuration",
     "@type" : [ "http://plugins.linkedpipes.com/ontology/x-pipeline#Configuration" ],
     "http://plugins.linkedpipes.com/ontology/x-pipeline#deleteWorkingData" : [ {
       "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
