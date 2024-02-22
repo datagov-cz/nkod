@@ -400,7 +400,7 @@
     } ],
     "http://linkedpipes.com/ontology/lastUpdate" : [ {
       "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
-      "@value" : "2024-02-14T16:04:30.654761428"
+      "@value" : "2024-02-22T10:49:14.217573909"
     } ],
     "http://linkedpipes.com/ontology/profile" : [ {
       "@id" : "https://oha02.dia.gov.cz/etl/resources/pipelines/1705576893693-0001/profile/default"
@@ -1205,9 +1205,9 @@
       "@id" : "https://oha02.dia.gov.cz/etl/resources/pipelines/1705576893693-0001/component/66bc-a03c"
     } ],
     "http://linkedpipes.com/ontology/vertex" : [ {
-      "@id" : "https://oha02.dia.gov.cz/etl/resources/pipelines/1705576893693-0001/vertex/3b37-a9b5"
+      "@id" : "https://oha02.dia.gov.cz/etl/resources/pipelines/1705576893693-0001/vertex/a4e7-9421"
     }, {
-      "@id" : "https://oha02.dia.gov.cz/etl/resources/pipelines/1705576893693-0001/vertex/0743-90fd"
+      "@id" : "https://oha02.dia.gov.cz/etl/resources/pipelines/1705576893693-0001/vertex/f03d-9029"
     } ]
   }, {
     "@id" : "https://oha02.dia.gov.cz/etl/resources/pipelines/1705576893693-0001/connection/722b-8cde",
@@ -1330,7 +1330,7 @@
       "@id" : "https://oha02.dia.gov.cz/etl/resources/pipelines/1705576893693-0001/component/66bc-a03c"
     } ],
     "http://linkedpipes.com/ontology/vertex" : [ {
-      "@id" : "https://oha02.dia.gov.cz/etl/resources/pipelines/1705576893693-0001/vertex/a336-8122"
+      "@id" : "https://oha02.dia.gov.cz/etl/resources/pipelines/1705576893693-0001/vertex/a131-8412"
     } ]
   }, {
     "@id" : "https://oha02.dia.gov.cz/etl/resources/pipelines/1705576893693-0001/connection/8a58-b1f0",
@@ -1558,7 +1558,7 @@
       "@id" : "https://oha02.dia.gov.cz/etl/resources/pipelines/1705576893693-0001/component/66bc-a03c"
     } ],
     "http://linkedpipes.com/ontology/vertex" : [ {
-      "@id" : "https://oha02.dia.gov.cz/etl/resources/pipelines/1705576893693-0001/vertex/1eb8-9b8d"
+      "@id" : "https://oha02.dia.gov.cz/etl/resources/pipelines/1705576893693-0001/vertex/0599-894b"
     } ]
   }, {
     "@id" : "https://oha02.dia.gov.cz/etl/resources/pipelines/1705576893693-0001/profile/default",
@@ -1573,21 +1573,7 @@
       "@id" : "http://linkedpipes.com/ontologyrepository/NativeStore"
     } ]
   }, {
-    "@id" : "https://oha02.dia.gov.cz/etl/resources/pipelines/1705576893693-0001/vertex/0743-90fd",
-    "http://linkedpipes.com/ontology/order" : [ {
-      "@type" : "http://www.w3.org/2001/XMLSchema#int",
-      "@value" : "1"
-    } ],
-    "http://linkedpipes.com/ontology/x" : [ {
-      "@type" : "http://www.w3.org/2001/XMLSchema#int",
-      "@value" : "830"
-    } ],
-    "http://linkedpipes.com/ontology/y" : [ {
-      "@type" : "http://www.w3.org/2001/XMLSchema#int",
-      "@value" : "763"
-    } ]
-  }, {
-    "@id" : "https://oha02.dia.gov.cz/etl/resources/pipelines/1705576893693-0001/vertex/1eb8-9b8d",
+    "@id" : "https://oha02.dia.gov.cz/etl/resources/pipelines/1705576893693-0001/vertex/0599-894b",
     "http://linkedpipes.com/ontology/order" : [ {
       "@type" : "http://www.w3.org/2001/XMLSchema#int",
       "@value" : "1"
@@ -1601,7 +1587,21 @@
       "@value" : "583"
     } ]
   }, {
-    "@id" : "https://oha02.dia.gov.cz/etl/resources/pipelines/1705576893693-0001/vertex/3b37-a9b5",
+    "@id" : "https://oha02.dia.gov.cz/etl/resources/pipelines/1705576893693-0001/vertex/a131-8412",
+    "http://linkedpipes.com/ontology/order" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#int",
+      "@value" : "1"
+    } ],
+    "http://linkedpipes.com/ontology/x" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#int",
+      "@value" : "911"
+    } ],
+    "http://linkedpipes.com/ontology/y" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#int",
+      "@value" : "347"
+    } ]
+  }, {
+    "@id" : "https://oha02.dia.gov.cz/etl/resources/pipelines/1705576893693-0001/vertex/a4e7-9421",
     "http://linkedpipes.com/ontology/order" : [ {
       "@type" : "http://www.w3.org/2001/XMLSchema#int",
       "@value" : "2"
@@ -1615,18 +1615,18 @@
       "@value" : "752"
     } ]
   }, {
-    "@id" : "https://oha02.dia.gov.cz/etl/resources/pipelines/1705576893693-0001/vertex/a336-8122",
+    "@id" : "https://oha02.dia.gov.cz/etl/resources/pipelines/1705576893693-0001/vertex/f03d-9029",
     "http://linkedpipes.com/ontology/order" : [ {
       "@type" : "http://www.w3.org/2001/XMLSchema#int",
       "@value" : "1"
     } ],
     "http://linkedpipes.com/ontology/x" : [ {
       "@type" : "http://www.w3.org/2001/XMLSchema#int",
-      "@value" : "911"
+      "@value" : "830"
     } ],
     "http://linkedpipes.com/ontology/y" : [ {
       "@type" : "http://www.w3.org/2001/XMLSchema#int",
-      "@value" : "347"
+      "@value" : "763"
     } ]
   }, {
     "@id" : "https://oha02.dia.gov.cz/etl/resources/pipelines/1705576893693-00011705576893693-00010dae-9e29",
@@ -2465,7 +2465,7 @@
     "@id" : "https://oha02.dia.gov.cz/etl/resources/pipelines/1705576893693-0001/component/7e07-9a85/configuration",
     "@type" : [ "http://plugins.linkedpipes.com/ontology/t-sparqlConstruct#Configuration" ],
     "http://plugins.linkedpipes.com/ontology/t-sparqlConstruct#query" : [ {
-      "@value" : "PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>\nPREFIX foaf: <http://xmlns.com/foaf/0.1/>\nPREFIX dcat: <http://www.w3.org/ns/dcat#>\nPREFIX dcterms: <http://purl.org/dc/terms/>\nPREFIX návrhy: <https://slovník.gov.cz/generický/datový-slovník-návrhů-na-data-k-otevření/pojem/>\nPREFIX p111: <https://slovník.gov.cz/legislativní/sbírka/111/2009/pojem/>\nPREFIX urn: <urn:>\nPREFIX local: <http://localhost/suggestions#>\n\nCONSTRUCT {\n  ?Podnět a dcat:Dataset, návrhy:návrh-na-data-k-otevření ;\n    dcterms:title ?NázevCSOut;\n    dcterms:description ?PopisCSOut;\n    dcat:theme ?Témata ;\n\tdcterms:created ?VytvořenoDT ;\n    urn:je-povinným-subjektem-dle-106 ?povinnýSubjektBool ;\n    urn:dsID ?PoskytovatelISDS ;\n    návrhy:existuje-překážka-dle-z--106-1999-sb ?překážka106Bool ;\n    návrhy:existuje-překážka-dle-zvláštního-předpisu ?překážkaZvláštníBool ;\n    návrhy:možnost-poskytovat-formou-otevřených-dat ?možnostPoskytnoutBool ;\n    návrhy:má-stav-návrhu ?Stav ;\n    urn:DSURLs ?DS .\n} \nWHERE { \n  ?row local:Identifik_x00e1_tor ?ID;\n  local:Title ?NázevCS;\n  local:Popisdatov_x00e9_sady ?PopisCS;\n  local:Poskytovatel_x002d_IDDS ?PoskytovatelISDS;\n  local:T_x00e9_ma ?Témata;\n  local:Created ?Vytvořeno ;\n  local:Publikace ?Publikace ;\n  local:Kontrola ?Kontrola ;\n  local:Stavn_x00e1_vrhu ?Stav .\n  \n  OPTIONAL { ?row local:Povinn_x00fd_subjekt ?povinnýSubjektBool . }\n  OPTIONAL { ?row local:Souvisej_x00ed_c_x00ed_datov_x00 ?DS . }\n  OPTIONAL { ?row local:P_x0159_ek_x00e1__x017e_ka106 ?překážka106Bool . }\n  OPTIONAL { ?row local:P_x0159_ek_x00e1__x017e_kazvl_x0 ?překážkaZvláštníBool . }\n  OPTIONAL { ?row local:Mo_x017e_nostposkytovatjakootev_ ?možnostPoskytnoutBool . }\n    \n  BIND(\"https://data.gov.cz/zdroj/podněty-na-data-k-otevření/\" AS ?prefix)\n  BIND(STRDT(?Vytvořeno, xsd:dateTimeStamp) AS ?VytvořenoDT)\n  BIND(IRI(CONCAT(?prefix, ?ID)) AS ?Podnět)\n  BIND(STRLANG(?NázevCS, \"cs\") AS ?NázevCSOut)\n  BIND(STRLANG(?PopisCS, \"cs\") AS ?PopisCSOut)\n  BIND(STRLANG(?právníÚpravaCS, \"cs\") AS ?právníÚpravaCSOut)\n  BIND(STRLANG(?možnéUžitíCS, \"cs\") AS ?možnéUžitíCSOut)\n  \n  FILTER((xsd:dateTime(?Publikace) < NOW()) && BOUND(?Kontrola))\n}"
+      "@value" : "PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>\nPREFIX foaf: <http://xmlns.com/foaf/0.1/>\nPREFIX dcat: <http://www.w3.org/ns/dcat#>\nPREFIX dcterms: <http://purl.org/dc/terms/>\nPREFIX návrhy: <https://slovník.gov.cz/generický/datový-slovník-návrhů-na-data-k-otevření/pojem/>\nPREFIX p111: <https://slovník.gov.cz/legislativní/sbírka/111/2009/pojem/>\nPREFIX urn: <urn:>\nPREFIX local: <http://localhost/suggestions#>\n\nCONSTRUCT {\n  ?Podnět a dcat:Dataset, návrhy:návrh-na-data-k-otevření ;\n    dcterms:title ?NázevCSOut;\n    dcterms:description ?PopisCSOut;\n    dcat:theme ?Témata ;\n\tdcterms:created ?VytvořenoDT ;\n    urn:je-povinným-subjektem-dle-106 ?povinnýSubjektBool ;\n    urn:dsID ?PoskytovatelISDS ;\n    návrhy:existuje-překážka-dle-z--106-1999-sb ?překážka106Bool ;\n    návrhy:existuje-překážka-dle-zvláštního-předpisu ?překážkaZvláštníBool ;\n    návrhy:možnost-poskytovat-formou-otevřených-dat ?možnostPoskytnoutBool ;\n    návrhy:má-stav-návrhu ?Stav ;\n    návrhy:plán-zveřejnění ?PlánZveřejněníCSOut ;\n    urn:DSURLs ?DS .\n} \nWHERE { \n  ?row local:Identifik_x00e1_tor ?ID;\n  local:Title ?NázevCS;\n  local:Popisdatov_x00e9_sady ?PopisCS;\n  local:Poskytovatel_x002d_IDDS ?PoskytovatelISDS;\n  local:T_x00e9_ma ?Témata;\n  local:Created ?Vytvořeno ;\n  local:Publikace ?Publikace ;\n  local:Kontrola ?Kontrola ;\n  local:Stavn_x00e1_vrhu ?Stav .\n  \n  OPTIONAL { ?row local:Pl_x00e1_nzve_x0159_ejn_x011b_n_ ?PlánZveřejnění }\n  OPTIONAL { ?row local:Povinn_x00fd_subjekt ?povinnýSubjektBool . }\n  OPTIONAL { ?row local:Souvisej_x00ed_c_x00ed_datov_x00 ?DS . }\n  OPTIONAL { ?row local:P_x0159_ek_x00e1__x017e_ka106 ?překážka106Bool . }\n  OPTIONAL { ?row local:P_x0159_ek_x00e1__x017e_kazvl_x0 ?překážkaZvláštníBool . }\n  OPTIONAL { ?row local:Mo_x017e_nostposkytovatjakootev_ ?možnostPoskytnoutBool . }\n    \n  BIND(\"https://data.gov.cz/zdroj/podněty-na-data-k-otevření/\" AS ?prefix)\n  BIND(STRDT(?Vytvořeno, xsd:dateTimeStamp) AS ?VytvořenoDT)\n  BIND(IRI(CONCAT(?prefix, ?ID)) AS ?Podnět)\n  BIND(STRLANG(?NázevCS, \"cs\") AS ?NázevCSOut)\n  BIND(STRLANG(?PopisCS, \"cs\") AS ?PopisCSOut)\n  BIND(STRLANG(?PlánZveřejnění, \"cs\") AS ?PlánZveřejněníCSOut)\n  BIND(STRLANG(?právníÚpravaCS, \"cs\") AS ?právníÚpravaCSOut)\n  BIND(STRLANG(?možnéUžitíCS, \"cs\") AS ?možnéUžitíCSOut)\n  \n  FILTER((xsd:dateTime(?Publikace) < NOW()) && BOUND(?Kontrola))\n}"
     } ],
     "http://plugins.linkedpipes.com/ontology/t-sparqlConstruct#queryControl" : [ {
       "@id" : "http://plugins.linkedpipes.com/resource/configuration/None"
@@ -2509,7 +2509,7 @@
       "@id" : "http://plugins.linkedpipes.com/resource/configuration/None"
     } ],
     "http://plugins.linkedpipes.com/ontology/t-mustache#template" : [ {
-      "@value" : "{{!\nPREFIX dcterms: <http://purl.org/dc/terms/>  \nPREFIX mustache: <http://plugins.linkedpipes.com/ontology/t-mustache#>\nPREFIX temp: <urn:>\nPREFIX xsd: <http://www.w3.org/2001/XMLSchema#>\nPREFIX foaf: <http://xmlns.com/foaf/0.1/>\nPREFIX dcat: <http://www.w3.org/ns/dcat#>\nPREFIX návrhy: <https://slovník.gov.cz/generický/datový-slovník-návrhů-na-data-k-otevření/pojem/>\n}}\n[\n{{#temp:návrh}}{{^mustache:first}},{{/mustache:first}}\n{\n    \"iri\": \"{{{@id}}}\",\n    \"title_cs\" : \"{{{dcterms:title}}}\",\n    \"description_cs\" : \"{{{dcterms:description}}}\",\n    \"theme\" : [{{#dcat:theme}}{{^mustache:first}},{{/mustache:first}}\"{{{@id}}}\"{{/dcat:theme}}],\n    \"created\" : \"{{dcterms:created}}\",\n{{#dcterms:publisher}}\n    \"publisher\" : \"{{{@id}}}\",\n    \"state\" : {{#návrhy:má-stav-návrhu}}{{^mustache:first}},{{/mustache:first}}\"{{{@id}}}\"{{/návrhy:má-stav-návrhu}},\n    \"mandatory_106\" : \"{{návrhy:je-povinným-subjektem-dle-z--106-1999-sb}}\",\n    \"publisher_cs\" : \"{{{foaf:name}}}\",\n{{/dcterms:publisher}}\n    \"obstacle_special_regulation\" : \"{{návrhy:existuje-překážka-dle-zvláštního-předpisu}}\",\n    \"open_data_compatible\" : \"{{návrhy:možnost-poskytovat-formou-otevřených-dat}}\",\n    \"obstacle_106\" : \"{{návrhy:existuje-překážka-dle-z--106-1999-sb}}\",\n    \"dataset\" : [{{#dcterms:references}}{{^mustache:first}},{{/mustache:first}}\"{{{@id}}}\"{{/dcterms:references}}]\n}\n{{/temp:návrh}}\n]"
+      "@value" : "{{!\nPREFIX dcterms: <http://purl.org/dc/terms/>  \nPREFIX mustache: <http://plugins.linkedpipes.com/ontology/t-mustache#>\nPREFIX temp: <urn:>\nPREFIX xsd: <http://www.w3.org/2001/XMLSchema#>\nPREFIX foaf: <http://xmlns.com/foaf/0.1/>\nPREFIX dcat: <http://www.w3.org/ns/dcat#>\nPREFIX návrhy: <https://slovník.gov.cz/generický/datový-slovník-návrhů-na-data-k-otevření/pojem/>\n}}\n[\n{{#temp:návrh}}{{^mustache:first}},{{/mustache:first}}\n{\n    \"iri\": \"{{{@id}}}\",\n    \"title_cs\" : \"{{{dcterms:title}}}\",\n    \"description_cs\" : \"{{{dcterms:description}}}\",\n    \"theme\" : [{{#dcat:theme}}{{^mustache:first}},{{/mustache:first}}\"{{{@id}}}\"{{/dcat:theme}}],\n    \"created\" : \"{{dcterms:created}}\",\n{{#dcterms:publisher}}\n    \"publisher\" : \"{{{@id}}}\",\n    \"state\" : {{#návrhy:má-stav-návrhu}}{{^mustache:first}},{{/mustache:first}}\"{{{@id}}}\"{{/návrhy:má-stav-návrhu}},\n    \"mandatory_106\" : \"{{návrhy:je-povinným-subjektem-dle-z--106-1999-sb}}\",\n    \"publisher_cs\" : \"{{{foaf:name}}}\",\n{{/dcterms:publisher}}\n{{#návrhy:plán-zveřejnění}}\n    \"publication_plan\": \"{{{.}}}\",\n{{/návrhy:plán-zveřejnění}}\n    \"obstacle_special_regulation\" : \"{{návrhy:existuje-překážka-dle-zvláštního-předpisu}}\",\n    \"open_data_compatible\" : \"{{návrhy:možnost-poskytovat-formou-otevřených-dat}}\",\n    \"obstacle_106\" : \"{{návrhy:existuje-překážka-dle-z--106-1999-sb}}\",\n    \"dataset\" : [{{#dcterms:references}}{{^mustache:first}},{{/mustache:first}}\"{{{@id}}}\"{{/dcterms:references}}]\n}\n{{/temp:návrh}}\n]"
     } ],
     "http://plugins.linkedpipes.com/ontology/t-mustache#templateControl" : [ {
       "@id" : "http://plugins.linkedpipes.com/resource/configuration/None"
@@ -2820,7 +2820,7 @@
     "@id" : "https://oha02.dia.gov.cz/etl/resources/pipelines/1705576893693-00011705576893693-0001826b-bc1b/configuration",
     "@type" : [ "http://plugins.linkedpipes.com/ontology/t-sparqlUpdate#Configuration" ],
     "http://plugins.linkedpipes.com/ontology/t-sparqlUpdate#query" : [ {
-      "@value" : "PREFIX foaf: <http://xmlns.com/foaf/0.1/>\nPREFIX skos: <http://www.w3.org/2004/02/skos/core#>\nPREFIX dcterms: <http://purl.org/dc/terms/>\nPREFIX dcat: <http://www.w3.org/ns/dcat#>\nPREFIX mustache: <http://plugins.linkedpipes.com/ontology/t-mustache#>\nPREFIX temp: <urn:>\nPREFIX návrhy: <https://slovník.gov.cz/generický/datový-slovník-návrhů-na-data-k-otevření/pojem/>\n\nINSERT { \n  <urn:root> a temp:Root ;\n    mustache:fileName \"podnety_solr.json\" ;\n    temp:návrh ?Návrh  .\n  \n  ?Návrh dcterms:references ?dataset .\n\n  ?theme temp:cs ?theme_cs ;\n    temp:en ?theme_en .\n} \nWHERE { \n  ?Návrh a návrhy:návrh-na-data-k-otevření ;\n    dcat:theme ?theme .\n  \n  ?dataset dcterms:isReferencedBy ?Návrh .\n  \n  ?theme skos:prefLabel ?theme_cs, ?theme_en .\n  FILTER(\n    langMatches(LANG(?theme_cs), \"cs\") &&\n    langMatches(LANG(?theme_en), \"en\")\n  )\n}"
+      "@value" : "PREFIX foaf: <http://xmlns.com/foaf/0.1/>\nPREFIX skos: <http://www.w3.org/2004/02/skos/core#>\nPREFIX dcterms: <http://purl.org/dc/terms/>\nPREFIX dcat: <http://www.w3.org/ns/dcat#>\nPREFIX mustache: <http://plugins.linkedpipes.com/ontology/t-mustache#>\nPREFIX temp: <urn:>\nPREFIX návrhy: <https://slovník.gov.cz/generický/datový-slovník-návrhů-na-data-k-otevření/pojem/>\n\nINSERT { \n  <urn:root> a temp:Root ;\n    mustache:fileName \"návrhy_solr.json\" ;\n    temp:návrh ?Návrh  .\n  \n  ?Návrh dcterms:references ?dataset .\n\n  ?theme temp:cs ?theme_cs ;\n    temp:en ?theme_en .\n} \nWHERE { \n  ?Návrh a návrhy:návrh-na-data-k-otevření ;\n    dcat:theme ?theme .\n  \n  OPTIONAL {\n    ?dataset dcterms:isReferencedBy ?Návrh .\n  }\n  \n  ?theme skos:prefLabel ?theme_cs, ?theme_en .\n  FILTER(\n    langMatches(LANG(?theme_cs), \"cs\") &&\n    langMatches(LANG(?theme_en), \"en\")\n  )\n}"
     } ],
     "http://plugins.linkedpipes.com/ontology/t-sparqlUpdate#queryControl" : [ {
       "@id" : "http://plugins.linkedpipes.com/resource/configuration/None"
