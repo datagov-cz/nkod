@@ -727,7 +727,7 @@
     } ],
     "http://linkedpipes.com/ontology/lastUpdate" : [ {
       "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
-      "@value" : "2023-11-16T16:27:09.157715317"
+      "@value" : "2024-02-23T07:33:07.566617179"
     } ],
     "http://linkedpipes.com/ontology/profile" : [ {
       "@id" : "https://oha02.dia.gov.cz/etl/resources/pipelines/1631006697262/profile/default"
@@ -826,6 +826,29 @@
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
       "@value" : "Text holder"
+    } ]
+  }, {
+    "@id" : "https://oha02.dia.gov.cz/etl/resources/pipelines/1631006697262/component/4dd2-a42c",
+    "@type" : [ "http://linkedpipes.com/ontology/Component" ],
+    "http://linkedpipes.com/ontology/configurationGraph" : [ {
+      "@id" : "https://oha02.dia.gov.cz/etl/resources/pipelines/1631006697262/component/4dd2-a42c/configuration"
+    } ],
+    "http://linkedpipes.com/ontology/template" : [ {
+      "@id" : "https://oha02.dia.gov.cz/etl/resources/components/1693826283743-0009"
+    } ],
+    "http://linkedpipes.com/ontology/x" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#int",
+      "@value" : "5135"
+    } ],
+    "http://linkedpipes.com/ontology/y" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#int",
+      "@value" : "943"
+    } ],
+    "http://purl.org/dc/terms/description" : [ {
+      "@value" : "návrhy.ttl"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+      "@value" : "Virtuoso NKOD"
     } ]
   }, {
     "@id" : "https://oha02.dia.gov.cz/etl/resources/pipelines/1631006697262/component/5fe5-8075",
@@ -956,6 +979,15 @@
     } ],
     "http://linkedpipes.com/ontology/targetComponent" : [ {
       "@id" : "https://oha02.dia.gov.cz/etl/resources/pipelines/163100669726216310066972627"
+    } ]
+  }, {
+    "@id" : "https://oha02.dia.gov.cz/etl/resources/pipelines/1631006697262/connection/6cae-b5fd",
+    "@type" : [ "http://linkedpipes.com/ontology/RunAfter" ],
+    "http://linkedpipes.com/ontology/sourceComponent" : [ {
+      "@id" : "https://oha02.dia.gov.cz/etl/resources/pipelines/1631006697262163100669726210"
+    } ],
+    "http://linkedpipes.com/ontology/targetComponent" : [ {
+      "@id" : "https://oha02.dia.gov.cz/etl/resources/pipelines/1631006697262/component/4dd2-a42c"
     } ]
   }, {
     "@id" : "https://oha02.dia.gov.cz/etl/resources/pipelines/1631006697262/connection/82e7-893d",
@@ -1663,6 +1695,67 @@
     } ]
   } ],
   "@id" : "https://oha02.dia.gov.cz/etl/resources/pipelines/1631006697262/component/3148-9d6d/configuration"
+}, {
+  "@graph" : [ {
+    "@id" : "https://oha02.dia.gov.cz/etl/resources/pipelines/1631006697262/component/4dd2-a42c/configuration",
+    "@type" : [ "http://plugins.linkedpipes.com/ontology/x-virtuoso#Configuration" ],
+    "http://plugins.linkedpipes.com/ontology/x-virtuoso#checkpoint" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+      "@value" : "false"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/x-virtuoso#checkpointControl" : [ {
+      "@id" : "http://plugins.linkedpipes.com/resource/configuration/None"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/x-virtuoso#clearGraph" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+      "@value" : "true"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/x-virtuoso#clearGraphControl" : [ {
+      "@id" : "http://plugins.linkedpipes.com/resource/configuration/Inherit"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/x-virtuoso#directory" : [ {
+      "@value" : "/data/upload/kn"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/x-virtuoso#directoryControl" : [ {
+      "@id" : "http://plugins.linkedpipes.com/resource/configuration/None"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/x-virtuoso#fileName" : [ {
+      "@value" : "návrhy.ttl"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/x-virtuoso#fileNameControl" : [ {
+      "@id" : "http://plugins.linkedpipes.com/resource/configuration/None"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/x-virtuoso#graph" : [ {
+      "@id" : "https://data.gov.cz/zdroj/datová-sada/KN"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/x-virtuoso#graphControl" : [ {
+      "@id" : "http://plugins.linkedpipes.com/resource/configuration/None"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/x-virtuoso#loaderCount" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+      "@value" : "1"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/x-virtuoso#loaderCountControl" : [ {
+      "@id" : "http://plugins.linkedpipes.com/resource/configuration/Inherit"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/x-virtuoso#passwordControl" : [ {
+      "@id" : "http://plugins.linkedpipes.com/resource/configuration/Inherit"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/x-virtuoso#updateInterval" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+      "@value" : "1"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/x-virtuoso#updateIntervalControl" : [ {
+      "@id" : "http://plugins.linkedpipes.com/resource/configuration/Inherit"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/x-virtuoso#uriControl" : [ {
+      "@id" : "http://plugins.linkedpipes.com/resource/configuration/Inherit"
+    } ],
+    "http://plugins.linkedpipes.com/ontology/x-virtuoso#usernameControl" : [ {
+      "@id" : "http://plugins.linkedpipes.com/resource/configuration/Inherit"
+    } ]
+  } ],
+  "@id" : "https://oha02.dia.gov.cz/etl/resources/pipelines/1631006697262/component/4dd2-a42c/configuration"
 }, {
   "@graph" : [ {
     "@id" : "https://oha02.dia.gov.cz/etl/resources/pipelines/1631006697262/component/5fe5-8075/configuration",
