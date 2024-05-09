@@ -2980,7 +2980,7 @@
         "http://linkedpipes.com/ontology/lastUpdate": [
           {
             "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
-            "@value": "2024-05-09T13:44:23.720541847"
+            "@value": "2024-05-09T13:47:37.58089455"
           }
         ],
         "http://linkedpipes.com/ontology/profile": [
@@ -3061,7 +3061,7 @@
         ],
         "http://purl.org/dc/terms/description": [
           {
-            "@value": "documentation-types-skos.rdf"
+            "@value": "high-value-dataset-category.rdf"
           }
         ],
         "http://www.w3.org/2004/02/skos/core#prefLabel": [
@@ -6602,7 +6602,7 @@
         ],
         "http://plugins.linkedpipes.com/ontology/x-virtuoso#graph": [
           {
-            "@id": "http://data.europa.eu/bna/asd487ae75"
+            "@id": "http://publications.europa.eu/resource/dataset/high-value-dataset-category"
           }
         ],
         "http://plugins.linkedpipes.com/ontology/x-virtuoso#graphControl": [
