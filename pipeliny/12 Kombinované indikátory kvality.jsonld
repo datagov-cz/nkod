@@ -1411,7 +1411,7 @@
     "@id" : "https://oha02.dia.gov.cz/etl/resources/pipelines/1631006725711163100672571118/1",
     "@type" : [ "http://plugins.linkedpipes.com/ontology/t-sparqlConstruct#Configuration" ],
     "http://plugins.linkedpipes.com/ontology/t-sparqlConstruct#query" : [ {
-      "@value" : "CONSTRUCT {\n  [] <urn:prefix> \"https://dev.nkod.opendata.cz/\" .\n}\nWHERE {}"
+      "@value" : "CONSTRUCT {\n  [] <urn:prefix> \"https://data.gov.cz/\" .\n}\nWHERE {}"
     } ],
     "http://plugins.linkedpipes.com/ontology/t-sparqlConstruct#queryControl" : [ {
       "@id" : "http://plugins.linkedpipes.com/resource/configuration/None"
@@ -1555,7 +1555,7 @@
       "@id" : "http://plugins.linkedpipes.com/resource/configuration/Inherit"
     } ],
     "http://plugins.linkedpipes.com/ontology/e-sparqlEndpoint#query" : [ {
-      "@value" : "CONSTRUCT { ?s ?p ?o }\nFROM <https://dev.nkod.opendata.cz/zdroj/datová-sada/kvalita-nkod>\nFROM <https://dev.nkod.opendata.cz/zdroj/datová-sada/kvalita-nkod/archiv>\nFROM <https://data.gov.cz/zdroj/datová-sada/kvalita-cors>\nFROM <https://data.gov.cz/zdroj/datová-sada/kvalita-cors/archiv>\nFROM <https://data.gov.cz/zdroj/datová-sada/dostupnost-nkod>\nFROM <https://data.gov.cz/zdroj/datová-sada/dostupnost-nkod/archiv>\nWHERE { ?s ?p ?o}"
+      "@value" : "CONSTRUCT { ?s ?p ?o }\nFROM <https://data.gov.cz/zdroj/datová-sada/kvalita-nkod>\nFROM <https://data.gov.cz/zdroj/datová-sada/kvalita-nkod/archiv>\nFROM <https://data.gov.cz/zdroj/datová-sada/kvalita-cors>\nFROM <https://data.gov.cz/zdroj/datová-sada/kvalita-cors/archiv>\nFROM <https://data.gov.cz/zdroj/datová-sada/dostupnost-nkod>\nFROM <https://data.gov.cz/zdroj/datová-sada/dostupnost-nkod/archiv>\nWHERE { ?s ?p ?o}"
     } ],
     "http://plugins.linkedpipes.com/ontology/e-sparqlEndpoint#queryControl" : [ {
       "@id" : "http://plugins.linkedpipes.com/resource/configuration/None"
